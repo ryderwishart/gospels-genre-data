@@ -15,7 +15,7 @@ export default function Home() {
         <Link href="/episodes">
           <a>Episodes</a>
         </Link>
-        <Link href="/john">
+        <Link href="/johannine">
           <a>Johannine Texts</a>
         </Link>
       </main>

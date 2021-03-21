@@ -15,11 +15,11 @@ export default function John(props) {
             </Link>
       <main className={styles.main}>
         <h1 className={styles.h1}>Johannine Texts</h1>
-        {props.texts.map(textId => {
+        {props.textKeys.map(textKey => {
             return (
-                <Link href={`/john/${textId}`}>
+                <Link href={`/johannine/${textKey}`}>
                     <a>
-                        <h2>{textId.toString()}</h2>
+                        <h2>{textKey.toString()}</h2>
                     </a>
                 </Link>
             )
@@ -42,14 +42,13 @@ export default function John(props) {
 export async function getStaticProps() {
 
     const response = await (
-        await fetch(`${server}/api/john`)
+        await fetch(`${server}/api/johannine`)
     ).json()
-        // console.log(response)
-    const texts = response?.data.map(textContainer => textContainer.text.key)
-
+    const textKeys = response?.data.map(textContainer => textContainer.text.key)
+    console.log(textKeys)
     return {
         props: {
-            texts
+            textKeys
         }
     }
 }

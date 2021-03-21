@@ -15,7 +15,7 @@ const TextPage = props => {
                     text.content.turn.content.map(stageContainer => {
                         return (
                                     <div className={styles.card}>
-                            <Link href={`/john/${props.currentText}/${stageContainer.stage.key}`}>
+                            <Link href={`/johannine/${props.currentText}/${stageContainer.stage.key}`}>
                                 <a>
                                         <h2>Stage: [need stage titles in data 🤓]</h2>
                                         
@@ -29,7 +29,7 @@ const TextPage = props => {
             </div>
         </main>
         <footer className={styles.footer}>
-                <Link href={`/john`}>
+                <Link href={`/johannine`}>
                     <a className={styles.card}>
                     &larr; Back to all Johnannine texts
                     </a>
@@ -43,7 +43,7 @@ export default TextPage;
 
 export async function getStaticProps(context) {
     const response = await (
-        await fetch(`${server}/api/john/${context.params.text}`)
+        await fetch(`${server}/api/johannine/${context.params.text}`)
     ).json()
 
     const currentText = context.params.text
@@ -58,7 +58,7 @@ export async function getStaticProps(context) {
 
 export const getStaticPaths = async () => {
     const response = await (
-        await fetch(`${server}/api/john`)
+        await fetch(`${server}/api/johannine`)
     ).json()
     const textKeys = response?.data.map(textContainer => textContainer.text.key)
     const paths = textKeys?.map(textKey => ({params: { text: textKey.toString()}}))
