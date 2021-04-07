@@ -40,6 +40,8 @@ export default function John(props) {
 }
 
 export async function getStaticProps() {
+    // TODO: ** all getStaticProps functions should call server functions directly, not an api route, and fetch() should not be used since getStaticProps is always run on the server directly
+    // cf. https://stackoverflow.com/questions/65981235/how-to-make-a-request-to-an-api-route-from-getstaticprops for more information.
 
     const response = await (
         await fetch(`${server}/api/johannine`)
