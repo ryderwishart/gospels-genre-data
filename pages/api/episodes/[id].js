@@ -1,4 +1,4 @@
-import episodes from '../../../data/episodes-ranges.xml'
+import episodes from '../../../public/data/episodes-ranges.xml'
 
 const handler = (req, res) => {
   const id = req.query.id

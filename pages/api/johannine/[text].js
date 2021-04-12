@@ -1,4 +1,4 @@
-import root from '../../../data/stages/johannine_sample_Feb-22.json'
+import root from '../../../public/data/stages/johannine_sample_Feb-22.json'
 
 const handler = (req, res) => {
 console.log('*********in text API [text].js', req.query)

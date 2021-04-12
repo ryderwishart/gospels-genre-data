@@ -34,6 +34,23 @@ const ExpressionElement: React.FC<ExpressionProps> = props => {
     )
 }
 
+interface FeatureProps {
+    choice: Choice;
+}
+
+const Feature: React.FC<FeatureProps> = props => {
+    const realizations = props.choice.realization.split(`' '`)
+ return (
+        <div
+        onMouseEnter={() => handleHighlightExpressionsByIDs(true, realizations)}
+        onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
+        key={props.choice.realization}
+    >
+    <Badge count={props.choice.key} />
+    </div>
+ )
+}
+
 interface System {
     key: string;
     instances: ChoiceContainer[];
@@ -82,23 +99,10 @@ const Stage: React.FC<any> = props => {
                         {systems.map((systemContainer: SystemContainer) => {
                             if (selectedSystems?.includes(systemContainer.system.key)) {
                                 const systemHasInstances = systemContainer.system.instances.length > 0;
-                                // console.log(systemHasInstances)
                                 if (systemHasInstances) {
                                     const choices = systemContainer.system.instances.map(instance => instance.choice)
                                     return choices.map((choice: Choice) => {
-                                        console.log(choice)
-                                        // let currentChoiceCount = 0
-                                        // currentChoiceCount += 1
-                                        const realizations = choice.realization.split(`' '`)
-                                        return (
-                                            <div
-                                                onMouseEnter={() => handleHighlightExpressionsByIDs(true, realizations)}
-                                                onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
-                                                key={choice.realization}
-                                            >
-                                            <Badge count={choice.key} />
-                                            </div>
-                                        )
+                                        return <Feature choice={choice} />
                                     })
                                 }
                             }
@@ -106,7 +110,25 @@ const Stage: React.FC<any> = props => {
                         )}
                     </div>
                 )
-            }
+            },
+            children: selectedSystems.map((system) => {
+                return {
+                    title: system,
+                    dataIndex: '',
+                    ellipsis: true,
+                    render: (move) => {
+                        console.log(move)
+                        const features = move.meanings
+                            .filter((systemContainer: SystemContainer) => systemContainer.system.key === system)
+                            .map((systemContainer: SystemContainer) => systemContainer.system.instances)
+                            .map((instance: ChoiceContainer) => instance?.choice?.key)
+                            .flat()
+                        console.log({features})
+                        
+                        return <span>{features}</span>
+                    }
+                }
+            })
         },
     ]
 
