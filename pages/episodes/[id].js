@@ -66,7 +66,7 @@ export async function getStaticProps(context) {
     console.log('D*UD(D*UD(*U', {hasContext})
 
     if(hasContext) {
-        counter = context.params.id?.split('§')
+        counter = context.params.id?.split('_')
         bookId = counter[0]
         episodeId = counter && parseInt(counter[1])
         previousEpisodeId = episodeId ? episodeId - 1 : null
@@ -80,14 +80,14 @@ export async function getStaticProps(context) {
         let previous = null;
         if(previousEpisodeId){
             previous = await (
-                await fetch(`${server}/api/episodes/${bookId}§${previousEpisodeIdString}`)
+                await fetch(`${server}/api/episodes/${bookId}_${previousEpisodeIdString}`)
             ).json()
         }
     
         const nextEpisodeIdString = nextEpisodeId < 10 ? '0' + nextEpisodeId : nextEpisodeId
         let next;
         try {
-            next = await fetch(`${server}/api/episodes/${bookId}§${nextEpisodeIdString}`)
+            next = await fetch(`${server}/api/episodes/${bookId}_${nextEpisodeIdString}`)
                 .then(response => response.json());
          } catch(error) {
             next = null;
