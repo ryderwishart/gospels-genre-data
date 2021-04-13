@@ -42,6 +42,7 @@ const TextPage = props => {
 export default TextPage;
 
 export async function getStaticProps(context) {
+    console.log('building page:', JSON.stringify(context))
     const response = await (
         await fetch(`${server}/api/johannine/${context.params.text}`)
     ).json()

@@ -59,7 +59,7 @@ interface System {
 const Stage: React.FC<any> = props => {
     const [ selectedSystems, setSelectedSystems ] = useState<string[]>([])
     const [ drawerIsVisible, setDrawerIsVisible ] = useState(null)
-    console.log(props)
+    // console.log(props)
     const moves = props.response;
 
     const allSystems: System[] = moves.map(move => move.meanings.map(systemContainer => systemContainer.system)).flat()
@@ -235,6 +235,7 @@ const Stage: React.FC<any> = props => {
 export default Stage;
 
 export async function getStaticProps(context) {
+    console.log('building page:', JSON.stringify(context))
     const response = await (
         await fetch(`${server}/api/johannine/${context.params.text}/${context.params.stage}`)
     ).json()

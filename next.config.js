@@ -13,4 +13,7 @@ module.exports = {
 
         return config
     },
+    env: {
+      someKey: 'not in use but can be accessed at build using process.env.someKey',
+    },
 }
