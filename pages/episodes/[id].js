@@ -4,7 +4,7 @@ import styles from '../../styles/Home.module.css'
 
 const EpisodePage = props => {
     const episode = props.response?.$;
-    const nextId = props.next?.$.section;
+    const nextId = props.next?.$?.section;
     const previousId = props.previous?.$.section;
     if(episode) {
         return (

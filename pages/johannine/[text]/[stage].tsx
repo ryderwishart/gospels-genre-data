@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { server } from '../../../config';
-import styles from '../../../styles/Home.module.css';
+import styles from '../../../styles/Home.module.css'
 import Link from 'next/link'
 import { Badge, Drawer, Switch, Table, Tooltip } from 'antd'
 import 'antd/dist/antd.css'
@@ -39,14 +39,14 @@ interface FeatureProps {
 }
 
 const Feature: React.FC<FeatureProps> = props => {
-    const realizations = props.choice.realization.split(`' '`)
+    const realizations = props.choice?.realization?.split(`' '`)
  return (
         <div
         onMouseEnter={() => handleHighlightExpressionsByIDs(true, realizations)}
         onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
-        key={props.choice.realization}
+        key={props.choice?.realization}
     >
-    <Badge count={props.choice.key} />
+    <Badge count={props.choice?.key} />
     </div>
  )
 }
@@ -62,7 +62,7 @@ const Stage: React.FC<any> = props => {
     // console.log(props)
     const moves = props.response;
 
-    const allSystems: System[] = moves.map(move => move.meanings.map(systemContainer => systemContainer.system)).flat()
+    const allSystems: System[] = moves.map(move => move.meanings?.map(systemContainer => systemContainer.system)).flat()
     const allSystemLabels = allSystems && Array.from(new Set(allSystems.map((system: System) => system.key)))
 
     const columns = [

@@ -2,8 +2,15 @@ import episodes from '../../../public/data/episodes-ranges.xml'
 
 const handler = (req, res) => {
   const id = req.query.id
-  const selectedEpisodeArray = episodes.root.episode.filter(episode => episode.$.section === id)
-  if(selectedEpisodeArray){
+  console.log({id})
+  let selectedEpisodeArray;
+  try {
+    selectedEpisodeArray = episodes.root.episode.filter(episode => episode.$.section === id)
+  } catch(error) {
+    selectedEpisodeArray = null;
+  }
+  console.log({selectedEpisodeArray})
+  if(selectedEpisodeArray.length > 0){
       res.status(200).json(selectedEpisodeArray[0])
   } else {
       res.status(404).json({message: `Episode with id ${id} not found.`})

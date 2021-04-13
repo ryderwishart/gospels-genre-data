@@ -40,18 +40,22 @@ export default function John(props) {
 }
 
 export async function getStaticProps(context) {
-  console.log('building page:', JSON.stringify(context))
     // TODO: ** all getStaticProps functions should call server functions directly, not an api route, and fetch() should not be used since getStaticProps is always run on the server directly
     // cf. https://stackoverflow.com/questions/65981235/how-to-make-a-request-to-an-api-route-from-getstaticprops for more information.
-
-    const response = await (
-        await fetch(`${server}/api/johannine`)
-    ).json()
-    const textKeys = response?.data.map(textContainer => textContainer.text.key)
-    console.log(textKeys)
-    return {
-        props: {
-            textKeys
-        }
-    }
+try {
+  const response = await (
+      await fetch(`${server}/api/johannine`)
+  ).json()
+  const textKeys = response?.data.map(textContainer => textContainer.text.key)
+  return {
+      props: {
+          textKeys
+      }
+  }
+}
+catch(error) {
+  return {
+    props: {}
+  }
+}
 }
