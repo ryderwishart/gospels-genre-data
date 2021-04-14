@@ -112,20 +112,45 @@ const Stage: React.FC<any> = props => {
                 )
             },
             children: selectedSystems.map((system) => {
+                console.log(system)
                 return {
                     title: system,
                     dataIndex: '',
                     ellipsis: true,
                     render: (move) => {
                         console.log(move)
-                        const features = move.meanings
-                            .filter((systemContainer: SystemContainer) => systemContainer.system.key === system)
+                        const instanceArrays: ChoiceContainer[] = move.meanings.filter((systemContainer: SystemContainer) => systemContainer.system.key === system)
                             .map((systemContainer: SystemContainer) => systemContainer.system.instances)
-                            .map((instance: ChoiceContainer) => instance?.choice?.key)
-                            .flat()
-                        console.log({features})
+                        console.log({instanceArrays})
+                        const choices = instanceArrays.length > 0 && instanceArrays.map((instances: ChoiceContainer[]) => {
+                            return instances.map(instance => instance.choice)
+                        })
+                        console.log(choices[0])
                         
-                        return <span>{features}</span>
+                        return (
+                            <div
+                                    style={{
+                                        display: 'flex',
+                                        flexFlow: 'row wrap',
+                                    }}
+                                >
+                                    {
+                                        choices[0].map(choice => {
+                                            const realizations = choice.realization.split(`' '`)
+                                            return (
+                                                <Tooltip title={choice.key}>
+                                                    <div
+                                                        onMouseEnter={() => handleHighlightExpressionsByIDs(true, realizations)}
+                                                        onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
+                                                    >
+                                                        <Badge color={'geekblue'}/>
+                                                    </div>
+                                                </Tooltip> 
+                                            )
+                                        })
+                                    }
+                                </div>
+                        )
                     }
                 }
             })
