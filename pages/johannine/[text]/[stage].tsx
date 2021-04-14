@@ -4,9 +4,10 @@ import styles from '../../../styles/Home.module.css'
 import Link from 'next/link'
 import { Badge, Drawer, Switch, Table, Tooltip } from 'antd'
 import 'antd/dist/antd.css'
-import { Choice, ChoiceContainer, SystemContainer, Word } from '../../../types'
+import { Choice, ChoiceContainer, Move, SystemContainer, Word } from '../../../types'
 import { systemGroups } from '../../../types/systemDefinitions'
 import handleHighlightExpressionsByIDs from '../../../functions'
+import { ColumnsType } from 'antd/lib/table';
 
 const {
     moveSystems,
@@ -65,13 +66,18 @@ const Stage: React.FC<any> = props => {
     const allSystems: System[] = moves.map(move => move.meanings?.map(systemContainer => systemContainer.system)).flat()
     const allSystemLabels = allSystems && Array.from(new Set(allSystems.map((system: System) => system.key)))
 
-    const columns = [
+    const columns: ColumnsType<Move> = [
         {
             dataIndex: 'key',
+            fixed: 'left',
             ellipsis: true,
+            width: 50,
+            render: (key) => key.split('.')[3]
         },
         {
             dataIndex: 'expressions',
+            fixed: 'left',
+            width: selectedSystems.length < 1 ? 600 : 300,
             render: expressions => {
                 return (
                     <div
@@ -117,40 +123,40 @@ const Stage: React.FC<any> = props => {
                     title: system,
                     dataIndex: '',
                     ellipsis: true,
-                    render: (move) => {
+                    width: 100,
+                    render: (move: Move) => {
                         console.log(move)
-                        const instanceArrays: ChoiceContainer[][] = move.meanings.filter((systemContainer: SystemContainer) => systemContainer.system.key === system)
-                            .map((systemContainer: SystemContainer) => systemContainer.system.instances)
-                        console.log({instanceArrays})
-                        const choices = instanceArrays.length > 0 && instanceArrays.map((instances) => {
-                            return instances.map(instance => instance.choice)
-                        })
-                        console.log(choices[0])
-                        
-                        return (
-                            <div
-                                    style={{
-                                        display: 'flex',
-                                        flexFlow: 'row wrap',
-                                    }}
-                                >
-                                    {
-                                        choices[0].map(choice => {
-                                            const realizations = choice.realization.split(`' '`)
-                                            return (
-                                                <Tooltip title={choice.key}>
-                                                    <div
-                                                        onMouseEnter={() => handleHighlightExpressionsByIDs(true, realizations)}
-                                                        onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
-                                                    >
-                                                        <Badge color={'geekblue'}/>
-                                                    </div>
-                                                </Tooltip> 
-                                            )
-                                        })
-                                    }
-                                </div>
-                        )
+                        const systemContainer: SystemContainer = move.meanings.find((systemContainer: SystemContainer) => systemContainer.system.key === system)
+                        console.log(systemContainer)
+                        const instances = systemContainer && systemContainer.system.instances
+                        console.log(instances)
+                        if(instances){
+                            return (
+                                <div
+                                        style={{
+                                            display: 'flex',
+                                            flexFlow: 'row wrap',
+                                        }}
+                                    >
+                                        {
+                                            instances.map(instance => {
+                                                const realizations = instance.choice.realization.split(`' '`)
+                                                return (
+                                                    <Tooltip title={instance.choice.key}>
+                                                        <div
+                                                            onMouseEnter={() => handleHighlightExpressionsByIDs(true, realizations)}
+                                                            onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
+                                                        >
+                                                            <Badge color={'geekblue'}/>
+                                                        </div>
+                                                    </Tooltip> 
+                                                )
+                                            })
+                                        }
+                                    </div>
+                            )
+                        }
+                        return null;
                     }
                 }
             })
@@ -176,6 +182,8 @@ const Stage: React.FC<any> = props => {
                         size="small"
                         dataSource={moves}
                         columns={columns}
+                        sticky
+                        scroll={{x: selectedSystems.length * 100}}
                     />
                     <Drawer
                         title="Systems Drawer"
@@ -185,6 +193,7 @@ const Stage: React.FC<any> = props => {
                         visible={drawerIsVisible}
                     >
                         <h2>System Groups</h2>
+                        <p>Note: combining system groups is buggy and negates any existing selection each time. For best results use individual toggles below</p>
                         {
                             Object.keys(systemGroups).map(group => {
                                 const labels = systemGroups[ group ];
