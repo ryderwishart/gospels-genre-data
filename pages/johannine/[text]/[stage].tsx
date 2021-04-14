@@ -122,7 +122,7 @@ const Stage: React.FC<any> = props => {
                         const instanceArrays: ChoiceContainer[] = move.meanings.filter((systemContainer: SystemContainer) => systemContainer.system.key === system)
                             .map((systemContainer: SystemContainer) => systemContainer.system.instances)
                         console.log({instanceArrays})
-                        const choices = instanceArrays.length > 0 && instanceArrays.map((instances: ChoiceContainer[]) => {
+                        const choices = instanceArrays.length > 0 && instanceArrays.map((instances: ChoiceContainer) => {
                             return instances.map(instance => instance.choice)
                         })
                         console.log(choices[0])
