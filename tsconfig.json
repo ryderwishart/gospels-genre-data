@@ -8,7 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -24,7 +24,7 @@
     "**/*.tsx",
     "**/*.css",
     "**.*.js"
-  ],
+, "pages/_app.js"  ],
   "exclude": [
     "node_modules"
   ]
