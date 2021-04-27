@@ -3,11 +3,11 @@ import { server } from '../../../config';
 import styles from '../../../styles/Home.module.css'
 import Link from 'next/link'
 import { Badge, Drawer, Switch, Table, Tooltip } from 'antd'
-import 'antd/dist/antd.css'
 import { Choice, ChoiceContainer, Move, SystemContainer, Word } from '../../../types'
 import { systemGroups } from '../../../types/systemDefinitions'
 import handleHighlightExpressionsByIDs from '../../../functions'
 import { ColumnsType } from 'antd/lib/table';
+import FeatureStatistics from '../../../functions/getFeatureStatistics'
 
 const {
     moveSystems,
@@ -47,7 +47,9 @@ const Feature: React.FC<FeatureProps> = props => {
         onMouseLeave={() => handleHighlightExpressionsByIDs(false, realizations)}
         key={props.choice?.realization}
     >
-    <Badge count={props.choice?.key} />
+            <Badge count={props.choice?.key} />
+
+    {/* <Badge color={isMarkedFeature ? 'blue' : 'green'} count={props.choice?.key} /> */}
     </div>
  )
 }
@@ -171,7 +173,11 @@ const Stage: React.FC<any> = props => {
 
     return (
         <div className={styles.container}>
-
+{/*             <FeatureStatistics 
+                stageId={props.currentStage} 
+                allSystems={allSystems}
+                showChoices={true}
+            /> */}
             <main className={styles.main}>
                 <h1>{`${props.currentText}, ${props.currentStage}`}</h1>
                 <div className={styles.grid}>
