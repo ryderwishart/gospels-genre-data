@@ -37,4 +37,4 @@ export default function xmlToJson(xml) {
 		}
 	}
 	return obj;
-};
+}

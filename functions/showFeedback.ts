@@ -1,5 +1,11 @@
 export const showFeedback = (id: string) => {
-    const element = document.getElementById(id);
+  const element = document.getElementById(id);
+  if (element) {
     element.style.backgroundColor = 'rgba(1, 119, 253, 0.384)';
-    setTimeout(() => element.style.backgroundColor = 'white', 800);
-}
+  }
+  setTimeout(() => {
+    if (element) {
+      element.style.backgroundColor = 'white';
+    }
+  }, 800);
+};

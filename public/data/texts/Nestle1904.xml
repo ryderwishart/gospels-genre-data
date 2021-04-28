@@ -1,0 +1,29 @@
+<Nestle1904 xmlns:xi="http://www.w3.org/2001/XInclude">
+    <text href="01_matthew.xml" title="Matthew" index="01"/>
+    <text href="02_mark.xml" title="Mark" index="02"/>
+    <text href="03_luke.xml" title="Luke" index="03"/>
+    <text href="04_john.xml" title="John" index="04"/>
+    <text href="05_acts.xml" title="Acts" index="05"/>
+    <text href="06_romans.xml" title="Romans" index="06"/>
+    <text href="07_1corinthians.xml" title="1 Corinthians" index="07"/>
+    <text href="08_2corinthians.xml" title="2 Corinthians" index="08"/>
+    <text href="09_galatians.xml" title="Galatians" index="09"/>
+    <text href="10_ephesians.xml" title="Ephesians" index="10"/>
+    <text href="11_philippians.xml" title="Philippians" index="11"/>
+    <text href="12_colossians.xml" title="Colossians" index="12"/>
+    <text href="13_1thessalonians.xml" title="1 Thessalonians" index="13"/>
+    <text href="14_2thessalonians.xml" title="2 Thessalonians" index="14"/>
+    <text href="15_1timothy.xml" title="1 Timothy" index="15"/>
+    <text href="16_2timothy.xml" title="2 Timothy" index="16"/>
+    <text href="17_titus.xml" title="Titus" index="17"/>
+    <text href="18_philemon.xml" title="Philemon" index="18"/>
+    <text href="19_hebrews.xml" title="Hebrews" index="19"/>
+    <text href="20_james.xml" title="James" index="20"/>
+    <text href="21_1peter.xml" title="1 Peter" index="21"/>
+    <text href="22_2peter.xml" title="2 Peter" index="22"/>
+    <text href="23_1john.xml" title="1 John" index="23"/>
+    <text href="24_2john.xml" title="2 John" index="24"/>
+    <text href="25_3john.xml" title="3 John" index="25"/>
+    <text href="26_jude.xml" title="Jude" index="26"/>
+    <text href="27_revelation.xml" title="Revelation" index="27"/>
+</Nestle1904>
