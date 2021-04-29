@@ -1,21 +1,23 @@
-import episodes from '../../../public/data/episodes-ranges.xml'
+import episodes from '../../../public/data/episodes-ranges.xml';
 
 const handler = (req, res) => {
-  const id = req.query.id
-  console.log({id})
+  const id = req.query.id;
+  console.log({ id });
   let selectedEpisodeArray;
   try {
-    selectedEpisodeArray = episodes.root.episode.filter(episode => episode.$.section === id)
-  } catch(error) {
+    selectedEpisodeArray = episodes.root.episode.filter(
+      (episode) => episode.$.section === id,
+    );
+  } catch (error) {
     selectedEpisodeArray = null;
   }
-  console.log({selectedEpisodeArray})
-  if(selectedEpisodeArray.length > 0){
-      res.status(200).json(selectedEpisodeArray[0])
+  console.log({ selectedEpisodeArray });
+  if (selectedEpisodeArray.length > 0) {
+    res.status(200).json(selectedEpisodeArray[0]);
   } else {
-      res.status(404).json({message: `Episode with id ${id} not found.`})
+    res.status(404).json({ message: `Episode with id ${id} not found.` });
   }
-}
+};
 
 export default handler;
 
