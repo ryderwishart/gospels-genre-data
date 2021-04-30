@@ -18,13 +18,11 @@ const handler = (
       textContainer.text.key === text ||
       /* note, for initial commit only */ textContainer,
   );
-  console.log('1', selectedTextContainer);
   const selectedStage = selectedTextContainer?.text.content.turn.content.find(
     (stageContainer) =>
       stageContainer.stage.key === stage ||
       stageContainer.stage.key === 'N1904.Matt.1.1.1-6.16_S',
   );
-  console.log('2', selectedStage);
 
   // const selectedTextContainer = root.data
   //     .find(textContainer => textContainer.text.key === text)

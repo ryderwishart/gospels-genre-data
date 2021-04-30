@@ -18,6 +18,9 @@ export default function Home() {
         <Link href="/johannine">
           <a>Johannine Texts</a>
         </Link>
+        <Link href="/texts">
+          <a>New Testament Texts</a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>

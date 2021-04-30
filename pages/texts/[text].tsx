@@ -27,7 +27,9 @@ interface ComponentProps {
   response: TextContainer;
 }
 
-const TextPage = (props: ComponentProps) => {
+const TextPage: React.FC<ComponentProps> = (props) => {
+  console.log('here', props);
+
   const [separator, setSeparator] = useState(',');
   const [shouldUseUnitVectors, setShouldUseUnitVectors] = useState<boolean>(
     true,
@@ -94,7 +96,7 @@ const TextPage = (props: ComponentProps) => {
       : antMessage.error('Could not copy all stage vectors.');
   };
 
-  const text = props.response?.text;
+  const text = props.response?.text || props.response['data'][0]['text'];
   if (text) {
     const allMoveSets = text.content.turn.content.map(
       (stageContainer: StageContainer) => {
@@ -202,8 +204,8 @@ const TextPage = (props: ComponentProps) => {
           </Collapse>
         </main>
         <footer className={styles.footer}>
-          <Link href={`/johannine`}>
-            <a className={styles.card}>&larr; Back to all Johannine texts</a>
+          <Link href={`/texts`}>
+            <a className={styles.card}>&larr; Back to all texts</a>
           </Link>
         </footer>
       </div>
@@ -216,9 +218,11 @@ export default TextPage;
 
 export async function getStaticProps(context: {
   params: { text: string };
-}): Promise<{ props: { response: string; currentText: string } }> {
+}): Promise<{ props: { response: JSON; currentText: string } }> {
+  const { text } = context.params;
+  console.log('text: ', text);
   const response = await (
-    await fetch(`${server}/api/johannine/${context.params.text}`)
+    await fetch(`${server}/api/texts/${text.toLowerCase()}`)
   ).json();
 
   const currentText = context.params.text;
@@ -231,21 +235,26 @@ export async function getStaticProps(context: {
   };
 }
 
+export interface TextFromAPITexts {
+  $: {
+    href: string;
+    title: string;
+    index: string;
+  };
+}
+
 export const getStaticPaths = async () => {
-  let response;
+  let metaDataResponse;
   try {
-    response = await (await fetch(`${server}/api/johannine/`)).json();
+    metaDataResponse = await (await fetch(`${server}/api/texts/`)).json();
   } catch (error) {
-    response = null;
+    metaDataResponse = null;
   }
-  // const response = await (
-  //     await fetch(`${server}/api/johannine/`)
-  // ).json()
-  const textKeys = response?.data.map(
-    (textContainer: TextContainer) => textContainer.text.key,
+  const texts = metaDataResponse?.Nestle1904.text.map(
+    (textFromAPITexts: TextFromAPITexts) => textFromAPITexts.$.title,
   );
-  const paths = textKeys?.map((textKey: string) => ({
-    params: { text: textKey.toString() },
+  const paths = texts?.map((title: string) => ({
+    params: { text: title.toString() },
   }));
   return {
     paths,

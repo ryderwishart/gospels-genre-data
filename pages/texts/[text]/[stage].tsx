@@ -148,10 +148,8 @@ const Stage: React.FC<any> = (props) => {
               (systemContainer: SystemContainer) =>
                 systemContainer.system.key === system,
             );
-
             const instances =
               systemContainer && systemContainer.system.instances;
-
             if (instances) {
               return (
                 <div
@@ -196,6 +194,7 @@ const Stage: React.FC<any> = (props) => {
     setDrawerIsVisible(false);
   };
 
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -234,12 +233,10 @@ const Stage: React.FC<any> = (props) => {
                     const someLabelsAreSelected: boolean = labels
                       .map((label) => selectedSystems.includes(label))
                       .includes(true);
-
                     if (someLabelsAreSelected) {
                       const poppedSystemSelection = selectedSystems.filter(
                         (system) => system! in labels,
                       );
-
                       setSelectedSystems(poppedSystemSelection);
                     } else {
                       setSelectedSystems([...selectedSystems, ...labels]);
