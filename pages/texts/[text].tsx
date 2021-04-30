@@ -5,6 +5,7 @@ import { StageContainer, System, TextContainer } from '../../types';
 import { allChoices } from '../../types/systemDefinitions';
 import { calculateUnitVectors } from '../../functions/calculateUnitVectors';
 import { generateCosineSimilarities } from '../../functions/generateCosineSimilarities';
+import { copyFeatureVectorsToCSV } from '../../functions/copyFeatureVectorsToCSV';
 import React, { useState } from 'react';
 import {
   Button,
@@ -56,44 +57,6 @@ const TextPage: React.FC<ComponentProps> = (props) => {
       comparisonsForCopyingElement.textContent = comparisonsForCopyingString;
     }
     showFeedback('analysis-text-area');
-  };
-
-  interface CopyVectorsProps {
-    vectorsInput: (number | string)[][];
-    useUnitVectors: boolean;
-  }
-
-  const copyFeatureVectorsToCSV = ({
-    vectorsInput,
-    useUnitVectors = true,
-  }: CopyVectorsProps) => {
-    const vectorsForCopying: string[] = [];
-    const vectorsCSVHeaders = ['stageId', ...allChoices];
-    vectorsForCopying.push(vectorsCSVHeaders.join(separator));
-    if (useUnitVectors) {
-      const unitVectors = calculateUnitVectors(vectorsInput);
-      unitVectors.forEach((unitVector) =>
-        vectorsForCopying.push(unitVector.join(separator)),
-      );
-    } else {
-      vectorsInput.forEach((vector: (string | number)[]): void => {
-        vectorsForCopying.push(vector.join(separator));
-      });
-    }
-    const vectorsForCopyingString: string = vectorsForCopying.join('\n');
-
-    const vectorsForCopyingElement: HTMLTextAreaElement = document.createElement(
-      'textarea',
-    );
-    document.body.appendChild(vectorsForCopyingElement);
-    vectorsForCopyingElement.textContent = vectorsForCopyingString;
-    vectorsForCopyingElement.select();
-    document.execCommand('copy');
-    document.body.removeChild(vectorsForCopyingElement);
-
-    vectorsForCopying?.length > 1
-      ? antMessage.success(`Copied all stage vectors!`)
-      : antMessage.error('Could not copy all stage vectors.');
   };
 
   const text = props.response?.text || props.response['data'][0]['text'];
@@ -152,6 +115,7 @@ const TextPage: React.FC<ComponentProps> = (props) => {
                     copyFeatureVectorsToCSV({
                       vectorsInput: stageFeatureData,
                       useUnitVectors: shouldUseUnitVectors,
+                      columns: allChoices,
                     })
                   }
                 >
