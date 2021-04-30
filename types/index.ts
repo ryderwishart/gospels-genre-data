@@ -57,3 +57,11 @@ export interface Choice {
   key: string;
   realization: string; // NOTE: This string is like a stringified array ("N1904.John.9.1.2' 'N1904.John.9.1.3") Basically it should be split on `' '`
 }
+
+// SITUATION FEATURES
+
+export type StageFeatureSet = {
+  id: string;
+  title: string;
+  features: string | string[];
+};

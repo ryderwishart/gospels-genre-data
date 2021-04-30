@@ -1,0 +1,5159 @@
+[
+  {
+    "id": "01§01",
+    "title": "The Genealogy of Christ",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "01§02",
+    "title": "The Annunciation to Joseph and the Birth of Jesus",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "spoken",
+      "phonic"
+    ]
+  },
+  {
+    "id": "01§03",
+    "title": "The Wise Men from the East",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "spoken",
+      "phonic"
+    ]
+  },
+  {
+    "id": "01§04",
+    "title": "The Flight into Egypt and the Return to Nazareth",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§05",
+    "title": "The Ministry of John the Baptist",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "neutral",
+      "monological",
+      "unclear",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§06",
+    "title": "The Baptism of Jesus",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "neutral",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§07",
+    "title": "The Temptation in the Wilderness",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "private",
+      "dialogical",
+      "unclear",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§08a",
+    "title": "The Beginning of the Galilean Ministry",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-passive",
+      "constitutive",
+      "distant",
+      "non-institutional-or-neutralized",
+      "monological",
+      "neutral",
+      "opposing",
+      "instructing",
+      "action",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "01§08b",
+    "title": "The Call of the Four",
+    "features": [
+      "spoken",
+      "phonic",
+      "distant",
+      "non-institutional-or-neutralized",
+      "monological",
+      "instructing",
+      "action",
+      "addressee-more-active",
+      "ancillary",
+      "disinterested",
+      "allying",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16",
+    "title": "The Beatitudes, The Chief Functions of the Disciples in the World, Christ Confirms and Expounds the Law of Moses, The Law of Love toward the Enemy, On Giving of Alms, Praying, and Fasting, Warning against Covetousness and Care, Warning against Unauthorized Judging and Admonition to Persevere in Prayer, The Conclusion of the Sermon",
+    "features": [
+      "written",
+      "phonic",
+      "addressee-more-passive",
+      "constitutive",
+      "distant",
+      "non-institutional-or-neutralized",
+      "monological",
+      "on-someones-side",
+      "allying",
+      "asserting",
+      "conceptual-ie-internally-oriented",
+      "action"
+    ]
+  },
+  {
+    "id": "01§17",
+    "title": "The Healing of the Leper",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-active",
+      "ancillary",
+      "distant",
+      "non-institutional-or-neutralized",
+      "dialogical",
+      "on-someones-side",
+      "allying",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "01§18",
+    "title": "The Centurion of Capernaum",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "relation",
+      "allying",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§19",
+    "title": "Various Miracles of Healing",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "monological",
+      "unclear",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "graphic",
+      "written"
+    ]
+  },
+  {
+    "id": "01§20",
+    "title": "The Discipleship of Christ",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "on-someones-side",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§21",
+    "title": "The Storm on the Lake",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-active",
+      "ancillary",
+      "close",
+      "non-institutional-or-neutralized",
+      "dialogical",
+      "private",
+      "allying",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "01§22",
+    "title": "Jesus and the Gadarenes",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "neutral",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§23",
+    "title": "The Healing of the Palsied Man",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-active",
+      "ancillary",
+      "distant",
+      "unclear",
+      "dialogical",
+      "on-someones-side",
+      "allying",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "asserting"
+    ]
+  },
+  {
+    "id": "01§24",
+    "title": "The Call of Matthew and His Feast",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-active",
+      "ancillary",
+      "distant",
+      "non-institutional-or-neutralized",
+      "multilogical",
+      "on-someones-side",
+      "opposing",
+      "instructing",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "01§25",
+    "title": "The Daughter of Jairus",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-active",
+      "ancillary",
+      "distant",
+      "non-institutional-or-neutralized",
+      "multilogical",
+      "on-someones-side",
+      "allying",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "01§26",
+    "title": "Further Miracles of That Day",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§27",
+    "title": "Continuation of Christ’s Teaching and Healing Ministry",
+    "features": [
+      "private",
+      "monological",
+      "institutional",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§28 01§29 01§30 01§31",
+    "title": "The Commission to the Twelve, The Perils of Apostleship, Fearless Confession of Christ Demanded, Perfect Consecration to Christ",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic",
+      "written"
+    ]
+  },
+  {
+    "id": "01§32",
+    "title": "John the Baptist’s Disciples Come to Jesus",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "private",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§33",
+    "title": "Christ’s Testimony Concerning John",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-passive",
+      "constitutive",
+      "distant",
+      "non-institutional-or-neutralized",
+      "monological",
+      "on-someones-side",
+      "allying",
+      "asserting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "01§34",
+    "title": "The Woe upon the Galilean Cities",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "on-someones-side",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§35",
+    "title": "The Gospel Call",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "on-someones-side",
+      "monological",
+      "non-institutional-or-neutralized",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§36a",
+    "title": "The Lord of the Sabbath - Food",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "distant",
+      "institutional",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§36b",
+    "title": "The Lord of the Sabbath - Healing",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§37 01§38",
+    "title": "The Enmity of the Pharisees and Christ’s Answer, The Sin against the Holy Spirit",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§39",
+    "title": "The Sign from Heaven and a Warning",
+    "features": [
+      "spoken",
+      "phonic",
+      "addressee-more-active",
+      "constitutive",
+      "distant",
+      "institutional",
+      "dialogical",
+      "on-someones-side",
+      "opposing",
+      "projecting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "01§40",
+    "title": "Christ’s Relatives",
+    "features": [
+      "relation",
+      "asserting",
+      "allying",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§41a",
+    "title": "The Parable of the Sower",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-passive",
+      "constitutive",
+      "distant",
+      "non-institutional-or-neutralized",
+      "monological",
+      "on-someones-side",
+      "allying",
+      "projecting",
+      "action",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "01§41b",
+    "title": "The Parable of the Sower Explained",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "non-institutional-or-neutralized",
+      "allying",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "private",
+      "dialogical",
+      "close",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "01§42a",
+    "title": "The Parable of the Tares, and Others",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "on-someones-side",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§42b",
+    "title": "The Parable of the Tares, and Others Explained",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "allying",
+      "constitutive",
+      "phonic",
+      "spoken",
+      "close",
+      "institutional",
+      "dialogical",
+      "private",
+      "asserting",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "01§43",
+    "title": "A Visit to Nazareth",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "unclear",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§44",
+    "title": "The Death of John the Baptist",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "neutral",
+      "multilogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§45",
+    "title": "The Feeding of the Five Thousand",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "contact",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§46",
+    "title": "Christ Walks on the Sea",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "private",
+      "multilogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§47",
+    "title": "A Lesson Concerning Defilement",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§48",
+    "title": "The Syrophoenician Woman",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "relation",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§49",
+    "title": "Christ Teaches and Feeds Four Thousand",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "contact",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§50",
+    "title": "The Demand for a Sign",
+    "features": [
+      "opposing",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "on-someones-side",
+      "monological",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§51",
+    "title": "The Leaven of the Pharisees",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§52",
+    "title": "“Christ the Son of the Living God”",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§53",
+    "title": "Christ’s First Prophecy Concerning His Passion",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§54",
+    "title": "The Transfiguration of Christ",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§55",
+    "title": "The Healing of a Boy with a Demon",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§56a",
+    "title": "Christ Foretells His Passion",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§56b",
+    "title": "Christ Pays the Temple-Tax",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "institutional",
+      "addressee-more-active",
+      "phonic",
+      "spoken",
+      "ancillary",
+      "distant",
+      "multilogical",
+      "neutral",
+      "opposing",
+      "instructing"
+    ]
+  },
+  {
+    "id": "01§57 01§58 01§59",
+    "title": "The Greatest in the Kingdom of Heaven, How to Deal with an Erring Brother, Parable of the Unmerciful Servant",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "projecting",
+      "opposing",
+      "private",
+      "multilogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§60",
+    "title": "On Marriage and Divorce",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§61",
+    "title": "Christ Blessing Little Children",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "monological",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§62",
+    "title": "The Dangers of Riches",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§63 01§64",
+    "title": "The Reward of the Apostles, Parable of the Laborers in the Vineyard",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "written"
+    ]
+  },
+  {
+    "id": "01§65",
+    "title": "Christ Again Foretells His Passion",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "written"
+    ]
+  },
+  {
+    "id": "01§66",
+    "title": "The Requests of the Sons of Zebedee",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "private",
+      "multilogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§67",
+    "title": "Healing of Two Blind Men",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§68",
+    "title": "Christ’s Entry into Jerusalem",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§69",
+    "title": "Christ Visits the Temple",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§70",
+    "title": "The Cursing of the Fig-Tree",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§71 01§72 01§73",
+    "title": "The Authority of Christ, The Parable of the Two Sons, The Parable of the Wicked Husbandmen",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "projecting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "equalized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§74",
+    "title": "The Parable of the Marriage Feast",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "projecting",
+      "opposing",
+      "on-someones-side",
+      "monological",
+      "equalized",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§75",
+    "title": "The Question Concerning Tribute",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§76",
+    "title": "The Question of the Sadducees",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§77",
+    "title": "The Silencing of the Pharisees",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§78 01§79 01§80",
+    "title": "The Inordinate Ambition of the Pharisees, The Woes upon the Hypocrisy of the Pharisees, The Peroration and the Lament over Jerusalem",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "monological",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§81 01§82 01§83 01§84 01§85",
+    "title": "The Judgment of God upon Jerusalem and upon the World, The Need of Watchfulness, The Parable of the Ten Virgins, The Parable of the Talents, The Last Judgment",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "written"
+    ]
+  },
+  {
+    "id": "01§86a",
+    "title": "Jesus Predicts Crucifixion",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "asserting",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§86b",
+    "title": "Leaders Conspire",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§86c",
+    "title": "A Woman Anoints Jesus",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§86d",
+    "title": "Judas Bargains for Jesus",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "allying",
+      "neutral",
+      "monological",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§86e",
+    "title": "Jesus Gives Instructions for Supper",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§87a",
+    "title": "The Passover Meal",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "relation",
+      "opposing",
+      "private",
+      "multilogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§87b",
+    "title": "The Institution of the Lord’s Supper",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "private",
+      "close",
+      "phonic",
+      "spoken",
+      "action",
+      "instructing",
+      "allying",
+      "monological",
+      "institutional",
+      "ancillary",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "01§88a",
+    "title": "On the Way to Gethsemane",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§88b",
+    "title": "Events at Gethsemane",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "private",
+      "institutional",
+      "close",
+      "phonic",
+      "spoken",
+      "addressee-more-passive",
+      "ancillary",
+      "monological",
+      "allying",
+      "instructing"
+    ]
+  },
+  {
+    "id": "01§89",
+    "title": "The Betrayal and Arrest",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§90a",
+    "title": "The Trial before Caiaphas",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§90b",
+    "title": "The Denial of Peter",
+    "features": [
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "opposing",
+      "disinterested",
+      "multilogical",
+      "unclear",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§91",
+    "title": "The End of Judas",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "neutral",
+      "dialogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§92",
+    "title": "The Trial before Pilate",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§93",
+    "title": "The Crucifixion and Death of Christ",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§94",
+    "title": "The Burial of Christ",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "private",
+      "dialogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§95a",
+    "title": "The Resurrection of Christ",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§95b",
+    "title": "The Soldiers Bribed to Silence",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "01§96",
+    "title": "The Great Missionary Command",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§01",
+    "title": "The Ministry of John the Baptist",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "on-someones-side",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§02a",
+    "title": "The Baptism and Temptation of Christ",
+    "features": [
+      "relation",
+      "asserting",
+      "allying",
+      "monological",
+      "addressee-more-passive",
+      "phonic",
+      "spoken",
+      "ancillary",
+      "close",
+      "institutional",
+      "neutral",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§02b",
+    "title": "The Beginning of His Ministry",
+    "features": [
+      "allying",
+      "monological",
+      "phonic",
+      "spoken",
+      "neutral",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§03a",
+    "title": "Ministry in Capernaum",
+    "features": [
+      "phonic",
+      "spoken",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "multilogical",
+      "neutral",
+      "opposing",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "instructing"
+    ]
+  },
+  {
+    "id": "02§03b",
+    "title": "Jesus Prays in a Solitary Place",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "02§04",
+    "title": "The Healing of a Leper",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "allying",
+      "private",
+      "dialogical",
+      "ancillary",
+      "distant",
+      "non-institutional-or-neutralized",
+      "instructing"
+    ]
+  },
+  {
+    "id": "02§05",
+    "title": "Healing the Palsied Man",
+    "features": [
+      "phonic",
+      "spoken",
+      "ancillary",
+      "distant",
+      "addressee-more-active",
+      "unclear",
+      "multilogical",
+      "on-someones-side",
+      "opposing",
+      "asserting",
+      "relation",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "02§06",
+    "title": "The Calling of Levi and the Dinner at His House",
+    "features": [
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "unclear",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§07a",
+    "title": "New Wine into Old Wineskins",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "on-someones-side",
+      "dialogical",
+      "addressee-more-active",
+      "phonic",
+      "spoken",
+      "action",
+      "opposing",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "02§07b",
+    "title": "The Lord of the Sabbath",
+    "features": [
+      "asserting",
+      "on-someones-side",
+      "dialogical",
+      "addressee-more-active",
+      "phonic",
+      "spoken",
+      "action",
+      "opposing",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "institutional",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "02§08",
+    "title": "Healing the Withered Hand",
+    "features": [
+      "on-someones-side",
+      "addressee-more-active",
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "institutional",
+      "ancillary",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "monological"
+    ]
+  },
+  {
+    "id": "02§09",
+    "title": "Miracles by the Seaside",
+    "features": [
+      "on-someones-side",
+      "phonic",
+      "spoken",
+      "distant",
+      "ancillary",
+      "monological",
+      "addressee-more-passive",
+      "non-institutional-or-neutralized",
+      "allying",
+      "asserting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§10a",
+    "title": "Jesus Appoints the Twelve",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "02§10b",
+    "title": "Discourse on the Casting Out of Demons",
+    "features": [
+      "on-someones-side",
+      "phonic",
+      "spoken",
+      "ancillary",
+      "asserting",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "opposing",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§11a",
+    "title": "The Parable of the Sower",
+    "features": [
+      "action",
+      "projecting",
+      "conceptual-ie-internally-oriented",
+      "allying",
+      "on-someones-side",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§11b",
+    "title": "Teaching the Disciples by Means of Parables",
+    "features": [
+      "allying",
+      "constitutive",
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "close",
+      "institutional",
+      "monological",
+      "private",
+      "asserting",
+      "action",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§12",
+    "title": "Christ Stilling the Tempest",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "close",
+      "institutional",
+      "private",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "dialogical",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "02§13",
+    "title": "The Healing of a Demon-Possessed Man",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "opposing",
+      "dialogical",
+      "ancillary",
+      "distant",
+      "non-institutional-or-neutralized",
+      "on-someones-side",
+      "action"
+    ]
+  },
+  {
+    "id": "02§14",
+    "title": "Raising of the Daughter of Jairus",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "ancillary",
+      "distant",
+      "non-institutional-or-neutralized",
+      "action",
+      "multilogical",
+      "neutral",
+      "allying"
+    ]
+  },
+  {
+    "id": "02§15",
+    "title": "Jesus at Nazareth",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "equalized",
+      "close",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "02§16",
+    "title": "The Mission of the Twelve",
+    "features": [
+      "phonic",
+      "spoken",
+      "close",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "ancillary",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "02§17",
+    "title": "Death of John the Baptist",
+    "features": [
+      "phonic",
+      "spoken",
+      "action",
+      "institutional",
+      "ancillary",
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "opposing",
+      "neutral",
+      "multilogical",
+      "distant",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§18",
+    "title": "The Feeding of the Five Thousand",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "ancillary",
+      "practical-ie-outwardly-oriented",
+      "opposing",
+      "addressee-more-active",
+      "close",
+      "dialogical",
+      "on-someones-side",
+      "instructing",
+      "contact"
+    ]
+  },
+  {
+    "id": "02§19",
+    "title": "Christ Walking on the Sea and His Return to Galilee",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "close",
+      "instructing",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "allying",
+      "private",
+      "monological",
+      "ancillary",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "02§20 02§21",
+    "title": "Concerning Ceremonial Washings, Christ’s Denunciation of the Pharisees",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "constitutive",
+      "distant",
+      "dialogical",
+      "on-someones-side",
+      "opposing",
+      "asserting",
+      "action",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§22",
+    "title": "The Syrophoenician Woman",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "constitutive",
+      "distant",
+      "dialogical",
+      "opposing",
+      "non-institutional-or-neutralized",
+      "private",
+      "instructing",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§23",
+    "title": "Healing of the Deaf Man",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "instructing",
+      "addressee-more-passive",
+      "ancillary",
+      "on-someones-side",
+      "allying",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "02§24",
+    "title": "The Feeding of the Four Thousand",
+    "features": [
+      "phonic",
+      "spoken",
+      "dialogical",
+      "ancillary",
+      "contact",
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "institutional",
+      "close",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§25",
+    "title": "The Pharisees Ask for a Sign",
+    "features": [
+      "phonic",
+      "spoken",
+      "ancillary",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "institutional",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "monological",
+      "distant",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§25",
+    "title": "The Leaven of the Pharisees",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "institutional",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "addressee-more-active",
+      "instructing",
+      "private",
+      "dialogical",
+      "close",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "02§26",
+    "title": "The Blind Man of Bethsaida",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "allying",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§27a",
+    "title": "The Identity of the Son of Man",
+    "features": [
+      "asserting",
+      "dialogical",
+      "addressee-more-active",
+      "phonic",
+      "spoken",
+      "constitutive",
+      "close",
+      "institutional",
+      "private",
+      "opposing",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§27b",
+    "title": "Jesus the Christ and His Service",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "monological",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§28",
+    "title": "The Transfiguration of Jesus",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "allying",
+      "institutional",
+      "constitutive",
+      "phonic",
+      "spoken",
+      "relation",
+      "asserting",
+      "on-someones-side",
+      "multilogical",
+      "close",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§29",
+    "title": "Casting Out an Unclean Spirit",
+    "features": [
+      "phonic",
+      "spoken",
+      "on-someones-side",
+      "addressee-more-active",
+      "constitutive",
+      "distant",
+      "non-institutional-or-neutralized",
+      "dialogical",
+      "allying",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "02§30",
+    "title": "The Last Discourses of Christ in Galilee",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "allying",
+      "private",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§31",
+    "title": "A Question concerning Divorce",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "02§32",
+    "title": "Jesus Blesses Little Children",
+    "features": [
+      "opposing",
+      "on-someones-side",
+      "institutional",
+      "distant",
+      "spoken",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "monological",
+      "ancillary",
+      "addressee-more-passive",
+      "phonic"
+    ]
+  },
+  {
+    "id": "02§33",
+    "title": "The Rich Young Man",
+    "features": [
+      "institutional",
+      "spoken",
+      "instructing",
+      "phonic",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "distant",
+      "constitutive",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§34a",
+    "title": "Jesus Turns Toward Jerusalem",
+    "features": [
+      "institutional",
+      "spoken",
+      "phonic",
+      "action",
+      "addressee-more-passive",
+      "ancillary",
+      "close",
+      "monological",
+      "private",
+      "allying",
+      "asserting",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§34b",
+    "title": "Priority in Christ’s Kingdom",
+    "features": [
+      "institutional",
+      "spoken",
+      "phonic",
+      "close",
+      "private",
+      "conceptual-ie-internally-oriented",
+      "addressee-more-active",
+      "constitutive",
+      "dialogical",
+      "opposing",
+      "instructing",
+      "relation"
+    ]
+  },
+  {
+    "id": "02§35",
+    "title": "The Healing of Bartimaeus",
+    "features": [
+      "institutional",
+      "spoken",
+      "phonic",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "allying",
+      "disinterested",
+      "multilogical",
+      "distant",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§36",
+    "title": "Christ’s Entry into Jerusalem",
+    "features": [
+      "spoken",
+      "phonic",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "allying",
+      "multilogical",
+      "distant",
+      "ancillary",
+      "on-someones-side",
+      "non-institutional-or-neutralized",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "02§37",
+    "title": "The Miracle of the Fig-Tree",
+    "features": [
+      "spoken",
+      "phonic",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "allying",
+      "ancillary",
+      "on-someones-side",
+      "action",
+      "dialogical",
+      "institutional",
+      "distant",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "02§38",
+    "title": "The Question concerning Christ’s Authority",
+    "features": [
+      "spoken",
+      "phonic",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "distant",
+      "addressee-more-active",
+      "constitutive",
+      "opposing",
+      "asserting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "02§39",
+    "title": "The Parable of the Vineyard",
+    "features": [
+      "on-someones-side",
+      "institutional",
+      "distant",
+      "constitutive",
+      "opposing",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "projecting",
+      "monological",
+      "addressee-more-passive",
+      "phonic",
+      "written"
+    ]
+  },
+  {
+    "id": "02§40a",
+    "title": "The Pharisees and Herodians Ask About Paying Taxes to Caesar",
+    "features": [
+      "on-someones-side",
+      "institutional",
+      "distant",
+      "constitutive",
+      "opposing",
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "dialogical",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§40b",
+    "title": "The Sadducees Question Jesus About the Resurrection",
+    "features": [
+      "on-someones-side",
+      "distant",
+      "constitutive",
+      "opposing",
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "dialogical",
+      "addressee-more-active",
+      "action",
+      "projecting",
+      "institutional"
+    ]
+  },
+  {
+    "id": "02§40c",
+    "title": "The Greatest Commandment",
+    "features": [
+      "on-someones-side",
+      "distant",
+      "constitutive",
+      "opposing",
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "dialogical",
+      "addressee-more-active",
+      "institutional",
+      "asserting",
+      "relation"
+    ]
+  },
+  {
+    "id": "02§41",
+    "title": "Jesus Condemns the Teachers of the Law",
+    "features": [
+      "on-someones-side",
+      "constitutive",
+      "opposing",
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "institutional",
+      "asserting",
+      "relation",
+      "monological",
+      "distant",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "02§42",
+    "title": "Christ Foretells the Destruction of Jerusalem and the End of the World",
+    "features": [
+      "constitutive",
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "institutional",
+      "close",
+      "addressee-more-active",
+      "dialogical",
+      "private",
+      "allying",
+      "contact",
+      "projecting"
+    ]
+  },
+  {
+    "id": "02§43a",
+    "title": "The Teachers of the Law Scheme",
+    "features": [
+      "constitutive",
+      "phonic",
+      "spoken",
+      "institutional",
+      "practical-ie-outwardly-oriented",
+      "contact",
+      "projecting",
+      "opposing",
+      "private",
+      "monological",
+      "distant",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§43b",
+    "title": "The Anointing of Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "projecting",
+      "opposing",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "on-someones-side",
+      "dialogical",
+      "close",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "02§43c",
+    "title": "Judas Promises to Betray Jesus",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "02§44a",
+    "title": "The Preparation for the Passover",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "dialogical",
+      "close",
+      "ancillary",
+      "action",
+      "instructing",
+      "allying",
+      "private"
+    ]
+  },
+  {
+    "id": "02§44b",
+    "title": "The Celebration of the Passover",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "close",
+      "ancillary",
+      "private",
+      "action",
+      "projecting",
+      "opposing",
+      "dialogical"
+    ]
+  },
+  {
+    "id": "02§45a",
+    "title": "Jesus Predicts Peter's Denials",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "close",
+      "private",
+      "projecting",
+      "opposing",
+      "dialogical",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "02§45b",
+    "title": "Jesus Prays in Gethsemane",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "close",
+      "private",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "monological",
+      "institutional",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "02§46",
+    "title": "The Capture of Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "opposing",
+      "institutional",
+      "ancillary",
+      "relation",
+      "instructing",
+      "on-someones-side",
+      "dialogical",
+      "distant"
+    ]
+  },
+  {
+    "id": "02§47",
+    "title": "The Trial before the High Priest",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "opposing",
+      "institutional",
+      "relation",
+      "on-someones-side",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "multilogical",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "02§48",
+    "title": "The Denial of Peter",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "opposing",
+      "relation",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "multilogical",
+      "constitutive",
+      "unclear",
+      "disinterested"
+    ]
+  },
+  {
+    "id": "02§49a",
+    "title": "Jesus before Pilate",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "opposing",
+      "relation",
+      "distant",
+      "institutional",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "private",
+      "dialogical",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "02§49b",
+    "title": "Pilate before the Crowd",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "opposing",
+      "distant",
+      "institutional",
+      "dialogical",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "on-someones-side",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "02§50",
+    "title": "Jesus before the Soldiers",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "institutional",
+      "practical-ie-outwardly-oriented",
+      "ancillary",
+      "addressee-more-passive",
+      "relation",
+      "asserting",
+      "private",
+      "monological"
+    ]
+  },
+  {
+    "id": "02§50",
+    "title": "The Crucifixion and Death of Christ",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "ancillary",
+      "addressee-more-passive",
+      "relation",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "on-someones-side",
+      "multilogical",
+      "institutional"
+    ]
+  },
+  {
+    "id": "02§51",
+    "title": "The Burial of Jesus",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "02§52",
+    "title": "The Resurrection of Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "ancillary",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "allying",
+      "private",
+      "dialogical",
+      "unclear",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "02§53",
+    "title": "The Appearances and the Ascension of Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "allying",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§01",
+    "title": "The Preface to the Gospel",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "03§02a",
+    "title": "The Announcement of John the Baptist’s Birth",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "private",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§02b",
+    "title": "Elizabeth Conceives",
+    "features": [
+      "phonic",
+      "spoken",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "private",
+      "monological",
+      "unclear",
+      "distant",
+      "ancillary",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§03",
+    "title": "The Annunciation to Mary",
+    "features": [
+      "phonic",
+      "spoken",
+      "allying",
+      "private",
+      "projecting",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§04",
+    "title": "Mary’s Visit to Elizabeth",
+    "features": [
+      "phonic",
+      "allying",
+      "private",
+      "conceptual-ie-internally-oriented",
+      "dialogical",
+      "constitutive",
+      "addressee-more-active",
+      "relation",
+      "asserting",
+      "equalized",
+      "close",
+      "written"
+    ]
+  },
+  {
+    "id": "03§05",
+    "title": "The Birth of John the Baptist and Zechariah's Song",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "constitutive",
+      "addressee-more-active",
+      "close",
+      "spoken",
+      "phonic",
+      "institutional",
+      "multilogical",
+      "on-someones-side",
+      "opposing",
+      "instructing",
+      "action"
+    ]
+  },
+  {
+    "id": "03§06a",
+    "title": "The Birth of Jesus",
+    "features": [
+      "constitutive",
+      "addressee-more-active",
+      "spoken",
+      "phonic",
+      "multilogical",
+      "opposing",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "on-someones-side",
+      "unclear",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§06b",
+    "title": "The Adoration of the Shepherds",
+    "features": [
+      "spoken",
+      "phonic",
+      "distant",
+      "addressee-more-passive",
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "action",
+      "allying",
+      "private",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§07",
+    "title": "The Circumcision and Presentation of Christ",
+    "features": [
+      "phonic",
+      "distant",
+      "addressee-more-passive",
+      "allying",
+      "private",
+      "dialogical",
+      "ancillary",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "projecting",
+      "unclear",
+      "written"
+    ]
+  },
+  {
+    "id": "03§08",
+    "title": "The Christ-Child in the Temple",
+    "features": [
+      "phonic",
+      "dialogical",
+      "ancillary",
+      "conceptual-ie-internally-oriented",
+      "addressee-more-active",
+      "spoken",
+      "close",
+      "institutional",
+      "private",
+      "opposing",
+      "asserting",
+      "relation"
+    ]
+  },
+  {
+    "id": "03§09",
+    "title": "The Ministry of John the Baptist",
+    "features": [
+      "constitutive",
+      "addressee-more-active",
+      "spoken",
+      "phonic",
+      "multilogical",
+      "opposing",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "on-someones-side",
+      "unclear",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§10a",
+    "title": "The Baptism of Christ",
+    "features": [
+      "phonic",
+      "ancillary",
+      "spoken",
+      "asserting",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "allying",
+      "neutral",
+      "monological",
+      "non-institutional-or-neutralized",
+      "addressee-more-passive",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§10b",
+    "title": "The Genealogy of Christ",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "03§11",
+    "title": "The Temptation of Christ",
+    "features": [
+      "phonic",
+      "ancillary",
+      "distant",
+      "written",
+      "addressee-more-active",
+      "unclear",
+      "dialogical",
+      "private",
+      "opposing",
+      "instructing",
+      "relation",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "03§12",
+    "title": "The Beginning of Christ’s Ministry and His Teaching in Nazareth",
+    "features": [
+      "phonic",
+      "distant",
+      "written",
+      "dialogical",
+      "opposing",
+      "addressee-more-passive",
+      "constitutive",
+      "unclear",
+      "neutral",
+      "projecting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§13a",
+    "title": "Healing of a Demoniac",
+    "features": [
+      "phonic",
+      "distant",
+      "constitutive",
+      "unclear",
+      "relation",
+      "spoken",
+      "addressee-more-active",
+      "multilogical",
+      "on-someones-side",
+      "opposing",
+      "instructing",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "03§13b",
+    "title": "Jesus Heals Many",
+    "features": [
+      "phonic",
+      "distant",
+      "constitutive",
+      "unclear",
+      "spoken",
+      "addressee-more-active",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "dialogical"
+    ]
+  },
+  {
+    "id": "03§14",
+    "title": "The Miraculous Draught of Fishes and the Call of the First Disciples",
+    "features": [
+      "phonic",
+      "distant",
+      "spoken",
+      "addressee-more-active",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "opposing",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§15",
+    "title": "The Healing of a Leper",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "ancillary",
+      "allying",
+      "private",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§15",
+    "title": "The Healing of a Paralytic",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "ancillary",
+      "distant",
+      "relation",
+      "asserting",
+      "opposing",
+      "neutral",
+      "multilogical",
+      "institutional"
+    ]
+  },
+  {
+    "id": "03§16",
+    "title": "The Call of Levi and the Discourse Concerning Christ’s Ministry",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "distant",
+      "asserting",
+      "opposing",
+      "multilogical",
+      "institutional",
+      "on-someones-side",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§17",
+    "title": "Disputes Concerning Sabbath Observance",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "distant",
+      "asserting",
+      "opposing",
+      "institutional",
+      "conceptual-ie-internally-oriented",
+      "ancillary",
+      "dialogical",
+      "relation",
+      "on-someones-side"
+    ]
+  },
+  {
+    "id": "03§18",
+    "title": "The Twelve Apostles",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "03§19",
+    "title": "Miracles of Healing and Preaching",
+    "features": [
+      "phonic",
+      "institutional",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "on-someones-side",
+      "addressee-more-passive",
+      "written",
+      "constitutive",
+      "close",
+      "monological",
+      "allying",
+      "instructing"
+    ]
+  },
+  {
+    "id": "03§20",
+    "title": "The Centurion of Capernaum",
+    "features": [
+      "phonic",
+      "on-someones-side",
+      "allying",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "multilogical",
+      "equalized",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§21",
+    "title": "Raising of the Widow’s Son",
+    "features": [
+      "phonic",
+      "allying",
+      "instructing",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "spoken",
+      "non-institutional-or-neutralized",
+      "dialogical",
+      "neutral",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "03§22",
+    "title": "The Embassy of John the Baptist",
+    "features": [
+      "phonic",
+      "allying",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "spoken",
+      "dialogical",
+      "neutral",
+      "non-institutional-or-neutralized",
+      "asserting",
+      "conceptual-ie-internally-oriented",
+      "relation"
+    ]
+  },
+  {
+    "id": "03§23",
+    "title": "The First Anointing of Jesus",
+    "features": [
+      "phonic",
+      "distant",
+      "addressee-more-active",
+      "spoken",
+      "neutral",
+      "asserting",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "opposing",
+      "multilogical",
+      "equalized",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§24",
+    "title": "Teaching in Parables",
+    "features": [
+      "phonic",
+      "written",
+      "addressee-more-passive",
+      "constitutive",
+      "distant",
+      "institutional",
+      "monological",
+      "on-someones-side",
+      "allying",
+      "projecting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§24",
+    "title": "Jesus Mother and Brothers",
+    "features": [
+      "phonic",
+      "constitutive",
+      "institutional",
+      "on-someones-side",
+      "allying",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "dialogical",
+      "distant",
+      "addressee-more-active",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§25",
+    "title": "The Storm on the Sea",
+    "features": [
+      "phonic",
+      "institutional",
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "dialogical",
+      "addressee-more-active",
+      "spoken",
+      "close",
+      "private",
+      "opposing",
+      "action",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§26",
+    "title": "In the Country of the Gadarenes",
+    "features": [
+      "phonic",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "dialogical",
+      "addressee-more-active",
+      "spoken",
+      "opposing",
+      "action",
+      "ancillary",
+      "non-institutional-or-neutralized",
+      "neutral",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§27",
+    "title": "The Woman with an Issue and the Daughter of Jairus",
+    "features": [
+      "phonic",
+      "practical-ie-outwardly-oriented",
+      "addressee-more-active",
+      "spoken",
+      "action",
+      "ancillary",
+      "non-institutional-or-neutralized",
+      "distant",
+      "allying",
+      "instructing",
+      "neutral",
+      "multilogical"
+    ]
+  },
+  {
+    "id": "03§28a",
+    "title": "The Mission of the Twelve",
+    "features": [
+      "phonic",
+      "practical-ie-outwardly-oriented",
+      "spoken",
+      "ancillary",
+      "allying",
+      "instructing",
+      "contact",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§28b",
+    "title": "Herod Hears about Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-passive",
+      "ancillary",
+      "distant",
+      "multilogical",
+      "neutral",
+      "opposing",
+      "asserting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§29",
+    "title": "The Feeding of the Five Thousand",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "ancillary",
+      "contact",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "close",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§30",
+    "title": "Peter’s Confession and Christ’s Answer",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "close",
+      "addressee-more-active",
+      "constitutive",
+      "private",
+      "multilogical",
+      "allying",
+      "asserting",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§31",
+    "title": "The Transfiguration",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "allying",
+      "asserting",
+      "relation",
+      "close",
+      "ancillary",
+      "dialogical",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§32",
+    "title": "The Healing of the Epileptic Boy",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "allying",
+      "ancillary",
+      "dialogical",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "on-someones-side",
+      "non-institutional-or-neutralized",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§33",
+    "title": "Lessons in Humility",
+    "features": [
+      "phonic",
+      "spoken",
+      "dialogical",
+      "instructing",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "opposing",
+      "disinterested",
+      "institutional",
+      "close",
+      "addressee-more-active",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§34a",
+    "title": "Opposition in Samaria",
+    "features": [
+      "phonic",
+      "spoken",
+      "close",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "monological",
+      "institutional",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§34b",
+    "title": "True Discipleship of Christ",
+    "features": [
+      "phonic",
+      "spoken",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "on-someones-side",
+      "institutional",
+      "ancillary",
+      "addressee-more-active",
+      "distant",
+      "multilogical",
+      "allying",
+      "relation"
+    ]
+  },
+  {
+    "id": "03§35",
+    "title": "The Mission of the Seventy",
+    "features": [
+      "phonic",
+      "spoken",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "institutional",
+      "allying",
+      "contact",
+      "on-someones-side",
+      "dialogical",
+      "close",
+      "ancillary",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§36",
+    "title": "The Good Samaritan",
+    "features": [
+      "phonic",
+      "spoken",
+      "instructing",
+      "dialogical",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "opposing",
+      "neutral",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§37",
+    "title": "Mary and Martha",
+    "features": [
+      "phonic",
+      "spoken",
+      "instructing",
+      "dialogical",
+      "opposing",
+      "institutional",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "private",
+      "close",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§38",
+    "title": "A Lesson in Prayer",
+    "features": [
+      "phonic",
+      "spoken",
+      "instructing",
+      "dialogical",
+      "institutional",
+      "private",
+      "close",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "allying",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§39, 03§40",
+    "title": "Christ Casts Out a Demon and Rebukes The Generation",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§41",
+    "title": "Woes upon the Pharisees and Lawyers",
+    "features": [
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "addressee-more-active",
+      "neutral",
+      "dialogical",
+      "institutional",
+      "distant",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§42 03§43 03§44",
+    "title": "The Teaching of the Kingdom",
+    "features": [
+      "phonic",
+      "distant",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "addressee-more-active",
+      "written"
+    ]
+  },
+  {
+    "id": "03§45",
+    "title": "The Crippled Woman Healed",
+    "features": [
+      "phonic",
+      "distant",
+      "on-someones-side",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "dialogical",
+      "institutional",
+      "ancillary",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§46a",
+    "title": "Few Are Saved",
+    "features": [
+      "phonic",
+      "distant",
+      "on-someones-side",
+      "addressee-more-active",
+      "relation",
+      "asserting",
+      "dialogical",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "allying",
+      "non-institutional-or-neutralized",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§46b",
+    "title": "Some Pharisees Warn Jesus",
+    "features": [
+      "phonic",
+      "distant",
+      "addressee-more-active",
+      "dialogical",
+      "spoken",
+      "allying",
+      "constitutive",
+      "equalized",
+      "private",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "03§47 03§48",
+    "title": "Christ the Guest of a Pharisee",
+    "features": [
+      "phonic",
+      "distant",
+      "addressee-more-active",
+      "instructing",
+      "written",
+      "institutional",
+      "dialogical",
+      "on-someones-side",
+      "opposing",
+      "ancillary",
+      "action",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§49",
+    "title": "The Obligations of Christ’s Discipleship",
+    "features": [
+      "phonic",
+      "distant",
+      "written",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "monological",
+      "non-institutional-or-neutralized",
+      "constitutive",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§50 03§51 03§52 03§53 03§54",
+    "title": "Parables and Teaching",
+    "features": [
+      "phonic",
+      "distant",
+      "written",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "non-institutional-or-neutralized",
+      "constitutive",
+      "addressee-more-passive",
+      "multilogical",
+      "opposing",
+      "asserting"
+    ]
+  },
+  {
+    "id": "03§55",
+    "title": "The Ten Lepers",
+    "features": [
+      "phonic",
+      "distant",
+      "non-institutional-or-neutralized",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "private",
+      "dialogical",
+      "ancillary",
+      "addressee-more-active",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§56",
+    "title": "Concerning the Kingdom of God and the Coming of Christ",
+    "features": [
+      "phonic",
+      "allying",
+      "addressee-more-active",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "close",
+      "constitutive",
+      "written"
+    ]
+  },
+  {
+    "id": "03§57",
+    "title": "The Unjust Judge",
+    "features": [
+      "phonic",
+      "allying",
+      "on-someones-side",
+      "constitutive",
+      "written",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "instructing",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§58",
+    "title": "The Pharisee and the Publican",
+    "features": [
+      "phonic",
+      "on-someones-side",
+      "constitutive",
+      "written",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "instructing",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "addressee-more-passive",
+      "opposing"
+    ]
+  },
+  {
+    "id": "03§59",
+    "title": "Christ Blesses Little Children",
+    "features": [
+      "phonic",
+      "on-someones-side",
+      "instructing",
+      "opposing",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "monological",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-passive",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§60",
+    "title": "Denying All for Christ’s Sake",
+    "features": [
+      "phonic",
+      "on-someones-side",
+      "instructing",
+      "addressee-more-active",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "allying",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§61",
+    "title": "The Lord’s Third Prediction of His Passion",
+    "features": [
+      "phonic",
+      "spoken",
+      "action",
+      "allying",
+      "constitutive",
+      "practical-ie-outwardly-oriented",
+      "projecting",
+      "private",
+      "monological",
+      "institutional",
+      "close",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§62",
+    "title": "The Blind Man of Jericho",
+    "features": [
+      "phonic",
+      "spoken",
+      "action",
+      "allying",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "neutral",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "distant",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§63",
+    "title": "Zacchaeus the Publican",
+    "features": [
+      "phonic",
+      "spoken",
+      "allying",
+      "practical-ie-outwardly-oriented",
+      "neutral",
+      "multilogical",
+      "non-institutional-or-neutralized",
+      "ancillary",
+      "addressee-more-active",
+      "relation",
+      "instructing",
+      "distant"
+    ]
+  },
+  {
+    "id": "03§64",
+    "title": "The Parable of the Talents",
+    "features": [
+      "phonic",
+      "neutral",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "monological",
+      "non-institutional-or-neutralized",
+      "constitutive",
+      "addressee-more-passive",
+      "written"
+    ]
+  },
+  {
+    "id": "03§65a",
+    "title": "Jesus Procures a Donkey",
+    "features": [
+      "phonic",
+      "neutral",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "allying",
+      "multilogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§65b",
+    "title": "Christ’s Entry into Jerusalem",
+    "features": [
+      "phonic",
+      "allying",
+      "multilogical",
+      "ancillary",
+      "addressee-more-active",
+      "spoken",
+      "distant",
+      "unclear",
+      "on-someones-side",
+      "asserting",
+      "relation",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "03§65c",
+    "title": "Cleansing the Temple",
+    "features": [
+      "phonic",
+      "ancillary",
+      "distant",
+      "on-someones-side",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "monological",
+      "institutional",
+      "addressee-more-passive",
+      "spoken"
+    ]
+  },
+  {
+    "id": "03§66a",
+    "title": "The Authority of Jesus",
+    "features": [
+      "phonic",
+      "distant",
+      "on-someones-side",
+      "asserting",
+      "opposing",
+      "institutional",
+      "spoken",
+      "addressee-more-active",
+      "constitutive",
+      "dialogical",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§66b",
+    "title": "Parable of the Wicked Tenants",
+    "features": [
+      "phonic",
+      "distant",
+      "on-someones-side",
+      "asserting",
+      "opposing",
+      "institutional",
+      "spoken",
+      "addressee-more-active",
+      "constitutive",
+      "multilogical",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§67",
+    "title": "The Pharisees Confounded",
+    "features": [
+      "phonic",
+      "distant",
+      "on-someones-side",
+      "opposing",
+      "spoken",
+      "addressee-more-active",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "instructing",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§67",
+    "title": "The Sadducees Confounded",
+    "features": [
+      "phonic",
+      "distant",
+      "on-someones-side",
+      "opposing",
+      "spoken",
+      "addressee-more-active",
+      "conceptual-ie-internally-oriented",
+      "constitutive",
+      "non-institutional-or-neutralized",
+      "multilogical",
+      "projecting",
+      "action"
+    ]
+  },
+  {
+    "id": "03§68",
+    "title": "Devouring Widows Houses",
+    "features": [
+      "phonic",
+      "distant",
+      "opposing",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "non-institutional-or-neutralized",
+      "relation",
+      "asserting",
+      "on-someones-side",
+      "monological",
+      "ancillary",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "03§69",
+    "title": "The Destruction of Jerusalem and the End of the World",
+    "features": [
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "addressee-more-active",
+      "projecting",
+      "close",
+      "institutional",
+      "dialogical",
+      "on-someones-side",
+      "allying",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§70a",
+    "title": "Judas Agrees to Betray Jesus",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "03§71",
+    "title": "The Preparation for, and the Celebration of, the Passover",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "close",
+      "allying",
+      "action",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "private",
+      "multilogical",
+      "institutional",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "03§72a",
+    "title": "The Walk to Gethsemane and the Agony",
+    "features": [
+      "phonic",
+      "spoken",
+      "close",
+      "allying",
+      "action",
+      "instructing",
+      "private",
+      "institutional",
+      "ancillary",
+      "addressee-more-passive",
+      "monological",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§72b",
+    "title": "Jesus Arrested",
+    "features": [
+      "phonic",
+      "spoken",
+      "action",
+      "ancillary",
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "close",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§73a",
+    "title": "The Denial of Peter",
+    "features": [
+      "phonic",
+      "spoken",
+      "asserting",
+      "opposing",
+      "addressee-more-active",
+      "constitutive",
+      "distant",
+      "unclear",
+      "multilogical",
+      "disinterested",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "03§73b",
+    "title": "The Guards Mistreat Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "instructing",
+      "institutional",
+      "addressee-more-passive",
+      "ancillary",
+      "monological",
+      "on-someones-side",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "03§73c",
+    "title": "Christ before the Council of the Elders",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "institutional",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "dialogical",
+      "constitutive",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "03§74",
+    "title": "The Trial before Pilate",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "institutional",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "addressee-more-active",
+      "ancillary",
+      "multilogical",
+      "asserting"
+    ]
+  },
+  {
+    "id": "03§75a",
+    "title": "The Crucifixion and Death of Christ",
+    "features": [
+      "phonic",
+      "spoken",
+      "opposing",
+      "distant",
+      "on-someones-side",
+      "addressee-more-active",
+      "ancillary",
+      "multilogical",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "instructing",
+      "non-institutional-or-neutralized"
+    ]
+  },
+  { "id": "03§75b", "title": "Jesus Buried", "features": "no embedded discourse" },
+  {
+    "id": "03§76",
+    "title": "The Resurrection of Christ",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "asserting",
+      "allying",
+      "private",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "03§77 03§78",
+    "title": "The Emmaus Disciples and the Last Appearances of Christ",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "private",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "projecting",
+      "opposing",
+      "dialogical",
+      "ancillary",
+      "distant",
+      "unclear"
+    ]
+  },
+  {
+    "id": "04§01",
+    "title": "The Word Became Flesh",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "on-someones-side",
+      "monological",
+      "unclear",
+      "distant",
+      "constitutive",
+      "addressee-more-passive",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "04§02",
+    "title": "The Pharisees Question John the Baptist",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "distant",
+      "constitutive",
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "institutional",
+      "dialogical",
+      "on-someones-side",
+      "allying"
+    ]
+  },
+  {
+    "id": "04§03",
+    "title": "John Meets Jesus",
+    "features": [
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "constitutive",
+      "phonic",
+      "spoken",
+      "on-someones-side",
+      "allying",
+      "monological",
+      "non-institutional-or-neutralized",
+      "distant",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "04§04a",
+    "title": "The First Disciples of Jesus",
+    "features": [
+      "asserting",
+      "phonic",
+      "spoken",
+      "on-someones-side",
+      "allying",
+      "distant",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "multilogical",
+      "institutional",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "04§04b",
+    "title": "Jesus Calls Philip and Nathaniel",
+    "features": [
+      "asserting",
+      "phonic",
+      "spoken",
+      "on-someones-side",
+      "distant",
+      "multilogical",
+      "ancillary",
+      "addressee-more-active",
+      "opposing",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "institutional"
+    ]
+  },
+  {
+    "id": "04§05",
+    "title": "The Marriage at Cana",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "multilogical",
+      "ancillary",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "neutral",
+      "institutional"
+    ]
+  },
+  {
+    "id": "04§06",
+    "title": "The Purging of the Temple and Its Results",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "institutional",
+      "multilogical"
+    ]
+  },
+  {
+    "id": "04§07",
+    "title": "The Visit of Nicodemus",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "dialogical",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "private",
+      "equalized",
+      "distant",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "04§08",
+    "title": "John’s Second Testimony of Christ",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "dialogical",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "constitutive",
+      "close",
+      "institutional",
+      "on-someones-side",
+      "opposing",
+      "relation"
+    ]
+  },
+  {
+    "id": "04§09a",
+    "title": "Christ and the Woman of Samaria",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "dialogical",
+      "constitutive",
+      "opposing",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "instructing",
+      "private",
+      "non-institutional-or-neutralized",
+      "distant"
+    ]
+  },
+  {
+    "id": "04§09b",
+    "title": "The Samaritans Believe",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "private",
+      "close",
+      "institutional",
+      "multilogical",
+      "allying",
+      "instructing",
+      "action"
+    ]
+  },
+  {
+    "id": "04§10",
+    "title": "The Healing of the Nobleman’s Son",
+    "features": [
+      "phonic",
+      "spoken",
+      "private",
+      "multilogical",
+      "allying",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "institutional",
+      "distant",
+      "addressee-more-active",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "04§11",
+    "title": "The Sick Man of Bethesda",
+    "features": [
+      "phonic",
+      "spoken",
+      "multilogical",
+      "allying",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "institutional",
+      "addressee-more-active",
+      "ancillary",
+      "distant",
+      "neutral"
+    ]
+  },
+  {
+    "id": "04§12 04§13",
+    "title": "Jesus Defends Himself Against Jews Persecuting Him",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "monological",
+      "constitutive",
+      "addressee-more-passive",
+      "unclear"
+    ]
+  },
+  {
+    "id": "04§14",
+    "title": "The Feeding of the Five Thousand",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "contact",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "close",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "04§15",
+    "title": "Christ Walks on the Sea",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "institutional",
+      "close",
+      "ancillary",
+      "phonic",
+      "spoken",
+      "action",
+      "asserting",
+      "allying",
+      "private",
+      "monological",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "04§16 04§17",
+    "title": "Christ the Bread of Life",
+    "features": [
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "asserting",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "04§18a",
+    "title": "The Unbelief of Christ’s Brothers",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "addressee-more-active",
+      "conceptual-ie-internally-oriented",
+      "contact",
+      "instructing",
+      "opposing",
+      "private",
+      "dialogical",
+      "equalized",
+      "close"
+    ]
+  },
+  {
+    "id": "04§18b",
+    "title": "Jesus Is Sought at the Festival",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "addressee-more-active",
+      "distant",
+      "unclear",
+      "multilogical",
+      "neutral",
+      "opposing",
+      "asserting",
+      "relation"
+    ]
+  },
+  {
+    "id": "04§18c",
+    "title": "Jesus at the Festival",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "addressee-more-active",
+      "distant",
+      "multilogical",
+      "opposing",
+      "asserting",
+      "relation",
+      "on-someones-side",
+      "institutional"
+    ]
+  },
+  {
+    "id": "04§18d",
+    "title": "The Jewish Elites Disbelieve",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "addressee-more-active",
+      "multilogical",
+      "opposing",
+      "asserting",
+      "institutional",
+      "relation",
+      "private",
+      "close"
+    ]
+  },
+  {
+    "id": "04§19",
+    "title": "The Woman Taken in Adultery",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "multilogical",
+      "opposing",
+      "asserting",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "on-someones-side",
+      "institutional",
+      "distant",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "04§20 04§21",
+    "title": "Jesus the Light of the World",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "multilogical",
+      "opposing",
+      "on-someones-side",
+      "institutional",
+      "distant",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting"
+    ]
+  },
+  {
+    "id": "04§22",
+    "title": "Healing of the Man That was Born Blind",
+    "features": [
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "phonic",
+      "spoken"
+    ]
+  },
+  {
+    "id": "04§23",
+    "title": "Jesus the Good Shepherd",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "opposing",
+      "distant",
+      "constitutive",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "neutral",
+      "multilogical",
+      "non-institutional-or-neutralized"
+    ]
+  },
+  {
+    "id": "04§24a",
+    "title": "Christ’s Sermon at the Feast of Dedication",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "opposing",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "on-someones-side",
+      "dialogical",
+      "non-institutional-or-neutralized",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "04§24b",
+    "title": "Jesus Returns to the Other Side of the Jordan",
+    "features": [
+      "phonic",
+      "spoken",
+      "distant",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "on-someones-side",
+      "allying",
+      "monological",
+      "unclear",
+      "constitutive",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "04§25a",
+    "title": "Jesus Hears of Lazarus",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "addressee-more-active",
+      "close",
+      "institutional",
+      "multilogical",
+      "private",
+      "opposing",
+      "instructing",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "04§25b",
+    "title": "Martha Confronts Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "constitutive",
+      "addressee-more-active",
+      "close",
+      "private",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "opposing",
+      "dialogical",
+      "non-institutional-or-neutralized"
+    ]
+  },
+  {
+    "id": "04§25c",
+    "title": "Jesus at the Tomb of Lazarus",
+    "features": [
+      "phonic",
+      "spoken",
+      "close",
+      "dialogical",
+      "practical-ie-outwardly-oriented",
+      "action",
+      "instructing",
+      "allying",
+      "on-someones-side",
+      "non-institutional-or-neutralized",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "04§26",
+    "title": "The Council concerning Christ’s Removal",
+    "features": [
+      "phonic",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-active",
+      "dialogical",
+      "private",
+      "opposing",
+      "action"
+    ]
+  },
+  {
+    "id": "04§26",
+    "title": "Many Seek Jesus at the Festival",
+    "features": [
+      "phonic",
+      "spoken",
+      "action",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "allying",
+      "monological",
+      "institutional",
+      "distant",
+      "constitutive",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "04§27",
+    "title": "The Anointing of Jesus",
+    "features": [
+      "phonic",
+      "spoken",
+      "addressee-more-active",
+      "dialogical",
+      "opposing",
+      "action",
+      "conceptual-ie-internally-oriented",
+      "projecting",
+      "on-someones-side",
+      "institutional",
+      "close",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "04§28",
+    "title": "Christ’s Entry into Jerusalem",
+    "features": [
+      "phonic",
+      "spoken",
+      "dialogical",
+      "on-someones-side",
+      "ancillary",
+      "relation",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "allying",
+      "non-institutional-or-neutralized",
+      "distant",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "04§29 04§30 04§31",
+    "title": "Some Greeks Seek Jesus but Many Disbelieve",
+    "features": [
+      "phonic",
+      "spoken",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "distant",
+      "action",
+      "projecting",
+      "opposing",
+      "multilogical",
+      "institutional",
+      "constitutive",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "04§32",
+    "title": "Jesus Washes the Disciples' Feet",
+    "features": [
+      "phonic",
+      "spoken",
+      "action",
+      "institutional",
+      "addressee-more-active",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "opposing",
+      "private",
+      "dialogical",
+      "close",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "04§33",
+    "title": "Jesus Reveals His Betrayor",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "private",
+      "close",
+      "ancillary",
+      "multilogical",
+      "projecting",
+      "allying",
+      "action",
+      "practical-ie-outwardly-oriented"
+    ]
+  },
+  {
+    "id": "04§34 04§35 04§36 04§37 04§38 04§39 04§40 04§41",
+    "title": "Jesus Teaches at the Last Supper",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "addressee-more-active",
+      "private",
+      "close",
+      "multilogical",
+      "projecting",
+      "allying",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "04§42",
+    "title": "Christ’s Great Sacerdotal Prayer",
+    "features": [
+      "phonic",
+      "private",
+      "allying",
+      "conceptual-ie-internally-oriented",
+      "constitutive",
+      "written",
+      "addressee-more-passive",
+      "close",
+      "non-institutional-or-neutralized",
+      "monological",
+      "instructing",
+      "action"
+    ]
+  },
+  {
+    "id": "04§43",
+    "title": "The Arrest of Jesus",
+    "features": [
+      "phonic",
+      "instructing",
+      "practical-ie-outwardly-oriented",
+      "contact",
+      "opposing",
+      "on-someones-side",
+      "dialogical",
+      "institutional",
+      "distant",
+      "ancillary",
+      "addressee-more-active",
+      "spoken"
+    ]
+  },
+  {
+    "id": "04§44a",
+    "title": "Peter's First Denial",
+    "features": [
+      "phonic",
+      "opposing",
+      "dialogical",
+      "distant",
+      "addressee-more-active",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "disinterested",
+      "equalized",
+      "constitutive"
+    ]
+  },
+  {
+    "id": "04§44b",
+    "title": "The High Priest Questions Jesus",
+    "features": [
+      "phonic",
+      "opposing",
+      "distant",
+      "addressee-more-active",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "asserting",
+      "ancillary",
+      "institutional",
+      "dialogical",
+      "on-someones-side",
+      "action"
+    ]
+  },
+  {
+    "id": "04§44c",
+    "title": "Peter's Second and Third Denials",
+    "features": [
+      "phonic",
+      "opposing",
+      "distant",
+      "addressee-more-active",
+      "spoken",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "constitutive",
+      "neutral",
+      "multilogical",
+      "equalized"
+    ]
+  },
+  {
+    "id": "04§45 04§46",
+    "title": "The Trial Before Pilate",
+    "features": [
+      "phonic",
+      "opposing",
+      "distant",
+      "addressee-more-active",
+      "spoken",
+      "instructing",
+      "institutional",
+      "multilogical",
+      "on-someones-side",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "ancillary"
+    ]
+  },
+  {
+    "id": "04§47a",
+    "title": "The Jews Protest Pilate's Sign",
+    "features": [
+      "opposing",
+      "distant",
+      "addressee-more-active",
+      "institutional",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "on-someones-side",
+      "multilogical",
+      "ancillary",
+      "phonic",
+      "written"
+    ]
+  },
+  {
+    "id": "04§47b",
+    "title": "The Soldiers Divide Jesus's Clothes",
+    "features": [
+      "institutional",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "on-someones-side",
+      "ancillary",
+      "phonic",
+      "action",
+      "allying",
+      "dialogical",
+      "close",
+      "addressee-more-passive",
+      "spoken"
+    ]
+  },
+  {
+    "id": "04§47c",
+    "title": "Jesus Entrusts His Mother and Dies",
+    "features": [
+      "institutional",
+      "instructing",
+      "on-someones-side",
+      "phonic",
+      "allying",
+      "close",
+      "addressee-more-passive",
+      "spoken",
+      "constitutive",
+      "monological",
+      "relation",
+      "conceptual-ie-internally-oriented"
+    ]
+  },
+  {
+    "id": "04§48",
+    "title": "The Burial of Jesus",
+    "features": "no embedded discourse"
+  },
+  {
+    "id": "04§49",
+    "title": "Easter Morning",
+    "features": [
+      "phonic",
+      "spoken",
+      "practical-ie-outwardly-oriented",
+      "asserting",
+      "allying",
+      "ancillary",
+      "addressee-more-active",
+      "distant",
+      "non-institutional-or-neutralized",
+      "multilogical",
+      "private",
+      "action"
+    ]
+  },
+  {
+    "id": "04§50",
+    "title": "The Appearance to the Hidden Disciples",
+    "features": [
+      "phonic",
+      "spoken",
+      "allying",
+      "private",
+      "conceptual-ie-internally-oriented",
+      "action",
+      "instructing",
+      "monological",
+      "institutional",
+      "close",
+      "constitutive",
+      "addressee-more-passive"
+    ]
+  },
+  {
+    "id": "04§50",
+    "title": "The Appearance to Thomas",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "close",
+      "practical-ie-outwardly-oriented",
+      "relation",
+      "instructing",
+      "opposing",
+      "on-someones-side",
+      "multilogical",
+      "ancillary",
+      "addressee-more-active"
+    ]
+  },
+  {
+    "id": "04§51",
+    "title": "The Appearance of Christ at the Sea of Tiberias",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "close",
+      "practical-ie-outwardly-oriented",
+      "instructing",
+      "multilogical",
+      "ancillary",
+      "addressee-more-active",
+      "action",
+      "allying",
+      "neutral"
+    ]
+  },
+  {
+    "id": "04§52",
+    "title": "The Test of Peter’s Love",
+    "features": [
+      "phonic",
+      "spoken",
+      "institutional",
+      "close",
+      "addressee-more-active",
+      "conceptual-ie-internally-oriented",
+      "relation",
+      "asserting",
+      "allying",
+      "private",
+      "dialogical",
+      "constitutive"
+    ]
+  }
+]
