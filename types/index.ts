@@ -63,5 +63,5 @@ export interface Choice {
 export type StageFeatureSet = {
   id: string;
   title: string;
-  features: string | string[];
+  features: string[];
 };

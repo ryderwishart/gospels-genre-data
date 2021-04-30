@@ -28,7 +28,6 @@ const AllEpisodes = (props) => {
 export default AllEpisodes;
 
 export async function getStaticProps(context) {
-    console.log('building page:', JSON.stringify(context))
     const response = await (
         await fetch(`${server}/api/episodes`)
     ).json()

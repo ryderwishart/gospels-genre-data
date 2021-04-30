@@ -2,7 +2,7 @@
   {
     "id": "01§01",
     "title": "The Genealogy of Christ",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "01§02",
@@ -150,7 +150,7 @@
   },
   {
     "id": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16",
-    "title": "The Beatitudes, The Chief Functions of the Disciples in the World, Christ Confirms and Expounds the Law of Moses, The Law of Love toward the Enemy, On Giving of Alms, Praying, and Fasting, Warning against Covetousness and Care, Warning against Unauthorized Judging and Admonition to Persevere in Prayer, The Conclusion of the Sermon",
+    "title": "The Beatitudes; The Chief Functions of the Disciples in the World; Christ Confirms and Expounds the Law of Moses; The Law of Love toward the Enemy; On Giving of Alms; Praying; and Fasting; Warning against Covetousness and Care; Warning against Unauthorized Judging and Admonition to Persevere in Prayer; The Conclusion of the Sermon",
     "features": [
       "written",
       "phonic",
@@ -366,7 +366,7 @@
   },
   {
     "id": "01§28 01§29 01§30 01§31",
-    "title": "The Commission to the Twelve, The Perils of Apostleship, Fearless Confession of Christ Demanded, Perfect Consecration to Christ",
+    "title": "The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
     "features": [
       "practical-ie-outwardly-oriented",
       "relation",
@@ -492,7 +492,7 @@
   },
   {
     "id": "01§37 01§38",
-    "title": "The Enmity of the Pharisees and Christ’s Answer, The Sin against the Holy Spirit",
+    "title": "The Enmity of the Pharisees and Christ’s Answer; The Sin against the Holy Spirit",
     "features": [
       "conceptual-ie-internally-oriented",
       "relation",
@@ -581,7 +581,7 @@
   },
   {
     "id": "01§42a",
-    "title": "The Parable of the Tares, and Others",
+    "title": "The Parable of the Tares and Others",
     "features": [
       "conceptual-ie-internally-oriented",
       "action",
@@ -599,7 +599,7 @@
   },
   {
     "id": "01§42b",
-    "title": "The Parable of the Tares, and Others Explained",
+    "title": "The Parable of the Tares and Others Explained",
     "features": [
       "conceptual-ie-internally-oriented",
       "action",
@@ -887,7 +887,7 @@
   },
   {
     "id": "01§57 01§58 01§59",
-    "title": "The Greatest in the Kingdom of Heaven, How to Deal with an Erring Brother, Parable of the Unmerciful Servant",
+    "title": "The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
     "features": [
       "conceptual-ie-internally-oriented",
       "relation",
@@ -959,7 +959,7 @@
   },
   {
     "id": "01§63 01§64",
-    "title": "The Reward of the Apostles, Parable of the Laborers in the Vineyard",
+    "title": "The Reward of the Apostles; Parable of the Laborers in the Vineyard",
     "features": [
       "conceptual-ie-internally-oriented",
       "action",
@@ -1085,7 +1085,7 @@
   },
   {
     "id": "01§71 01§72 01§73",
-    "title": "The Authority of Christ, The Parable of the Two Sons, The Parable of the Wicked Husbandmen",
+    "title": "The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
     "features": [
       "conceptual-ie-internally-oriented",
       "relation",
@@ -1175,7 +1175,7 @@
   },
   {
     "id": "01§78 01§79 01§80",
-    "title": "The Inordinate Ambition of the Pharisees, The Woes upon the Hypocrisy of the Pharisees, The Peroration and the Lament over Jerusalem",
+    "title": "The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
     "features": [
       "conceptual-ie-internally-oriented",
       "relation",
@@ -1193,7 +1193,7 @@
   },
   {
     "id": "01§81 01§82 01§83 01§84 01§85",
-    "title": "The Judgment of God upon Jerusalem and upon the World, The Need of Watchfulness, The Parable of the Ten Virgins, The Parable of the Talents, The Last Judgment",
+    "title": "The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
     "features": [
       "conceptual-ie-internally-oriented",
       "action",
@@ -1770,7 +1770,7 @@
   {
     "id": "02§10a",
     "title": "Jesus Appoints the Twelve",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "02§10b",
@@ -1972,7 +1972,7 @@
   },
   {
     "id": "02§20 02§21",
-    "title": "Concerning Ceremonial Washings, Christ’s Denunciation of the Pharisees",
+    "title": "Concerning Ceremonial Washings; Christ’s Denunciation of the Pharisees",
     "features": [
       "phonic",
       "spoken",
@@ -2043,7 +2043,7 @@
     ]
   },
   {
-    "id": "02§25",
+    "id": "02§25a",
     "title": "The Pharisees Ask for a Sign",
     "features": [
       "phonic",
@@ -2061,7 +2061,7 @@
     ]
   },
   {
-    "id": "02§25",
+    "id": "02§25b",
     "title": "The Leaven of the Pharisees",
     "features": [
       "phonic",
@@ -2495,7 +2495,7 @@
   {
     "id": "02§43c",
     "title": "Judas Promises to Betray Jesus",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "02§44a",
@@ -2660,7 +2660,7 @@
     ]
   },
   {
-    "id": "02§50",
+    "id": "02§50a",
     "title": "Jesus before the Soldiers",
     "features": [
       "phonic",
@@ -2678,7 +2678,7 @@
     ]
   },
   {
-    "id": "02§50",
+    "id": "02§50b",
     "title": "The Crucifixion and Death of Christ",
     "features": [
       "phonic",
@@ -2698,7 +2698,7 @@
   {
     "id": "02§51",
     "title": "The Burial of Jesus",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "02§52",
@@ -2739,7 +2739,7 @@
   {
     "id": "03§01",
     "title": "The Preface to the Gospel",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "03§02a",
@@ -2942,7 +2942,7 @@
   {
     "id": "03§10b",
     "title": "The Genealogy of Christ",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "03§11",
@@ -3035,7 +3035,7 @@
     ]
   },
   {
-    "id": "03§15",
+    "id": "03§15a",
     "title": "The Healing of a Leper",
     "features": [
       "phonic",
@@ -3053,7 +3053,7 @@
     ]
   },
   {
-    "id": "03§15",
+    "id": "03§15b",
     "title": "The Healing of a Paralytic",
     "features": [
       "phonic",
@@ -3109,7 +3109,7 @@
   {
     "id": "03§18",
     "title": "The Twelve Apostles",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "03§19",
@@ -3202,7 +3202,7 @@
     ]
   },
   {
-    "id": "03§24",
+    "id": "03§24a",
     "title": "Teaching in Parables",
     "features": [
       "phonic",
@@ -3220,7 +3220,7 @@
     ]
   },
   {
-    "id": "03§24",
+    "id": "03§24b",
     "title": "Jesus Mother and Brothers",
     "features": [
       "phonic",
@@ -3526,7 +3526,7 @@
     ]
   },
   {
-    "id": "03§39, 03§40",
+    "id": "03§39 03§40",
     "title": "Christ Casts Out a Demon and Rebukes The Generation",
     "features": [
       "phonic",
@@ -3958,7 +3958,7 @@
     ]
   },
   {
-    "id": "03§67",
+    "id": "03§67a",
     "title": "The Pharisees Confounded",
     "features": [
       "phonic",
@@ -3976,7 +3976,7 @@
     ]
   },
   {
-    "id": "03§67",
+    "id": "03§67b",
     "title": "The Sadducees Confounded",
     "features": [
       "phonic",
@@ -4032,11 +4032,11 @@
   {
     "id": "03§70a",
     "title": "Judas Agrees to Betray Jesus",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "03§71",
-    "title": "The Preparation for, and the Celebration of, the Passover",
+    "title": "The Preparation for; and the Celebration of; the Passover",
     "features": [
       "phonic",
       "spoken",
@@ -4178,7 +4178,7 @@
       "non-institutional-or-neutralized"
     ]
   },
-  { "id": "03§75b", "title": "Jesus Buried", "features": "no embedded discourse" },
+  { "id": "03§75b", "title": "Jesus Buried", "features": ["no embedded discourse"]},
   {
     "id": "03§76",
     "title": "The Resurrection of Christ",
@@ -4756,7 +4756,7 @@
     ]
   },
   {
-    "id": "04§26",
+    "id": "04§26a",
     "title": "The Council concerning Christ’s Removal",
     "features": [
       "phonic",
@@ -4774,7 +4774,7 @@
     ]
   },
   {
-    "id": "04§26",
+    "id": "04§26b",
     "title": "Many Seek Jesus at the Festival",
     "features": [
       "phonic",
@@ -5064,7 +5064,7 @@
   {
     "id": "04§48",
     "title": "The Burial of Jesus",
-    "features": "no embedded discourse"
+    "features": ["no embedded discourse"]
   },
   {
     "id": "04§49",
@@ -5085,7 +5085,7 @@
     ]
   },
   {
-    "id": "04§50",
+    "id": "04§50a",
     "title": "The Appearance to the Hidden Disciples",
     "features": [
       "phonic",
@@ -5103,7 +5103,7 @@
     ]
   },
   {
-    "id": "04§50",
+    "id": "04§50b",
     "title": "The Appearance to Thomas",
     "features": [
       "phonic",

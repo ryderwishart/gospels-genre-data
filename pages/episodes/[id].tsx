@@ -61,7 +61,6 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
 export default EpisodePage;
 
 export async function getStaticProps(context: { params: { id?: any } }) {
-  console.log('building page:', JSON.stringify(context));
 
   let counter = null;
   let bookId = null;
@@ -70,7 +69,6 @@ export async function getStaticProps(context: { params: { id?: any } }) {
   let nextEpisodeId = null;
 
   const hasContext = !!(Object.keys(context.params).length > 0);
-  console.log('D*UD(D*UD(*U', { hasContext });
 
   if (hasContext) {
     counter = context.params.id?.split('_');
@@ -121,7 +119,6 @@ export async function getStaticProps(context: { params: { id?: any } }) {
 
 export const getStaticPaths = async () => {
   const response = await (await fetch(`${server}/api/episodes/`)).json();
-  console.log({ response });
   const ids = response?.root.episode.map(
     (episodeContainer) => episodeContainer.$.section,
   );
