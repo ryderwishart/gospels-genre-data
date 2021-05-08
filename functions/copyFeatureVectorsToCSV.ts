@@ -16,9 +16,7 @@ export const copyFeatureVectorsToCSV = ({
   useTSV = false,
   useRowIdsAsColumns = false,
 }: CopyVectorsProps): void => {
-  const columnsForCSV = useRowIdsAsColumns
-    ? vectorsInput.map((row) => row[0])
-    : columns;
+  const columnsForCSV = useRowIdsAsColumns ? vectorsInput.map((row) => row[0]) : columns;
   const separator = useTSV ? '\t' : ',';
   const vectorsForCopying: string[] = [];
   const vectorsCSVHeaders = ['ID', ...columnsForCSV];

@@ -32,27 +32,21 @@ const TextPage: React.FC<ComponentProps> = (props) => {
   console.log('here', props);
 
   const [separator, setSeparator] = useState(',');
-  const [shouldUseUnitVectors, setShouldUseUnitVectors] = useState<boolean>(
-    true,
-  );
+  const [shouldUseUnitVectors, setShouldUseUnitVectors] = useState<boolean>(true);
 
   const getCosineSimilaritiesForStageVectors = (
     vectorsForGeneratingCosineSimilarities: any[][],
   ) => {
     let vectors = vectorsForGeneratingCosineSimilarities;
     if (shouldUseUnitVectors) {
-      const unitVectors = calculateUnitVectors(
-        vectorsForGeneratingCosineSimilarities,
-      );
+      const unitVectors = calculateUnitVectors(vectorsForGeneratingCosineSimilarities);
       vectors = unitVectors;
     }
     const comparisons = generateCosineSimilarities({ vectors: vectors });
     const comparisonsForCopyingString: string = comparisons
       .map((i) => i.join(','))
       .join('\n');
-    const comparisonsForCopyingElement = document.getElementById(
-      'analysis-text-area',
-    );
+    const comparisonsForCopyingElement = document.getElementById('analysis-text-area');
     if (comparisonsForCopyingElement) {
       comparisonsForCopyingElement.textContent = comparisonsForCopyingString;
     }
@@ -73,9 +67,7 @@ const TextPage: React.FC<ComponentProps> = (props) => {
     const stageFeatureData = allMoveSets.map((moveSet) => {
       const { stageId, moves } = moveSet;
       const currentSystems: System[] = moves
-        .map((move) =>
-          move.meanings?.map((systemContainer) => systemContainer.system),
-        )
+        .map((move) => move.meanings?.map((systemContainer) => systemContainer.system))
         .flat();
       const tableRow = getFeatureStatistics({
         allSystems: currentSystems,
@@ -116,6 +108,7 @@ const TextPage: React.FC<ComponentProps> = (props) => {
                       vectorsInput: stageFeatureData,
                       useUnitVectors: shouldUseUnitVectors,
                       columns: allChoices,
+                      useTSV: separator === '\t' ? true : false,
                     })
                   }
                 >

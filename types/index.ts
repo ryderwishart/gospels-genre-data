@@ -65,3 +65,23 @@ export type StageFeatureSet = {
   title: string;
   features: string[];
 };
+
+// GRAPH DATA
+export interface GraphDataObject {
+  nodes: GraphNode[];
+  edges: GraphEdge[];
+}
+
+export type GraphNode = {
+  id: string;
+  label: string;
+  [key: string]: string | number;
+}
+
+export type GraphEdge = {
+  id: string;
+  source: string;
+  target: string;
+  weight: number;
+  [key: string]: string | number;
+}
