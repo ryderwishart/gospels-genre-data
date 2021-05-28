@@ -216,6 +216,7 @@ export const allChoices = [
 
 export const allSituationalChoices = [
   'no embedded discourse',
+  'excluded discourse only',
   'practical-ie-outwardly-oriented',
   'action',
   'projecting',
@@ -247,4 +248,350 @@ export const allSituationalChoices = [
   'graphic',
   'contact',
   'equalized',
+];
+
+export const situationSystemNetwork = [
+  {
+    title: 'ABSTRACTNESS-TYPE-(FIELD)',
+    key: 'ABSTRACTNESS-TYPE-(FIELD)',
+    value: 'ABSTRACTNESS-TYPE-(FIELD)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'conceptual-ie-internally-oriented',
+        key: 'conceptual-ie-internally-oriented',
+        value: 'conceptual-ie-internally-oriented',
+      },
+      {
+        title: 'practical-ie-outwardly-oriented',
+        key: 'practical-ie-outwardly-oriented',
+        value: 'practical-ie-outwardly-oriented',
+      },
+    ],
+  },
+  {
+    title: 'ACTIVITY-FOCUS-(FIELD)',
+    key: 'ACTIVITY-FOCUS-(FIELD)',
+    value: 'ACTIVITY-FOCUS-(FIELD)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'action',
+        key: 'action',
+        value: 'action',
+      },
+      {
+        title: 'relation',
+        key: 'relation',
+        value: 'relation',
+      },
+      {
+        title: 'contact',
+        key: 'contact',
+        value: 'contact',
+      },
+    ],
+  },
+  {
+    title: 'GOALS-TYPE-(FIELD)',
+    key: 'GOALS-TYPE-(FIELD)',
+    value: 'GOALS-TYPE-(FIELD)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'instructing',
+        key: 'instructing',
+        value: 'instructing',
+      },
+      {
+        title: 'informing',
+        key: 'informing',
+        value: 'informing',
+        children: [
+          {
+            title: 'INFORMING-TYPE',
+            key: 'INFORMING-TYPE',
+            value: 'INFORMING-TYPE',
+            entryCondition: 'informing',
+            children: [
+              {
+                title: 'projecting',
+                key: 'projecting',
+                value: 'projecting',
+              },
+              {
+                title: 'asserting',
+                key: 'asserting',
+                value: 'asserting',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'VALUE-ORIENTATION-PREDISPOSITION-(TENOR)',
+    key: 'VALUE-ORIENTATION-PREDISPOSITION-(TENOR)',
+    value: 'VALUE-ORIENTATION-PREDISPOSITION-(TENOR)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'allying',
+        key: 'allying',
+        value: 'allying',
+      },
+      {
+        title: 'opposing',
+        key: 'opposing',
+        value: 'opposing',
+      },
+    ],
+  },
+  {
+    title: 'PUBLICITY-(TENOR)',
+    key: 'PUBLICITY-(TENOR)',
+    value: 'PUBLICITY-(TENOR)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'onlookers',
+        key: 'onlookers',
+        value: 'onlookers',
+        children: [
+          {
+            title: 'ONLOOKERS-TYPE',
+            key: 'ONLOOKERS-TYPE',
+            value: 'ONLOOKERS-TYPE',
+            entryCondition: 'onlookers',
+            children: [
+              {
+                title: 'disinterested',
+                key: 'disinterested',
+                value: 'disinterested',
+              },
+              {
+                title: 'interested',
+                key: 'interested',
+                value: 'interested',
+                children: [
+                  {
+                    title: 'INTERESTED-TYPE',
+                    key: 'INTERESTED-TYPE',
+                    value: 'INTERESTED-TYPE',
+                    entryCondition: 'interested',
+                    children: [
+                      {
+                        title: 'neutral',
+                        key: 'neutral',
+                        value: 'neutral',
+                      },
+                      {
+                        title: 'on-someones-side',
+                        key: 'on-someones-side',
+                        value: 'on-someones-side',
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'private',
+        key: 'private',
+        value: 'private',
+      },
+    ],
+  },
+  {
+    title: 'NUMBER-OF-SPEAKING-PARTICIPANTS-(TENOR)',
+    key: 'NUMBER-OF-SPEAKING-PARTICIPANTS-(TENOR)',
+    value: 'NUMBER-OF-SPEAKING-PARTICIPANTS-(TENOR)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'monological',
+        key: 'monological',
+        value: 'monological',
+      },
+      {
+        title: 'more-than-one',
+        key: 'more-than-one',
+        value: 'more-than-one',
+        children: [
+          {
+            title: 'MORE-THAN-ONE-TYPE',
+            key: 'MORE-THAN-ONE-TYPE',
+            value: 'MORE-THAN-ONE-TYPE',
+            entryCondition: 'more-than-one',
+            children: [
+              {
+                title: 'dialogical',
+                key: 'dialogical',
+                value: 'dialogical',
+              },
+              {
+                title: 'multilogical',
+                key: 'multilogical',
+                value: 'multilogical',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'CONTROL-TYPE-(TENOR)',
+    key: 'CONTROL-TYPE-(TENOR)',
+    value: 'CONTROL-TYPE-(TENOR)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'hierarchic',
+        key: 'hierarchic',
+        value: 'hierarchic',
+        children: [
+          {
+            title: 'HIERARCHIC-TYPE',
+            key: 'HIERARCHIC-TYPE',
+            value: 'HIERARCHIC-TYPE',
+            entryCondition: 'hierarchic',
+            children: [
+              {
+                title: 'institutional',
+                key: 'institutional',
+                value: 'institutional',
+                gloss:
+                  'at least one participant represents repercussive power structures',
+              },
+              {
+                title: 'non-institutional-or-neutralized',
+                key: 'non-institutional-or-neutralized',
+                value: 'non-institutional-or-neutralized',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'non-hierarchic',
+        key: 'non-hierarchic',
+        value: 'non-hierarchic',
+        children: [
+          {
+            title: 'NON-HIERARCHIC-TYPE',
+            key: 'NON-HIERARCHIC-TYPE',
+            value: 'NON-HIERARCHIC-TYPE',
+            entryCondition: 'non-hierarchic',
+            children: [
+              {
+                title: 'unclear',
+                key: 'unclear',
+                value: 'unclear',
+              },
+              {
+                title: 'equalized',
+                key: 'equalized',
+                value: 'equalized',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'SOCIAL-DISTANCE-(TENOR)',
+    key: 'SOCIAL-DISTANCE-(TENOR)',
+    value: 'SOCIAL-DISTANCE-(TENOR)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'close',
+        key: 'close',
+        value: 'close',
+      },
+      {
+        title: 'distant',
+        key: 'distant',
+        value: 'distant',
+      },
+    ],
+  },
+  {
+    title: 'LANGUAGE-ROLE-TYPE-(MODE)',
+    key: 'LANGUAGE-ROLE-TYPE-(MODE)',
+    value: 'LANGUAGE-ROLE-TYPE-(MODE)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'constitutive',
+        key: 'constitutive',
+        value: 'constitutive',
+      },
+      {
+        title: 'ancillary',
+        key: 'ancillary',
+        value: 'ancillary',
+      },
+    ],
+  },
+  {
+    title: 'PROCESS-SHARING-TYPE-(MODE)',
+    key: 'PROCESS-SHARING-TYPE-(MODE)',
+    value: 'PROCESS-SHARING-TYPE-(MODE)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'addressee-more-active',
+        key: 'addressee-more-active',
+        value: 'addressee-more-active',
+      },
+      {
+        title: 'addressee-more-passive',
+        key: 'addressee-more-passive',
+        value: 'addressee-more-passive',
+      },
+    ],
+  },
+  {
+    title: 'CHANNEL-TYPE-(MODE)',
+    key: 'CHANNEL-TYPE-(MODE)',
+    value: 'CHANNEL-TYPE-(MODE)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'phonic',
+        key: 'phonic',
+        value: 'phonic',
+      },
+      {
+        title: 'graphic',
+        key: 'graphic',
+        value: 'graphic',
+      },
+    ],
+  },
+  {
+    title: 'MEDIUM-TYPE-(MODE)',
+    key: 'MEDIUM-TYPE-(MODE)',
+    value: 'MEDIUM-TYPE-(MODE)',
+    entryCondition: 'contextual-configuration',
+    children: [
+      {
+        title: 'spoken',
+        key: 'spoken',
+        value: 'spoken',
+      },
+      {
+        title: 'written',
+        key: 'written',
+        value: 'written',
+      },
+    ],
+  },
 ];
