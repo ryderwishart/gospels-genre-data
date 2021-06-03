@@ -1,4 +1,9 @@
-import episodes from '../../../public/data/episodes-ranges.xml';
+import episodes from '../../../public/data/stages/episodes-ranges.xml';
+
+// Each episode should have data on pre and via text features, as well as start range, etc.
+
+// start="SBLGNT.Matt.1.1.w1" section="01§01" morphGntId="010101"
+//         title="The Genealogy of Christ"
 
 const handler = (req, res) => {
   const id = req.query.id;
