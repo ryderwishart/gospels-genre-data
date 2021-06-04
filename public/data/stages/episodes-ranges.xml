@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<episodes>
     <episode start="SBLGNT.Matt.1.1.w1" section="01-01" morphGntId="010101"
         title="The Genealogy of Christ"/>
     <episode start="SBLGNT.Matt.1.18.w1" section="01-02" morphGntId="010118"
@@ -1090,4 +1090,4 @@
         title="The Seventh Vision: Of the Heavenly Jerusalem"/>
     <episode start="SBLGNT.Rev.22.1.w1" section="27-22" morphGntId="272201"
         title="Of the Certain Bliss of Eternal Life"/>
-</root>
+</episodes>

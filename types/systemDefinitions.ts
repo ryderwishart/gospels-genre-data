@@ -595,3 +595,37 @@ export const situationSystemNetwork = [
     ],
   },
 ];
+
+export const systemsDictionary = {
+  field: {
+    ABSTRACTNESS: [
+      'conceptual-ie-internally-oriented',
+      'practical-ie-outwardly-oriented',
+    ],
+    ACTIVITY_FOCUS: ['action', 'relation', 'contact'],
+    GOALS: ['instructing', 'projecting', 'asserting'],
+  },
+  tenor: {
+    VALUE_ORIENTATION_PREDISPOSITION: ['allying', 'opposing'],
+
+    PUBLICITY: ['disinterested', 'neutral', 'on-someones-side', 'private'],
+    NUMBER_OF_SPEAKING_PARTICIPANTS: [
+      'monological',
+      'dialogical',
+      'multilogical',
+    ],
+    CONTROL: [
+      'institutional',
+      'non-institutional-or-neutralized',
+      'unclear',
+      'equalized',
+    ],
+    SOCIAL_DISTANCE: ['close', 'distant'],
+  },
+  mode: {
+    LANGUAGE_ROLE: ['constitutive', 'ancillary'],
+    PROCESS_SHARING: ['addressee-more-active', 'addressee-more-passive'],
+    CHANNEL: ['phonic', 'graphic'],
+    MEDIUM: ['spoken', 'written'],
+  },
+};
