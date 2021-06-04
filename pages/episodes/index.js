@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from '../../styles/Home.module.css'
 import { server } from '../../config'
+import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString'
 
 const AllEpisodes = (props) => {
     return (
@@ -10,10 +11,11 @@ const AllEpisodes = (props) => {
                 <a>Home</a>
             </Link>
             <div className={styles.grid}>
-                {props.response.root.episode.map(episodeContainer => {
+                {props.response.episodes.episode.map(episodeContainer => {
                     const episode = episodeContainer.$
+                    const titleStringForLink = getFirstTitleHyphenatedLowerCaseStringFromTitleString({string: episode.title})
                     return (
-                        <Link href={`/episodes/${episode.section}`}>
+                        <Link href={`/episodes/${titleStringForLink}`}>
                             <a className={styles.card}>
                                     <h3>{episode.title}</h3>
                             </a>
