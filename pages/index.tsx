@@ -17,21 +17,6 @@ export default function Home() {
             <a>Episodes</a>
           </Link>
         </div>
-        <div className={styles.card}>
-          <Link href="/johannine">
-            <a>Johannine Texts</a>
-          </Link>
-        </div>
-        <div className={styles.card}>
-          <Link href="/texts">
-            <a>New Testament Texts</a>
-          </Link>
-        </div>
-        <div className={styles.card}>
-          <Link href="/analysis">
-            <a>Analyze Stage Data</a>
-          </Link>
-        </div>
       </main>
 
       <footer className={styles.footer}>
