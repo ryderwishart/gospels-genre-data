@@ -1,0 +1,1412 @@
+[
+    {
+      "ID": "01§02 The Annunciation to Joseph and the Birth of Jesus",
+      "LABEL": "01§02 The Annunciation to Joseph and the Birth of Jesus",
+      "AVERAGE_SIMILARITY": 0.53
+    },
+    {
+      "ID": "01§03 The Wise Men from the East",
+      "LABEL": "01§03 The Wise Men from the East",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§04 The Flight into Egypt and the Return to Nazareth",
+      "LABEL": "01§04 The Flight into Egypt and the Return to Nazareth",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "01§05 The Ministry of John the Baptist",
+      "LABEL": "01§05 The Ministry of John the Baptist",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§06 The Baptism of Jesus",
+      "LABEL": "01§06 The Baptism of Jesus",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "01§07 The Temptation in the Wilderness",
+      "LABEL": "01§07 The Temptation in the Wilderness",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "01§08a The Beginning of the Galilean Ministry",
+      "LABEL": "01§08a The Beginning of the Galilean Ministry",
+      "AVERAGE_SIMILARITY": 0.53
+    },
+    {
+      "ID": "01§08b The Call of the Four",
+      "LABEL": "01§08b The Call of the Four",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16 The Beatitudes; The Chief Functions of the Disciples in the World; Christ Confirms and Expounds the Law of Moses; The Law of Love toward the Enemy; On Giving of Alms; Praying; and Fasting; Warning against Covetousness and Care; Warning against Unauthorized Judging and Admonition to Persevere in Prayer; The Conclusion of the Sermon",
+      "LABEL": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16 The Beatitudes; The Chief Functions of the Disciples in the World; Christ Confirms and Expounds the Law of Moses; The Law of Love toward the Enemy; On Giving of Alms; Praying; and Fasting; Warning against Covetousness and Care; Warning against Unauthorized Judging and Admonition to Persevere in Prayer; The Conclusion of the Sermon",
+      "AVERAGE_SIMILARITY": 0.51
+    },
+    {
+      "ID": "01§17 The Healing of the Leper",
+      "LABEL": "01§17 The Healing of the Leper",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "01§18 The Centurion of Capernaum",
+      "LABEL": "01§18 The Centurion of Capernaum",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "01§20 The Discipleship of Christ",
+      "LABEL": "01§20 The Discipleship of Christ",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§21 The Storm on the Lake",
+      "LABEL": "01§21 The Storm on the Lake",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "01§22 Jesus and the Gadarenes",
+      "LABEL": "01§22 Jesus and the Gadarenes",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "01§23 The Healing of the Palsied Man",
+      "LABEL": "01§23 The Healing of the Palsied Man",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "01§24 The Call of Matthew and His Feast",
+      "LABEL": "01§24 The Call of Matthew and His Feast",
+      "AVERAGE_SIMILARITY": 0.71
+    },
+    {
+      "ID": "01§25 The Daughter of Jairus",
+      "LABEL": "01§25 The Daughter of Jairus",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "01§26 Further Miracles of That Day",
+      "LABEL": "01§26 Further Miracles of That Day",
+      "AVERAGE_SIMILARITY": 0.72
+    },
+    {
+      "ID": "01§27 Continuation of Christ’s Teaching and Healing Ministry",
+      "LABEL": "01§27 Continuation of Christ’s Teaching and Healing Ministry",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "01§28 01§29 01§30 01§31 The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
+      "LABEL": "01§28 01§29 01§30 01§31 The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
+      "AVERAGE_SIMILARITY": 0.52
+    },
+    {
+      "ID": "01§32 John the Baptist’s Disciples Come to Jesus",
+      "LABEL": "01§32 John the Baptist’s Disciples Come to Jesus",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "01§33 Christ’s Testimony Concerning John",
+      "LABEL": "01§33 Christ’s Testimony Concerning John",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§34 The Woe upon the Galilean Cities",
+      "LABEL": "01§34 The Woe upon the Galilean Cities",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "01§35 The Gospel Call",
+      "LABEL": "01§35 The Gospel Call",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "01§36a The Lord of the Sabbath - Food",
+      "LABEL": "01§36a The Lord of the Sabbath - Food",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§36b The Lord of the Sabbath - Healing",
+      "LABEL": "01§36b The Lord of the Sabbath - Healing",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "01§37 01§38 The Enmity of the Pharisees and Christ’s Answer; The Sin against the Holy Spirit",
+      "LABEL": "01§37 01§38 The Enmity of the Pharisees and Christ’s Answer; The Sin against the Holy Spirit",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§39 The Sign from Heaven and a Warning",
+      "LABEL": "01§39 The Sign from Heaven and a Warning",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "01§40 Christ’s Relatives",
+      "LABEL": "01§40 Christ’s Relatives",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "01§41a The Parable of the Sower",
+      "LABEL": "01§41a The Parable of the Sower",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "01§41b The Parable of the Sower Explained",
+      "LABEL": "01§41b The Parable of the Sower Explained",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "01§42a The Parable of the Tares; and Others",
+      "LABEL": "01§42a The Parable of the Tares; and Others",
+      "AVERAGE_SIMILARITY": 0.48
+    },
+    {
+      "ID": "01§42b The Parable of the Tares; and Others Explained",
+      "LABEL": "01§42b The Parable of the Tares; and Others Explained",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "01§43 A Visit to Nazareth",
+      "LABEL": "01§43 A Visit to Nazareth",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "01§44 The Death of John the Baptist",
+      "LABEL": "01§44 The Death of John the Baptist",
+      "AVERAGE_SIMILARITY": 0.68
+    },
+    {
+      "ID": "01§45 The Feeding of the Five Thousand",
+      "LABEL": "01§45 The Feeding of the Five Thousand",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "01§46 Christ Walks on the Sea",
+      "LABEL": "01§46 Christ Walks on the Sea",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§47 A Lesson Concerning Defilement",
+      "LABEL": "01§47 A Lesson Concerning Defilement",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§48 The Syrophoenician Woman",
+      "LABEL": "01§48 The Syrophoenician Woman",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§49 Christ Teaches and Feeds Four Thousand",
+      "LABEL": "01§49 Christ Teaches and Feeds Four Thousand",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§50 The Demand for a Sign",
+      "LABEL": "01§50 The Demand for a Sign",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§51 The Leaven of the Pharisees",
+      "LABEL": "01§51 The Leaven of the Pharisees",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "01§52 “Christ the Son of the Living God”",
+      "LABEL": "01§52 “Christ the Son of the Living God”",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "01§53 Christ’s First Prophecy Concerning His Passion",
+      "LABEL": "01§53 Christ’s First Prophecy Concerning His Passion",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§54 The Transfiguration of Christ",
+      "LABEL": "01§54 The Transfiguration of Christ",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§55 The Healing of a Boy with a Demon",
+      "LABEL": "01§55 The Healing of a Boy with a Demon",
+      "AVERAGE_SIMILARITY": 0.71
+    },
+    {
+      "ID": "01§56a Christ Foretells His Passion",
+      "LABEL": "01§56a Christ Foretells His Passion",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "01§56b Christ Pays the Temple-Tax",
+      "LABEL": "01§56b Christ Pays the Temple-Tax",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "01§57 01§58 01§59 The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
+      "LABEL": "01§57 01§58 01§59 The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "01§60 On Marriage and Divorce",
+      "LABEL": "01§60 On Marriage and Divorce",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§61 Christ Blessing Little Children",
+      "LABEL": "01§61 Christ Blessing Little Children",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "01§62 The Dangers of Riches",
+      "LABEL": "01§62 The Dangers of Riches",
+      "AVERAGE_SIMILARITY": 0.68
+    },
+    {
+      "ID": "01§63 01§64 The Reward of the Apostles; Parable of the Laborers in the Vineyard",
+      "LABEL": "01§63 01§64 The Reward of the Apostles; Parable of the Laborers in the Vineyard",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§65 Christ Again Foretells His Passion",
+      "LABEL": "01§65 Christ Again Foretells His Passion",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "01§66 The Requests of the Sons of Zebedee",
+      "LABEL": "01§66 The Requests of the Sons of Zebedee",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "01§67 Healing of Two Blind Men",
+      "LABEL": "01§67 Healing of Two Blind Men",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "01§68 Christ’s Entry into Jerusalem",
+      "LABEL": "01§68 Christ’s Entry into Jerusalem",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§69 Christ Visits the Temple",
+      "LABEL": "01§69 Christ Visits the Temple",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§70 The Cursing of the Fig-Tree",
+      "LABEL": "01§70 The Cursing of the Fig-Tree",
+      "AVERAGE_SIMILARITY": 0.71
+    },
+    {
+      "ID": "01§71 01§72 01§73 The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
+      "LABEL": "01§71 01§72 01§73 The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "01§74 The Parable of the Marriage Feast",
+      "LABEL": "01§74 The Parable of the Marriage Feast",
+      "AVERAGE_SIMILARITY": 0.51
+    },
+    {
+      "ID": "01§75 The Question Concerning Tribute",
+      "LABEL": "01§75 The Question Concerning Tribute",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "01§76 The Question of the Sadducees",
+      "LABEL": "01§76 The Question of the Sadducees",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "01§77 The Silencing of the Pharisees",
+      "LABEL": "01§77 The Silencing of the Pharisees",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "01§78 01§79 01§80 The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
+      "LABEL": "01§78 01§79 01§80 The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
+      "AVERAGE_SIMILARITY": 0.50
+    },
+    {
+      "ID": "01§81 01§82 01§83 01§84 01§85 The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
+      "LABEL": "01§81 01§82 01§83 01§84 01§85 The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§86a Jesus Predicts Crucifixion",
+      "LABEL": "01§86a Jesus Predicts Crucifixion",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "01§86b Leaders Conspire",
+      "LABEL": "01§86b Leaders Conspire",
+      "AVERAGE_SIMILARITY": 0.50
+    },
+    {
+      "ID": "01§86c A Woman Anoints Jesus",
+      "LABEL": "01§86c A Woman Anoints Jesus",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§86d Judas Bargains for Jesus",
+      "LABEL": "01§86d Judas Bargains for Jesus",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "01§86e Jesus Gives Instructions for Supper",
+      "LABEL": "01§86e Jesus Gives Instructions for Supper",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "01§87a The Passover Meal",
+      "LABEL": "01§87a The Passover Meal",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§87b The Institution of the Lord’s Supper",
+      "LABEL": "01§87b The Institution of the Lord’s Supper",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "01§88a On the Way to Gethsemane",
+      "LABEL": "01§88a On the Way to Gethsemane",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "01§88b Events at Gethsemane",
+      "LABEL": "01§88b Events at Gethsemane",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "01§89 The Betrayal and Arrest",
+      "LABEL": "01§89 The Betrayal and Arrest",
+      "AVERAGE_SIMILARITY": 0.68
+    },
+    {
+      "ID": "01§90a The Trial before Caiaphas",
+      "LABEL": "01§90a The Trial before Caiaphas",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "01§90b The Denial of Peter",
+      "LABEL": "01§90b The Denial of Peter",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "01§91 The End of Judas",
+      "LABEL": "01§91 The End of Judas",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "01§92 The Trial before Pilate",
+      "LABEL": "01§92 The Trial before Pilate",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "01§93 The Crucifixion and Death of Christ",
+      "LABEL": "01§93 The Crucifixion and Death of Christ",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "01§94 The Burial of Christ",
+      "LABEL": "01§94 The Burial of Christ",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "01§95a The Resurrection of Christ",
+      "LABEL": "01§95a The Resurrection of Christ",
+      "AVERAGE_SIMILARITY": 0.53
+    },
+    {
+      "ID": "01§95b The Soldiers Bribed to Silence",
+      "LABEL": "01§95b The Soldiers Bribed to Silence",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "01§96 The Great Missionary Command",
+      "LABEL": "01§96 The Great Missionary Command",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "02§01 The Ministry of John the Baptist",
+      "LABEL": "02§01 The Ministry of John the Baptist",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "02§02a The Baptism and Temptation of Christ",
+      "LABEL": "02§02a The Baptism and Temptation of Christ",
+      "AVERAGE_SIMILARITY": 0.50
+    },
+    {
+      "ID": "02§02b The Beginning of His Ministry",
+      "LABEL": "02§02b The Beginning of His Ministry",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "02§03a Ministry in Capernaum",
+      "LABEL": "02§03a Ministry in Capernaum",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "02§03b Jesus Prays in a Solitary Place",
+      "LABEL": "02§03b Jesus Prays in a Solitary Place",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§04 The Healing of a Leper",
+      "LABEL": "02§04 The Healing of a Leper",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "02§05 Healing the Palsied Man",
+      "LABEL": "02§05 Healing the Palsied Man",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "02§06 The Calling of Levi and the Dinner at His House",
+      "LABEL": "02§06 The Calling of Levi and the Dinner at His House",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "02§07a New Wine into Old Wineskins",
+      "LABEL": "02§07a New Wine into Old Wineskins",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§07b The Lord of the Sabbath",
+      "LABEL": "02§07b The Lord of the Sabbath",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§08 Healing the Withered Hand",
+      "LABEL": "02§08 Healing the Withered Hand",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§09 Miracles by the Seaside",
+      "LABEL": "02§09 Miracles by the Seaside",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "02§10b Discourse on the Casting Out of Demons",
+      "LABEL": "02§10b Discourse on the Casting Out of Demons",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§11a The Parable of the Sower",
+      "LABEL": "02§11a The Parable of the Sower",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "02§11b Teaching the Disciples by Means of Parables",
+      "LABEL": "02§11b Teaching the Disciples by Means of Parables",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "02§12 Christ Stilling the Tempest",
+      "LABEL": "02§12 Christ Stilling the Tempest",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "02§13 The Healing of a Demon-Possessed Man",
+      "LABEL": "02§13 The Healing of a Demon-Possessed Man",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "02§14 Raising of the Daughter of Jairus",
+      "LABEL": "02§14 Raising of the Daughter of Jairus",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "02§15 Jesus at Nazareth",
+      "LABEL": "02§15 Jesus at Nazareth",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "02§16 The Mission of the Twelve",
+      "LABEL": "02§16 The Mission of the Twelve",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "02§17 Death of John the Baptist",
+      "LABEL": "02§17 Death of John the Baptist",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "02§18 The Feeding of the Five Thousand",
+      "LABEL": "02§18 The Feeding of the Five Thousand",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "02§19 Christ Walking on the Sea and His Return to Galilee",
+      "LABEL": "02§19 Christ Walking on the Sea and His Return to Galilee",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "02§20 02§21 Concerning Ceremonial Washings; Christ’s Denunciation of the Pharisees",
+      "LABEL": "02§20 02§21 Concerning Ceremonial Washings; Christ’s Denunciation of the Pharisees",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "02§22 The Syrophoenician Woman",
+      "LABEL": "02§22 The Syrophoenician Woman",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "02§23 Healing of the Deaf Man",
+      "LABEL": "02§23 Healing of the Deaf Man",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§24 The Feeding of the Four Thousand",
+      "LABEL": "02§24 The Feeding of the Four Thousand",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§25 The Pharisees Ask for a Sign",
+      "LABEL": "02§25 The Pharisees Ask for a Sign",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§25 The Leaven of the Pharisees",
+      "LABEL": "02§25 The Leaven of the Pharisees",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§26 The Blind Man of Bethsaida",
+      "LABEL": "02§26 The Blind Man of Bethsaida",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§27a The Identity of the Son of Man",
+      "LABEL": "02§27a The Identity of the Son of Man",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "02§27b Jesus the Christ and His Service",
+      "LABEL": "02§27b Jesus the Christ and His Service",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "02§28 The Transfiguration of Jesus",
+      "LABEL": "02§28 The Transfiguration of Jesus",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "02§29 Casting Out an Unclean Spirit",
+      "LABEL": "02§29 Casting Out an Unclean Spirit",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "02§30 The Last Discourses of Christ in Galilee",
+      "LABEL": "02§30 The Last Discourses of Christ in Galilee",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "02§31 A Question concerning Divorce",
+      "LABEL": "02§31 A Question concerning Divorce",
+      "AVERAGE_SIMILARITY": 0.68
+    },
+    {
+      "ID": "02§32 Jesus Blesses Little Children",
+      "LABEL": "02§32 Jesus Blesses Little Children",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "02§33 The Rich Young Man",
+      "LABEL": "02§33 The Rich Young Man",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "02§34a Jesus Turns Toward Jerusalem",
+      "LABEL": "02§34a Jesus Turns Toward Jerusalem",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "02§34b Priority in Christ’s Kingdom",
+      "LABEL": "02§34b Priority in Christ’s Kingdom",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "02§35 The Healing of Bartimaeus",
+      "LABEL": "02§35 The Healing of Bartimaeus",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "02§36 Christ’s Entry into Jerusalem",
+      "LABEL": "02§36 Christ’s Entry into Jerusalem",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "02§37 The Miracle of the Fig-Tree",
+      "LABEL": "02§37 The Miracle of the Fig-Tree",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "02§38 The Question concerning Christ’s Authority",
+      "LABEL": "02§38 The Question concerning Christ’s Authority",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§39 The Parable of the Vineyard",
+      "LABEL": "02§39 The Parable of the Vineyard",
+      "AVERAGE_SIMILARITY": 0.51
+    },
+    {
+      "ID": "02§40a The Pharisees and Herodians Ask About Paying Taxes to Caesar",
+      "LABEL": "02§40a The Pharisees and Herodians Ask About Paying Taxes to Caesar",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "02§40b The Sadducees Question Jesus About the Resurrection",
+      "LABEL": "02§40b The Sadducees Question Jesus About the Resurrection",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§40c The Greatest Commandment",
+      "LABEL": "02§40c The Greatest Commandment",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "02§41 Jesus Condemns the Teachers of the Law",
+      "LABEL": "02§41 Jesus Condemns the Teachers of the Law",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "02§42 Christ Foretells the Destruction of Jerusalem and the End of the World",
+      "LABEL": "02§42 Christ Foretells the Destruction of Jerusalem and the End of the World",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§43a The Teachers of the Law Scheme",
+      "LABEL": "02§43a The Teachers of the Law Scheme",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "02§43b The Anointing of Jesus",
+      "LABEL": "02§43b The Anointing of Jesus",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "02§44a The Preparation for the Passover",
+      "LABEL": "02§44a The Preparation for the Passover",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "02§44b The Celebration of the Passover",
+      "LABEL": "02§44b The Celebration of the Passover",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "02§45a Jesus Predicts Peter's Denials",
+      "LABEL": "02§45a Jesus Predicts Peter's Denials",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "02§45b Jesus Prays in Gethsemane",
+      "LABEL": "02§45b Jesus Prays in Gethsemane",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "02§46 The Capture of Jesus",
+      "LABEL": "02§46 The Capture of Jesus",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§47 The Trial before the High Priest",
+      "LABEL": "02§47 The Trial before the High Priest",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "02§48 The Denial of Peter",
+      "LABEL": "02§48 The Denial of Peter",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "02§49a Jesus before Pilate",
+      "LABEL": "02§49a Jesus before Pilate",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "02§49b Pilate before the Crowd",
+      "LABEL": "02§49b Pilate before the Crowd",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "02§50 Jesus before the Soldiers",
+      "LABEL": "02§50 Jesus before the Soldiers",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "02§50 The Crucifixion and Death of Christ",
+      "LABEL": "02§50 The Crucifixion and Death of Christ",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "02§52 The Resurrection of Jesus",
+      "LABEL": "02§52 The Resurrection of Jesus",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "02§53 The Appearances and the Ascension of Jesus",
+      "LABEL": "02§53 The Appearances and the Ascension of Jesus",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "03§02a The Announcement of John the Baptist’s Birth",
+      "LABEL": "03§02a The Announcement of John the Baptist’s Birth",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "03§02b Elizabeth Conceives",
+      "LABEL": "03§02b Elizabeth Conceives",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "03§03 The Annunciation to Mary",
+      "LABEL": "03§03 The Annunciation to Mary",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§04 Mary’s Visit to Elizabeth",
+      "LABEL": "03§04 Mary’s Visit to Elizabeth",
+      "AVERAGE_SIMILARITY": 0.49
+    },
+    {
+      "ID": "03§05 The Birth of John the Baptist and Zechariah's Song",
+      "LABEL": "03§05 The Birth of John the Baptist and Zechariah's Song",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "03§06b The Adoration of the Shepherds",
+      "LABEL": "03§06b The Adoration of the Shepherds",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§07 The Circumcision and Presentation of Christ",
+      "LABEL": "03§07 The Circumcision and Presentation of Christ",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "03§08 The Christ-Child in the Temple",
+      "LABEL": "03§08 The Christ-Child in the Temple",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "03§09 The Ministry of John the Baptist",
+      "LABEL": "03§09 The Ministry of John the Baptist",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "03§10a The Baptism of Christ",
+      "LABEL": "03§10a The Baptism of Christ",
+      "AVERAGE_SIMILARITY": 0.50
+    },
+    {
+      "ID": "03§11 The Temptation of Christ",
+      "LABEL": "03§11 The Temptation of Christ",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "03§12 The Beginning of Christ’s Ministry and His Teaching in Nazareth",
+      "LABEL": "03§12 The Beginning of Christ’s Ministry and His Teaching in Nazareth",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§13a Healing of a Demoniac",
+      "LABEL": "03§13a Healing of a Demoniac",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "03§13b Jesus Heals Many",
+      "LABEL": "03§13b Jesus Heals Many",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§14 The Miraculous Draught of Fishes and the Call of the First Disciples",
+      "LABEL": "03§14 The Miraculous Draught of Fishes and the Call of the First Disciples",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§15 The Healing of a Leper",
+      "LABEL": "03§15 The Healing of a Leper",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "03§15 The Healing of a Paralytic",
+      "LABEL": "03§15 The Healing of a Paralytic",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§16 The Call of Levi and the Discourse Concerning Christ’s Ministry",
+      "LABEL": "03§16 The Call of Levi and the Discourse Concerning Christ’s Ministry",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "03§17 Disputes Concerning Sabbath Observance",
+      "LABEL": "03§17 Disputes Concerning Sabbath Observance",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§19 Miracles of Healing and Preaching",
+      "LABEL": "03§19 Miracles of Healing and Preaching",
+      "AVERAGE_SIMILARITY": 0.51
+    },
+    {
+      "ID": "03§20 The Centurion of Capernaum",
+      "LABEL": "03§20 The Centurion of Capernaum",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§21 Raising of the Widow’s Son",
+      "LABEL": "03§21 Raising of the Widow’s Son",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§22 The Embassy of John the Baptist",
+      "LABEL": "03§22 The Embassy of John the Baptist",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§23 The First Anointing of Jesus",
+      "LABEL": "03§23 The First Anointing of Jesus",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "03§24 Teaching in Parables",
+      "LABEL": "03§24 Teaching in Parables",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "03§24 Jesus Mother and Brothers",
+      "LABEL": "03§24 Jesus Mother and Brothers",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§25 The Storm on the Sea",
+      "LABEL": "03§25 The Storm on the Sea",
+      "AVERAGE_SIMILARITY": 0.69
+    },
+    {
+      "ID": "03§26 In the Country of the Gadarenes",
+      "LABEL": "03§26 In the Country of the Gadarenes",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§27 The Woman with an Issue and the Daughter of Jairus",
+      "LABEL": "03§27 The Woman with an Issue and the Daughter of Jairus",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§28a The Mission of the Twelve",
+      "LABEL": "03§28a The Mission of the Twelve",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "03§28b Herod Hears about Jesus",
+      "LABEL": "03§28b Herod Hears about Jesus",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "03§29 The Feeding of the Five Thousand",
+      "LABEL": "03§29 The Feeding of the Five Thousand",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "03§30 Peter’s Confession and Christ’s Answer",
+      "LABEL": "03§30 Peter’s Confession and Christ’s Answer",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§31 The Transfiguration",
+      "LABEL": "03§31 The Transfiguration",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "03§32 The Healing of the Epileptic Boy",
+      "LABEL": "03§32 The Healing of the Epileptic Boy",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "03§33 Lessons in Humility",
+      "LABEL": "03§33 Lessons in Humility",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "03§34a Opposition in Samaria",
+      "LABEL": "03§34a Opposition in Samaria",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "03§34b True Discipleship of Christ",
+      "LABEL": "03§34b True Discipleship of Christ",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "03§35 The Mission of the Seventy",
+      "LABEL": "03§35 The Mission of the Seventy",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§36 The Good Samaritan",
+      "LABEL": "03§36 The Good Samaritan",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "03§37 Mary and Martha",
+      "LABEL": "03§37 Mary and Martha",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§38 A Lesson in Prayer",
+      "LABEL": "03§38 A Lesson in Prayer",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§39 03§40 Christ Casts Out a Demon and Rebukes The Generation",
+      "LABEL": "03§39 03§40 Christ Casts Out a Demon and Rebukes The Generation",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§41 Woes upon the Pharisees and Lawyers",
+      "LABEL": "03§41 Woes upon the Pharisees and Lawyers",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§42 03§43 03§44 The Teaching of the Kingdom",
+      "LABEL": "03§42 03§43 03§44 The Teaching of the Kingdom",
+      "AVERAGE_SIMILARITY": 0.57
+    },
+    {
+      "ID": "03§45 The Crippled Woman Healed",
+      "LABEL": "03§45 The Crippled Woman Healed",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "03§46a Few Are Saved",
+      "LABEL": "03§46a Few Are Saved",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "03§46b Some Pharisees Warn Jesus",
+      "LABEL": "03§46b Some Pharisees Warn Jesus",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "03§47 03§48 Christ the Guest of a Pharisee",
+      "LABEL": "03§47 03§48 Christ the Guest of a Pharisee",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§49 The Obligations of Christ’s Discipleship",
+      "LABEL": "03§49 The Obligations of Christ’s Discipleship",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§50 03§51 03§52 03§53 03§54 Parables and Teaching",
+      "LABEL": "03§50 03§51 03§52 03§53 03§54 Parables and Teaching",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§55 The Ten Lepers",
+      "LABEL": "03§55 The Ten Lepers",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§56 Concerning the Kingdom of God and the Coming of Christ",
+      "LABEL": "03§56 Concerning the Kingdom of God and the Coming of Christ",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§57 The Unjust Judge",
+      "LABEL": "03§57 The Unjust Judge",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "03§58 The Pharisee and the Publican",
+      "LABEL": "03§58 The Pharisee and the Publican",
+      "AVERAGE_SIMILARITY": 0.48
+    },
+    {
+      "ID": "03§59 Christ Blesses Little Children",
+      "LABEL": "03§59 Christ Blesses Little Children",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§60 Denying All for Christ’s Sake",
+      "LABEL": "03§60 Denying All for Christ’s Sake",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§61 The Lord’s Third Prediction of His Passion",
+      "LABEL": "03§61 The Lord’s Third Prediction of His Passion",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "03§62 The Blind Man of Jericho",
+      "LABEL": "03§62 The Blind Man of Jericho",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "03§63 Zacchaeus the Publican",
+      "LABEL": "03§63 Zacchaeus the Publican",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§64 The Parable of the Talents",
+      "LABEL": "03§64 The Parable of the Talents",
+      "AVERAGE_SIMILARITY": 0.46
+    },
+    {
+      "ID": "03§65a Jesus Procures a Donkey",
+      "LABEL": "03§65a Jesus Procures a Donkey",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§65b Christ’s Entry into Jerusalem",
+      "LABEL": "03§65b Christ’s Entry into Jerusalem",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§65c Cleansing the Temple",
+      "LABEL": "03§65c Cleansing the Temple",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§66a The Authority of Jesus",
+      "LABEL": "03§66a The Authority of Jesus",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§66b Parable of the Wicked Tenants",
+      "LABEL": "03§66b Parable of the Wicked Tenants",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§67 The Pharisees Confounded",
+      "LABEL": "03§67 The Pharisees Confounded",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "03§67 The Sadducees Confounded",
+      "LABEL": "03§67 The Sadducees Confounded",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§68 Devouring Widows Houses",
+      "LABEL": "03§68 Devouring Widows Houses",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§69 The Destruction of Jerusalem and the End of the World",
+      "LABEL": "03§69 The Destruction of Jerusalem and the End of the World",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "03§71 The Preparation for; and the Celebration of; the Passover",
+      "LABEL": "03§71 The Preparation for; and the Celebration of; the Passover",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§72a The Walk to Gethsemane and the Agony",
+      "LABEL": "03§72a The Walk to Gethsemane and the Agony",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "03§72b Jesus Arrested",
+      "LABEL": "03§72b Jesus Arrested",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "03§73a The Denial of Peter",
+      "LABEL": "03§73a The Denial of Peter",
+      "AVERAGE_SIMILARITY": 0.53
+    },
+    {
+      "ID": "03§73b The Guards Mistreat Jesus",
+      "LABEL": "03§73b The Guards Mistreat Jesus",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "03§73c Christ before the Council of the Elders",
+      "LABEL": "03§73c Christ before the Council of the Elders",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§74 The Trial before Pilate",
+      "LABEL": "03§74 The Trial before Pilate",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "03§75a The Crucifixion and Death of Christ",
+      "LABEL": "03§75a The Crucifixion and Death of Christ",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "03§76 The Resurrection of Christ",
+      "LABEL": "03§76 The Resurrection of Christ",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "03§77 03§78 The Emmaus Disciples and the Last Appearances of Christ",
+      "LABEL": "03§77 03§78 The Emmaus Disciples and the Last Appearances of Christ",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "04§01 The Word Became Flesh",
+      "LABEL": "04§01 The Word Became Flesh",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "04§02 The Pharisees Question John the Baptist",
+      "LABEL": "04§02 The Pharisees Question John the Baptist",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "04§03 John Meets Jesus",
+      "LABEL": "04§03 John Meets Jesus",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "04§04a The First Disciples of Jesus",
+      "LABEL": "04§04a The First Disciples of Jesus",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "04§04b Jesus Calls Philip and Nathaniel",
+      "LABEL": "04§04b Jesus Calls Philip and Nathaniel",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "04§05 The Marriage at Cana",
+      "LABEL": "04§05 The Marriage at Cana",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "04§06 The Purging of the Temple and Its Results",
+      "LABEL": "04§06 The Purging of the Temple and Its Results",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "04§07 The Visit of Nicodemus",
+      "LABEL": "04§07 The Visit of Nicodemus",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "04§08 John’s Second Testimony of Christ",
+      "LABEL": "04§08 John’s Second Testimony of Christ",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "04§09a Christ and the Woman of Samaria",
+      "LABEL": "04§09a Christ and the Woman of Samaria",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "04§09b The Samaritans Believe",
+      "LABEL": "04§09b The Samaritans Believe",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "04§10 The Healing of the Nobleman’s Son",
+      "LABEL": "04§10 The Healing of the Nobleman’s Son",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "04§11 The Sick Man of Bethesda",
+      "LABEL": "04§11 The Sick Man of Bethesda",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "04§12 04§13 Jesus Defends Himself Against Jews Persecuting Him",
+      "LABEL": "04§12 04§13 Jesus Defends Himself Against Jews Persecuting Him",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "04§14 The Feeding of the Five Thousand",
+      "LABEL": "04§14 The Feeding of the Five Thousand",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "04§15 Christ Walks on the Sea",
+      "LABEL": "04§15 Christ Walks on the Sea",
+      "AVERAGE_SIMILARITY": 0.56
+    },
+    {
+      "ID": "04§16 04§17 Christ the Bread of Life",
+      "LABEL": "04§16 04§17 Christ the Bread of Life",
+      "AVERAGE_SIMILARITY": 0.71
+    },
+    {
+      "ID": "04§18a The Unbelief of Christ’s Brothers",
+      "LABEL": "04§18a The Unbelief of Christ’s Brothers",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "04§18b Jesus Is Sought at the Festival",
+      "LABEL": "04§18b Jesus Is Sought at the Festival",
+      "AVERAGE_SIMILARITY": 0.58
+    },
+    {
+      "ID": "04§18c Jesus at the Festival",
+      "LABEL": "04§18c Jesus at the Festival",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "04§18d The Jewish Elites Disbelieve",
+      "LABEL": "04§18d The Jewish Elites Disbelieve",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "04§19 The Woman Taken in Adultery",
+      "LABEL": "04§19 The Woman Taken in Adultery",
+      "AVERAGE_SIMILARITY": 0.70
+    },
+    {
+      "ID": "04§20 04§21 Jesus the Light of the World",
+      "LABEL": "04§20 04§21 Jesus the Light of the World",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "04§22 Healing of the Man That was Born Blind",
+      "LABEL": "04§22 Healing of the Man That was Born Blind",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "04§23 Jesus the Good Shepherd",
+      "LABEL": "04§23 Jesus the Good Shepherd",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "04§24a Christ’s Sermon at the Feast of Dedication",
+      "LABEL": "04§24a Christ’s Sermon at the Feast of Dedication",
+      "AVERAGE_SIMILARITY": 0.67
+    },
+    {
+      "ID": "04§24b Jesus Returns to the Other Side of the Jordan",
+      "LABEL": "04§24b Jesus Returns to the Other Side of the Jordan",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "04§25a Jesus Hears of Lazarus",
+      "LABEL": "04§25a Jesus Hears of Lazarus",
+      "AVERAGE_SIMILARITY": 0.62
+    },
+    {
+      "ID": "04§25b Martha Confronts Jesus",
+      "LABEL": "04§25b Martha Confronts Jesus",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "04§25c Jesus at the Tomb of Lazarus",
+      "LABEL": "04§25c Jesus at the Tomb of Lazarus",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "04§26 The Council concerning Christ’s Removal",
+      "LABEL": "04§26 The Council concerning Christ’s Removal",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "04§26 Many Seek Jesus at the Festival",
+      "LABEL": "04§26 Many Seek Jesus at the Festival",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "04§27 The Anointing of Jesus",
+      "LABEL": "04§27 The Anointing of Jesus",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "04§28 Christ’s Entry into Jerusalem",
+      "LABEL": "04§28 Christ’s Entry into Jerusalem",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "04§29 04§30 04§31 Some Greeks Seek Jesus but Many Disbelieve",
+      "LABEL": "04§29 04§30 04§31 Some Greeks Seek Jesus but Many Disbelieve",
+      "AVERAGE_SIMILARITY": 0.68
+    },
+    {
+      "ID": "04§32 Jesus Washes the Disciples' Feet",
+      "LABEL": "04§32 Jesus Washes the Disciples' Feet",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "04§33 Jesus Reveals His Betrayor",
+      "LABEL": "04§33 Jesus Reveals His Betrayor",
+      "AVERAGE_SIMILARITY": 0.63
+    },
+    {
+      "ID": "04§34 04§35 04§36 04§37 04§38 04§39 04§40 04§41 Jesus Teaches at the Last Supper",
+      "LABEL": "04§34 04§35 04§36 04§37 04§38 04§39 04§40 04§41 Jesus Teaches at the Last Supper",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "04§42 Christ’s Great Sacerdotal Prayer",
+      "LABEL": "04§42 Christ’s Great Sacerdotal Prayer",
+      "AVERAGE_SIMILARITY": 0.49
+    },
+    {
+      "ID": "04§43 The Arrest of Jesus",
+      "LABEL": "04§43 The Arrest of Jesus",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "04§44a Peter's First Denial",
+      "LABEL": "04§44a Peter's First Denial",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "04§44b The High Priest Questions Jesus",
+      "LABEL": "04§44b The High Priest Questions Jesus",
+      "AVERAGE_SIMILARITY": 0.59
+    },
+    {
+      "ID": "04§44c Peter's Second and Third Denials",
+      "LABEL": "04§44c Peter's Second and Third Denials",
+      "AVERAGE_SIMILARITY": 0.54
+    },
+    {
+      "ID": "04§45 04§46 The Trial Before Pilate",
+      "LABEL": "04§45 04§46 The Trial Before Pilate",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "04§47a The Jews Protest Pilate's Sign",
+      "LABEL": "04§47a The Jews Protest Pilate's Sign",
+      "AVERAGE_SIMILARITY": 0.64
+    },
+    {
+      "ID": "04§47b The Soldiers Divide Jesus's Clothes",
+      "LABEL": "04§47b The Soldiers Divide Jesus's Clothes",
+      "AVERAGE_SIMILARITY": 0.55
+    },
+    {
+      "ID": "04§47c Jesus Entrusts His Mother and Dies",
+      "LABEL": "04§47c Jesus Entrusts His Mother and Dies",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "04§49 Easter Morning",
+      "LABEL": "04§49 Easter Morning",
+      "AVERAGE_SIMILARITY": 0.65
+    },
+    {
+      "ID": "04§50 The Appearance to the Hidden Disciples",
+      "LABEL": "04§50 The Appearance to the Hidden Disciples",
+      "AVERAGE_SIMILARITY": 0.60
+    },
+    {
+      "ID": "04§50 The Appearance to Thomas",
+      "LABEL": "04§50 The Appearance to Thomas",
+      "AVERAGE_SIMILARITY": 0.66
+    },
+    {
+      "ID": "04§51 The Appearance of Christ at the Sea of Tiberias",
+      "LABEL": "04§51 The Appearance of Christ at the Sea of Tiberias",
+      "AVERAGE_SIMILARITY": 0.61
+    },
+    {
+      "ID": "04§52 The Test of Peter’s Love",
+      "LABEL": "04§52 The Test of Peter’s Love",
+      "AVERAGE_SIMILARITY": 0.61
+    }
+  ]
