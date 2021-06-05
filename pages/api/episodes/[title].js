@@ -27,16 +27,16 @@ const handler = (req, res) => {
         nextEpisode = episodesFeatures[index + 1];
 
         similarEdges = edges.filter((edge) => {
-          const edgeIDs = edge.ID.split('-').join(' ');
+          const edgeIDs = edge.id.split('-').join(' ');
           if (edgeIDs.includes(episodeIDAndTitle)) {
-            edgeIDReferences.push(edge.SOURCE);
-            edgeIDReferences.push(edge.TARGET);
+            edgeIDReferences.push(edge.source);
+            edgeIDReferences.push(edge.target);
             return edge;
           }
         });
 
         similarNodes = nodes.filter((node) => {
-          if (edgeIDReferences.includes(node.ID)) {
+          if (edgeIDReferences.includes(node.id)) {
             return node;
           }
         });

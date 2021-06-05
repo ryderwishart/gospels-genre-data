@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-key */
 import { server } from '../../config';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import Layout from '../../components/Layout';
 import styles from '../../styles/Home.module.css';
 import { Tag, Tooltip } from 'antd';
@@ -8,11 +9,15 @@ import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../fun
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import getSystemFromFeature from '../../functions/getSystemFromFeature';
 import { systemsDictionary } from '../../types/systemDefinitions';
+import { GraphEdge, GraphNode } from '../../types';
+
 interface EpisodeProps {
   response: {
     currentEpisode: Episode;
     previousEpisode?: Episode;
     nextEpisode?: Episode;
+    similarNodes?: GraphNode[];
+    similarEdges?: GraphEdge[];
   };
 }
 
@@ -22,6 +27,13 @@ type Episode = {
   preTextFeatures: string[];
   viaTextFeatures: string[];
 };
+
+const ForceGraph2DDynamicLoad = dynamic(
+  () => import('../../components/ForceGraph2DDynamicLoad'),
+  {
+    ssr: false,
+  },
+);
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
   const currentEpisode = props.response.currentEpisode;
@@ -228,6 +240,16 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             )}
           </div>
         </div>
+        <div style={{ maxHeight: '50vh', border: '1px' }} id="graph-container">
+          {typeof window !== 'undefined' && (
+            <ForceGraph2DDynamicLoad
+              graphData={{
+                links: props.response.similarEdges,
+                nodes: props.response.similarNodes,
+              }}
+            />
+          )}
+        </div>
         <div
           className={styles.grid}
           style={{
@@ -237,6 +259,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           }}
         >
           {/* TODO: add keyframes and transition to previous or next episodes? */}
+          {/* FIXME: previous and next buttons only increment single-digit changes? Go to index 0 and press 'previous' */}
           {previousTitle && (
             <Link
               href={`/episodes/${getFirstTitleHyphenatedLowerCaseStringFromTitleString(
