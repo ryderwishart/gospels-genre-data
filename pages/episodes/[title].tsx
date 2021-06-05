@@ -23,23 +23,28 @@ type Episode = {
 };
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
-  const currentEpisode = props.response?.currentEpisode;
+  const currentEpisode = props.response.currentEpisode;
   const nextTitle = props.response.nextEpisode?.title;
   const previousTitle = props.response.previousEpisode?.title;
-  const sharedFeatures = currentEpisode.preTextFeatures.filter((feature) =>
-    currentEpisode.viaTextFeatures.includes(feature),
-  );
+  const sharedFeatures =
+    Array.isArray(currentEpisode.preTextFeatures) &&
+    currentEpisode.preTextFeatures?.filter((feature) =>
+      currentEpisode.viaTextFeatures.includes(feature),
+    );
+  console.log(sharedFeatures);
   const mutations = [];
-  currentEpisode.preTextFeatures.forEach(
-    (feature) =>
-      !currentEpisode.viaTextFeatures.includes(feature) &&
-      mutations.push(feature),
-  );
-  currentEpisode.viaTextFeatures.forEach(
-    (feature) =>
-      !currentEpisode.preTextFeatures.includes(feature) &&
-      mutations.push(feature),
-  );
+  Array.isArray(currentEpisode.preTextFeatures) &&
+    currentEpisode.preTextFeatures.forEach(
+      (feature) =>
+        !currentEpisode.viaTextFeatures.includes(feature) &&
+        mutations.push(feature),
+    );
+  Array.isArray(currentEpisode.viaTextFeatures) &&
+    currentEpisode.viaTextFeatures.forEach(
+      (feature) =>
+        !currentEpisode.preTextFeatures.includes(feature) &&
+        mutations.push(feature),
+    );
   return (
     <div className={styles.container} key={currentEpisode.title}>
       <main className={styles.main}>
@@ -47,59 +52,75 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           <h1>{currentEpisode.title}</h1>
           <div>
             Pre-text features:{' '}
-            {currentEpisode.preTextFeatures.map((feature) => {
-              const system = getSystemFromFeature(feature);
-              const registerParameter = getSystemFromFeature(feature, true);
-              const highlightColor = // TODO: abstract highlight colour getter
-                registerParameter === 'field'
-                  ? 'orange'
-                  : registerParameter === 'tenor'
-                  ? 'red'
-                  : registerParameter === 'mode'
-                  ? 'green'
-                  : 'grey';
-              if (currentEpisode.viaTextFeatures.includes(feature)) {
-                return (
-                  <Tooltip title={getSentenceCaseString(system)}>
-                    <Tag>{feature}</Tag>
-                  </Tooltip>
-                );
-              } else {
-                return (
-                  <Tooltip title={getSentenceCaseString(system)}>
-                    <Tag color={highlightColor}>{feature}</Tag>
-                  </Tooltip>
-                );
-              }
-            })}
+            {Array.isArray(currentEpisode.preTextFeatures) ? (
+              currentEpisode.preTextFeatures.map((feature) => {
+                try {
+                  const system = getSystemFromFeature(feature);
+                  const registerParameter = getSystemFromFeature(feature, true);
+                  const highlightColor = // TODO: abstract highlight colour getter
+                    registerParameter === 'field'
+                      ? 'orange'
+                      : registerParameter === 'tenor'
+                      ? 'red'
+                      : registerParameter === 'mode'
+                      ? 'green'
+                      : 'grey';
+                  if (currentEpisode.viaTextFeatures.includes(feature)) {
+                    return (
+                      <Tooltip title={getSentenceCaseString(system)}>
+                        <Tag>{feature}</Tag>
+                      </Tooltip>
+                    );
+                  } else {
+                    return (
+                      <Tooltip title={getSentenceCaseString(system)}>
+                        <Tag color={highlightColor}>{feature}</Tag>
+                      </Tooltip>
+                    );
+                  }
+                } catch (error) {
+                  return <Tag>{feature}</Tag>;
+                }
+              })
+            ) : (
+              <Tag>{currentEpisode.preTextFeatures}</Tag>
+            )}
           </div>
           <div>
             Via-text features:{' '}
-            {currentEpisode.viaTextFeatures.map((feature) => {
-              const system = getSystemFromFeature(feature);
-              const registerParameter = getSystemFromFeature(feature, true);
-              const highlightColor = // TODO: abstract highlight colour getter
-                registerParameter === 'field'
-                  ? 'orange'
-                  : registerParameter === 'tenor'
-                  ? 'red'
-                  : registerParameter === 'mode'
-                  ? 'green'
-                  : 'grey';
-              if (currentEpisode.preTextFeatures.includes(feature)) {
-                return (
-                  <Tooltip title={system}>
-                    <Tag>{feature}</Tag>
-                  </Tooltip>
-                );
-              } else {
-                return (
-                  <Tooltip title={system}>
-                    <Tag color={highlightColor}>{feature}</Tag>
-                  </Tooltip>
-                );
-              }
-            })}
+            {Array.isArray(currentEpisode.viaTextFeatures) ? (
+              currentEpisode.viaTextFeatures.map((feature) => {
+                try {
+                  const system = getSystemFromFeature(feature);
+                  const registerParameter = getSystemFromFeature(feature, true);
+                  const highlightColor = // TODO: abstract highlight colour getter
+                    registerParameter === 'field'
+                      ? 'orange'
+                      : registerParameter === 'tenor'
+                      ? 'red'
+                      : registerParameter === 'mode'
+                      ? 'green'
+                      : 'grey';
+                  if (currentEpisode.preTextFeatures.includes(feature)) {
+                    return (
+                      <Tooltip title={system}>
+                        <Tag>{feature}</Tag>
+                      </Tooltip>
+                    );
+                  } else {
+                    return (
+                      <Tooltip title={system}>
+                        <Tag color={highlightColor}>{feature}</Tag>
+                      </Tooltip>
+                    );
+                  }
+                } catch (error) {
+                  return <Tag>{feature}</Tag>;
+                }
+              })
+            ) : (
+              <Tag>{currentEpisode.viaTextFeatures}</Tag>
+            )}
           </div>
           <div>
             Mutations:
