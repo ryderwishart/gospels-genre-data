@@ -1,4 +1,5 @@
 import episodesFeatures from '../../../public/data/stages/episodesDynamicFeatures.json';
+import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 
 const handler = (req, res) => {
   const title = req.query.title;
@@ -8,13 +9,9 @@ const handler = (req, res) => {
 
   try {
     episodesFeatures.find((episode, index) => {
-      const episodeTitleWords = episode.title
-        .split(',')
-        .map((episodeTitle) => episodeTitle.split(' '))
-        .flat(2);
-      const formattedEpisodeTitle = episodeTitleWords
-        .map((word) => word.toLowerCase())
-        .join('-');
+      const formattedEpisodeTitle = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+        { string: episode.title },
+      );
       if (formattedEpisodeTitle.includes(title)) {
         // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
         (currentEpisode = episode),
