@@ -17,7 +17,4 @@ module.exports = {
     someKey:
       'not in use but can be accessed at build using process.env.someKey',
   },
-  generateBuildId: async () => {
-    return 'preview';
-  },
 };

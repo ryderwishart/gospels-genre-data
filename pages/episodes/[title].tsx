@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-key */
 import { server } from '../../config';
 import Link from 'next/link';
+import Layout from '../../components/Layout';
 import styles from '../../styles/Home.module.css';
 import { Tag, Tooltip } from 'antd';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
@@ -24,40 +25,130 @@ type Episode = {
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
   const currentEpisode = props.response.currentEpisode;
-  const nextTitle = props.response.nextEpisode?.title;
-  const previousTitle = props.response.previousEpisode?.title;
-  const sharedFeatures =
+  if (currentEpisode) {
+    const nextTitle = props.response.nextEpisode?.title;
+    const previousTitle = props.response.previousEpisode?.title;
+    const sharedFeatures =
+      Array.isArray(currentEpisode.preTextFeatures) &&
+      currentEpisode.preTextFeatures?.filter((feature) =>
+        currentEpisode.viaTextFeatures.includes(feature),
+      );
+    const mutations = [];
     Array.isArray(currentEpisode.preTextFeatures) &&
-    currentEpisode.preTextFeatures?.filter((feature) =>
-      currentEpisode.viaTextFeatures.includes(feature),
-    );
-  console.log(sharedFeatures);
-  const mutations = [];
-  Array.isArray(currentEpisode.preTextFeatures) &&
-    currentEpisode.preTextFeatures.forEach(
-      (feature) =>
-        !currentEpisode.viaTextFeatures.includes(feature) &&
-        mutations.push(feature),
-    );
-  Array.isArray(currentEpisode.viaTextFeatures) &&
-    currentEpisode.viaTextFeatures.forEach(
-      (feature) =>
-        !currentEpisode.preTextFeatures.includes(feature) &&
-        mutations.push(feature),
-    );
-  return (
-    <div className={styles.container} key={currentEpisode.title}>
-      <main className={styles.main}>
-        <div className={styles.card}>
-          <h1>{currentEpisode.title}</h1>
+      currentEpisode.preTextFeatures.forEach(
+        (feature) =>
+          !currentEpisode.viaTextFeatures.includes(feature) &&
+          mutations.push(feature),
+      );
+    Array.isArray(currentEpisode.viaTextFeatures) &&
+      currentEpisode.viaTextFeatures.forEach(
+        (feature) =>
+          !currentEpisode.preTextFeatures.includes(feature) &&
+          mutations.push(feature),
+      );
+    return (
+      <Layout
+        pageTitle={currentEpisode.title}
+        pageDescription={`Episode analysis for ${currentEpisode.title}`}
+      >
+        {(mutations.length > 0 && (
           <div>
-            Pre-text features:{' '}
-            {Array.isArray(currentEpisode.preTextFeatures) ? (
+            <h2>Situation Mutations</h2>
+            <div>
+              <h3>Field</h3>
+              {Object.keys(systemsDictionary.field).map((system) => {
+                return (
+                  <div>
+                    {systemsDictionary.field[system]
+                      .filter((feature) => mutations.includes(feature))
+                      .filter((mutation) =>
+                        currentEpisode.preTextFeatures.includes(mutation),
+                      )
+                      .map((mutation) => (
+                        <span>
+                          {mutation}{' '}
+                          <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
+                        </span>
+                      ))}
+                    {systemsDictionary.field[system]
+                      .filter((feature) => mutations.includes(feature))
+                      .filter((mutation) =>
+                        currentEpisode.viaTextFeatures.includes(mutation),
+                      )}
+                  </div>
+                );
+              })}
+            </div>
+            <div>
+              <h3>Tenor</h3>
+              {Object.keys(systemsDictionary.tenor).map((system) => {
+                return (
+                  <div>
+                    {systemsDictionary.tenor[system]
+                      .filter((feature) => mutations.includes(feature))
+                      .filter((mutation) =>
+                        currentEpisode.preTextFeatures.includes(mutation),
+                      )
+                      .map((mutation) => (
+                        <span>
+                          {mutation}{' '}
+                          <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
+                        </span>
+                      ))}
+                    {systemsDictionary.tenor[system]
+                      .filter((feature) => mutations.includes(feature))
+                      .filter((mutation) =>
+                        currentEpisode.viaTextFeatures.includes(mutation),
+                      )}
+                  </div>
+                );
+              })}
+            </div>
+            <div>
+              <h3>Mode</h3>
+              {Object.keys(systemsDictionary.mode).map((system) => {
+                return (
+                  <div>
+                    {systemsDictionary.mode[system]
+                      .filter((feature) => mutations.includes(feature))
+                      .filter((mutation) =>
+                        currentEpisode.preTextFeatures.includes(mutation),
+                      )
+                      .map((mutation) => (
+                        <span>
+                          {mutation}{' '}
+                          <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
+                        </span>
+                      ))}
+                    {systemsDictionary.mode[system]
+                      .filter((feature) => mutations.includes(feature))
+                      .filter((mutation) =>
+                        currentEpisode.viaTextFeatures.includes(mutation),
+                      )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )) || <h2>Non-mutating situation</h2>}
+        <div
+          style={{ display: 'flex', maxWidth: '90vw', flexDirection: 'row' }}
+        >
+          <div
+            style={{ display: 'flex', flexFlow: 'column', maxWidth: '42vw' }}
+          >
+            <h2>Pre-text Features</h2>
+            {Array.isArray(currentEpisode.preTextFeatures) ? ( // TODO: abstract this entire feature-map
               currentEpisode.preTextFeatures.map((feature) => {
+                const featureTruncated =
+                  feature.length > 18
+                    ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
+                    : feature;
                 try {
                   const system = getSystemFromFeature(feature);
                   const registerParameter = getSystemFromFeature(feature, true);
-                  const highlightColor = // TODO: abstract highlight colour getter
+
+                  const highlightColor =
                     registerParameter === 'field'
                       ? 'orange'
                       : registerParameter === 'tenor'
@@ -67,29 +158,39 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                       : 'grey';
                   if (currentEpisode.viaTextFeatures.includes(feature)) {
                     return (
-                      <Tooltip title={getSentenceCaseString(system)}>
-                        <Tag>{feature}</Tag>
+                      <Tooltip
+                        title={getSentenceCaseString(system) + ': ' + feature}
+                      >
+                        <Tag>{featureTruncated}</Tag>
                       </Tooltip>
                     );
                   } else {
                     return (
-                      <Tooltip title={getSentenceCaseString(system)}>
-                        <Tag color={highlightColor}>{feature}</Tag>
+                      <Tooltip
+                        title={getSentenceCaseString(system) + ': ' + feature}
+                      >
+                        <Tag color={highlightColor}>{featureTruncated}</Tag>
                       </Tooltip>
                     );
                   }
                 } catch (error) {
-                  return <Tag>{feature}</Tag>;
+                  return <Tag>{featureTruncated}</Tag>;
                 }
               })
             ) : (
               <Tag>{currentEpisode.preTextFeatures}</Tag>
             )}
           </div>
-          <div>
-            Via-text features:{' '}
+          <div
+            style={{ display: 'flex', flexFlow: 'column', maxWidth: '42vw' }}
+          >
+            <h2>Via-text Features</h2>
             {Array.isArray(currentEpisode.viaTextFeatures) ? (
               currentEpisode.viaTextFeatures.map((feature) => {
+                const featureTruncated =
+                  feature.length > 18
+                    ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
+                    : feature;
                 try {
                   const system = getSystemFromFeature(feature);
                   const registerParameter = getSystemFromFeature(feature, true);
@@ -103,95 +204,36 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                       : 'grey';
                   if (currentEpisode.preTextFeatures.includes(feature)) {
                     return (
-                      <Tooltip title={system}>
-                        <Tag>{feature}</Tag>
+                      <Tooltip
+                        title={getSentenceCaseString(system) + ': ' + feature}
+                      >
+                        <Tag>{featureTruncated}</Tag>
                       </Tooltip>
                     );
                   } else {
                     return (
-                      <Tooltip title={system}>
-                        <Tag color={highlightColor}>{feature}</Tag>
+                      <Tooltip
+                        title={getSentenceCaseString(system) + ': ' + feature}
+                      >
+                        <Tag color={highlightColor}>{featureTruncated}</Tag>
                       </Tooltip>
                     );
                   }
                 } catch (error) {
-                  return <Tag>{feature}</Tag>;
+                  return <Tag>{featureTruncated}</Tag>;
                 }
               })
             ) : (
               <Tag>{currentEpisode.viaTextFeatures}</Tag>
             )}
           </div>
-          <div>
-            Mutations:
-            <div>
-              <h2>Field</h2>
-              {Object.keys(systemsDictionary.field).map((system) => {
-                return (
-                  <div>
-                    {systemsDictionary.field[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.preTextFeatures.includes(mutation),
-                      )
-                      .map((mutation) => mutation + ' ->')}{' '}
-                    {systemsDictionary.field[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.viaTextFeatures.includes(mutation),
-                      )}
-                  </div>
-                );
-              })}
-            </div>
-            <div>
-              <h2>Tenor</h2>
-              {Object.keys(systemsDictionary.tenor).map((system) => {
-                return (
-                  <div>
-                    {systemsDictionary.tenor[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.preTextFeatures.includes(mutation),
-                      )
-                      .map((mutation) => mutation + ' ->')}{' '}
-                    {systemsDictionary.tenor[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.viaTextFeatures.includes(mutation),
-                      )}
-                  </div>
-                );
-              })}
-            </div>
-            <div>
-              <h2>Mode</h2>
-              {Object.keys(systemsDictionary.mode).map((system) => {
-                return (
-                  <div>
-                    {systemsDictionary.mode[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.preTextFeatures.includes(mutation),
-                      )
-                      .map((mutation) => mutation + ' ->')}{' '}
-                    {systemsDictionary.mode[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.viaTextFeatures.includes(mutation),
-                      )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
         <div
+          className={styles.grid}
           style={{
             display: 'flex',
             flexFlow: 'row nowrap',
+            maxWidth: '90vw',
           }}
         >
           {/* TODO: add keyframes and transition to previous or next episodes? */}
@@ -221,9 +263,20 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             </Link>
           )}
         </div>
-      </footer>
-    </div>
-  );
+      </Layout>
+    );
+  } else {
+    return (
+      <Layout>
+        <Link href="/episodes">
+          <div>
+            <h1>Episode data not found</h1>
+            <p>Back to all episodes</p>
+          </div>
+        </Link>
+      </Layout>
+    );
+  }
 };
 
 export default EpisodePage;
