@@ -10,40 +10,63 @@ const handler = (req, res) => {
   let nextEpisode = null;
   let similarNodes = null;
   let similarEdges = null;
+  let updatedEdges = null;
+  let updatedNodes = null;
 
   try {
-    episodesFeatures.find((episode, index) => {
+    const selectedEpisode = episodesFeatures.find((episode, index) => {
       const formattedEpisodeTitle = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
         { string: episode.title },
       );
-      const edgeIDReferences = [];
       if (formattedEpisodeTitle.includes(title)) {
-        const episodeIDAndTitle = `${episode.episode} ${episode.title}`
-          .split(/s ,'".;’“”/)
-          .join('');
         // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
         currentEpisode = episode;
         previousEpisode = episodesFeatures[index - 1];
         nextEpisode = episodesFeatures[index + 1];
-
-        similarEdges = edges.filter((edge) => {
-          const edgeIDs = edge.id.split('-').join(' ');
-          if (edgeIDs.includes(episodeIDAndTitle)) {
-            edgeIDReferences.push(edge.source);
-            edgeIDReferences.push(edge.target);
-            return edge;
-          }
-        });
-
-        similarNodes = nodes.filter((node) => {
-          if (edgeIDReferences.includes(node.id)) {
-            return node;
-          }
-        });
+        return episode;
       } else {
         return null;
       }
     });
+
+    const selectedEpisodeIDAndTitle = `${selectedEpisode.episode} ${selectedEpisode.title}`
+      .split(/[,'".;’“”]+/)
+      .join('');
+
+    const edgeIDReferences = [];
+
+    const adjacentEdges = edges.filter((edge) => {
+      const edgeIDs = edge.id
+        .split('-')
+        .join(' ')
+        .split(/[,'".;’“”]+/)
+        .join('');
+      // const edgeIDs = edge.id.split('-').join(' ');
+      if (edgeIDs.includes(selectedEpisodeIDAndTitle)) {
+        edgeIDReferences.push(edge.source);
+        edgeIDReferences.push(edge.target);
+        return edge;
+      }
+    });
+
+    similarNodes = nodes.filter((node) => {
+      if (edgeIDReferences.includes(node.id)) {
+        return node;
+      }
+    });
+
+    const allNodeIDs = similarNodes.map((node) => node.id);
+
+    const remainingEdgesForSelectedNodes = edges.filter((edge) => {
+      if (
+        allNodeIDs.includes(edge.source) &&
+        allNodeIDs.includes(edge.target)
+      ) {
+        return edge;
+      }
+    });
+
+    similarEdges = [...adjacentEdges, ...remainingEdgesForSelectedNodes];
   } catch (error) {
     console.warn(
       'Encountered an error trying to match the URL query string with an episode title',

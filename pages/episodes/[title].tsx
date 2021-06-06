@@ -4,12 +4,22 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import Layout from '../../components/Layout';
 import styles from '../../styles/Home.module.css';
-import { Tag, Tooltip } from 'antd';
+import {
+  Button,
+  Collapse,
+  Drawer,
+  InputNumber,
+  Tag,
+  Tooltip,
+  Slider,
+} from 'antd';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import getSystemFromFeature from '../../functions/getSystemFromFeature';
 import { systemsDictionary } from '../../types/systemDefinitions';
 import { GraphEdge, GraphNode } from '../../types';
+import SpriteText from 'three-spritetext';
+import { useEffect, useState } from 'react';
 
 interface EpisodeProps {
   response: {
@@ -28,14 +38,46 @@ type Episode = {
   viaTextFeatures: string[];
 };
 
-const ForceGraph2DDynamicLoad = dynamic(
-  () => import('../../components/ForceGraph2DDynamicLoad'),
+const ForceGraph3DDynamicLoad = dynamic(
+  () => import('../../components/ForceGraphDynamicLoad'),
   {
     ssr: false,
   },
 );
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
+  const [useGraphLabel, setUseGraphLabel] = useState(false);
+  const [filteredEdges, setFilteredEdges] = useState<GraphEdge[]>(
+    props.response.similarEdges,
+  );
+  const [filteredNodes, setFilteredNodes] = useState<GraphNode[]>(
+    props.response.similarNodes,
+  );
+  const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
+    null,
+  );
+  const [drawerIsVisible, setDrawerIsVisible] = useState(false);
+
+  // useEffect(() => {
+  //   async () => updateFilteredGraphData();
+  // }, [edgeStrengthInputValue]);
+
+  // const updateFilteredGraphData = async () => {
+  //   const edgeIDReferences = [];
+  //   const updatedEdges = props.response.similarEdges.filter(
+  //     (edge) => edge.weight > edgeStrengthInputValue / 100,
+  //   );
+  //   updatedEdges.forEach((edge) => {
+  //     edgeIDReferences.push(edge.source);
+  //     edgeIDReferences.push(edge.target);
+  //   });
+  //   const updatedNodes = props.response.similarNodes.filter((node) =>
+  //     edgeIDReferences.includes(node),
+  //   );
+  //   setFilteredEdges(updatedEdges);
+  //   setFilteredNodes(updatedNodes);
+  // };
+
   const currentEpisode = props.response.currentEpisode;
   if (currentEpisode) {
     const nextTitle = props.response.nextEpisode?.title;
@@ -58,6 +100,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           !currentEpisode.preTextFeatures.includes(feature) &&
           mutations.push(feature),
       );
+
     return (
       <Layout
         pageTitle={currentEpisode.title}
@@ -240,16 +283,34 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             )}
           </div>
         </div>
-        <div style={{ maxHeight: '50vh', border: '1px' }} id="graph-container">
-          {typeof window !== 'undefined' && (
-            <ForceGraph2DDynamicLoad
+        <Button
+          style={{ margin: '20px' }}
+          onClick={() => setDrawerIsVisible(drawerIsVisible ? false : true)}
+        >
+          Open Drawer
+        </Button>
+        {typeof window !== 'undefined' && (
+          <div className={styles.card}>
+            <ForceGraph3DDynamicLoad
+              width={500}
+              height={400}
+              linkVisibility={false}
               graphData={{
-                links: props.response.similarEdges,
                 nodes: props.response.similarNodes,
+                links: props.response.similarEdges,
+              }}
+              nodeThreeObject={(node) => {
+                if (useGraphLabel) {
+                  const sprite = new SpriteText(node.id);
+                  sprite.material.depthWrite = false; // NOTE: make sprite background transparent
+                  sprite.color = '#fff';
+                  sprite.textHeight = 3;
+                  return sprite;
+                }
               }}
             />
-          )}
-        </div>
+          </div>
+        )}
         <div
           className={styles.grid}
           style={{
@@ -286,6 +347,33 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             </Link>
           )}
         </div>
+        <Drawer
+          visible={drawerIsVisible}
+          onClose={() => setDrawerIsVisible(false)}
+        >
+          <Slider
+            min={0.0}
+            max={1.0}
+            step={0.01}
+            value={
+              typeof edgeStrengthInputValue === 'number'
+                ? edgeStrengthInputValue
+                : 0
+            }
+            onChange={(value) => setEdgeStrengthInputValue(value)}
+          ></Slider>
+          <InputNumber
+            defaultValue={edgeStrengthInputValue}
+            min={0}
+            max={100}
+            onChange={(value) => setEdgeStrengthInputValue(value)}
+          ></InputNumber>
+          <Button
+            onClick={() => setUseGraphLabel(useGraphLabel ? false : true)}
+          >
+            {useGraphLabel ? 'Hide labels' : 'Show labels'}
+          </Button>
+        </Drawer>
       </Layout>
     );
   } else {

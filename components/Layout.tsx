@@ -23,7 +23,7 @@ const Home: React.FC<LayoutProps> = (props): JSX.Element => {
 
       <header className={styles.header}>
         <Link href="/">
-          <a>Home</a>
+          <a>OpenText</a>
         </Link>
         <Link href="/about">
           <a>About</a>

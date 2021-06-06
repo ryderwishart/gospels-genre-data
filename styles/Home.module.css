@@ -19,10 +19,14 @@
 .header {
   width: 100%;
   height: max-content;
-  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 -5px 10px 4px #0000004b;
 }
 
 .header a {
@@ -37,6 +41,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
 }
 
 .footer img {
