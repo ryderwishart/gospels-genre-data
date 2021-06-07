@@ -35,19 +35,27 @@ const handler = (req, res) => {
 
     const edgeIDReferences = [];
 
-    const adjacentEdges = edges.filter((edge) => {
-      const edgeIDs = edge.id
-        .split('-')
-        .join(' ')
-        .split(/[,'".;’“”]+/)
-        .join('');
-      // const edgeIDs = edge.id.split('-').join(' ');
-      if (edgeIDs.includes(selectedEpisodeIDAndTitle)) {
+    const adjacentEdges = edges
+      .filter((edge) => {
+        const edgeIDs = edge.id
+          .split('-')
+          .join(' ')
+          .split(/[,'".;’“”]+/)
+          .join('');
+        // const edgeIDs = edge.id.split('-').join(' ');
+        if (edgeIDs.includes(selectedEpisodeIDAndTitle)) {
+          return edge;
+        }
+      })
+      .sort((a, b) => (a.weight > b.weight ? -1 : 1)) // NOTE: sort adjacent edges by weight descending
+      .slice(0, 9) // NOTE: return only the top ten
+      .map((edge) => {
         edgeIDReferences.push(edge.source);
         edgeIDReferences.push(edge.target);
         return edge;
-      }
-    });
+      });
+
+    console.log('adjacentEdges', adjacentEdges.length);
 
     similarNodes = nodes.filter((node) => {
       if (edgeIDReferences.includes(node.id)) {
@@ -57,14 +65,22 @@ const handler = (req, res) => {
 
     const allNodeIDs = similarNodes.map((node) => node.id);
 
-    const remainingEdgesForSelectedNodes = edges.filter((edge) => {
-      if (
-        allNodeIDs.includes(edge.source) &&
-        allNodeIDs.includes(edge.target)
-      ) {
-        return edge;
-      }
-    });
+    const remainingEdgesForSelectedNodes = edges
+      .filter((edge) => {
+        if (
+          allNodeIDs.includes(edge.source) &&
+          allNodeIDs.includes(edge.target)
+        ) {
+          return edge;
+        }
+      })
+      .sort((a, b) => (a.weight > b.weight ? -1 : 1)) // NOTE: sort remaining edges by weight descending
+      .slice(0, 9); // NOTE: return only the top ten;
+
+    console.log(
+      'remainingEdgesForSelectedNodes',
+      remainingEdgesForSelectedNodes.length,
+    );
 
     similarEdges = [...adjacentEdges, ...remainingEdgesForSelectedNodes];
   } catch (error) {

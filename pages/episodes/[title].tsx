@@ -38,7 +38,7 @@ type Episode = {
   viaTextFeatures: string[];
 };
 
-const ForceGraph3DDynamicLoad = dynamic(
+const ForceGraph2DDynamicLoad = dynamic(
   () => import('../../components/ForceGraphDynamicLoad'),
   {
     ssr: false,
@@ -47,14 +47,14 @@ const ForceGraph3DDynamicLoad = dynamic(
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
   const [useGraphLabel, setUseGraphLabel] = useState(false);
-  const [filteredEdges, setFilteredEdges] = useState<GraphEdge[]>(
-    props.response.similarEdges,
-  );
-  const [filteredNodes, setFilteredNodes] = useState<GraphNode[]>(
-    props.response.similarNodes,
-  );
+  // const [filteredEdges, setFilteredEdges] = useState<GraphEdge[]>(
+  //   props.response.similarEdges,
+  // );
+  // const [filteredNodes, setFilteredNodes] = useState<GraphNode[]>(
+  //   props.response.similarNodes,
+  // );
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
-    null,
+    0.9,
   );
   const [drawerIsVisible, setDrawerIsVisible] = useState(false);
 
@@ -80,6 +80,37 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
 
   const currentEpisode = props.response.currentEpisode;
   if (currentEpisode) {
+    const selectedEpisodeID = `${currentEpisode.episode} ${currentEpisode.title}`;
+
+    const filteredEdges = props.response.similarEdges.filter((similarEdge) => {
+      return similarEdge.weight > edgeStrengthInputValue - 0.1;
+    });
+
+    const filteredNodes = props.response.similarNodes;
+
+    filteredEdges.forEach((edge) => {
+      const matchingNodes = props.response.similarNodes.filter(
+        (node) => node.id == edge.source || node.id == edge.target,
+      );
+      if (matchingNodes.length > 0) {
+        console.log({ matchingNodes });
+        // filteredNodes.push(matchingNodes);
+      }
+    });
+
+    console.log(filteredNodes.length);
+
+    // const filteredNodes = props.response.similarNodes.filter((node) => {
+    //   if (edgeIDsForNodeFiltering.includes(node.id)) {
+    //     return node;
+    //   }
+    // });
+
+    const graphData = {
+      links: filteredEdges,
+      nodes: props.response.similarNodes,
+    };
+
     const nextTitle = props.response.nextEpisode?.title;
     const previousTitle = props.response.previousEpisode?.title;
     const sharedFeatures =
@@ -289,28 +320,99 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         >
           Open Drawer
         </Button>
-        {typeof window !== 'undefined' && (
-          <div className={styles.card}>
-            <ForceGraph3DDynamicLoad
-              width={500}
-              height={400}
-              linkVisibility={false}
-              graphData={{
-                nodes: props.response.similarNodes,
-                links: props.response.similarEdges,
+        <div className={styles.card}>
+          {typeof window !== 'undefined' && (
+            <ForceGraph2DDynamicLoad
+              graphData={graphData}
+              width={300}
+              height={200}
+              nodeLabel={(node) => node.id}
+              nodeColorBy={(node) => node.color}
+              // linkCanvasObject={(link, ctx) => {
+              //   const MAX_FONT_SIZE = 4;
+              //   const LABEL_NODE_MARGIN = 4 * 1.5; // NOTE: add an input for node/edge-label size
+
+              //   const start = link.source;
+              //   const end = link.target;
+
+              //   // ignore unbound links
+              //   if (typeof start !== 'object' || typeof end !== 'object')
+              //     return;
+
+              //   // calculate label positioning
+              //   const textPos = Object.assign(
+              //     ...['x', 'y'].map((c) => ({
+              //       [c]: start[c] + (end[c] - start[c]) / 2, // calc middle point
+              //     })),
+              //   );
+
+              //   const relLink = { x: end.x - start.x, y: end.y - start.y };
+
+              //   const maxTextLength =
+              //     Math.sqrt(Math.pow(relLink.x, 2) + Math.pow(relLink.y, 2)) -
+              //     LABEL_NODE_MARGIN * 2;
+
+              //   let textAngle = Math.atan2(relLink.y, relLink.x);
+              //   // maintain label vertical orientation for legibility
+              //   if (textAngle > Math.PI / 2) textAngle = -(Math.PI - textAngle);
+              //   if (textAngle < -Math.PI / 2)
+              //     textAngle = -(-Math.PI - textAngle);
+
+              //   const label = `${link.source.id} > ${link.target.id}`;
+
+              //   // estimate fontSize to fit in link length
+              //   ctx.font = '1px Sans-Serif';
+              //   const fontSize = Math.min(
+              //     MAX_FONT_SIZE,
+              //     maxTextLength / ctx.measureText(label).width,
+              //   );
+              //   ctx.font = `${fontSize}px Sans-Serif`;
+              //   const textWidth = ctx.measureText(label).width;
+              //   const bckgDimensions = [textWidth, fontSize].map(
+              //     (n) => n + fontSize * 0.2,
+              //   ); // some padding
+
+              //   // draw text label (with background rect)
+              //   ctx.save();
+              //   ctx.translate(textPos.x, textPos.y);
+              //   ctx.rotate(textAngle);
+
+              //   ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+              //   ctx.fillRect(
+              //     -bckgDimensions[0] / 2,
+              //     -bckgDimensions[1] / 2,
+              //     ...bckgDimensions,
+              //   );
+
+              //   ctx.textAlign = 'center';
+              //   ctx.textBaseline = 'middle';
+              //   ctx.fillStyle = 'darkgrey';
+              //   ctx.fillText(label, 0, 0);
+              //   ctx.restore();
+              // }}
+              linkVisibility={true}
+              onNodeClick={(node: GraphNode) => {
+                const nodeTitle = node.id
+                  .split(' ')
+                  .filter((idSection) => !idSection.includes('§'))
+                  .join(' ');
+                const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+                  { string: nodeTitle },
+                );
+                window.open(`/episodes/${nodeEpisodeLinkString}`, '_self');
               }}
-              nodeThreeObject={(node) => {
-                if (useGraphLabel) {
-                  const sprite = new SpriteText(node.id);
-                  sprite.material.depthWrite = false; // NOTE: make sprite background transparent
-                  sprite.color = '#fff';
-                  sprite.textHeight = 3;
-                  return sprite;
-                }
-              }}
+              // nodeThreeObject={(node) => { // NOTE: for 3d only
+              //   if (useGraphLabel) {
+              //     const sprite = new SpriteText(node.id);
+              //     sprite.material.depthWrite = false; // NOTE: make sprite background transparent
+              //     sprite.color = '#fff';
+              //     sprite.textHeight = 12;
+              //     return sprite;
+              //   }
+              // }}
             />
-          </div>
-        )}
+          )}
+        </div>
         <div
           className={styles.grid}
           style={{
@@ -351,28 +453,47 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           visible={drawerIsVisible}
           onClose={() => setDrawerIsVisible(false)}
         >
+          <br />
+
+          <Button
+            onClick={() => setUseGraphLabel(useGraphLabel ? false : true)}
+          >
+            {useGraphLabel ? 'Hide labels' : 'Show labels'}
+          </Button>
           <Slider
             min={0.0}
             max={1.0}
             step={0.01}
+            tooltipVisible
             value={
               typeof edgeStrengthInputValue === 'number'
                 ? edgeStrengthInputValue
                 : 0
             }
             onChange={(value) => setEdgeStrengthInputValue(value)}
-          ></Slider>
+          />
           <InputNumber
             defaultValue={edgeStrengthInputValue}
             min={0}
             max={100}
             onChange={(value) => setEdgeStrengthInputValue(value)}
-          ></InputNumber>
-          <Button
-            onClick={() => setUseGraphLabel(useGraphLabel ? false : true)}
-          >
-            {useGraphLabel ? 'Hide labels' : 'Show labels'}
-          </Button>
+          />
+          <div>
+            <h4>Nodes</h4>
+            {filteredNodes.map((node) => {
+              return <p>{node.label}</p>;
+            })}
+          </div>
+          <div>
+            <h4>Links</h4>
+            {props.response.similarEdges.map((edge) => {
+              return (
+                <p>
+                  {edge.id} <strong>{edge.weight}</strong>
+                </p>
+              );
+            })}
+          </div>
         </Drawer>
       </Layout>
     );
