@@ -93,12 +93,10 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         (node) => node.id == edge.source || node.id == edge.target,
       );
       if (matchingNodes.length > 0) {
-        console.log({ matchingNodes });
+        // console.log({ matchingNodes });
         // filteredNodes.push(matchingNodes);
       }
     });
-
-    console.log(filteredNodes.length);
 
     // const filteredNodes = props.response.similarNodes.filter((node) => {
     //   if (edgeIDsForNodeFiltering.includes(node.id)) {
@@ -326,8 +324,8 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               graphData={graphData}
               width={300}
               height={200}
-              nodeLabel={(node) => node.id}
-              nodeColorBy={(node) => node.color}
+              nodeLabel={(node: any) => node.id}
+              nodeColor={(node: any) => node.color}
               // linkCanvasObject={(link, ctx) => {
               //   const MAX_FONT_SIZE = 4;
               //   const LABEL_NODE_MARGIN = 4 * 1.5; // NOTE: add an input for node/edge-label size

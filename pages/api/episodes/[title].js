@@ -55,8 +55,6 @@ const handler = (req, res) => {
         return edge;
       });
 
-    console.log('adjacentEdges', adjacentEdges.length);
-
     similarNodes = nodes.filter((node) => {
       if (edgeIDReferences.includes(node.id)) {
         return node;
@@ -77,15 +75,11 @@ const handler = (req, res) => {
       .sort((a, b) => (a.weight > b.weight ? -1 : 1)) // NOTE: sort remaining edges by weight descending
       .slice(0, 9); // NOTE: return only the top ten;
 
-    console.log(
-      'remainingEdgesForSelectedNodes',
-      remainingEdgesForSelectedNodes.length,
-    );
-
     similarEdges = [...adjacentEdges, ...remainingEdgesForSelectedNodes];
   } catch (error) {
     console.warn(
       'Encountered an error trying to match the URL query string with an episode title',
+      req.query.title,
     );
   }
   if (currentEpisode !== null) {
