@@ -6,13 +6,13 @@ export const getFirstTitleHyphenatedLowerCaseStringFromTitleString = (
   props: functionProps,
 ): string => {
   try {
-    const firstTitle = props.string.split(',')[0];
+    const firstTitle = props.string.split(/[,'".;’“”]+/)[0];
     return firstTitle
       .split(' ')
       .flat(2)
       .map((word) => word.toLowerCase())
       .join('-')
-      .split(/['"’“”]+/)
+      .split(/[,'".;’“”]+/)
       .join('');
   } catch (error) {
     throw new Error(

@@ -7,8 +7,26 @@ import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../fun
 import { NewTestamentBooks } from '../../types/newTestamentBooks';
 import { VerticalAlignTopOutlined } from '@ant-design/icons';
 import { useEffect, useState } from 'react';
+import Graph from '../../components/Graph';
+import { GraphEdge, GraphNode } from '../../types';
 
-const AllEpisodes = (props) => {
+interface EpisodeListProps {
+  response: {
+    episodes: {
+      episodes: {
+        episodeContainer: {
+          $: { section: string; title: string; start: string };
+        };
+      };
+    }[];
+    graphData: {
+      nodes: GraphNode[];
+      links: GraphEdge[];
+    };
+  };
+}
+
+const AllEpisodes = (props: EpisodeListProps) => {
   const [collapseHasActiveKey, setCollapseHasActiveKey] = useState(null);
   const handleScroll = (): void => {
     if (window.scrollY > 100) {
@@ -48,30 +66,38 @@ const AllEpisodes = (props) => {
   };
   const allBooksList = new Array(
     ...new Set(
-      props.response.episodes.episode.map((episodeContainer) => {
+      props.response.episodes.episodes.episode.map((episodeContainer) => {
         const episodeID = episodeContainer.$.section;
         const bookID = parseInt(episodeID.split('-')[0]) - 1;
         return NewTestamentBooks[bookID];
       }),
     ),
   );
-  console.log(allBooksList);
   return (
     <Layout pageTitle="All Episodes">
       <Collapse
+        style={{ width: '90vw', maxWidth: '1200px' }}
         onChange={(activeKey) => {
-          console.log({ activeKey });
           activeKey.length > 0
             ? setCollapseHasActiveKey(true)
             : setCollapseHasActiveKey(false);
         }}
       >
+        {typeof window !== 'undefined' && (
+          <Collapse.Panel key="graph" header={<h2>Complete Graph</h2>}>
+            <Graph
+              graphData={props.response.graphData}
+              width={1200}
+              height={800}
+            />
+          </Collapse.Panel>
+        )}
         {allBooksList.map((book) => {
           return (
             <Collapse.Panel header={book} key={`${book}`}>
               <div className={styles.grid}>
                 {getEpisodesByBook({
-                  episodes: props.response.episodes.episode,
+                  episodes: props.response.episodes.episodes.episode,
                   book,
                 })}
               </div>

@@ -10,8 +10,6 @@ const handler = (req, res) => {
   let nextEpisode = null;
   let similarNodes = null;
   let similarEdges = null;
-  let updatedEdges = null;
-  let updatedNodes = null;
 
   try {
     const selectedEpisode = episodesFeatures.find((episode, index) => {

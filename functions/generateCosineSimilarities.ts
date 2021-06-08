@@ -15,7 +15,6 @@ export const generateCosineSimilarities = (
   const comparisons = vectorsWithoutHeaders.map((vector: any[]) => {
     const stageId = vector[0];
     const vectorWithoutStageId = vector.slice(1); // TODO: use hasIds param to determine whether to slice ids off and add them back on at the end
-    console.log({ vectorWithoutStageId });
     const sumOfSquares = vectorWithoutStageId
       .map((number: number) => number * number)
       .reduce((runningTotal, currentNumber) => runningTotal + currentNumber);

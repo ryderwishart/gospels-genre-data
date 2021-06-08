@@ -66,6 +66,13 @@ export type StageFeatureSet = {
   features: string[];
 };
 
+export type Episode = {
+  episode: string;
+  title: string;
+  preTextFeatures: string[];
+  viaTextFeatures: string[];
+};
+
 // GRAPH DATA
 export interface GraphDataObject {
   nodes: GraphNode[];
@@ -76,7 +83,7 @@ export type GraphNode = {
   id: string;
   label: string;
   [key: string]: string | number;
-}
+};
 
 export type GraphEdge = {
   id: string;
@@ -84,4 +91,4 @@ export type GraphEdge = {
   target: string;
   weight: number;
   [key: string]: string | number;
-}
+};
