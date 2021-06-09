@@ -1,24 +1,24 @@
 import Link from 'next/link';
 import styles from '../../styles/Home.module.css';
 import Layout from '../../components/Layout';
-import { Button, Collapse, Tooltip } from 'antd';
+import { Button, Collapse, /* Progress,  */ Tooltip } from 'antd';
 import { server } from '../../config';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { NewTestamentBooks } from '../../types/newTestamentBooks';
 import { VerticalAlignTopOutlined } from '@ant-design/icons';
 import { useEffect, useState } from 'react';
-import Graph from '../../components/Graph';
+// import Graph from '../../components/Graph';
 import { GraphEdge, GraphNode } from '../../types';
 
 interface EpisodeListProps {
   response: {
     episodes: {
-      episodes: {
-        episodeContainer: {
+      root: {
+        episode: {
           $: { section: string; title: string; start: string };
-        };
+        }[];
       };
-    }[];
+    };
     graphData: {
       nodes: GraphNode[];
       links: GraphEdge[];
@@ -28,6 +28,7 @@ interface EpisodeListProps {
 
 const AllEpisodes = (props: EpisodeListProps) => {
   const [collapseHasActiveKey, setCollapseHasActiveKey] = useState(null);
+  const episodes = props.response.episodes.root;
   const handleScroll = (): void => {
     if (window.scrollY > 100) {
       setCollapseHasActiveKey(true);
@@ -66,7 +67,7 @@ const AllEpisodes = (props: EpisodeListProps) => {
   };
   const allBooksList = new Array(
     ...new Set(
-      props.response.episodes.episodes.episode.map((episodeContainer) => {
+      episodes.episode.map((episodeContainer) => {
         const episodeID = episodeContainer.$.section;
         const bookID = parseInt(episodeID.split('-')[0]) - 1;
         return NewTestamentBooks[bookID];
@@ -83,21 +84,38 @@ const AllEpisodes = (props: EpisodeListProps) => {
             : setCollapseHasActiveKey(false);
         }}
       >
-        {typeof window !== 'undefined' && (
-          <Collapse.Panel key="graph" header={<h2>Complete Graph</h2>}>
-            <Graph
-              graphData={props.response.graphData}
-              width={1200}
-              height={800}
-            />
+        {/* {typeof window !== 'undefined' && (
+          <Collapse.Panel
+            className={styles.complete_graph}
+            key="graph"
+            header={<h2>Complete Graph</h2>}
+          >
+            <p>
+              This graph displays all episodes for which similarity data is
+              available. Node color indicates average similarity to all other
+              nodes.
+            </p>
+            <Progress
+              strokeColor={{
+                '0%': '#2C7BB6',
+                '50%': '#FFFFBF',
+                '100%': '#D7191C',
+              }}
+              percent={100}
+              showInfo={false}
+              status="active"
+            ></Progress>
+            <div className={styles.graph}>
+              <Graph graphData={props.response.graphData} />
+            </div>
           </Collapse.Panel>
-        )}
+        )} */}
         {allBooksList.map((book) => {
           return (
             <Collapse.Panel header={book} key={`${book}`}>
               <div className={styles.grid}>
                 {getEpisodesByBook({
-                  episodes: props.response.episodes.episodes.episode,
+                  episodes: episodes.episode,
                   book,
                 })}
               </div>
@@ -105,20 +123,21 @@ const AllEpisodes = (props: EpisodeListProps) => {
           );
         })}
       </Collapse>
-      <Tooltip title="Scroll to top" placement="left">
+      <Tooltip title="Scroll to top" placement="top">
         <Button
           style={{
             display: collapseHasActiveKey ? 'block' : 'none',
             position: 'fixed',
-            bottom: 20,
-            right: 20,
+            bottom: 50,
+            zIndex: 100,
+            // width: 'max-content',
           }}
           icon={<VerticalAlignTopOutlined />}
           onClick={() => {
             (document && (document.body.scrollTop = 0)) ||
               (document && (document.documentElement.scrollTop = 0));
           }}
-        />
+        ></Button>
       </Tooltip>
     </Layout>
   );

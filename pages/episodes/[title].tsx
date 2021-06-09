@@ -26,28 +26,21 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
   const [useGraphLabel, setUseGraphLabel] = useState(false);
   const [isResponsive, setIsResponsive] = useState(null);
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
-    0.9,
+    0.8,
   );
   const [drawerIsVisible, setDrawerIsVisible] = useState(false);
-
+  console.log({ props });
   const currentEpisode = props.response.currentEpisode;
   if (currentEpisode) {
-    const selectedEpisodeID = `${currentEpisode.episode} ${currentEpisode.title}`;
-
     const filteredEdges = props.response.similarEdges.filter((similarEdge) => {
-      return similarEdge.weight >= edgeStrengthInputValue;
+      return similarEdge.size >= edgeStrengthInputValue;
     });
 
     const filteredNodes = props.response.similarNodes;
 
     const graphData = {
       links: filteredEdges,
-      nodes:
-        props.response
-          .similarNodes /* .map((node) => ({
-        ...node,
-        __color: node.color,
-      })), */,
+      nodes: props.response.similarNodes,
     };
 
     const nextTitle = props.response.nextEpisode?.title;
@@ -90,7 +83,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                         currentEpisode.preTextFeatures.includes(mutation),
                       )
                       .map((mutation) => (
-                        <span>
+                        <span key={mutation}>
                           {mutation}{' '}
                           <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
                         </span>
@@ -261,12 +254,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         </Button>
         <div className={styles.graph}>
           {typeof window !== 'undefined' && (
-            <Graph
-              graphData={graphData}
-              width={600}
-              height={200}
-              cooldown={50}
-            />
+            <Graph graphData={graphData} cooldown={50} />
           )}
         </div>
         <ul>
@@ -279,7 +267,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               .split(/[,'".’“”]+/)
               .join('')
               .split(' ')
-              .filter((idSection) => idSection.includes('§'))
+              .filter((idSection) => !idSection.includes('§'))
               .join(' ');
             const currentEpisodeID = currentEpisode.episode
               .split(' ')
@@ -289,19 +277,18 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
                 { string: nodeTitle },
               );
-              const nodeSimilarityToCentralNode: number = graphData.links.find(
+              const nodeSimilarityToCentralNode = graphData.links.find(
                 (edge) => {
                   const edgeIDs = edge.id
                     .split(/[,'".’“”]+/)
                     .join('')
                     .split('-')
                     .join(' ');
-                  // const edgeIDs = edge.id.split('-').join(' ');
                   if (edgeIDs.includes(node.id)) {
                     return edge;
                   }
                 },
-              )?.weight;
+              )?.size;
               return (
                 <li id={node.id}>
                   <Link href={`/episodes/${nodeEpisodeLinkString}`}>
@@ -357,13 +344,13 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         >
           <br />
 
-          <Button
+          {/* <Button
             onClick={() => setUseGraphLabel(useGraphLabel ? false : true)}
           >
             {useGraphLabel ? 'Hide labels' : 'Show labels'}
-          </Button>
+          </Button> */}
           <Slider
-            min={0.0}
+            min={0.8}
             max={1.0}
             step={0.01}
             value={
@@ -371,11 +358,11 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                 ? edgeStrengthInputValue
                 : 0
             }
-            onChange={(value) => setEdgeStrengthInputValue(value)}
+            onChange={(value) => value && setEdgeStrengthInputValue(value)}
           />
           <InputNumber
             defaultValue={edgeStrengthInputValue}
-            min={0.0}
+            min={0.8}
             max={1.0}
             step={0.01}
             onChange={(value) => setEdgeStrengthInputValue(value)}
@@ -383,7 +370,25 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           <div>
             <h4>Nodes</h4>
             {filteredNodes.map((node) => {
-              return <p>{node.label}</p>;
+              return (
+                <div>
+                  {node.label}
+                  <ul>
+                    <li>
+                      Average Similarity:{' '}
+                      <strong>
+                        {parseFloat(node.attributes.average_similarity).toFixed(
+                          2,
+                        )}
+                      </strong>
+                    </li>
+                    <li>
+                      Number of connections:{' '}
+                      <strong>{node.attributes.Degree}</strong>
+                    </li>
+                  </ul>
+                </div>
+              );
             })}
           </div>
           <div>
@@ -403,7 +408,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
     return (
       <Layout>
         <Link href="/episodes">
-          <div>
+          <div className={styles.card}>
             <h1>Episode data not found</h1>
             <p>Back to all episodes</p>
           </div>
@@ -435,7 +440,7 @@ export async function getStaticProps(context: { params: { title: string } }) {
 
 export const getStaticPaths = async () => {
   const response = await (await fetch(`${server}/api/episodes/`)).json();
-  const titles = response?.episodes.episodes.episode.map((episodeContainer) => {
+  const titles = response?.episodes.root.episode.map((episodeContainer) => {
     return getFirstTitleHyphenatedLowerCaseStringFromTitleString({
       string: episodeContainer.$.title,
     });
