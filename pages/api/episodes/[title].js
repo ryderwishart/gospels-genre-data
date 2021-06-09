@@ -1,7 +1,8 @@
 import episodesFeatures from '../../../public/data/stages/episodesDynamicFeatures.json';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
-import nodes from '../../../public/data/graphData/episodeNodes.json';
-import edges from '../../../public/data/graphData/episodeEdges.json';
+import graphData from '../../../public/data/graphData/graphData.json';
+
+const { nodes, edges } = graphData;
 
 const handler = (req, res) => {
   const title = req.query.title;
