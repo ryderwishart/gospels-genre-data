@@ -82,6 +82,7 @@ export interface GraphDataObject {
 export type GraphNode = {
   id: string;
   label: string;
+  attributes: any;
   [key: string]: string | number;
 };
 
