@@ -440,7 +440,7 @@ export async function getStaticProps(context: { params: { title: string } }) {
 
 export const getStaticPaths = async () => {
   const response = await (await fetch(`${server}/api/episodes/`)).json();
-  const titles = response?.episodes.episodes.episode.map((episodeContainer) => {
+  const titles = response?.episodes.root.episode.map((episodeContainer) => {
     return getFirstTitleHyphenatedLowerCaseStringFromTitleString({
       string: episodeContainer.$.title,
     });

@@ -13,7 +13,7 @@ import { GraphEdge, GraphNode } from '../../types';
 interface EpisodeListProps {
   response: {
     episodes: {
-      episodes: {
+      root: {
         episode: {
           $: { section: string; title: string; start: string };
         }[];
@@ -28,7 +28,7 @@ interface EpisodeListProps {
 
 const AllEpisodes = (props: EpisodeListProps) => {
   const [collapseHasActiveKey, setCollapseHasActiveKey] = useState(null);
-  const episodes = props.response.episodes.episodes;
+  const episodes = props.response.episodes.root;
   const handleScroll = (): void => {
     if (window.scrollY > 100) {
       setCollapseHasActiveKey(true);
