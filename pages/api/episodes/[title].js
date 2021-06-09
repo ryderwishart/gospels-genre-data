@@ -4,7 +4,7 @@ import graphData from '../../../public/data/graphData/graphData.json';
 
 const { nodes, edges } = graphData;
 
-const handler = (req, res) => {
+function handler(req, res) {
   const title = req.query.title;
   let currentEpisode = null;
   let previousEpisode = null;
@@ -97,6 +97,6 @@ const handler = (req, res) => {
         .join(' ')}' not found.`,
     });
   }
-};
+}
 
 export default handler;
