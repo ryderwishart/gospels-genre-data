@@ -29,11 +29,10 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
     0.8,
   );
   const [drawerIsVisible, setDrawerIsVisible] = useState(false);
-  console.log({ props });
   const currentEpisode = props.response.currentEpisode;
   if (currentEpisode) {
     const filteredEdges = props.response.similarEdges.filter((similarEdge) => {
-      return similarEdge.size >= edgeStrengthInputValue;
+      return similarEdge.weight >= edgeStrengthInputValue;
     });
 
     const filteredNodes = props.response.similarNodes;

@@ -21,16 +21,14 @@ const Graph = (props: GraphProps) => {
     !props.width && window.innerWidth <= 400
       ? 300
       : window.innerWidth <= 800
-      ? 650
-      : window.innerWidth <= 1200
-      ? 900
-      : 1200;
+      ? 400
+      : 600;
   return (
     <ForceGraphDynamicLoad
       linkWidth={(link) => 4}
       graphData={props.graphData}
       width={width || props.width}
-      height={width ? width * 0.56 : props.height}
+      height={width ? width * 0.5 : props.height}
       cooldownTicks={props.cooldown ? props.cooldown : Infinity}
       nodeLabel={(node: GraphNode) => node.id}
       nodeCanvasObject={(node: any, context, globalScale) => {

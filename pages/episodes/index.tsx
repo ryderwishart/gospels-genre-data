@@ -26,9 +26,10 @@ interface EpisodeListProps {
   };
 }
 
-const AllEpisodes = (props: EpisodeListProps) => {
+function AllEpisodes(props: EpisodeListProps) {
   const [collapseHasActiveKey, setCollapseHasActiveKey] = useState(null);
   const episodes = props.response.episodes.root;
+  console.log({ props });
   const handleScroll = (): void => {
     if (window.scrollY > 100) {
       setCollapseHasActiveKey(true);
@@ -141,7 +142,7 @@ const AllEpisodes = (props: EpisodeListProps) => {
       </Tooltip>
     </Layout>
   );
-};
+}
 
 export default AllEpisodes;
 
