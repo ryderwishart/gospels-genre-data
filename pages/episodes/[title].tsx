@@ -29,7 +29,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
     0.8,
   );
   const [drawerIsVisible, setDrawerIsVisible] = useState(false);
-  const currentEpisode = props.response.currentEpisode;
+  const currentEpisode = props.response?.currentEpisode;
   if (currentEpisode) {
     const filteredEdges = props.response.similarEdges.filter((similarEdge) => {
       return similarEdge.weight >= edgeStrengthInputValue;
@@ -75,7 +75,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               <h3>Field</h3>
               {Object.keys(systemsDictionary.field).map((system) => {
                 return (
-                  <div>
+                  <div key={system}>
                     {systemsDictionary.field[system]
                       .filter((feature) => mutations.includes(feature))
                       .filter((mutation) =>
@@ -370,7 +370,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             <h4>Nodes</h4>
             {filteredNodes.map((node) => {
               return (
-                <div>
+                <div key={node.id}>
                   {node.label}
                   <ul>
                     <li>

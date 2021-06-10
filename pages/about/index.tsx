@@ -1,7 +1,7 @@
 import Layout from '../../components/Layout';
 import Link from 'next/link';
 
-function AboutPage() {
+const AboutPage = () => {
   const description =
     'OpenText exists to advance research in linguistics and Greek New Testament studies through innovative functional-linguistic analyses, datasets, and resources.';
   return (
@@ -17,6 +17,6 @@ function AboutPage() {
       </div>
     </Layout>
   );
-}
+};
 
 export default AboutPage;
