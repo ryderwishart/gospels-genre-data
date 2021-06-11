@@ -77,7 +77,7 @@ function AllEpisodes(props: EpisodeListProps) {
   return (
     <Layout pageTitle="All Episodes">
       <Collapse
-        style={{ width: '90vw', maxWidth: '1200px' }}
+        style={{ width: '90vw', maxWidth: '600px' }}
         onChange={(activeKey) => {
           activeKey.length > 0
             ? setCollapseHasActiveKey(true)
