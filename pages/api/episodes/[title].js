@@ -1,6 +1,7 @@
 import episodesFeatures from '../../../public/data/stages/episodesDynamicFeatures.json';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import graphData from '../../../public/data/graphData/graphData.json';
+import episodesMetaData from '../../../public/data/stages/episodes-ranges.xml';
 
 const { nodes, edges } = graphData;
 
@@ -11,6 +12,20 @@ const handler = (req, res) => {
   let nextEpisode = null;
   let similarNodes = null;
   let similarEdges = null;
+  let currentEpisodeMetaData = null;
+  episodesMetaData.root.episode.find((episodeContainer) => {
+    console.log(episodeContainer);
+    const formattedEpisodeTitle = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+      { string: episodeContainer.$.title },
+    );
+    if (formattedEpisodeTitle.includes(title)) {
+      // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
+      currentEpisodeMetaData = episodeContainer.$;
+      return;
+    } else {
+      return null;
+    }
+  });
 
   try {
     const selectedEpisode = episodesFeatures.find((episode, index) => {
@@ -88,6 +103,7 @@ const handler = (req, res) => {
       nextEpisode,
       similarEdges,
       similarNodes,
+      currentEpisodeMetaData,
     });
   } else {
     res.status(404).json({

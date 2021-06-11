@@ -19,6 +19,12 @@ interface EpisodeProps {
     nextEpisode?: Episode;
     similarNodes?: GraphNode[];
     similarEdges?: GraphEdge[];
+    currentEpisodeMetaData?: {
+      title: string;
+      start: string;
+      section: string;
+      mormorphGntId: string;
+    };
   };
 }
 
@@ -63,11 +69,17 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           mutations.push(feature),
       );
 
+    const episodeStartReferenceArray = props.response.currentEpisodeMetaData?.start.split(
+      '.',
+    );
+    const episodeStartReference = `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
+
     return (
       <Layout
         pageTitle={currentEpisode.title}
         pageDescription={`Episode analysis for ${currentEpisode.title}`}
       >
+        {episodeStartReference}
         {(mutations.length > 0 && (
           <div>
             <h2>Situation Mutations</h2>
