@@ -14,7 +14,6 @@ const handler = (req, res) => {
   let similarEdges = null;
   let currentEpisodeMetaData = null;
   episodesMetaData.root.episode.find((episodeContainer) => {
-    console.log(episodeContainer);
     const formattedEpisodeTitle = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
       { string: episodeContainer.$.title },
     );
