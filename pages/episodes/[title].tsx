@@ -72,14 +72,16 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
     const episodeStartReferenceArray = props.response.currentEpisodeMetaData?.start.split(
       '.',
     );
-    const episodeStartReference = `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
+    const episodeStartReference =
+      episodeStartReferenceArray &&
+      `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
 
     return (
       <Layout
         pageTitle={currentEpisode.title}
         pageDescription={`Episode analysis for ${currentEpisode.title}`}
       >
-        {episodeStartReference}
+        {episodeStartReference && episodeStartReference}
         {(mutations.length > 0 && (
           <div>
             <h2>Situation Mutations</h2>
