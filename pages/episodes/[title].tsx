@@ -24,6 +24,7 @@ interface EpisodeProps {
       start: string;
       section: string;
       mormorphGntId: string;
+      cluster?: string;
     };
   };
 }
@@ -76,12 +77,15 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
       episodeStartReferenceArray &&
       `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
 
+    const episodeCluster = props.response.currentEpisodeMetaData?.cluster;
+    console.log(props.response.currentEpisodeMetaData);
     return (
       <Layout
         pageTitle={currentEpisode.title}
         pageDescription={`Episode analysis for ${currentEpisode.title}`}
       >
-        {episodeStartReference && episodeStartReference}
+        {episodeStartReference && episodeStartReference + ';'}
+        {episodeCluster && '\nCluster number' + episodeCluster}
         {(mutations.length > 0 && (
           <div>
             <h2>Situation Mutations</h2>

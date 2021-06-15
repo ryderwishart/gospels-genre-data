@@ -25,7 +25,7 @@
     "**/*.tsx",
     "**/*.css",
     "**.*.js"
-  ],
+, "pages/api/clusters/[cluster].js"  ],
   "exclude": [
     "node_modules"
   ]

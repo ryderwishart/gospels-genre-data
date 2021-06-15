@@ -1,3 +1,5 @@
+import { number } from 'yargs';
+
 export interface TextContainer {
   text: Text;
 }
@@ -73,6 +75,14 @@ export type Episode = {
   viaTextFeatures: string[];
 };
 
+export interface EpisodeMetadata {
+  title: string;
+  start: string;
+  section: string;
+  mormorphGntId: string;
+  cluster?: string;
+}
+
 // GRAPH DATA
 export interface GraphDataObject {
   nodes: GraphNode[];
@@ -92,4 +102,59 @@ export type GraphEdge = {
   target: string;
   weight: number;
   [key: string]: string | number;
+};
+
+// PRINCIPAL COMPONENT ANALYSIS DATA
+
+export interface Dimensions {
+  dim_1: number;
+  dim_2: number;
+  dim_3: number;
+  dim_4: number;
+  dim_5: number;
+  dim_6: number;
+  dim_7: number;
+  dim_8: number;
+  dim_9: number;
+  dim_10: number;
+  dim_11: number;
+  dim_12: number;
+  dim_13: number;
+  dim_14: number;
+  dim_15: number;
+  dim_16: number;
+  dim_17: number;
+  dim_18: number;
+  dim_19: number;
+}
+
+export const DimensionLabels = {
+  dim_1: {
+    positive: 'semiotic',
+    negative: 'material',
+  },
+  dim_2: {
+    positive: 'interactive',
+    negative: 'descriptive',
+  },
+  dim_3: {
+    positive: 'public',
+    negative: 'private',
+  },
+  dim_4: {
+    positive: 'flexible',
+    negative: 'procedural',
+  },
+  dim_5: {
+    positive: 'discussing',
+    negative: 'challenging',
+  },
+  dim_6: {
+    positive: 'lecturing',
+    negative: 'discoursing',
+  },
+  dim_7: {
+    positive: 'determining',
+    negative: 'influencing',
+  },
 };

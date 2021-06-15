@@ -1,1093 +1,630 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <episode start="SBLGNT.Matt.1.1.w1" section="01-01" morphGntId="010101"
-        title="The Genealogy of Christ"/>
-    <episode start="SBLGNT.Matt.1.18.w1" section="01-02" morphGntId="010118"
-        title="The Annunciation to Joseph and the Birth of Jesus"/>
-    <episode start="SBLGNT.Matt.2.1.w1" section="01-03" morphGntId="010201"
-        title="The Wise Men from the East"/>
-    <episode start="SBLGNT.Matt.2.13.w1" section="01-04" morphGntId="010213"
-        title="The Flight into Egypt and the Return to Nazareth"/>
-    <episode start="SBLGNT.Matt.3.1.w1" section="01-05" morphGntId="010301"
-        title="The Ministry of John the Baptist"/>
-    <episode start="SBLGNT.Matt.3.13.w1" section="01-06" morphGntId="010313"
-        title="The Baptism of Jesus"/>
-    <episode start="SBLGNT.Matt.4.1.w1" section="01-07" morphGntId="010401"
-        title="The Temptation in the Wilderness"/>
-    <episode start="SBLGNT.Matt.4.12.w1" section="01-08a" morphGntId="010412"
-        title="The Beginning of the Galilean Ministry"/>
-    <episode start="SBLGNT.Matt.4.18.w1" section="01-08b" morphGntId="null"
-        title="The Call of the Four"/>
-    <episode start="SBLGNT.Matt.5.1.w1" section="01-09" morphGntId="010501" title="The Beatitudes"/>
-    <episode start="SBLGNT.Matt.5.13.w1" section="01-10" morphGntId="010513"
-        title="The Chief Functions of the Disciples in the World"/>
-    <episode start="SBLGNT.Matt.5.17.w1" section="01-11" morphGntId="010517"
-        title="Christ Confirms and Expounds the Law of Moses"/>
-    <episode start="SBLGNT.Matt.5.38.w1" section="01-12" morphGntId="010538"
-        title="The Law of Love toward the Enemy"/>
-    <episode start="SBLGNT.Matt.6.1.w1" section="01-13" morphGntId="010601"
-        title="On Giving of Alms, Praying, and Fasting"/>
-    <episode start="SBLGNT.Matt.6.19.w1" section="01-14" morphGntId="010619"
-        title="Warning against Covetousness and Care"/>
-    <episode start="SBLGNT.Matt.7.1.w1" section="01-15" morphGntId="010701"
-        title="Warning against Unauthorized Judging and Admonition to Persevere in Prayer"/>
-    <episode start="SBLGNT.Matt.7.13.w1" section="01-16" morphGntId="010713"
-        title="The Conclusion of the Sermon"/>
-    <episode start="SBLGNT.Matt.8.1.w1" section="01-17" morphGntId="010801"
-        title="The Healing of the Leper"/>
-    <episode start="SBLGNT.Matt.8.5.w1" section="01-18" morphGntId="010805"
-        title="The Centurion of Capernaum"/>
-    <episode start="SBLGNT.Matt.8.14.w1" section="01-19" morphGntId="010814"
-        title="Various Miracles of Healing"/>
-    <episode start="SBLGNT.Matt.8.18.w1" section="01-20" morphGntId="010818"
-        title="The Discipleship of Christ"/>
-    <episode start="SBLGNT.Matt.8.23.w1" section="01-21" morphGntId="010823"
-        title="The Storm on the Lake"/>
-    <episode start="SBLGNT.Matt.8.28.w1" section="01-22" morphGntId="010828"
-        title="Jesus and the Gadarenes"/>
-    <episode start="SBLGNT.Matt.9.1.w1" section="01-23" morphGntId="010901"
-        title="The Healing of the Palsied Man"/>
-    <episode start="SBLGNT.Matt.9.9.w1" section="01-24" morphGntId="010909"
-        title="The Call of Matthew and His Feast"/>
-    <episode start="SBLGNT.Matt.9.18.w1" section="01-25" morphGntId="010918"
-        title="The Daughter of Jairus"/>
-    <episode start="SBLGNT.Matt.9.27.w1" section="01-26" morphGntId="010927"
-        title="Further Miracles of That Day"/>
-    <episode start="SBLGNT.Matt.9.35.w1" section="01-27" morphGntId="010935"
-        title="Continuation of Christ’s Teaching and Healing Ministry"/>
-    <episode start="SBLGNT.Matt.10.1.w1" section="01-28" morphGntId="011001"
-        title="The Commission to the Twelve"/>
-    <episode start="SBLGNT.Matt.10.16.w1" section="01-29" morphGntId="011016"
-        title="The Perils of Apostleship"/>
-    <episode start="SBLGNT.Matt.10.26.w1" section="01-30" morphGntId="011026"
-        title="Fearless Confession of Christ Demanded"/>
-    <episode start="SBLGNT.Matt.10.37.w1" section="01-31" morphGntId="011037"
-        title="Perfect Consecration to Christ"/>
-    <episode start="SBLGNT.Matt.11.1.w1" section="01-32" morphGntId="011101"
-        title="John the Baptist’s Disciples Come to Jesus"/>
-    <episode start="SBLGNT.Matt.11.7.w1" section="01-33" morphGntId="011107"
-        title="Christ’s Testimony Concerning John"/>
-    <episode start="SBLGNT.Matt.11.20.w1" section="01-34" morphGntId="011120"
-        title="The Woe upon the Galilean Cities"/>
-    <episode start="SBLGNT.Matt.11.25.w1" section="01-35" morphGntId="011125"
-        title="The Gospel Call"/>
-    <episode start="SBLGNT.Matt.12.1.w1" section="01-36a" morphGntId="011201"
-        title="The Lord of Food on the Sabbath"/>
-    <episode start="SBLGNT.Matt.12.9.w1" section="01-36b" morphGntId="null"
-        title="The Lord of Healing on the Sabbath"/>
-    <episode start="SBLGNT.Matt.12.14.w1" section="01-37" morphGntId="011214"
-        title="The Enmity of the Pharisees and Christ’s Answer"/>
-    <episode start="SBLGNT.Matt.12.31.w1" section="01-38" morphGntId="011231"
-        title="The Sin against the Holy Spirit"/>
-    <episode start="SBLGNT.Matt.12.38.w1" section="01-39" morphGntId="011238"
-        title="The Sign from Heaven and a Warning"/>
-    <episode start="SBLGNT.Matt.12.46.w1" section="01-40" morphGntId="011246"
-        title="Christ’s Relatives"/>
-    <episode start="SBLGNT.Matt.13.1.w1" section="01-41a" morphGntId="011301"
-        title="The Parable of the Sower"/>
-    <episode start="SBLGNT.Matt.13.10.w1" section="01-41b" morphGntId="null"
-        title="The Parable of the Sower Explained"/>
-    <episode start="SBLGNT.Matt.13.24.w1" section="01-42a" morphGntId="011324"
-        title="The Parable of the Tares, and Others"/>
-    <episode start="SBLGNT.Matt.13.36.w1" section="01-42b" morphGntId="null"
-        title="The Parable of the Tares, and Others Explained"/>
-    <episode start="SBLGNT.Matt.13.53.w1" section="01-43" morphGntId="011353"
-        title="A Visit to Nazareth"/>
-    <episode start="SBLGNT.Matt.14.1.w1" section="01-44" morphGntId="011401"
-        title="The Death of John the Baptist"/>
-    <episode start="SBLGNT.Matt.14.13.w1" section="01-45" morphGntId="011413"
-        title="The Feeding of the Five Thousand"/>
-    <episode start="SBLGNT.Matt.14.22.w1" section="01-46" morphGntId="011422"
-        title="Christ Walks on the Sea"/>
-    <episode start="SBLGNT.Matt.15.1.w1" section="01-47" morphGntId="011501"
-        title="A Lesson Concerning Defilement"/>
-    <episode start="SBLGNT.Matt.15.21.w1" section="01-48" morphGntId="011521"
-        title="The Syrophoenician Woman"/>
-    <episode start="SBLGNT.Matt.15.29.w1" section="01-49" morphGntId="011529"
-        title="Christ Teaches and Feeds Four Thousand"/>
-    <episode start="SBLGNT.Matt.16.1.w1" section="01-50" morphGntId="011601"
-        title="The Demand for a Sign"/>
-    <episode start="SBLGNT.Matt.16.5.w1" section="01-51" morphGntId="011605"
-        title="The Leaven of the Pharisees"/>
-    <episode start="SBLGNT.Matt.16.13.w1" section="01-52" morphGntId="011613"
-        title="“Christ the Son of the Living God”"/>
-    <episode start="SBLGNT.Matt.16.21.w1" section="01-53" morphGntId="011621"
-        title="Christ’s First Prophecy Concerning His Passion"/>
-    <episode start="SBLGNT.Matt.17.1.w1" section="01-54" morphGntId="011701"
-        title="The Transfiguration of Christ"/>
-    <episode start="SBLGNT.Matt.17.14.w1" section="01-55" morphGntId="011714"
-        title="The Healing of a Boy with a Demon"/>
-    <episode start="SBLGNT.Matt.17.22.w1" section="01-56a" morphGntId="011722"
-        title="Christ Foretells His Passion"/>
-    <episode start="SBLGNT.Matt.17.24.w1" section="01-56b" morphGntId="null"
-        title="Christ Pays the Temple-Tax"/>
-    <episode start="SBLGNT.Matt.18.1.w1" section="01-57" morphGntId="011801"
-        title="The Greatest in the Kingdom of Heaven"/>
-    <episode start="SBLGNT.Matt.18.15.w1" section="01-58" morphGntId="011815"
-        title="How to Deal with an Erring Brother"/>
-    <episode start="SBLGNT.Matt.18.23.w1" section="01-59" morphGntId="011823"
-        title="Parable of the Unmerciful Servant"/>
-    <episode start="SBLGNT.Matt.19.1.w1" section="01-60" morphGntId="011901"
-        title="On Marriage and Divorce"/>
-    <episode start="SBLGNT.Matt.19.13.w1" section="01-61" morphGntId="011913"
-        title="Christ Blessing Little Children"/>
-    <episode start="SBLGNT.Matt.19.16.w1" section="01-62" morphGntId="011916"
-        title="The Dangers of Riches"/>
-    <episode start="SBLGNT.Matt.19.27.w1" section="01-63" morphGntId="011927"
-        title="The Reward of the Apostles"/>
-    <episode start="SBLGNT.Matt.20.1.w1" section="01-64" morphGntId="012001"
-        title="Parable of the Laborers in the Vineyard"/>
-    <episode start="SBLGNT.Matt.20.17.w1" section="01-65" morphGntId="012017"
-        title="Christ Again Foretells His Passion"/>
-    <episode start="SBLGNT.Matt.20.20.w1" section="01-66" morphGntId="012020"
-        title="The Requests of the Sons of Zebedee"/>
-    <episode start="SBLGNT.Matt.20.29.w1" section="01-67" morphGntId="012029"
-        title="Healing of Two Blind Men"/>
-    <episode start="SBLGNT.Matt.21.1.w1" section="01-68" morphGntId="012101"
-        title="Christ’s Entry into Jerusalem"/>
-    <episode start="SBLGNT.Matt.21.12.w1" section="01-69" morphGntId="012112"
-        title="Christ Visits the Temple"/>
-    <episode start="SBLGNT.Matt.21.17.w1" section="01-70" morphGntId="012117"
-        title="The Cursing of the Fig-Tree"/>
-    <episode start="SBLGNT.Matt.21.23.w1" section="01-71" morphGntId="012123"
-        title="The Authority of Christ"/>
-    <episode start="SBLGNT.Matt.21.28.w1" section="01-72" morphGntId="012128"
-        title="The Parable of the Two Sons"/>
-    <episode start="SBLGNT.Matt.21.33.w1" section="01-73" morphGntId="012133"
-        title="The Parable of the Wicked Husbandmen"/>
-    <episode start="SBLGNT.Matt.22.1.w1" section="01-74" morphGntId="012201"
-        title="The Parable of the Marriage Feast"/>
-    <episode start="SBLGNT.Matt.22.15.w1" section="01-75" morphGntId="012215"
-        title="The Question Concerning Tribute"/>
-    <episode start="SBLGNT.Matt.22.23.w1" section="01-76" morphGntId="012223"
-        title="The Question of the Sadducees"/>
-    <episode start="SBLGNT.Matt.22.34.w1" section="01-77" morphGntId="012234"
-        title="The Silencing of the Pharisees"/>
-    <episode start="SBLGNT.Matt.23.1.w1" section="01-78" morphGntId="012301"
-        title="The Inordinate Ambition of the Pharisees"/>
-    <episode start="SBLGNT.Matt.23.13.w1" section="01-79" morphGntId="012313"
-        title="The Woes upon the Hypocrisy of the Pharisees"/>
-    <episode start="SBLGNT.Matt.23.34.w1" section="01-80" morphGntId="012334"
-        title="The Peroration and the Lament over Jerusalem"/>
-    <episode start="SBLGNT.Matt.24.1.w1" section="01-81" morphGntId="012401"
-        title="The Judgment of God upon Jerusalem and upon the World"/>
-    <episode start="SBLGNT.Matt.24.42.w1" section="01-82" morphGntId="012442"
-        title="The Need of Watchfulness"/>
-    <episode start="SBLGNT.Matt.25.1.w1" section="01-83" morphGntId="012501"
-        title="The Parable of the Ten Virgins"/>
-    <episode start="SBLGNT.Matt.25.14.w1" section="01-84" morphGntId="012514"
-        title="The Parable of the Talents"/>
-    <episode start="SBLGNT.Matt.25.31.w1" section="01-85" morphGntId="012531"
-        title="The Last Judgment"/>
-    <episode start="SBLGNT.Matt.26.1.w1" section="01-86a" morphGntId="012601"
-        title="Jesus Predicts Crucifixion"/>
-    <episode start="SBLGNT.Matt.26.3.w1" section="01-86b" morphGntId="null" title="Leaders Conspire"/>
-    <episode start="SBLGNT.Matt.26.6.w1" section="01-86c" morphGntId="null"
-        title="A Woman Anoints Jesus"/>
-    <episode start="SBLGNT.Matt.26.14.w1" section="01-86d" morphGntId="null"
-        title="Judas Bargains for Jesus"/>
-    <episode start="SBLGNT.Matt.26.17.w1" section="01-86e" morphGntId="null"
-        title="Jesus Gives Instructions for Supper"/>
-    <episode start="SBLGNT.Matt.26.20.w1" section="01-87a" morphGntId="012620"
-        title="The Passover Meal"/>
-    <episode start="SBLGNT.Matt.26.26.w1" section="01-87b" morphGntId="null"
-        title="The Institution of the Lord’s Supper"/>
-    <episode start="SBLGNT.Matt.26.30.w1" section="01-88a" morphGntId="012630"
-        title="On the Way to Gethsemane"/>
-    <episode start="SBLGNT.Matt.26.36.w1" section="01-88b" morphGntId="null"
-        title="Events at Gethsemane"/>
-    <episode start="SBLGNT.Matt.26.47.w1" section="01-89" morphGntId="012647"
-        title="The Betrayal and Arrest"/>
-    <episode start="SBLGNT.Matt.26.57.w1" section="01-90a" morphGntId="012657"
-        title="The Trial before Caiaphas"/>
-    <episode start="SBLGNT.Matt.26.69.w1" section="01-90b" morphGntId="null"
-        title="The Denial of Peter"/>
-    <episode start="SBLGNT.Matt.27.1.w1" section="01-91" morphGntId="012701"
-        title="The End of Judas"/>
-    <episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711"
-        title="The Trial before Pilate"/>
-    <episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731"
-        title="The Crucifixion and Death of Christ"/>
-    <episode start="SBLGNT.Matt.27.57.w1" section="01-94" morphGntId="012757"
-        title="The Burial of Christ"/>
-    <episode start="SBLGNT.Matt.28.1.w1" section="01-95a" morphGntId="012801"
-        title="The Resurrection of Christ"/>
-    <episode start="SBLGNT.Matt.28.11.w1" section="01-95b" morphGntId="null"
-        title="The Resurrection of Christ"/>
-    <episode start="SBLGNT.Matt.28.16.w1" section="01-96" morphGntId="012816"
-        title="The Great Missionary Command"/>
-    <episode section="02-01" start="SBLGNT.Mark.1.1.w1" title="The Ministry of John the Baptist"/>
-    <episode section="02-02a" start="SBLGNT.Mark.1.9.w1"
-        title="The Baptism and Temptation of Christ"/>
-    <episode section="02-02b" start="SBLGNT.Mark.1.14.w1" title="The Beginning of His Ministry"/>
-    <episode section="02-03a" start="SBLGNT.Mark.1.21.w1" title="Ministry in Capernaum"/>
-    <episode section="02-03b" start="SBLGNT.Mark.1.35.w1" title="Jesus Prays in a Solitary Place"/>
-    <episode section="02-04" start="SBLGNT.Mark.1.40.w1" title="The Healing of a Leper"/>
-    <episode section="02-05" start="SBLGNT.Mark.2.1.w1" title="Healing the Palsied Man"/>
-    <episode section="02-06" start="SBLGNT.Mark.2.13.w1"
-        title="The Calling of Levi and the Dinner at His House"/>
-    <episode section="02-07a" start="SBLGNT.Mark.2.18.w1" title="New Wine into Old Wineskins"/>
-    <episode section="02-07b" start="SBLGNT.Mark.2.23.w1" title="The Lord of the Sabbath"/>
-    <episode section="02-08" start="SBLGNT.Mark.3.1.w1" title="Healing the Withered Hand"/>
-    <episode section="02-09" start="SBLGNT.Mark.3.7.w1" title="Miracles by the Seaside"/>
+    <episode start="SBLGNT.Matt.1.1.w1" section="01-01" morphGntId="010101" title="The Genealogy of Christ"/>
+    <episode start="SBLGNT.Matt.1.18.w1" section="01-02" morphGntId="010118" title="The Annunciation to Joseph and the Birth of Jesus" cluster="1"/>
+    <episode start="SBLGNT.Matt.2.1.w1" section="01-03" morphGntId="010201" title="The Wise Men from the East" cluster="0"/>
+    <episode start="SBLGNT.Matt.2.13.w1" section="01-04" morphGntId="010213" title="The Flight into Egypt and the Return to Nazareth" cluster="1"/>
+    <episode start="SBLGNT.Matt.3.1.w1" section="01-05" morphGntId="010301" title="The Ministry of John the Baptist" cluster="11"/>
+    <episode start="SBLGNT.Matt.3.13.w1" section="01-06" morphGntId="010313" title="The Baptism of Jesus" cluster="10"/>
+    <episode start="SBLGNT.Matt.4.1.w1" section="01-07" morphGntId="010401" title="The Temptation in the Wilderness" cluster="2"/>
+    <episode start="SBLGNT.Matt.4.12.w1" section="01-08a" morphGntId="010412" title="The Beginning of the Galilean Ministry" cluster="4"/>
+    <episode start="SBLGNT.Matt.4.18.w1" section="01-08b" morphGntId="null" title="The Call of the Four" cluster="5"/>
+    <episode start="SBLGNT.Matt.5.1.w1" section="01-09" morphGntId="010501" title="The Beatitudes" cluster="6"/>
+    <episode start="SBLGNT.Matt.5.13.w1" section="01-10" morphGntId="010513" title="The Chief Functions of the Disciples in the World"/>
+    <episode start="SBLGNT.Matt.5.17.w1" section="01-11" morphGntId="010517" title="Christ Confirms and Expounds the Law of Moses"/>
+    <episode start="SBLGNT.Matt.5.38.w1" section="01-12" morphGntId="010538" title="The Law of Love toward the Enemy"/>
+    <episode start="SBLGNT.Matt.6.1.w1" section="01-13" morphGntId="010601" title="On Giving of Alms, Praying, and Fasting"/>
+    <episode start="SBLGNT.Matt.6.19.w1" section="01-14" morphGntId="010619" title="Warning against Covetousness and Care"/>
+    <episode start="SBLGNT.Matt.7.1.w1" section="01-15" morphGntId="010701" title="Warning against Unauthorized Judging and Admonition to Persevere in Prayer"/>
+    <episode start="SBLGNT.Matt.7.13.w1" section="01-16" morphGntId="010713" title="The Conclusion of the Sermon"/>
+    <episode start="SBLGNT.Matt.8.1.w1" section="01-17" morphGntId="010801" title="The Healing of the Leper" cluster="9"/>
+    <episode start="SBLGNT.Matt.8.5.w1" section="01-18" morphGntId="010805" title="The Centurion of Capernaum" cluster="11"/>
+    <episode start="SBLGNT.Matt.8.14.w1" section="01-19" morphGntId="010814" title="Various Miracles of Healing"/>
+    <episode start="SBLGNT.Matt.8.18.w1" section="01-20" morphGntId="010818" title="The Discipleship of Christ" cluster="12"/>
+    <episode start="SBLGNT.Matt.8.23.w1" section="01-21" morphGntId="010823" title="The Storm on the Lake" cluster="14"/>
+    <episode start="SBLGNT.Matt.8.28.w1" section="01-22" morphGntId="010828" title="Jesus and the Gadarenes" cluster="15"/>
+    <episode start="SBLGNT.Matt.9.1.w1" section="01-23" morphGntId="010901" title="The Healing of the Palsied Man" cluster="16"/>
+    <episode start="SBLGNT.Matt.9.9.w1" section="01-24" morphGntId="010909" title="The Call of Matthew and His Feast" cluster="17"/>
+    <episode start="SBLGNT.Matt.9.18.w1" section="01-25" morphGntId="010918" title="The Daughter of Jairus" cluster="5"/>
+    <episode start="SBLGNT.Matt.9.27.w1" section="01-26" morphGntId="010927" title="Further Miracles of That Day" cluster="17"/>
+    <episode start="SBLGNT.Matt.9.35.w1" section="01-27" morphGntId="010935" title="Continuation of Christ’s Teaching and Healing Ministry" cluster="18"/>
+    <episode start="SBLGNT.Matt.10.1.w1" section="01-28" morphGntId="011001" title="The Commission to the Twelve" cluster="19"/>
+    <episode start="SBLGNT.Matt.10.16.w1" section="01-29" morphGntId="011016" title="The Perils of Apostleship"/>
+    <episode start="SBLGNT.Matt.10.26.w1" section="01-30" morphGntId="011026" title="Fearless Confession of Christ Demanded"/>
+    <episode start="SBLGNT.Matt.10.37.w1" section="01-31" morphGntId="011037" title="Perfect Consecration to Christ"/>
+    <episode start="SBLGNT.Matt.11.1.w1" section="01-32" morphGntId="011101" title="John the Baptist’s Disciples Come to Jesus" cluster="20"/>
+    <episode start="SBLGNT.Matt.11.7.w1" section="01-33" morphGntId="011107" title="Christ’s Testimony Concerning John" cluster="8"/>
+    <episode start="SBLGNT.Matt.11.20.w1" section="01-34" morphGntId="011120" title="The Woe upon the Galilean Cities" cluster="3"/>
+    <episode start="SBLGNT.Matt.11.25.w1" section="01-35" morphGntId="011125" title="The Gospel Call" cluster="8"/>
+    <episode start="SBLGNT.Matt.12.1.w1" section="01-36a" morphGntId="011201" title="The Lord of Food on the Sabbath" cluster="21"/>
+    <episode start="SBLGNT.Matt.12.9.w1" section="01-36b" morphGntId="null" title="The Lord of Healing on the Sabbath" cluster="57"/>
+    <episode start="SBLGNT.Matt.12.14.w1" section="01-37" morphGntId="011214" title="The Enmity of the Pharisees and Christ’s Answer" cluster="11"/>
+    <episode start="SBLGNT.Matt.12.31.w1" section="01-38" morphGntId="011231" title="The Sin against the Holy Spirit"/>
+    <episode start="SBLGNT.Matt.12.38.w1" section="01-39" morphGntId="011238" title="The Sign from Heaven and a Warning" cluster="22"/>
+    <episode start="SBLGNT.Matt.12.46.w1" section="01-40" morphGntId="011246" title="Christ’s Relatives" cluster="23"/>
+    <episode start="SBLGNT.Matt.13.1.w1" section="01-41a" morphGntId="011301" title="The Parable of the Sower" cluster="3"/>
+    <episode start="SBLGNT.Matt.13.10.w1" section="01-41b" morphGntId="null" title="The Parable of the Sower Explained" cluster="46"/>
+    <episode start="SBLGNT.Matt.13.24.w1" section="01-42a" morphGntId="011324" title="The Parable of the Tares, and Others" cluster="7"/>
+    <episode start="SBLGNT.Matt.13.36.w1" section="01-42b" morphGntId="null" title="The Parable of the Tares, and Others Explained" cluster="33"/>
+    <episode start="SBLGNT.Matt.13.53.w1" section="01-43" morphGntId="011353" title="A Visit to Nazareth" cluster="24"/>
+    <episode start="SBLGNT.Matt.14.1.w1" section="01-44" morphGntId="011401" title="The Death of John the Baptist" cluster="25"/>
+    <episode start="SBLGNT.Matt.14.13.w1" section="01-45" morphGntId="011413" title="The Feeding of the Five Thousand" cluster="27"/>
+    <episode start="SBLGNT.Matt.14.22.w1" section="01-46" morphGntId="011422" title="Christ Walks on the Sea" cluster="29"/>
+    <episode start="SBLGNT.Matt.15.1.w1" section="01-47" morphGntId="011501" title="A Lesson Concerning Defilement" cluster="52"/>
+    <episode start="SBLGNT.Matt.15.21.w1" section="01-48" morphGntId="011521" title="The Syrophoenician Woman" cluster="26"/>
+    <episode start="SBLGNT.Matt.15.29.w1" section="01-49" morphGntId="011529" title="Christ Teaches and Feeds Four Thousand" cluster="27"/>
+    <episode start="SBLGNT.Matt.16.1.w1" section="01-50" morphGntId="011601" title="The Demand for a Sign" cluster="22"/>
+    <episode start="SBLGNT.Matt.16.5.w1" section="01-51" morphGntId="011605" title="The Leaven of the Pharisees" cluster="28"/>
+    <episode start="SBLGNT.Matt.16.13.w1" section="01-52" morphGntId="011613" title="&#x201C;Christ the Son of the Living God&#x201D;" cluster="30"/>
+    <episode start="SBLGNT.Matt.16.21.w1" section="01-53" morphGntId="011621" title="Christ’s First Prophecy Concerning His Passion" cluster="31"/>
+    <episode start="SBLGNT.Matt.17.1.w1" section="01-54" morphGntId="011701" title="The Transfiguration of Christ" cluster="33"/>
+    <episode start="SBLGNT.Matt.17.14.w1" section="01-55" morphGntId="011714" title="The Healing of a Boy with a Demon" cluster="15"/>
+    <episode start="SBLGNT.Matt.17.22.w1" section="01-56a" morphGntId="011722" title="Christ Foretells His Passion" cluster="34"/>
+    <episode start="SBLGNT.Matt.17.24.w1" section="01-56b" morphGntId="null" title="Christ Pays the Temple-Tax" cluster="47"/>
+    <episode start="SBLGNT.Matt.18.1.w1" section="01-57" morphGntId="011801" title="The Greatest in the Kingdom of Heaven" cluster="46"/>
+    <episode start="SBLGNT.Matt.18.15.w1" section="01-58" morphGntId="011815" title="How to Deal with an Erring Brother"/>
+    <episode start="SBLGNT.Matt.18.23.w1" section="01-59" morphGntId="011823" title="Parable of the Unmerciful Servant"/>
+    <episode start="SBLGNT.Matt.19.1.w1" section="01-60" morphGntId="011901" title="On Marriage and Divorce" cluster="35"/>
+    <episode start="SBLGNT.Matt.19.13.w1" section="01-61" morphGntId="011913" title="Christ Blessing Little Children" cluster="51"/>
+    <episode start="SBLGNT.Matt.19.16.w1" section="01-62" morphGntId="011916" title="The Dangers of Riches" cluster="40"/>
+    <episode start="SBLGNT.Matt.19.27.w1" section="01-63" morphGntId="011927" title="The Reward of the Apostles" cluster="46"/>
+    <episode start="SBLGNT.Matt.20.1.w1" section="01-64" morphGntId="012001" title="Parable of the Laborers in the Vineyard"/>
+    <episode start="SBLGNT.Matt.20.17.w1" section="01-65" morphGntId="012017" title="Christ Again Foretells His Passion" cluster="34"/>
+    <episode start="SBLGNT.Matt.20.20.w1" section="01-66" morphGntId="012020" title="The Requests of the Sons of Zebedee" cluster="19"/>
+    <episode start="SBLGNT.Matt.20.29.w1" section="01-67" morphGntId="012029" title="Healing of Two Blind Men" cluster="5"/>
+    <episode start="SBLGNT.Matt.21.1.w1" section="01-68" morphGntId="012101" title="Christ’s Entry into Jerusalem" cluster="36"/>
+    <episode start="SBLGNT.Matt.21.12.w1" section="01-69" morphGntId="012112" title="Christ Visits the Temple" cluster="37"/>
+    <episode start="SBLGNT.Matt.21.17.w1" section="01-70" morphGntId="012117" title="The Cursing of the Fig-Tree" cluster="38"/>
+    <episode start="SBLGNT.Matt.21.23.w1" section="01-71" morphGntId="012123" title="The Authority of Christ" cluster="35"/>
+    <episode start="SBLGNT.Matt.21.28.w1" section="01-72" morphGntId="012128" title="The Parable of the Two Sons"/>
+    <episode start="SBLGNT.Matt.21.33.w1" section="01-73" morphGntId="012133" title="The Parable of the Wicked Husbandmen"/>
+    <episode start="SBLGNT.Matt.22.1.w1" section="01-74" morphGntId="012201" title="The Parable of the Marriage Feast" cluster="39"/>
+    <episode start="SBLGNT.Matt.22.15.w1" section="01-75" morphGntId="012215" title="The Question Concerning Tribute" cluster="40"/>
+    <episode start="SBLGNT.Matt.22.23.w1" section="01-76" morphGntId="012223" title="The Question of the Sadducees" cluster="40"/>
+    <episode start="SBLGNT.Matt.22.34.w1" section="01-77" morphGntId="012234" title="The Silencing of the Pharisees" cluster="35"/>
+    <episode start="SBLGNT.Matt.23.1.w1" section="01-78" morphGntId="012301" title="The Inordinate Ambition of the Pharisees" cluster="7"/>
+    <episode start="SBLGNT.Matt.23.13.w1" section="01-79" morphGntId="012313" title="The Woes upon the Hypocrisy of the Pharisees"/>
+    <episode start="SBLGNT.Matt.23.34.w1" section="01-80" morphGntId="012334" title="The Peroration and the Lament over Jerusalem"/>
+    <episode start="SBLGNT.Matt.24.1.w1" section="01-81" morphGntId="012401" title="The Judgment of God upon Jerusalem and upon the World" cluster="46"/>
+    <episode start="SBLGNT.Matt.24.42.w1" section="01-82" morphGntId="012442" title="The Need of Watchfulness"/>
+    <episode start="SBLGNT.Matt.25.1.w1" section="01-83" morphGntId="012501" title="The Parable of the Ten Virgins"/>
+    <episode start="SBLGNT.Matt.25.14.w1" section="01-84" morphGntId="012514" title="The Parable of the Talents"/>
+    <episode start="SBLGNT.Matt.25.31.w1" section="01-85" morphGntId="012531" title="The Last Judgment"/>
+    <episode start="SBLGNT.Matt.26.1.w1" section="01-86a" morphGntId="012601" title="Jesus Predicts Crucifixion" cluster="41"/>
+    <episode start="SBLGNT.Matt.26.3.w1" section="01-86b" morphGntId="null" title="Leaders Conspire" cluster="18"/>
+    <episode start="SBLGNT.Matt.26.6.w1" section="01-86c" morphGntId="null" title="A Woman Anoints Jesus" cluster="42"/>
+    <episode start="SBLGNT.Matt.26.14.w1" section="01-86d" morphGntId="null" title="Judas Bargains for Jesus" cluster="47"/>
+    <episode start="SBLGNT.Matt.26.17.w1" section="01-86e" morphGntId="null" title="Jesus Gives Instructions for Supper" cluster="13"/>
+    <episode start="SBLGNT.Matt.26.20.w1" section="01-87a" morphGntId="012620" title="The Passover Meal" cluster="48"/>
+    <episode start="SBLGNT.Matt.26.26.w1" section="01-87b" morphGntId="null" title="The Institution of the Lord’s Supper" cluster="14"/>
+    <episode start="SBLGNT.Matt.26.30.w1" section="01-88a" morphGntId="012630" title="On the Way to Gethsemane" cluster="31"/>
+    <episode start="SBLGNT.Matt.26.36.w1" section="01-88b" morphGntId="null" title="Events at Gethsemane" cluster="14"/>
+    <episode start="SBLGNT.Matt.26.47.w1" section="01-89" morphGntId="012647" title="The Betrayal and Arrest" cluster="51"/>
+    <episode start="SBLGNT.Matt.26.57.w1" section="01-90a" morphGntId="012657" title="The Trial before Caiaphas" cluster="12"/>
+    <episode start="SBLGNT.Matt.26.69.w1" section="01-90b" morphGntId="null" title="The Denial of Peter" cluster="43"/>
+    <episode start="SBLGNT.Matt.27.1.w1" section="01-91" morphGntId="012701" title="The End of Judas" cluster="48"/>
+    <episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711" title="The Trial before Pilate" cluster="55"/>
+    <episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731" title="The Crucifixion and Death of Christ" cluster="44"/>
+    <episode start="SBLGNT.Matt.27.57.w1" section="01-94" morphGntId="012757" title="The Burial of Christ" cluster="21"/>
+    <episode start="SBLGNT.Matt.28.1.w1" section="01-95a" morphGntId="012801" title="The Resurrection of Christ" cluster="1"/>
+    <episode start="SBLGNT.Matt.28.11.w1" section="01-95b" morphGntId="null" title="The Resurrection of Christ" cluster="1"/>
+    <episode start="SBLGNT.Matt.28.16.w1" section="01-96" morphGntId="012816" title="The Great Missionary Command" cluster="19"/>
+    <episode section="02-01" start="SBLGNT.Mark.1.1.w1" title="The Ministry of John the Baptist" cluster="3"/>
+    <episode section="02-02a" start="SBLGNT.Mark.1.9.w1" title="The Baptism and Temptation of Christ" cluster="45"/>
+    <episode section="02-02b" start="SBLGNT.Mark.1.14.w1" title="The Beginning of His Ministry" cluster="1"/>
+    <episode section="02-03a" start="SBLGNT.Mark.1.21.w1" title="Ministry in Capernaum" cluster="10"/>
+    <episode section="02-03b" start="SBLGNT.Mark.1.35.w1" title="Jesus Prays in a Solitary Place" cluster="0"/>
+    <episode section="02-04" start="SBLGNT.Mark.1.40.w1" title="The Healing of a Leper" cluster="9"/>
+    <episode section="02-05" start="SBLGNT.Mark.2.1.w1" title="Healing the Palsied Man" cluster="16"/>
+    <episode section="02-06" start="SBLGNT.Mark.2.13.w1" title="The Calling of Levi and the Dinner at His House" cluster="26"/>
+    <episode section="02-07a" start="SBLGNT.Mark.2.18.w1" title="New Wine into Old Wineskins" cluster="40"/>
+    <episode section="02-07b" start="SBLGNT.Mark.2.23.w1" title="The Lord of the Sabbath" cluster="57"/>
+    <episode section="02-08" start="SBLGNT.Mark.3.1.w1" title="Healing the Withered Hand" cluster="51"/>
+    <episode section="02-09" start="SBLGNT.Mark.3.7.w1" title="Miracles by the Seaside" cluster="8"/>
     <episode section="02-10a" start="SBLGNT.Mark.3.13.w1" title="Jesus Appoints the Twelve"/>
-    <episode section="02-10b" start="SBLGNT.Mark.3.20.w1"
-        title="Discourse on the Casting Out of Demons"/>
-    <episode section="02-11a" start="SBLGNT.Mark.4.1.w1" title="The Parable of the Sower"/>
-    <episode section="02-11b" start="SBLGNT.Mark.4.10.w1"
-        title="Teaching the Disciples by Means of Parables"/>
-    <episode section="02-12" start="SBLGNT.Mark.4.35.w1" title="Christ Stilling the Tempest"/>
-    <episode section="02-13" start="SBLGNT.Mark.5.1.w1" title="The Healing of a Demon-Possessed Man"/>
-    <episode section="02-14" start="SBLGNT.Mark.5.21.w1" title="Raising of the Daughter of Jairus"/>
-    <episode section="02-15" start="SBLGNT.Mark.6.1.w1" title="Jesus at Nazareth"/>
-    <episode section="02-16" start="SBLGNT.Mark.6.6.w7" title="The Mission of the Twelve"/>
-    <episode section="02-17" start="SBLGNT.Mark.6.14.w1" title="Death of John the Baptist"/>
-    <episode section="02-18" start="SBLGNT.Mark.6.30.w1" title="The Feeding of the Five Thousand"/>
-    <episode section="02-19" start="SBLGNT.Mark.6.45.w1"
-        title="Christ Walking on the Sea and His Return to Galilee"/>
-    <episode section="02-20 02-21" start="SBLGNT.Mark.7.1.w1"
-        title="Concerning Ceremonial Washings, Christ’s Denunciation of the Pharisees"/>
-    <episode section="02-22" start="SBLGNT.Mark.7.24.w1" title="The Syrophoenician Woman"/>
-    <episode section="02-23" start="SBLGNT.Mark.7.31.w1" title="Healing of the Deaf Man"/>
-    <episode section="02-24" start="SBLGNT.Mark.8.1.w1" title="The Feeding of the Four Thousand"/>
+    <episode section="02-10b" start="SBLGNT.Mark.3.20.w1" title="Discourse on the Casting Out of Demons" cluster="16"/>
+    <episode section="02-11a" start="SBLGNT.Mark.4.1.w1" title="The Parable of the Sower" cluster="3"/>
+    <episode section="02-11b" start="SBLGNT.Mark.4.10.w1" title="Teaching the Disciples by Means of Parables" cluster="46"/>
+    <episode section="02-12" start="SBLGNT.Mark.4.35.w1" title="Christ Stilling the Tempest" cluster="29"/>
+    <episode section="02-13" start="SBLGNT.Mark.5.1.w1" title="The Healing of a Demon-Possessed Man" cluster="9"/>
+    <episode section="02-14" start="SBLGNT.Mark.5.21.w1" title="Raising of the Daughter of Jairus" cluster="1"/>
+    <episode section="02-15" start="SBLGNT.Mark.6.1.w1" title="Jesus at Nazareth" cluster="24"/>
+    <episode section="02-16" start="SBLGNT.Mark.6.6.w7" title="The Mission of the Twelve" cluster="18"/>
+    <episode section="02-17" start="SBLGNT.Mark.6.14.w1" title="Death of John the Baptist" cluster="47"/>
+    <episode section="02-18" start="SBLGNT.Mark.6.30.w1" title="The Feeding of the Five Thousand" cluster="27"/>
+    <episode section="02-19" start="SBLGNT.Mark.6.45.w1" title="Christ Walking on the Sea and His Return to Galilee" cluster="14"/>
+    <episode section="02-20 02-21" start="SBLGNT.Mark.7.1.w1" title="Concerning Ceremonial Washings, Christ’s Denunciation of the Pharisees" cluster="52"/>
+    <episode section="02-22" start="SBLGNT.Mark.7.24.w1" title="The Syrophoenician Woman" cluster="15"/>
+    <episode section="02-23" start="SBLGNT.Mark.7.31.w1" title="Healing of the Deaf Man" cluster="10"/>
+    <episode section="02-24" start="SBLGNT.Mark.8.1.w1" title="The Feeding of the Four Thousand" cluster="27"/>
     <episode section="02-25a" start="SBLGNT.Mark.8.11.w1" title="The Pharisees Ask for a Sign"/>
     <episode section="02-25b" start="SBLGNT.Mark.8.14.w1" title="The Leaven of the Pharisees"/>
-    <episode section="02-26" start="SBLGNT.Mark.8.22.w1" title="The Blind Man of Bethsaida"/>
-    <episode section="02-27a" start="SBLGNT.Mark.8.27.w1" title="The Identity of the Son of Man"/>
-    <episode section="02-27b" start="SBLGNT.Mark.8.34.w1" title="Jesus the Christ and His Service"/>
-    <episode section="02-28" start="SBLGNT.Mark.9.2.w1" title="The Transfiguration of Jesus"/>
-    <episode section="02-29" start="SBLGNT.Mark.9.14.w1" title="Casting Out an Unclean Spirit"/>
-    <episode section="02-30" start="SBLGNT.Mark.9.30.w1"
-        title="The Last Discourses of Christ in Galilee"/>
-    <episode section="02-31" start="SBLGNT.Mark.10.1.w1" title="A Question concerning Divorce"/>
-    <episode section="02-32" start="SBLGNT.Mark.10.13.w1" title="Jesus Blesses Little Children"/>
-    <episode section="02-33" start="SBLGNT.Mark.10.17.w1" title="The Rich Young Man"/>
-    <episode section="02-34a" start="SBLGNT.Mark.10.32.w1" title="Jesus Turns Toward Jerusalem"/>
-    <episode section="02-34b" start="SBLGNT.Mark.10.35.w1" title="Priority in Christ’s Kingdom"/>
-    <episode section="02-35" start="SBLGNT.Mark.10.46.w1" title="The Healing of Bartimaeus"/>
-    <episode section="02-36" start="SBLGNT.Mark.11.1.w1" title="Christ’s Entry into Jerusalem"/>
-    <episode section="02-37" start="SBLGNT.Mark.11.12.w1" title="The Miracle of the Fig-Tree"/>
-    <episode section="02-38" start="SBLGNT.Mark.11.27.w1"
-        title="The Question concerning Christ’s Authority"/>
-    <episode section="02-39" start="SBLGNT.Mark.12.1.w1" title="The Parable of the Vineyard"/>
-    <episode section="02-40a" start="SBLGNT.Mark.12.13.w1"
-        title="The Pharisees and Herodians Ask About Paying Taxes to Caesar"/>
-    <episode section="02-40b" start="SBLGNT.Mark.12.18.w1"
-        title="The Sadducees Question Jesus About the Resurrection"/>
-    <episode section="02-40c" start="SBLGNT.Mark.12.28.w1" title="The Greatest Commandment"/>
-    <episode section="02-41" start="SBLGNT.Mark.12.35.w1"
-        title="Jesus Condemns the Teachers of the Law"/>
-    <episode section="02-42" start="SBLGNT.Mark.13.1.w1"
-        title="Christ Foretells the Destruction of Jerusalem and the End of the World"/>
-    <episode section="02-43a" start="SBLGNT.Mark.14.1.w1" title="The Teachers of the Law Scheme"/>
-    <episode section="02-43b" start="SBLGNT.Mark.14.3.w1" title="The Anointing of Jesus"/>
+    <episode section="02-26" start="SBLGNT.Mark.8.22.w1" title="The Blind Man of Bethsaida" cluster="9"/>
+    <episode section="02-27a" start="SBLGNT.Mark.8.27.w1" title="The Identity of the Son of Man" cluster="48"/>
+    <episode section="02-27b" start="SBLGNT.Mark.8.34.w1" title="Jesus the Christ and His Service" cluster="6"/>
+    <episode section="02-28" start="SBLGNT.Mark.9.2.w1" title="The Transfiguration of Jesus" cluster="33"/>
+    <episode section="02-29" start="SBLGNT.Mark.9.14.w1" title="Casting Out an Unclean Spirit" cluster="49"/>
+    <episode section="02-30" start="SBLGNT.Mark.9.30.w1" title="The Last Discourses of Christ in Galilee" cluster="28"/>
+    <episode section="02-31" start="SBLGNT.Mark.10.1.w1" title="A Question concerning Divorce" cluster="20"/>
+    <episode section="02-32" start="SBLGNT.Mark.10.13.w1" title="Jesus Blesses Little Children" cluster="37"/>
+    <episode section="02-33" start="SBLGNT.Mark.10.17.w1" title="The Rich Young Man" cluster="49"/>
+    <episode section="02-34a" start="SBLGNT.Mark.10.32.w1" title="Jesus Turns Toward Jerusalem" cluster="41"/>
+    <episode section="02-34b" start="SBLGNT.Mark.10.35.w1" title="Priority in Christ’s Kingdom" cluster="28"/>
+    <episode section="02-35" start="SBLGNT.Mark.10.46.w1" title="The Healing of Bartimaeus" cluster="5"/>
+    <episode section="02-36" start="SBLGNT.Mark.11.1.w1" title="Christ’s Entry into Jerusalem" cluster="36"/>
+    <episode section="02-37" start="SBLGNT.Mark.11.12.w1" title="The Miracle of the Fig-Tree" cluster="38"/>
+    <episode section="02-38" start="SBLGNT.Mark.11.27.w1" title="The Question concerning Christ’s Authority" cluster="35"/>
+    <episode section="02-39" start="SBLGNT.Mark.12.1.w1" title="The Parable of the Vineyard" cluster="39"/>
+    <episode section="02-40a" start="SBLGNT.Mark.12.13.w1" title="The Pharisees and Herodians Ask About Paying Taxes to Caesar" cluster="57"/>
+    <episode section="02-40b" start="SBLGNT.Mark.12.18.w1" title="The Sadducees Question Jesus About the Resurrection" cluster="50"/>
+    <episode section="02-40c" start="SBLGNT.Mark.12.28.w1" title="The Greatest Commandment" cluster="20"/>
+    <episode section="02-41" start="SBLGNT.Mark.12.35.w1" title="Jesus Condemns the Teachers of the Law" cluster="3"/>
+    <episode section="02-42" start="SBLGNT.Mark.13.1.w1" title="Christ Foretells the Destruction of Jerusalem and the End of the World" cluster="58"/>
+    <episode section="02-43a" start="SBLGNT.Mark.14.1.w1" title="The Teachers of the Law Scheme" cluster="34"/>
+    <episode section="02-43b" start="SBLGNT.Mark.14.3.w1" title="The Anointing of Jesus" cluster="42"/>
     <episode section="02-43c" start="SBLGNT.Mark.14.10.w1" title="Judas Promises to Betray Jesus"/>
-    <episode section="02-44a" start="SBLGNT.Mark.14.12.w1" title="The Preparation for the Passover"/>
-    <episode section="02-44b" start="SBLGNT.Mark.14.17.w1" title="The Celebration of the Passover"/>
-    <episode section="02-45a" start="SBLGNT.Mark.14.26.w1" title="Jesus Predicts Peter's Denials"/>
-    <episode section="02-45b" start="SBLGNT.Mark.14.32.w1" title="Jesus Prays in Gethsemane"/>
-    <episode section="02-46" start="SBLGNT.Mark.14.43.w1" title="The Capture of Jesus"/>
-    <episode section="02-47" start="SBLGNT.Mark.14.53.w1" title="The Trial before the High Priest"/>
-    <episode section="02-48" start="SBLGNT.Mark.14.66.w1" title="The Denial of Peter"/>
-    <episode section="02-49a" start="SBLGNT.Mark.15.1.w1" title="Jesus before Pilate"/>
-    <episode section="02-49b" start="SBLGNT.Mark.15.6.w1" title="Pilate before the Crowd"/>
+    <episode section="02-44a" start="SBLGNT.Mark.14.12.w1" title="The Preparation for the Passover" cluster="13"/>
+    <episode section="02-44b" start="SBLGNT.Mark.14.17.w1" title="The Celebration of the Passover" cluster="58"/>
+    <episode section="02-45a" start="SBLGNT.Mark.14.26.w1" title="Jesus Predicts Peter's Denials" cluster="31"/>
+    <episode section="02-45b" start="SBLGNT.Mark.14.32.w1" title="Jesus Prays in Gethsemane" cluster="18"/>
+    <episode section="02-46" start="SBLGNT.Mark.14.43.w1" title="The Capture of Jesus" cluster="51"/>
+    <episode section="02-47" start="SBLGNT.Mark.14.53.w1" title="The Trial before the High Priest" cluster="12"/>
+    <episode section="02-48" start="SBLGNT.Mark.14.66.w1" title="The Denial of Peter" cluster="43"/>
+    <episode section="02-49a" start="SBLGNT.Mark.15.1.w1" title="Jesus before Pilate" cluster="48"/>
+    <episode section="02-49b" start="SBLGNT.Mark.15.6.w1" title="Pilate before the Crowd" cluster="21"/>
     <episode section="02-50a" start="SBLGNT.Mark.15.16.w1" title="Jesus before the Soldiers"/>
-    <episode section="02-50b" start="SBLGNT.Mark.15.21.w1"
-        title="The Crucifixion and Death of Christ"/>
+    <episode section="02-50b" start="SBLGNT.Mark.15.21.w1" title="The Crucifixion and Death of Christ"/>
     <episode section="02-51" start="SBLGNT.Mark.15.40.w1" title="The Burial of Jesus"/>
-    <episode section="02-52" start="SBLGNT.Mark.16.1.w1" title="The Resurrection of Jesus"/>
-    <episode section="02-53" start="SBLGNT.Mark.16.9.w1"
-        title="The Appearances and the Ascension of Jesus"/>
+    <episode section="02-52" start="SBLGNT.Mark.16.1.w1" title="The Resurrection of Jesus" cluster="0"/>
+    <episode section="02-53" start="SBLGNT.Mark.16.9.w1" title="The Appearances and the Ascension of Jesus" cluster="14"/>
     <episode section="03-01" start="SBLGNT.Luke.1.1.w1" title="The Preface to the Gospel"/>
-    <episode section="03-02a" start="SBLGNT.Luke.1.5.w1"
-        title="The Announcement of John the Baptist’s Birth"/>
-    <episode section="03-02b" start="SBLGNT.Luke.1.23.w1" title="Elizabeth Conceives"/>
-    <episode section="03-03" start="SBLGNT.Luke.1.26.w1" title="The Annunciation to Mary"/>
-    <episode section="03-04" start="SBLGNT.Luke.1.39.w1" title="Mary’s Visit to Elizabeth"/>
-    <episode section="03-05" start="SBLGNT.Luke.1.57.w1"
-        title="The Birth of John the Baptist and Zechariah's Song"/>
+    <episode section="03-02a" start="SBLGNT.Luke.1.5.w1" title="The Announcement of John the Baptist’s Birth" cluster="31"/>
+    <episode section="03-02b" start="SBLGNT.Luke.1.23.w1" title="Elizabeth Conceives" cluster="53"/>
+    <episode section="03-03" start="SBLGNT.Luke.1.26.w1" title="The Annunciation to Mary" cluster="15"/>
+    <episode section="03-04" start="SBLGNT.Luke.1.39.w1" title="Mary’s Visit to Elizabeth" cluster="32"/>
+    <episode section="03-05" start="SBLGNT.Luke.1.57.w1" title="The Birth of John the Baptist and Zechariah's Song" cluster="52"/>
     <episode section="03-06a" start="SBLGNT.Luke.2.1.w1" title="The Birth of Jesus"/>
-    <episode section="03-06b" start="SBLGNT.Luke.2.8.w1" title="The Adoration of the Shepherds"/>
-    <episode section="03-07" start="SBLGNT.Luke.2.21.w1"
-        title="The Circumcision and Presentation of Christ"/>
-    <episode section="03-08" start="SBLGNT.Luke.2.41.w1" title="The Christ-Child in the Temple"/>
-    <episode section="03-09" start="SBLGNT.Luke.3.1.w1" title="The Ministry of John the Baptist"/>
-    <episode section="03-10a" start="SBLGNT.Luke.3.21.w1" title="The Baptism of Christ"/>
+    <episode section="03-06b" start="SBLGNT.Luke.2.8.w1" title="The Adoration of the Shepherds" cluster="25"/>
+    <episode section="03-07" start="SBLGNT.Luke.2.21.w1" title="The Circumcision and Presentation of Christ" cluster="53"/>
+    <episode section="03-08" start="SBLGNT.Luke.2.41.w1" title="The Christ-Child in the Temple" cluster="48"/>
+    <episode section="03-09" start="SBLGNT.Luke.3.1.w1" title="The Ministry of John the Baptist" cluster="16"/>
+    <episode section="03-10a" start="SBLGNT.Luke.3.21.w1" title="The Baptism of Christ" cluster="45"/>
     <episode section="03-10b" start="SBLGNT.Luke.3.23.w1" title="The Genealogy of Christ"/>
-    <episode section="03-11" start="SBLGNT.Luke.4.1.w1" title="The Temptation of Christ"/>
-    <episode section="03-12" start="SBLGNT.Luke.4.14.w1"
-        title="The Beginning of Christ’s Ministry and His Teaching in Nazareth"/>
-    <episode section="03-13a" start="SBLGNT.Luke.4.33.w1" title="Healing of a Demoniac"/>
-    <episode section="03-13b" start="SBLGNT.Luke.4.38.w1" title="Jesus Heals Many"/>
-    <episode section="03-14" start="SBLGNT.Luke.5.1.w1"
-        title="The Miraculous Draught of Fishes and the Call of the First Disciples"/>
+    <episode section="03-11" start="SBLGNT.Luke.4.1.w1" title="The Temptation of Christ" cluster="2"/>
+    <episode section="03-12" start="SBLGNT.Luke.4.14.w1" title="The Beginning of Christ’s Ministry and His Teaching in Nazareth" cluster="53"/>
+    <episode section="03-13a" start="SBLGNT.Luke.4.33.w1" title="Healing of a Demoniac" cluster="10"/>
+    <episode section="03-13b" start="SBLGNT.Luke.4.38.w1" title="Jesus Heals Many" cluster="40"/>
+    <episode section="03-14" start="SBLGNT.Luke.5.1.w1" title="The Miraculous Draught of Fishes and the Call of the First Disciples" cluster="9"/>
     <episode section="03-15a" start="SBLGNT.Luke.5.12.w1" title="The Healing of a Leper"/>
     <episode section="03-15b" start="SBLGNT.Luke.5.17.w1" title="The Healing of a Paralytic"/>
-    <episode section="03-16" start="SBLGNT.Luke.5.27.w1"
-        title="The Call of Levi and the Discourse Concerning Christ’s Ministry"/>
-    <episode section="03-17" start="SBLGNT.Luke.6.1.w1"
-        title="Disputes Concerning Sabbath Observance"/>
+    <episode section="03-16" start="SBLGNT.Luke.5.27.w1" title="The Call of Levi and the Discourse Concerning Christ’s Ministry" cluster="17"/>
+    <episode section="03-17" start="SBLGNT.Luke.6.1.w1" title="Disputes Concerning Sabbath Observance" cluster="21"/>
     <episode section="03-18" start="SBLGNT.Luke.6.12.w1" title="The Twelve Apostles"/>
-    <episode section="03-19" start="SBLGNT.Luke.6.17.w1" title="Miracles of Healing and Preaching"/>
-    <episode section="03-20" start="SBLGNT.Luke.7.1.w1" title="The Centurion of Capernaum"/>
-    <episode section="03-21" start="SBLGNT.Luke.7.11.w1" title="Raising of the Widow’s Son"/>
-    <episode section="03-22" start="SBLGNT.Luke.7.18.w1" title="The Embassy of John the Baptist"/>
-    <episode section="03-23" start="SBLGNT.Luke.7.36.w1" title="The First Anointing of Jesus"/>
+    <episode section="03-19" start="SBLGNT.Luke.6.17.w1" title="Miracles of Healing and Preaching" cluster="6"/>
+    <episode section="03-20" start="SBLGNT.Luke.7.1.w1" title="The Centurion of Capernaum" cluster="10"/>
+    <episode section="03-21" start="SBLGNT.Luke.7.11.w1" title="Raising of the Widow’s Son" cluster="10"/>
+    <episode section="03-22" start="SBLGNT.Luke.7.18.w1" title="The Embassy of John the Baptist" cluster="11"/>
+    <episode section="03-23" start="SBLGNT.Luke.7.36.w1" title="The First Anointing of Jesus" cluster="10"/>
     <episode section="03-24a" start="SBLGNT.Luke.8.1.w1" title="Teaching in Parables"/>
     <episode section="03-24b" start="SBLGNT.Luke.8.19.w1" title="Jesus Mother and Brothers"/>
-    <episode section="03-25" start="SBLGNT.Luke.8.22.w1" title="The Storm on the Sea"/>
-    <episode section="03-26" start="SBLGNT.Luke.8.26.w1" title="In the Country of the Gadarenes"/>
-    <episode section="03-27" start="SBLGNT.Luke.8.40.w1"
-        title="The Woman with an Issue and the Daughter of Jairus"/>
-    <episode section="03-28a" start="SBLGNT.Luke.9.1.w1" title="The Mission of the Twelve"/>
-    <episode section="03-28b" start="SBLGNT.Luke.9.7.w1" title="Herod Hears about Jesus"/>
-    <episode section="03-29" start="SBLGNT.Luke.9.10.w1" title="The Feeding of the Five Thousand"/>
-    <episode section="03-30" start="SBLGNT.Luke.9.18.w1"
-        title="Peter’s Confession and Christ’s Answer"/>
-    <episode section="03-31" start="SBLGNT.Luke.9.28.w1" title="The Transfiguration"/>
-    <episode section="03-32" start="SBLGNT.Luke.9.37.w1" title="The Healing of the Epileptic Boy"/>
-    <episode section="03-33" start="SBLGNT.Luke.9.46.w1" title="Lessons in Humility"/>
-    <episode section="03-34a" start="SBLGNT.Luke.9.51.w1" title="Opposition in Samaria"/>
-    <episode section="03-34b" start="SBLGNT.Luke.9.57.w1" title="True Discipleship of Christ"/>
-    <episode section="03-35" start="SBLGNT.Luke.10.1.w1" title="The Mission of the Seventy"/>
-    <episode section="03-36" start="SBLGNT.Luke.10.25.w1" title="The Good Samaritan"/>
-    <episode section="03-37" start="SBLGNT.Luke.10.38.w1" title="Mary and Martha"/>
-    <episode section="03-38" start="SBLGNT.Luke.11.1.w1" title="A Lesson in Prayer"/>
-    <episode section="03-39, 03-40" start="SBLGNT.Luke.11.14.w1"
-        title="Christ Casts Out a Demon and Rebukes The Generation"/>
-    <episode section="03-41" start="SBLGNT.Luke.11.37.w1"
-        title="Woes upon the Pharisees and Lawyers"/>
-    <episode section="03-42 03-43 03-44" start="SBLGNT.Luke.11.53.w1"
-        title="The Teaching of the Kingdom"/>
-    <episode section="03-45" start="SBLGNT.Luke.13.10.w1" title="The Crippled Woman Healed"/>
-    <episode section="03-46a" start="SBLGNT.Luke.13.22.w1" title="Few Are Saved"/>
-    <episode section="03-46b" start="SBLGNT.Luke.13.31.w1" title="Some Pharisees Warn Jesus"/>
-    <episode section="03-47 03-48" start="SBLGNT.Luke.14.1.w1"
-        title="Christ the Guest of a Pharisee"/>
-    <episode section="03-49" start="SBLGNT.Luke.14.25.w1"
-        title="The Obligations of Christ’s Discipleship"/>
-    <episode section="03-50 03-51 03-52 03-53 03-54" start="SBLGNT.Luke.15.1.w1"
-        title="Parables and Teaching"/>
-    <episode section="03-55" start="SBLGNT.Luke.17.11.w1" title="The Ten Lepers"/>
-    <episode section="03-56" start="SBLGNT.Luke.17.20.w1"
-        title="Concerning the Kingdom of God and the Coming of Christ"/>
-    <episode section="03-57" start="SBLGNT.Luke.18.1.w1" title="The Unjust Judge"/>
-    <episode section="03-58" start="SBLGNT.Luke.18.9.w1" title="The Pharisee and the Publican"/>
-    <episode section="03-59" start="SBLGNT.Luke.18.15.w1" title="Christ Blesses Little Children"/>
-    <episode section="03-60" start="SBLGNT.Luke.18.18.w1" title="Denying All for Christ’s Sake"/>
-    <episode section="03-61" start="SBLGNT.Luke.18.31.w1"
-        title="The Lord’s Third Prediction of His Passion"/>
-    <episode section="03-62" start="SBLGNT.Luke.18.35.w1" title="The Blind Man of Jericho"/>
-    <episode section="03-63" start="SBLGNT.Luke.19.1.w1" title="Zacchaeus the Publican"/>
-    <episode section="03-64" start="SBLGNT.Luke.19.11.w1" title="The Parable of the Talents"/>
-    <episode section="03-65a" start="SBLGNT.Luke.19.29.w1" title="Jesus Procures a Donkey"/>
-    <episode section="03-65b" start="SBLGNT.Luke.19.37.w1" title="Christ’s Entry into Jerusalem"/>
-    <episode section="03-65c" start="SBLGNT.Luke.19.45.w1" title="Cleansing the Temple"/>
-    <episode section="03-66a" start="SBLGNT.Luke.20.1.w1" title="The Authority of Jesus"/>
-    <episode section="03-66b" start="SBLGNT.Luke.20.9.w1" title="Parable of the Wicked Tenants"/>
+    <episode section="03-25" start="SBLGNT.Luke.8.22.w1" title="The Storm on the Sea" cluster="29"/>
+    <episode section="03-26" start="SBLGNT.Luke.8.26.w1" title="In the Country of the Gadarenes" cluster="40"/>
+    <episode section="03-27" start="SBLGNT.Luke.8.40.w1" title="The Woman with an Issue and the Daughter of Jairus" cluster="47"/>
+    <episode section="03-28a" start="SBLGNT.Luke.9.1.w1" title="The Mission of the Twelve" cluster="18"/>
+    <episode section="03-28b" start="SBLGNT.Luke.9.7.w1" title="Herod Hears about Jesus" cluster="54"/>
+    <episode section="03-29" start="SBLGNT.Luke.9.10.w1" title="The Feeding of the Five Thousand" cluster="27"/>
+    <episode section="03-30" start="SBLGNT.Luke.9.18.w1" title="Peter’s Confession and Christ’s Answer" cluster="32"/>
+    <episode section="03-31" start="SBLGNT.Luke.9.28.w1" title="The Transfiguration" cluster="16"/>
+    <episode section="03-32" start="SBLGNT.Luke.9.37.w1" title="The Healing of the Epileptic Boy" cluster="49"/>
+    <episode section="03-33" start="SBLGNT.Luke.9.46.w1" title="Lessons in Humility" cluster="48"/>
+    <episode section="03-34a" start="SBLGNT.Luke.9.51.w1" title="Opposition in Samaria" cluster="52"/>
+    <episode section="03-34b" start="SBLGNT.Luke.9.57.w1" title="True Discipleship of Christ" cluster="55"/>
+    <episode section="03-35" start="SBLGNT.Luke.10.1.w1" title="The Mission of the Seventy" cluster="19"/>
+    <episode section="03-36" start="SBLGNT.Luke.10.25.w1" title="The Good Samaritan" cluster="50"/>
+    <episode section="03-37" start="SBLGNT.Luke.10.38.w1" title="Mary and Martha" cluster="29"/>
+    <episode section="03-38" start="SBLGNT.Luke.11.1.w1" title="A Lesson in Prayer" cluster="33"/>
+    <episode section="03-39, 03-40" start="SBLGNT.Luke.11.14.w1" title="Christ Casts Out a Demon and Rebukes The Generation"/>
+    <episode section="03-41" start="SBLGNT.Luke.11.37.w1" title="Woes upon the Pharisees and Lawyers" cluster="54"/>
+    <episode section="03-42 03-43 03-44" start="SBLGNT.Luke.11.53.w1" title="The Teaching of the Kingdom" cluster="7"/>
+    <episode section="03-45" start="SBLGNT.Luke.13.10.w1" title="The Crippled Woman Healed" cluster="26"/>
+    <episode section="03-46a" start="SBLGNT.Luke.13.22.w1" title="Few Are Saved" cluster="11"/>
+    <episode section="03-46b" start="SBLGNT.Luke.13.31.w1" title="Some Pharisees Warn Jesus" cluster="56"/>
+    <episode section="03-47 03-48" start="SBLGNT.Luke.14.1.w1" title="Christ the Guest of a Pharisee" cluster="4"/>
+    <episode section="03-49" start="SBLGNT.Luke.14.25.w1" title="The Obligations of Christ’s Discipleship" cluster="4"/>
+    <episode section="03-50 03-51 03-52 03-53 03-54" start="SBLGNT.Luke.15.1.w1" title="Parables and Teaching" cluster="35"/>
+    <episode section="03-55" start="SBLGNT.Luke.17.11.w1" title="The Ten Lepers" cluster="9"/>
+    <episode section="03-56" start="SBLGNT.Luke.17.20.w1" title="Concerning the Kingdom of God and the Coming of Christ" cluster="33"/>
+    <episode section="03-57" start="SBLGNT.Luke.18.1.w1" title="The Unjust Judge" cluster="6"/>
+    <episode section="03-58" start="SBLGNT.Luke.18.9.w1" title="The Pharisee and the Publican" cluster="7"/>
+    <episode section="03-59" start="SBLGNT.Luke.18.15.w1" title="Christ Blesses Little Children" cluster="52"/>
+    <episode section="03-60" start="SBLGNT.Luke.18.18.w1" title="Denying All for Christ’s Sake" cluster="49"/>
+    <episode section="03-61" start="SBLGNT.Luke.18.31.w1" title="The Lord’s Third Prediction of His Passion" cluster="34"/>
+    <episode section="03-62" start="SBLGNT.Luke.18.35.w1" title="The Blind Man of Jericho" cluster="5"/>
+    <episode section="03-63" start="SBLGNT.Luke.19.1.w1" title="Zacchaeus the Publican" cluster="26"/>
+    <episode section="03-64" start="SBLGNT.Luke.19.11.w1" title="The Parable of the Talents" cluster="7"/>
+    <episode section="03-65a" start="SBLGNT.Luke.19.29.w1" title="Jesus Procures a Donkey" cluster="36"/>
+    <episode section="03-65b" start="SBLGNT.Luke.19.37.w1" title="Christ’s Entry into Jerusalem" cluster="55"/>
+    <episode section="03-65c" start="SBLGNT.Luke.19.45.w1" title="Cleansing the Temple" cluster="37"/>
+    <episode section="03-66a" start="SBLGNT.Luke.20.1.w1" title="The Authority of Jesus" cluster="57"/>
+    <episode section="03-66b" start="SBLGNT.Luke.20.9.w1" title="Parable of the Wicked Tenants" cluster="39"/>
     <episode section="03-67a" start="SBLGNT.Luke.20.20.w1" title="The Pharisees Confounded"/>
     <episode section="03-67b" start="SBLGNT.Luke.20.27.w1" title="The Sadducees Confounded"/>
-    <episode section="03-68" start="SBLGNT.Luke.20.45.w1" title="Devouring Widows Houses"/>
-    <episode section="03-69" start="SBLGNT.Luke.21.5.w1"
-        title="The Destruction of Jerusalem and the End of the World"/>
+    <episode section="03-68" start="SBLGNT.Luke.20.45.w1" title="Devouring Widows Houses" cluster="6"/>
+    <episode section="03-69" start="SBLGNT.Luke.21.5.w1" title="The Destruction of Jerusalem and the End of the World" cluster="32"/>
     <episode section="03-70a" start="SBLGNT.Luke.22.1.w1" title="Judas Agrees to Betray Jesus"/>
-    <episode section="03-71" start="SBLGNT.Luke.22.7.w1"
-        title="The Preparation for, and the Celebration of, the Passover"/>
-    <episode section="03-72a" start="SBLGNT.Luke.22.39.w1"
-        title="The Walk to Gethsemane and the Agony"/>
-    <episode section="03-72b" start="SBLGNT.Luke.22.47.w1" title="Jesus Arrested"/>
-    <episode section="03-73a" start="SBLGNT.Luke.22.54.w1" title="The Denial of Peter"/>
-    <episode section="03-73b" start="SBLGNT.Luke.22.63.w1" title="The Guards Mistreat Jesus"/>
-    <episode section="03-73c" start="SBLGNT.Luke.22.66.w1"
-        title="Christ before the Council of the Elders"/>
-    <episode section="03-74" start="SBLGNT.Luke.23.1.w1" title="The Trial before Pilate"/>
-    <episode section="03-75a" start="SBLGNT.Luke.23.26.w1"
-        title="The Crucifixion and Death of Christ"/>
+    <episode section="03-71" start="SBLGNT.Luke.22.7.w1" title="The Preparation for, and the Celebration of, the Passover" cluster="13"/>
+    <episode section="03-72a" start="SBLGNT.Luke.22.39.w1" title="The Walk to Gethsemane and the Agony" cluster="46"/>
+    <episode section="03-72b" start="SBLGNT.Luke.22.47.w1" title="Jesus Arrested" cluster="51"/>
+    <episode section="03-73a" start="SBLGNT.Luke.22.54.w1" title="The Denial of Peter" cluster="43"/>
+    <episode section="03-73b" start="SBLGNT.Luke.22.63.w1" title="The Guards Mistreat Jesus" cluster="51"/>
+    <episode section="03-73c" start="SBLGNT.Luke.22.66.w1" title="Christ before the Council of the Elders" cluster="57"/>
+    <episode section="03-74" start="SBLGNT.Luke.23.1.w1" title="The Trial before Pilate" cluster="55"/>
+    <episode section="03-75a" start="SBLGNT.Luke.23.26.w1" title="The Crucifixion and Death of Christ" cluster="26"/>
     <episode section="03-75b" start="SBLGNT.Luke.23.50.w1" title="Jesus Buried"/>
-    <episode section="03-76" start="SBLGNT.Luke.24.1.w1" title="The Resurrection of Christ"/>
-    <episode section="03-77 03-78" start="SBLGNT.Luke.24.13.w1"
-        title="The Emmaus Disciples and the Last Appearances of Christ"/>
-    <episode section="04-01" start="SBLGNT.John.1.1.w1" title="The Word Became Flesh"/>
-    <episode section="04-02" start="SBLGNT.John.1.19.w1"
-        title="The Pharisees Question John the Baptist"/>
-    <episode section="04-03" start="SBLGNT.John.1.29.w1" title="John Meets Jesus"/>
-    <episode section="04-04a" start="SBLGNT.John.1.35.w1" title="The First Disciples of Jesus"/>
-    <episode section="04-04b" start="SBLGNT.John.1.43.w1" title="Jesus Calls Philip and Nathaniel"/>
-    <episode section="04-05" start="SBLGNT.John.2.1.w1" title="The Marriage at Cana"/>
-    <episode section="04-06" start="SBLGNT.John.2.13.w1"
-        title="The Purging of the Temple and Its Results"/>
-    <episode section="04-07" start="SBLGNT.John.3.1.w1" title="The Visit of Nicodemus"/>
-    <episode section="04-08" start="SBLGNT.John.3.22.w1" title="John’s Second Testimony of Christ"/>
-    <episode section="04-09a" start="SBLGNT.John.4.1.w1" title="Christ and the Woman of Samaria"/>
-    <episode section="04-09b" start="SBLGNT.John.4.27.w1" title="The Samaritans Believe"/>
-    <episode section="04-10" start="SBLGNT.John.4.43.w1" title="The Healing of the Nobleman’s Son"/>
-    <episode section="04-11" start="SBLGNT.John.5.1.w1" title="The Sick Man of Bethesda"/>
-    <episode section="04-12 04-13" start="SBLGNT.John.5.17.w1"
-        title="Jesus Defends Himself Against Jews Persecuting Him"/>
-    <episode section="04-14" start="SBLGNT.John.6.1.w1" title="The Feeding of the Five Thousand"/>
-    <episode section="04-15" start="SBLGNT.John.6.15.w1" title="Christ Walks on the Sea"/>
-    <episode section="04-16 04-17" start="SBLGNT.John.6.22.w1" title="Christ the Bread of Life"/>
-    <episode section="04-18a" start="SBLGNT.John.7.1.w1" title="The Unbelief of Christ’s Brothers"/>
-    <episode section="04-18b" start="SBLGNT.John.7.10.w1" title="Jesus Is Sought at the Festival"/>
-    <episode section="04-18c" start="SBLGNT.John.7.14.w1" title="Jesus at the Festival"/>
-    <episode section="04-18d" start="SBLGNT.John.7.45.w1" title="The Jewish Elites Disbelieve"/>
-    <episode section="04-19" start="SBLGNT.John.8.1.w1" title="The Woman Taken in Adultery"/>
-    <episode section="04-20 04-21" start="SBLGNT.John.8.12.w1" title="Jesus the Light of the World"/>
-    <episode section="04-22" start="SBLGNT.John.9.1.w1"
-        title="Healing of the Man That was Born Blind"/>
-    <episode section="04-23" start="SBLGNT.John.9.35.w1" title="Jesus the Good Shepherd"/>
-    <episode section="04-24a" start="SBLGNT.John.10.22.w1"
-        title="Christ’s Sermon at the Feast of Dedication"/>
-    <episode section="04-24b" start="SBLGNT.John.10.40.w1"
-        title="Jesus Returns to the Other Side of the Jordan"/>
-    <episode section="04-25a" start="SBLGNT.John.11.1.w1" title="Jesus Hears of Lazarus"/>
-    <episode section="04-25b" start="SBLGNT.John.11.17.w1" title="Martha Confronts Jesus"/>
-    <episode section="04-25c" start="SBLGNT.John.11.28.w1" title="Jesus at the Tomb of Lazarus"/>
-    <episode section="04-26a" start="SBLGNT.John.11.47.w1"
-        title="The Council concerning Christ’s Removal"/>
+    <episode section="03-76" start="SBLGNT.Luke.24.1.w1" title="The Resurrection of Christ" cluster="20"/>
+    <episode section="03-77 03-78" start="SBLGNT.Luke.24.13.w1" title="The Emmaus Disciples and the Last Appearances of Christ" cluster="58"/>
+    <episode section="04-01" start="SBLGNT.John.1.1.w1" title="The Word Became Flesh" cluster="53"/>
+    <episode section="04-02" start="SBLGNT.John.1.19.w1" title="The Pharisees Question John the Baptist" cluster="20"/>
+    <episode section="04-03" start="SBLGNT.John.1.29.w1" title="John Meets Jesus" cluster="8"/>
+    <episode section="04-04a" start="SBLGNT.John.1.35.w1" title="The First Disciples of Jesus" cluster="55"/>
+    <episode section="04-04b" start="SBLGNT.John.1.43.w1" title="Jesus Calls Philip and Nathaniel" cluster="26"/>
+    <episode section="04-05" start="SBLGNT.John.2.1.w1" title="The Marriage at Cana" cluster="47"/>
+    <episode section="04-06" start="SBLGNT.John.2.13.w1" title="The Purging of the Temple and Its Results" cluster="22"/>
+    <episode section="04-07" start="SBLGNT.John.3.1.w1" title="The Visit of Nicodemus" cluster="20"/>
+    <episode section="04-08" start="SBLGNT.John.3.22.w1" title="John’s Second Testimony of Christ" cluster="32"/>
+    <episode section="04-09a" start="SBLGNT.John.4.1.w1" title="Christ and the Woman of Samaria" cluster="15"/>
+    <episode section="04-09b" start="SBLGNT.John.4.27.w1" title="The Samaritans Believe" cluster="10"/>
+    <episode section="04-10" start="SBLGNT.John.4.43.w1" title="The Healing of the Nobleman’s Son" cluster="13"/>
+    <episode section="04-11" start="SBLGNT.John.5.1.w1" title="The Sick Man of Bethesda" cluster="16"/>
+    <episode section="04-12 04-13" start="SBLGNT.John.5.17.w1" title="Jesus Defends Himself Against Jews Persecuting Him" cluster="53"/>
+    <episode section="04-14" start="SBLGNT.John.6.1.w1" title="The Feeding of the Five Thousand" cluster="27"/>
+    <episode section="04-15" start="SBLGNT.John.6.15.w1" title="Christ Walks on the Sea" cluster="14"/>
+    <episode section="04-16 04-17" start="SBLGNT.John.6.22.w1" title="Christ the Bread of Life" cluster="49"/>
+    <episode section="04-18a" start="SBLGNT.John.7.1.w1" title="The Unbelief of Christ’s Brothers" cluster="31"/>
+    <episode section="04-18b" start="SBLGNT.John.7.10.w1" title="Jesus Is Sought at the Festival" cluster="54"/>
+    <episode section="04-18c" start="SBLGNT.John.7.14.w1" title="Jesus at the Festival" cluster="16"/>
+    <episode section="04-18d" start="SBLGNT.John.7.45.w1" title="The Jewish Elites Disbelieve" cluster="30"/>
+    <episode section="04-19" start="SBLGNT.John.8.1.w1" title="The Woman Taken in Adultery" cluster="10"/>
+    <episode section="04-20 04-21" start="SBLGNT.John.8.12.w1" title="Jesus the Light of the World" cluster="57"/>
+    <episode section="04-22" start="SBLGNT.John.9.1.w1" title="Healing of the Man That was Born Blind" cluster="22"/>
+    <episode section="04-23" start="SBLGNT.John.9.35.w1" title="Jesus the Good Shepherd" cluster="35"/>
+    <episode section="04-24a" start="SBLGNT.John.10.22.w1" title="Christ’s Sermon at the Feast of Dedication" cluster="57"/>
+    <episode section="04-24b" start="SBLGNT.John.10.40.w1" title="Jesus Returns to the Other Side of the Jordan" cluster="3"/>
+    <episode section="04-25a" start="SBLGNT.John.11.1.w1" title="Jesus Hears of Lazarus" cluster="25"/>
+    <episode section="04-25b" start="SBLGNT.John.11.17.w1" title="Martha Confronts Jesus" cluster="15"/>
+    <episode section="04-25c" start="SBLGNT.John.11.28.w1" title="Jesus at the Tomb of Lazarus" cluster="0"/>
+    <episode section="04-26a" start="SBLGNT.John.11.47.w1" title="The Council concerning Christ’s Removal"/>
     <episode section="04-26b" start="SBLGNT.John.11.55.w1" title="Many Seek Jesus at the Festival"/>
-    <episode section="04-27" start="SBLGNT.John.12.1.w1" title="The Anointing of Jesus"/>
-    <episode section="04-28" start="SBLGNT.John.12.12.w1" title="Christ’s Entry into Jerusalem"/>
-    <episode section="04-29 04-30 04-31" start="SBLGNT.John.12.20.w1"
-        title="Some Greeks Seek Jesus but Many Disbelieve"/>
-    <episode section="04-32" start="SBLGNT.John.13.1.w1" title="Jesus Washes the Disciples' Feet"/>
-    <episode section="04-33" start="SBLGNT.John.13.21.w1" title="Jesus Reveals His Betrayor"/>
-    <episode section="04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41" start="SBLGNT.John.13.31.w1"
-        title="Jesus Teaches at the Last Supper"/>
-    <episode section="04-42" start="SBLGNT.John.17.1.w1" title="Christ’s Great Sacerdotal Prayer"/>
-    <episode section="04-43" start="SBLGNT.John.18.1.w1" title="The Arrest of Jesus"/>
-    <episode section="04-44a" start="SBLGNT.John.18.15.w1" title="Peter's First Denial"/>
-    <episode section="04-44b" start="SBLGNT.John.18.19.w1" title="The High Priest Questions Jesus"/>
-    <episode section="04-44c" start="SBLGNT.John.18.25.w1" title="Peter's Second and Third Denials"/>
-    <episode section="04-45 04-46" start="SBLGNT.John.18.28.w1" title="The Trial Before Pilate"/>
-    <episode section="04-47a" start="SBLGNT.John.19.19.w1" title="The Jews Protest Pilate's Sign"/>
-    <episode section="04-47b" start="SBLGNT.John.19.23.w1"
-        title="The Soldiers Divide Jesus's Clothes"/>
-    <episode section="04-47c" start="SBLGNT.John.19.25.w1"
-        title="Jesus Entrusts His Mother and Dies"/>
+    <episode section="04-27" start="SBLGNT.John.12.1.w1" title="The Anointing of Jesus" cluster="42"/>
+    <episode section="04-28" start="SBLGNT.John.12.12.w1" title="Christ’s Entry into Jerusalem" cluster="16"/>
+    <episode section="04-29 04-30 04-31" start="SBLGNT.John.12.20.w1" title="Some Greeks Seek Jesus but Many Disbelieve" cluster="56"/>
+    <episode section="04-32" start="SBLGNT.John.13.1.w1" title="Jesus Washes the Disciples' Feet" cluster="28"/>
+    <episode section="04-33" start="SBLGNT.John.13.21.w1" title="Jesus Reveals His Betrayor" cluster="25"/>
+    <episode section="04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41" start="SBLGNT.John.13.31.w1" title="Jesus Teaches at the Last Supper" cluster="30"/>
+    <episode section="04-42" start="SBLGNT.John.17.1.w1" title="Christ’s Great Sacerdotal Prayer" cluster="6"/>
+    <episode section="04-43" start="SBLGNT.John.18.1.w1" title="The Arrest of Jesus" cluster="21"/>
+    <episode section="04-44a" start="SBLGNT.John.18.15.w1" title="Peter's First Denial" cluster="43"/>
+    <episode section="04-44b" start="SBLGNT.John.18.19.w1" title="The High Priest Questions Jesus" cluster="55"/>
+    <episode section="04-44c" start="SBLGNT.John.18.25.w1" title="Peter's Second and Third Denials" cluster="54"/>
+    <episode section="04-45 04-46" start="SBLGNT.John.18.28.w1" title="The Trial Before Pilate" cluster="12"/>
+    <episode section="04-47a" start="SBLGNT.John.19.19.w1" title="The Jews Protest Pilate's Sign" cluster="44"/>
+    <episode section="04-47b" start="SBLGNT.John.19.23.w1" title="The Soldiers Divide Jesus's Clothes" cluster="18"/>
+    <episode section="04-47c" start="SBLGNT.John.19.25.w1" title="Jesus Entrusts His Mother and Dies" cluster="6"/>
     <episode section="04-48" start="SBLGNT.John.19.31.w1" title="The Burial of Jesus"/>
-    <episode section="04-49" start="SBLGNT.John.20.1.w1" title="Easter Morning"/>
-    <episode section="04-50a" start="SBLGNT.John.20.19.w1"
-        title="The Appearance to the Hidden Disciples"/>
+    <episode section="04-49" start="SBLGNT.John.20.1.w1" title="Easter Morning" cluster="0"/>
+    <episode section="04-50a" start="SBLGNT.John.20.19.w1" title="The Appearance to the Hidden Disciples"/>
     <episode section="04-50b" start="SBLGNT.John.20.19.w1" title="The Appearance to Thomas"/>
-    <episode section="04-51" start="SBLGNT.John.21.1.w1"
-        title="The Appearance of Christ at the Sea of Tiberias"/>
-    <episode section="04-52" start="SBLGNT.John.21.15.w1" title="The Test of Peter’s Love"/>
-    <episode start="SBLGNT.Acts.1.1.w1" section="05-01" morphGntId="050101"
-        title="The Ascension of Jesus"/>
-    <episode start="SBLGNT.Acts.1.12.w1" section="05-02" morphGntId="050112"
-        title="The Election of Matthias"/>
-    <episode start="SBLGNT.Acts.2.1.w1" section="05-03" morphGntId="050201"
-        title="The Pentecost Miracle"/>
-    <episode start="SBLGNT.Acts.2.14.w1" section="05-04" morphGntId="050214"
-        title="The Sermon of Peter and Its Effect"/>
-    <episode start="SBLGNT.Acts.3.1.w1" section="05-05" morphGntId="050301"
-        title="The Healing of the Lame Man"/>
-    <episode start="SBLGNT.Acts.3.12.w1" section="05-06" morphGntId="050312"
-        title="The Address of Peter in the Temple"/>
-    <episode start="SBLGNT.Acts.4.1.w1" section="05-07" morphGntId="050401"
-        title="Peter and John before the Council"/>
-    <episode start="SBLGNT.Acts.4.23.w1" section="05-08" morphGntId="050423"
-        title="The Prayer and the Further Establishment of the Congregation"/>
-    <episode start="SBLGNT.Acts.5.1.w1" section="05-09" morphGntId="050501"
-        title="Ananias and Sapphira"/>
-    <episode start="SBLGNT.Acts.5.12.w1" section="05-10" morphGntId="050512"
-        title="The Prosperity of the Church"/>
-    <episode start="SBLGNT.Acts.5.17.w1" section="05-11" morphGntId="050517"
-        title="The Imprisonment, Deliverance, and Defense of the Apostles"/>
-    <episode start="SBLGNT.Acts.6.1.w1" section="05-12" morphGntId="050601"
-        title="The Choosing of the First Deacons"/>
-    <episode start="SBLGNT.Acts.6.9.w1" section="05-13" morphGntId="050609"
-        title="The Testimony of Stephen"/>
-    <episode start="SBLGNT.Acts.7.1.w1" section="05-14" morphGntId="050701"
-        title="The Defense of Stephen and His Death"/>
-    <episode start="SBLGNT.Acts.8.1.w1" section="05-15" morphGntId="050801"
-        title="The Gospel Planted in Samaria"/>
-    <episode start="SBLGNT.Acts.8.26.w1" section="05-16" morphGntId="050826"
-        title="The Ethiopian Eunuch"/>
-    <episode start="SBLGNT.Acts.9.1.w1" section="05-17" morphGntId="050901"
-        title="The Conversion and Early Labors of Paul"/>
-    <episode start="SBLGNT.Acts.9.32.w1" section="05-18" morphGntId="050932"
-        title="Two Miracles Performed by Peter"/>
-    <episode start="SBLGNT.Acts.10.1.w1" section="05-19" morphGntId="051001"
-        title="Cornelius the Centurion"/>
-    <episode start="SBLGNT.Acts.11.1.w1" section="05-20" morphGntId="051101"
-        title="Jewish Brethren Rejoice that Gentiles Granted Repentance"/>
-    <episode start="SBLGNT.Acts.11.19.w1" section="05-21" morphGntId="051119"
-        title="The Establishment of the Congregation at Antioch"/>
-    <episode start="SBLGNT.Acts.12.1.w1" section="05-22" morphGntId="051201"
-        title="Herod Persecutes the Church at Jerusalem and is Punished by God"/>
-    <episode start="SBLGNT.Acts.13.1.w1" section="05-23" morphGntId="051301"
-        title="Paul and Barnabas on the Island of Cyprus"/>
-    <episode start="SBLGNT.Acts.13.13.w1" section="05-24" morphGntId="051313"
-        title="At Antioch, in Pisidia"/>
-    <episode start="SBLGNT.Acts.14.1.w1" section="05-25" morphGntId="051401"
-        title="Paul and Barnabas at Iconium and Lystra"/>
-    <episode start="SBLGNT.Acts.14.19.w1" section="05-26" morphGntId="051419"
-        title="The Return Journey to Syria"/>
-    <episode start="SBLGNT.Acts.15.1.w1" section="05-27" morphGntId="051501"
-        title="The Convention at Jerusalem"/>
-    <episode start="SBLGNT.Acts.15.36.w1" section="05-28" morphGntId="051536"
-        title="The Beginning of Paul’s Second Missionary Journey"/>
-    <episode start="SBLGNT.Acts.16.1.w1" section="05-29" morphGntId="051601"
-        title="Paul and Silas in Asia Minor"/>
-    <episode start="SBLGNT.Acts.16.11.w1" section="05-30" morphGntId="051611"
-        title="Paul and His Companions at Philippi"/>
-    <episode start="SBLGNT.Acts.17.1.w1" section="05-31" morphGntId="051701"
-        title="Paul and Silas in Thessalonica and Berea"/>
+    <episode section="04-51" start="SBLGNT.John.21.1.w1" title="The Appearance of Christ at the Sea of Tiberias" cluster="0"/>
+    <episode section="04-52" start="SBLGNT.John.21.15.w1" title="The Test of Peter’s Love" cluster="32"/>
+    <episode start="SBLGNT.Acts.1.1.w1" section="05-01" morphGntId="050101" title="The Ascension of Jesus"/>
+    <episode start="SBLGNT.Acts.1.12.w1" section="05-02" morphGntId="050112" title="The Election of Matthias"/>
+    <episode start="SBLGNT.Acts.2.1.w1" section="05-03" morphGntId="050201" title="The Pentecost Miracle"/>
+    <episode start="SBLGNT.Acts.2.14.w1" section="05-04" morphGntId="050214" title="The Sermon of Peter and Its Effect"/>
+    <episode start="SBLGNT.Acts.3.1.w1" section="05-05" morphGntId="050301" title="The Healing of the Lame Man"/>
+    <episode start="SBLGNT.Acts.3.12.w1" section="05-06" morphGntId="050312" title="The Address of Peter in the Temple"/>
+    <episode start="SBLGNT.Acts.4.1.w1" section="05-07" morphGntId="050401" title="Peter and John before the Council"/>
+    <episode start="SBLGNT.Acts.4.23.w1" section="05-08" morphGntId="050423" title="The Prayer and the Further Establishment of the Congregation"/>
+    <episode start="SBLGNT.Acts.5.1.w1" section="05-09" morphGntId="050501" title="Ananias and Sapphira"/>
+    <episode start="SBLGNT.Acts.5.12.w1" section="05-10" morphGntId="050512" title="The Prosperity of the Church"/>
+    <episode start="SBLGNT.Acts.5.17.w1" section="05-11" morphGntId="050517" title="The Imprisonment, Deliverance, and Defense of the Apostles"/>
+    <episode start="SBLGNT.Acts.6.1.w1" section="05-12" morphGntId="050601" title="The Choosing of the First Deacons"/>
+    <episode start="SBLGNT.Acts.6.9.w1" section="05-13" morphGntId="050609" title="The Testimony of Stephen"/>
+    <episode start="SBLGNT.Acts.7.1.w1" section="05-14" morphGntId="050701" title="The Defense of Stephen and His Death"/>
+    <episode start="SBLGNT.Acts.8.1.w1" section="05-15" morphGntId="050801" title="The Gospel Planted in Samaria"/>
+    <episode start="SBLGNT.Acts.8.26.w1" section="05-16" morphGntId="050826" title="The Ethiopian Eunuch"/>
+    <episode start="SBLGNT.Acts.9.1.w1" section="05-17" morphGntId="050901" title="The Conversion and Early Labors of Paul"/>
+    <episode start="SBLGNT.Acts.9.32.w1" section="05-18" morphGntId="050932" title="Two Miracles Performed by Peter"/>
+    <episode start="SBLGNT.Acts.10.1.w1" section="05-19" morphGntId="051001" title="Cornelius the Centurion"/>
+    <episode start="SBLGNT.Acts.11.1.w1" section="05-20" morphGntId="051101" title="Jewish Brethren Rejoice that Gentiles Granted Repentance"/>
+    <episode start="SBLGNT.Acts.11.19.w1" section="05-21" morphGntId="051119" title="The Establishment of the Congregation at Antioch"/>
+    <episode start="SBLGNT.Acts.12.1.w1" section="05-22" morphGntId="051201" title="Herod Persecutes the Church at Jerusalem and is Punished by God"/>
+    <episode start="SBLGNT.Acts.13.1.w1" section="05-23" morphGntId="051301" title="Paul and Barnabas on the Island of Cyprus"/>
+    <episode start="SBLGNT.Acts.13.13.w1" section="05-24" morphGntId="051313" title="At Antioch, in Pisidia"/>
+    <episode start="SBLGNT.Acts.14.1.w1" section="05-25" morphGntId="051401" title="Paul and Barnabas at Iconium and Lystra"/>
+    <episode start="SBLGNT.Acts.14.19.w1" section="05-26" morphGntId="051419" title="The Return Journey to Syria"/>
+    <episode start="SBLGNT.Acts.15.1.w1" section="05-27" morphGntId="051501" title="The Convention at Jerusalem"/>
+    <episode start="SBLGNT.Acts.15.36.w1" section="05-28" morphGntId="051536" title="The Beginning of Paul’s Second Missionary Journey"/>
+    <episode start="SBLGNT.Acts.16.1.w1" section="05-29" morphGntId="051601" title="Paul and Silas in Asia Minor"/>
+    <episode start="SBLGNT.Acts.16.11.w1" section="05-30" morphGntId="051611" title="Paul and His Companions at Philippi"/>
+    <episode start="SBLGNT.Acts.17.1.w1" section="05-31" morphGntId="051701" title="Paul and Silas in Thessalonica and Berea"/>
     <episode start="SBLGNT.Acts.17.15.w1" section="05-32" morphGntId="051715" title="Paul in Athens"/>
     <episode start="SBLGNT.Acts.18.1.w1" section="05-33" morphGntId="051801" title="Paul at Corinth"/>
-    <episode start="SBLGNT.Acts.18.18.w1" section="05-34" morphGntId="051818"
-        title="The Return Trip to Antioch and the Beginning of the Third Journey"/>
-    <episode start="SBLGNT.Acts.19.1.w1" section="05-35" morphGntId="051901"
-        title="Paul’s Work at Ephesus"/>
-    <episode start="SBLGNT.Acts.19.21.w1" section="05-36" morphGntId="051921"
-        title="The Tumult of Demetrius"/>
-    <episode start="SBLGNT.Acts.20.1.w1" section="05-37" morphGntId="052001"
-        title="The Journey to Macedonia and Back to Miletus"/>
-    <episode start="SBLGNT.Acts.20.17.w1" section="05-38" morphGntId="052017"
-        title="Paul and the Elders of Ephesus"/>
-    <episode start="SBLGNT.Acts.21.1.w1" section="05-39" morphGntId="052101"
-        title="The Trip to Jerusalem"/>
-    <episode start="SBLGNT.Acts.21.17.w1" section="05-40" morphGntId="052117"
-        title="The Uprising against Paul"/>
-    <episode start="SBLGNT.Acts.21.40.w1" section="05-41" morphGntId="052140"
-        title="Paul Address in Hebrew"/>
-    <episode start="SBLGNT.Acts.22.22.w1" section="05-42" morphGntId="052222"
-        title="Paul and the Chief Captain"/>
-    <episode start="SBLGNT.Acts.23.1.w1" section="05-43" morphGntId="052301"
-        title="The Hearing in the Presence of the Sanhedrin"/>
-    <episode start="SBLGNT.Acts.23.12.w1" section="05-44" morphGntId="052312"
-        title="The Plot to Kill Paul"/>
-    <episode start="SBLGNT.Acts.23.23.w1" section="05-45" morphGntId="052323"
-        title="Paul Brought to Caesarea"/>
-    <episode start="SBLGNT.Acts.24.1.w1" section="05-46" morphGntId="052401"
-        title="Paul’s Trial before Felix"/>
-    <episode start="SBLGNT.Acts.24.23.w1" section="05-47" morphGntId="052423"
-        title="Paul Retained a Prisoner"/>
-    <episode start="SBLGNT.Acts.25.1.w1" section="05-48" morphGntId="052501"
-        title="Paul Appeals to Caesar"/>
-    <episode start="SBLGNT.Acts.25.13.w1" section="05-49" morphGntId="052513"
-        title="Agrippa and Bernice in Caesarea"/>
-    <episode start="SBLGNT.Acts.26.1.w1" section="05-50" morphGntId="052601"
-        title="The Hearing before Agrippa"/>
-    <episode start="SBLGNT.Acts.27.1.w1" section="05-51" morphGntId="052701"
-        title="The Voyage from Caesarea to Melita"/>
-    <episode start="SBLGNT.Acts.28.1.w1" section="05-52" morphGntId="052801"
-        title="The Journey from Melita to Rome"/>
-    <episode start="SBLGNT.Acts.28.17.w1" section="05-53" morphGntId="052817"
-        title="Two Years at Rome"/>
-    <episode start="SBLGNT.Rom.1.1.w1" section="06-01" morphGntId="060101"
-        title="The Salutation of the Letter"/>
-    <episode start="SBLGNT.Rom.1.8.w1" section="06-02" morphGntId="060108"
-        title="The Introduction to the Letter"/>
-    <episode start="SBLGNT.Rom.1.16.w1" section="06-03" morphGntId="060116"
-        title="The Theme of the Letter"/>
-    <episode start="SBLGNT.Rom.1.18.w1" section="06-04" morphGntId="060118"
-        title="The Moral Decay of the Gentile World"/>
-    <episode start="SBLGNT.Rom.2.1.w1" section="06-05" morphGntId="060201"
-        title="God’s Righteous Judgment"/>
-    <episode start="SBLGNT.Rom.2.11.w1" section="06-06" morphGntId="060211"
-        title="The Necessity of Keeping the Law Properly"/>
-    <episode start="SBLGNT.Rom.3.1.w1" section="06-07" morphGntId="060301"
-        title="Man’s Guilt and God’s Righteousness"/>
-    <episode start="SBLGNT.Rom.3.9.w1" section="06-08" morphGntId="060309"
-        title="The Scriptural Proof for the Universal Guilt of Mankind"/>
-    <episode start="SBLGNT.Rom.3.21.w1" section="06-09" morphGntId="060321"
-        title="Justification by Faith"/>
-    <episode start="SBLGNT.Rom.4.1.w1" section="06-10" morphGntId="060401"
-        title="The Righteousness of God Demonstrated from History"/>
-    <episode start="SBLGNT.Rom.5.1.w1" section="06-11" morphGntId="060501"
-        title="The Blessed Consequences of Justification"/>
-    <episode start="SBLGNT.Rom.5.12.w1" section="06-12" morphGntId="060512"
-        title="The First and the Second Adam"/>
-    <episode start="SBLGNT.Rom.6.1.w1" section="06-13" morphGntId="060601"
-        title="Sanctification as a Fruit of Justification"/>
-    <episode start="SBLGNT.Rom.6.15.w1" section="06-14" morphGntId="060615"
-        title="The Service of Righteousness"/>
-    <episode start="SBLGNT.Rom.7.1.w1" section="06-15" morphGntId="060701"
-        title="Freedom from the Law"/>
-    <episode start="SBLGNT.Rom.7.7.w1" section="06-16" morphGntId="060707"
-        title="The Purpose of the Law and Its Effect"/>
-    <episode start="SBLGNT.Rom.8.1.w1" section="06-17" morphGntId="060801"
-        title="The Life in the Spirit"/>
-    <episode start="SBLGNT.Rom.8.18.w1" section="06-18" morphGntId="060818"
-        title="Comfort in the Manifold Afflictions of this Life"/>
-    <episode start="SBLGNT.Rom.9.1.w1" section="06-19" morphGntId="060901"
-        title="The Distinction between the True and the False Israel"/>
-    <episode start="SBLGNT.Rom.9.14.w1" section="06-20" morphGntId="060914"
-        title="The Divine Sovereignty and Its Result"/>
-    <episode start="SBLGNT.Rom.9.30.w1" section="06-21" morphGntId="060930"
-        title="Israel’s Unbelief"/>
-    <episode start="SBLGNT.Rom.11.1.w1" section="06-22" morphGntId="061101"
-        title="A Remnant of Israel Saved"/>
-    <episode start="SBLGNT.Rom.11.11.w1" section="06-23" morphGntId="061111"
-        title="An Admonition and Encouragement to Gentiles and Jews"/>
-    <episode start="SBLGNT.Rom.12.1.w1" section="06-24" morphGntId="061201"
-        title="The Christian’s Life a Reasonable Service to God"/>
-    <episode start="SBLGNT.Rom.13.1.w1" section="06-25" morphGntId="061301"
-        title="Obedience to the Government"/>
-    <episode start="SBLGNT.Rom.13.8.w1" section="06-26" morphGntId="061308"
-        title="Love toward One’s Neighbor, the Walk in the Light"/>
-    <episode start="SBLGNT.Rom.14.1.w1" section="06-27" morphGntId="061401"
-        title="The Conduct of Christians toward Such as Are Weak in Faith"/>
-    <episode start="SBLGNT.Rom.15.1.w1" section="06-28" morphGntId="061501"
-        title="An Admonition to Patience and Harmony"/>
-    <episode start="SBLGNT.Rom.15.14.w1" section="06-29" morphGntId="061514"
-        title="The Epilog of the Letter"/>
-    <episode start="SBLGNT.Rom.16.1.w1" section="06-30" morphGntId="061601"
-        title="A Recommendation, Greetings, and a Final Admonition"/>
-    <episode start="SBLGNT.1Cor.1.1.w1" section="07-01" morphGntId="070101"
-        title="Salutation and Thanksgiving"/>
-    <episode start="SBLGNT.1Cor.1.10.w1" section="07-02" morphGntId="070110"
-        title="A Reproof of Disharmony"/>
-    <episode start="SBLGNT.1Cor.1.17.w1" section="07-03" morphGntId="070117"
-        title="The Wisdom of God and the Foolishness of Men"/>
-    <episode start="SBLGNT.1Cor.2.1.w1" section="07-04" morphGntId="070201"
-        title="The Preaching of the Cross"/>
-    <episode start="SBLGNT.1Cor.3.1.w1" section="07-05" morphGntId="070301"
-        title="A Reproof of Spiritual Pride"/>
-    <episode start="SBLGNT.1Cor.4.1.w1" section="07-06" morphGntId="070401"
-        title="The Work of the Ministers of Christ"/>
-    <episode start="SBLGNT.1Cor.5.1.w1" section="07-07" morphGntId="070501"
-        title="The Necessity of Church Discipline"/>
-    <episode start="SBLGNT.1Cor.6.1.w1" section="07-08" morphGntId="070601"
-        title="Lawsuits against Believers"/>
-    <episode start="SBLGNT.1Cor.6.12.w1" section="07-09" morphGntId="070612"
-        title="The Necessity of Keeping the Body Undefiled"/>
-    <episode start="SBLGNT.1Cor.7.1.w1" section="07-10" morphGntId="070701"
-        title="Instructions with Regard to Marriage"/>
-    <episode start="SBLGNT.1Cor.8.1.w1" section="07-11" morphGntId="070801"
-        title="Christian Liberty in the Matter of Eating Meat Offered to Idols"/>
-    <episode start="SBLGNT.1Cor.9.1.w1" section="07-12" morphGntId="070901"
-        title="Paul the Free Servant of Christ"/>
-    <episode start="SBLGNT.1Cor.10.1.w1" section="07-13" morphGntId="071001"
-        title="A Warning against Carnal Security"/>
-    <episode start="SBLGNT.1Cor.10.14.w1" section="07-14" morphGntId="071014"
-        title="Conduct toward the Weak"/>
-    <episode start="SBLGNT.1Cor.11.1.w1" section="07-15" morphGntId="071101"
-        title="Conduct in Public Worship"/>
-    <episode start="SBLGNT.1Cor.12.1.w1" section="07-16" morphGntId="071201"
-        title="Of the Use and Purpose of Spiritual Gifts"/>
+    <episode start="SBLGNT.Acts.18.18.w1" section="05-34" morphGntId="051818" title="The Return Trip to Antioch and the Beginning of the Third Journey"/>
+    <episode start="SBLGNT.Acts.19.1.w1" section="05-35" morphGntId="051901" title="Paul’s Work at Ephesus"/>
+    <episode start="SBLGNT.Acts.19.21.w1" section="05-36" morphGntId="051921" title="The Tumult of Demetrius"/>
+    <episode start="SBLGNT.Acts.20.1.w1" section="05-37" morphGntId="052001" title="The Journey to Macedonia and Back to Miletus"/>
+    <episode start="SBLGNT.Acts.20.17.w1" section="05-38" morphGntId="052017" title="Paul and the Elders of Ephesus"/>
+    <episode start="SBLGNT.Acts.21.1.w1" section="05-39" morphGntId="052101" title="The Trip to Jerusalem"/>
+    <episode start="SBLGNT.Acts.21.17.w1" section="05-40" morphGntId="052117" title="The Uprising against Paul"/>
+    <episode start="SBLGNT.Acts.21.40.w1" section="05-41" morphGntId="052140" title="Paul Address in Hebrew"/>
+    <episode start="SBLGNT.Acts.22.22.w1" section="05-42" morphGntId="052222" title="Paul and the Chief Captain"/>
+    <episode start="SBLGNT.Acts.23.1.w1" section="05-43" morphGntId="052301" title="The Hearing in the Presence of the Sanhedrin"/>
+    <episode start="SBLGNT.Acts.23.12.w1" section="05-44" morphGntId="052312" title="The Plot to Kill Paul"/>
+    <episode start="SBLGNT.Acts.23.23.w1" section="05-45" morphGntId="052323" title="Paul Brought to Caesarea"/>
+    <episode start="SBLGNT.Acts.24.1.w1" section="05-46" morphGntId="052401" title="Paul’s Trial before Felix"/>
+    <episode start="SBLGNT.Acts.24.23.w1" section="05-47" morphGntId="052423" title="Paul Retained a Prisoner"/>
+    <episode start="SBLGNT.Acts.25.1.w1" section="05-48" morphGntId="052501" title="Paul Appeals to Caesar"/>
+    <episode start="SBLGNT.Acts.25.13.w1" section="05-49" morphGntId="052513" title="Agrippa and Bernice in Caesarea"/>
+    <episode start="SBLGNT.Acts.26.1.w1" section="05-50" morphGntId="052601" title="The Hearing before Agrippa"/>
+    <episode start="SBLGNT.Acts.27.1.w1" section="05-51" morphGntId="052701" title="The Voyage from Caesarea to Melita"/>
+    <episode start="SBLGNT.Acts.28.1.w1" section="05-52" morphGntId="052801" title="The Journey from Melita to Rome"/>
+    <episode start="SBLGNT.Acts.28.17.w1" section="05-53" morphGntId="052817" title="Two Years at Rome"/>
+    <episode start="SBLGNT.Rom.1.1.w1" section="06-01" morphGntId="060101" title="The Salutation of the Letter"/>
+    <episode start="SBLGNT.Rom.1.8.w1" section="06-02" morphGntId="060108" title="The Introduction to the Letter"/>
+    <episode start="SBLGNT.Rom.1.16.w1" section="06-03" morphGntId="060116" title="The Theme of the Letter"/>
+    <episode start="SBLGNT.Rom.1.18.w1" section="06-04" morphGntId="060118" title="The Moral Decay of the Gentile World"/>
+    <episode start="SBLGNT.Rom.2.1.w1" section="06-05" morphGntId="060201" title="God’s Righteous Judgment"/>
+    <episode start="SBLGNT.Rom.2.11.w1" section="06-06" morphGntId="060211" title="The Necessity of Keeping the Law Properly"/>
+    <episode start="SBLGNT.Rom.3.1.w1" section="06-07" morphGntId="060301" title="Man’s Guilt and God’s Righteousness"/>
+    <episode start="SBLGNT.Rom.3.9.w1" section="06-08" morphGntId="060309" title="The Scriptural Proof for the Universal Guilt of Mankind"/>
+    <episode start="SBLGNT.Rom.3.21.w1" section="06-09" morphGntId="060321" title="Justification by Faith"/>
+    <episode start="SBLGNT.Rom.4.1.w1" section="06-10" morphGntId="060401" title="The Righteousness of God Demonstrated from History"/>
+    <episode start="SBLGNT.Rom.5.1.w1" section="06-11" morphGntId="060501" title="The Blessed Consequences of Justification"/>
+    <episode start="SBLGNT.Rom.5.12.w1" section="06-12" morphGntId="060512" title="The First and the Second Adam"/>
+    <episode start="SBLGNT.Rom.6.1.w1" section="06-13" morphGntId="060601" title="Sanctification as a Fruit of Justification"/>
+    <episode start="SBLGNT.Rom.6.15.w1" section="06-14" morphGntId="060615" title="The Service of Righteousness"/>
+    <episode start="SBLGNT.Rom.7.1.w1" section="06-15" morphGntId="060701" title="Freedom from the Law"/>
+    <episode start="SBLGNT.Rom.7.7.w1" section="06-16" morphGntId="060707" title="The Purpose of the Law and Its Effect"/>
+    <episode start="SBLGNT.Rom.8.1.w1" section="06-17" morphGntId="060801" title="The Life in the Spirit"/>
+    <episode start="SBLGNT.Rom.8.18.w1" section="06-18" morphGntId="060818" title="Comfort in the Manifold Afflictions of this Life"/>
+    <episode start="SBLGNT.Rom.9.1.w1" section="06-19" morphGntId="060901" title="The Distinction between the True and the False Israel"/>
+    <episode start="SBLGNT.Rom.9.14.w1" section="06-20" morphGntId="060914" title="The Divine Sovereignty and Its Result"/>
+    <episode start="SBLGNT.Rom.9.30.w1" section="06-21" morphGntId="060930" title="Israel’s Unbelief"/>
+    <episode start="SBLGNT.Rom.11.1.w1" section="06-22" morphGntId="061101" title="A Remnant of Israel Saved"/>
+    <episode start="SBLGNT.Rom.11.11.w1" section="06-23" morphGntId="061111" title="An Admonition and Encouragement to Gentiles and Jews"/>
+    <episode start="SBLGNT.Rom.12.1.w1" section="06-24" morphGntId="061201" title="The Christian’s Life a Reasonable Service to God"/>
+    <episode start="SBLGNT.Rom.13.1.w1" section="06-25" morphGntId="061301" title="Obedience to the Government"/>
+    <episode start="SBLGNT.Rom.13.8.w1" section="06-26" morphGntId="061308" title="Love toward One’s Neighbor, the Walk in the Light"/>
+    <episode start="SBLGNT.Rom.14.1.w1" section="06-27" morphGntId="061401" title="The Conduct of Christians toward Such as Are Weak in Faith"/>
+    <episode start="SBLGNT.Rom.15.1.w1" section="06-28" morphGntId="061501" title="An Admonition to Patience and Harmony"/>
+    <episode start="SBLGNT.Rom.15.14.w1" section="06-29" morphGntId="061514" title="The Epilog of the Letter"/>
+    <episode start="SBLGNT.Rom.16.1.w1" section="06-30" morphGntId="061601" title="A Recommendation, Greetings, and a Final Admonition"/>
+    <episode start="SBLGNT.1Cor.1.1.w1" section="07-01" morphGntId="070101" title="Salutation and Thanksgiving"/>
+    <episode start="SBLGNT.1Cor.1.10.w1" section="07-02" morphGntId="070110" title="A Reproof of Disharmony"/>
+    <episode start="SBLGNT.1Cor.1.17.w1" section="07-03" morphGntId="070117" title="The Wisdom of God and the Foolishness of Men"/>
+    <episode start="SBLGNT.1Cor.2.1.w1" section="07-04" morphGntId="070201" title="The Preaching of the Cross"/>
+    <episode start="SBLGNT.1Cor.3.1.w1" section="07-05" morphGntId="070301" title="A Reproof of Spiritual Pride"/>
+    <episode start="SBLGNT.1Cor.4.1.w1" section="07-06" morphGntId="070401" title="The Work of the Ministers of Christ"/>
+    <episode start="SBLGNT.1Cor.5.1.w1" section="07-07" morphGntId="070501" title="The Necessity of Church Discipline"/>
+    <episode start="SBLGNT.1Cor.6.1.w1" section="07-08" morphGntId="070601" title="Lawsuits against Believers"/>
+    <episode start="SBLGNT.1Cor.6.12.w1" section="07-09" morphGntId="070612" title="The Necessity of Keeping the Body Undefiled"/>
+    <episode start="SBLGNT.1Cor.7.1.w1" section="07-10" morphGntId="070701" title="Instructions with Regard to Marriage"/>
+    <episode start="SBLGNT.1Cor.8.1.w1" section="07-11" morphGntId="070801" title="Christian Liberty in the Matter of Eating Meat Offered to Idols"/>
+    <episode start="SBLGNT.1Cor.9.1.w1" section="07-12" morphGntId="070901" title="Paul the Free Servant of Christ"/>
+    <episode start="SBLGNT.1Cor.10.1.w1" section="07-13" morphGntId="071001" title="A Warning against Carnal Security"/>
+    <episode start="SBLGNT.1Cor.10.14.w1" section="07-14" morphGntId="071014" title="Conduct toward the Weak"/>
+    <episode start="SBLGNT.1Cor.11.1.w1" section="07-15" morphGntId="071101" title="Conduct in Public Worship"/>
+    <episode start="SBLGNT.1Cor.12.1.w1" section="07-16" morphGntId="071201" title="Of the Use and Purpose of Spiritual Gifts"/>
     <episode start="SBLGNT.1Cor.13.1.w1" section="07-17" morphGntId="071301" title="A Psalm of Love"/>
-    <episode start="SBLGNT.1Cor.14.1.w1" section="07-18" morphGntId="071401"
-        title="The Use of Spiritual Gifts in Public Worship"/>
-    <episode start="SBLGNT.1Cor.15.1.w1" section="07-19" morphGntId="071501"
-        title="Of the Resurrection of the Dead"/>
-    <episode start="SBLGNT.1Cor.16.1.w1" section="07-20" morphGntId="071601"
-        title="Concluding Admonitions"/>
-    <episode start="SBLGNT.2Cor.1.1.w1" section="08-01" morphGntId="080101"
-        title="Address, Thanksgiving, and Consolation"/>
-    <episode start="SBLGNT.2Cor.1.12.w1" section="08-02" morphGntId="080112"
-        title="Paul’s Vindication of His Conduct and Life"/>
-    <episode start="SBLGNT.2Cor.2.1.w1" section="08-03" morphGntId="080201"
-        title="Paul’s Apostolic Kindness"/>
-    <episode start="SBLGNT.2Cor.2.12.w1" section="08-04" morphGntId="080212"
-        title="Paul’s Triumph in Christ"/>
-    <episode start="SBLGNT.2Cor.3.1.w1" section="08-05" morphGntId="080301"
-        title="The Glory of the New Testament Ministry"/>
-    <episode start="SBLGNT.2Cor.4.1.w1" section="08-06" morphGntId="080401"
-        title="The Gospel-Message of Light and Life"/>
-    <episode start="SBLGNT.2Cor.5.1.w1" section="08-07" morphGntId="080501"
-        title="Paul’s Longing for the Future Glory"/>
-    <episode start="SBLGNT.2Cor.5.11.w1" section="08-08" morphGntId="080511"
-        title="Paul an Ambassador of Christ"/>
-    <episode start="SBLGNT.2Cor.6.1.w1" section="08-09" morphGntId="080601"
-        title="Paul’s Ministry in the Midst of Difficulties"/>
-    <episode start="SBLGNT.2Cor.6.11.w1" section="08-10" morphGntId="080611"
-        title="Admonition to Flee the Fellowship of Unbelievers"/>
-    <episode start="SBLGNT.2Cor.7.1.w1" section="08-11" morphGntId="080701"
-        title="Paul’s Consolation and Joy because of the Corinthians"/>
-    <episode start="SBLGNT.2Cor.8.1.w1" section="08-12" morphGntId="080801"
-        title="Paul’s Tactful Appeal and Recommendation"/>
-    <episode start="SBLGNT.2Cor.9.1.w1" section="08-13" morphGntId="080901"
-        title="Paul’s Final Instructions Concerning the Collection"/>
-    <episode start="SBLGNT.2Cor.10.1.w1" section="08-14" morphGntId="081001"
-        title="Paul’s Apostolic Authority"/>
-    <episode start="SBLGNT.2Cor.11.1.w1" section="08-15" morphGntId="081101"
-        title="The True Apostle and the False Teachers"/>
-    <episode start="SBLGNT.2Cor.11.16.w1" section="08-16" morphGntId="081116"
-        title="Paul’s Boast of His Apostolic Calling"/>
-    <episode start="SBLGNT.2Cor.12.1.w1" section="08-17" morphGntId="081201"
-        title="Paul’s Boast of His Weakness"/>
-    <episode start="SBLGNT.2Cor.12.11.w1" section="08-18" morphGntId="081211"
-        title="What Paul Expects of the Corinthians"/>
-    <episode start="SBLGNT.2Cor.13.1.w1" section="08-19" morphGntId="081301"
-        title="A Concluding Admonition and Greetings"/>
-    <episode start="SBLGNT.Gal.1.1.w1" section="09-01" morphGntId="090101"
-        title="Introductory Greeting and Doxology"/>
-    <episode start="SBLGNT.Gal.1.6.w1" section="09-02" morphGntId="090106"
-        title="Paul’s Reason for Writing the Epistle"/>
-    <episode start="SBLGNT.Gal.1.11.w1" section="09-03" morphGntId="090111"
-        title="Paul Called by God"/>
-    <episode start="SBLGNT.Gal.2.1.w1" section="09-04" morphGntId="090201"
-        title="Further Confirmation of Paul’s Apostleship"/>
-    <episode start="SBLGNT.Gal.2.11.w1" section="09-05" morphGntId="090211"
-        title="Paul’s Reproof of Peter, and the Lessons Drawn Therefrom"/>
-    <episode start="SBLGNT.Gal.3.1.w1" section="09-06" morphGntId="090301"
-        title="Salvation Is Not of Works, but by Faith"/>
-    <episode start="SBLGNT.Gal.3.19.w1" section="09-07" morphGntId="090319"
-        title="Proofs for the Liberty of a Christian from the Nature and Meaning of the Law"/>
-    <episode start="SBLGNT.Gal.4.1.w1" section="09-08" morphGntId="090401"
-        title="The Sonship of the Believers Opposed to the Bondage of the Law"/>
-    <episode start="SBLGNT.Gal.5.1.w1" section="09-09" morphGntId="090501"
-        title="Christian Liberty an Incentive to Holiness of Life"/>
-    <episode start="SBLGNT.Gal.6.1.w1" section="09-10" morphGntId="090601"
-        title="An Admonition to Serve One’s Neighbor in Love"/>
-    <episode start="SBLGNT.Gal.6.11.w1" section="09-11" morphGntId="090611"
-        title="Concluding Remarks"/>
+    <episode start="SBLGNT.1Cor.14.1.w1" section="07-18" morphGntId="071401" title="The Use of Spiritual Gifts in Public Worship"/>
+    <episode start="SBLGNT.1Cor.15.1.w1" section="07-19" morphGntId="071501" title="Of the Resurrection of the Dead"/>
+    <episode start="SBLGNT.1Cor.16.1.w1" section="07-20" morphGntId="071601" title="Concluding Admonitions"/>
+    <episode start="SBLGNT.2Cor.1.1.w1" section="08-01" morphGntId="080101" title="Address, Thanksgiving, and Consolation"/>
+    <episode start="SBLGNT.2Cor.1.12.w1" section="08-02" morphGntId="080112" title="Paul’s Vindication of His Conduct and Life"/>
+    <episode start="SBLGNT.2Cor.2.1.w1" section="08-03" morphGntId="080201" title="Paul’s Apostolic Kindness"/>
+    <episode start="SBLGNT.2Cor.2.12.w1" section="08-04" morphGntId="080212" title="Paul’s Triumph in Christ"/>
+    <episode start="SBLGNT.2Cor.3.1.w1" section="08-05" morphGntId="080301" title="The Glory of the New Testament Ministry"/>
+    <episode start="SBLGNT.2Cor.4.1.w1" section="08-06" morphGntId="080401" title="The Gospel-Message of Light and Life"/>
+    <episode start="SBLGNT.2Cor.5.1.w1" section="08-07" morphGntId="080501" title="Paul’s Longing for the Future Glory"/>
+    <episode start="SBLGNT.2Cor.5.11.w1" section="08-08" morphGntId="080511" title="Paul an Ambassador of Christ"/>
+    <episode start="SBLGNT.2Cor.6.1.w1" section="08-09" morphGntId="080601" title="Paul’s Ministry in the Midst of Difficulties"/>
+    <episode start="SBLGNT.2Cor.6.11.w1" section="08-10" morphGntId="080611" title="Admonition to Flee the Fellowship of Unbelievers"/>
+    <episode start="SBLGNT.2Cor.7.1.w1" section="08-11" morphGntId="080701" title="Paul’s Consolation and Joy because of the Corinthians"/>
+    <episode start="SBLGNT.2Cor.8.1.w1" section="08-12" morphGntId="080801" title="Paul’s Tactful Appeal and Recommendation"/>
+    <episode start="SBLGNT.2Cor.9.1.w1" section="08-13" morphGntId="080901" title="Paul’s Final Instructions Concerning the Collection"/>
+    <episode start="SBLGNT.2Cor.10.1.w1" section="08-14" morphGntId="081001" title="Paul’s Apostolic Authority"/>
+    <episode start="SBLGNT.2Cor.11.1.w1" section="08-15" morphGntId="081101" title="The True Apostle and the False Teachers"/>
+    <episode start="SBLGNT.2Cor.11.16.w1" section="08-16" morphGntId="081116" title="Paul’s Boast of His Apostolic Calling"/>
+    <episode start="SBLGNT.2Cor.12.1.w1" section="08-17" morphGntId="081201" title="Paul’s Boast of His Weakness"/>
+    <episode start="SBLGNT.2Cor.12.11.w1" section="08-18" morphGntId="081211" title="What Paul Expects of the Corinthians"/>
+    <episode start="SBLGNT.2Cor.13.1.w1" section="08-19" morphGntId="081301" title="A Concluding Admonition and Greetings"/>
+    <episode start="SBLGNT.Gal.1.1.w1" section="09-01" morphGntId="090101" title="Introductory Greeting and Doxology"/>
+    <episode start="SBLGNT.Gal.1.6.w1" section="09-02" morphGntId="090106" title="Paul’s Reason for Writing the Epistle"/>
+    <episode start="SBLGNT.Gal.1.11.w1" section="09-03" morphGntId="090111" title="Paul Called by God"/>
+    <episode start="SBLGNT.Gal.2.1.w1" section="09-04" morphGntId="090201" title="Further Confirmation of Paul’s Apostleship"/>
+    <episode start="SBLGNT.Gal.2.11.w1" section="09-05" morphGntId="090211" title="Paul’s Reproof of Peter, and the Lessons Drawn Therefrom"/>
+    <episode start="SBLGNT.Gal.3.1.w1" section="09-06" morphGntId="090301" title="Salvation Is Not of Works, but by Faith"/>
+    <episode start="SBLGNT.Gal.3.19.w1" section="09-07" morphGntId="090319" title="Proofs for the Liberty of a Christian from the Nature and Meaning of the Law"/>
+    <episode start="SBLGNT.Gal.4.1.w1" section="09-08" morphGntId="090401" title="The Sonship of the Believers Opposed to the Bondage of the Law"/>
+    <episode start="SBLGNT.Gal.5.1.w1" section="09-09" morphGntId="090501" title="Christian Liberty an Incentive to Holiness of Life"/>
+    <episode start="SBLGNT.Gal.6.1.w1" section="09-10" morphGntId="090601" title="An Admonition to Serve One’s Neighbor in Love"/>
+    <episode start="SBLGNT.Gal.6.11.w1" section="09-11" morphGntId="090611" title="Concluding Remarks"/>
     <episode start="SBLGNT.Eph.1.1.w1" section="10-01" morphGntId="100101" title="Salutation"/>
-    <episode start="SBLGNT.Eph.1.3.w1" section="10-02" morphGntId="100103"
-        title="The Blessings of Eternal Election"/>
-    <episode start="SBLGNT.Eph.1.15.w1" section="10-03" morphGntId="100115"
-        title="Prayer for Spiritual Enlightenment"/>
-    <episode start="SBLGNT.Eph.2.1.w1" section="10-04" morphGntId="100201"
-        title="The Church as the Sum Total of Men Saved by Grace"/>
-    <episode start="SBLGNT.Eph.3.1.w1" section="10-05" morphGntId="100301"
-        title="The Ministry of Paul for the Edification of the Church"/>
-    <episode start="SBLGNT.Eph.4.1.w1" section="10-06" morphGntId="100401"
-        title="Admonitions to Unity, Perfection in Knowledge, Holiness, and Peace"/>
-    <episode start="SBLGNT.Eph.5.1.w1" section="10-07" morphGntId="100501"
-        title="A Warning, Principally against the Sins of Uncleanness"/>
-    <episode start="SBLGNT.Eph.5.22.w1" section="10-08" morphGntId="100522"
-        title="The Duties of Husbands and Wives and the Relation of Christ to the Church"/>
-    <episode start="SBLGNT.Eph.6.1.w1" section="10-09" morphGntId="100601"
-        title="The Duties of Children, of Parents, of Servants"/>
-    <episode start="SBLGNT.Eph.6.10.w1" section="10-10" morphGntId="100610"
-        title="The Christian’s Spiritual Armor and Its Use"/>
-    <episode start="SBLGNT.Eph.6.21.w1" section="10-11" morphGntId="100621"
-        title="Concluding Remarks and Greeting"/>
-    <episode start="SBLGNT.Phil.1.1.w1" section="11-01" morphGntId="110101"
-        title="The Address and Salutation"/>
-    <episode start="SBLGNT.Phil.1.3.w1" section="11-02" morphGntId="110103"
-        title="The Apostle’s Personal Feeling toward the Philippian Christians"/>
-    <episode start="SBLGNT.Phil.1.12.w1" section="11-03" morphGntId="110112"
-        title="Paul’s Present Circumstances, Experiences, and Expectations"/>
-    <episode start="SBLGNT.Phil.1.27.w1" section="11-04" morphGntId="110127"
-        title="An Admonition to Constancy and True Unity"/>
-    <episode start="SBLGNT.Phil.2.1.w1" section="11-05" morphGntId="110201"
-        title="The Need of Loving Humility"/>
-    <episode start="SBLGNT.Phil.2.5.w1" section="11-06" morphGntId="110205"
-        title="The Example of Christ’s Humility"/>
-    <episode start="SBLGNT.Phil.2.12.w1" section="11-07" morphGntId="110212"
-        title="Work Out Your Salvation with Fear and Trembling"/>
-    <episode start="SBLGNT.Phil.2.19.w1" section="11-08" morphGntId="110219"
-        title="Recommendation of Timothy and Epaphroditus"/>
-    <episode start="SBLGNT.Phil.3.1.w1" section="11-09" morphGntId="110301"
-        title="The Dangers of Judaistic Teaching"/>
-    <episode start="SBLGNT.Phil.3.12.w1" section="11-10" morphGntId="110312"
-        title="Pursuing the Goal"/>
-    <episode start="SBLGNT.Phil.4.1.w1" section="11-11" morphGntId="110401"
-        title="Firmness and Unanimity Enjoined"/>
-    <episode start="SBLGNT.Phil.4.4.w1" section="11-12" morphGntId="110404"
-        title="The Rejoicing of the Christians Especially in Their Fellowship with Christ"/>
-    <episode start="SBLGNT.Phil.4.10.w1" section="11-13" morphGntId="110410"
-        title="Acknowledgment of the Kindness of the Philippians"/>
-    <episode start="SBLGNT.Phil.4.21.w1" section="11-14" morphGntId="110421"
-        title="Greetings and Conclusion"/>
-    <episode start="SBLGNT.Col.1.1.w1" section="12-01" morphGntId="120101"
-        title="The Opening Salutation"/>
-    <episode start="SBLGNT.Col.1.3.w1" section="12-02" morphGntId="120103"
-        title="Paul’s Prayer of Thanksgiving and Intercession"/>
-    <episode start="SBLGNT.Col.1.15.w1" section="12-03" morphGntId="120115"
-        title="The Work of the Exalted Christ through the Medium of the Ministry"/>
-    <episode start="SBLGNT.Col.2.1.w1" section="12-04" morphGntId="120201"
-        title="A Warning against Error"/>
-    <episode start="SBLGNT.Col.2.9.w1" section="12-05" morphGntId="120209"
-        title="Christ’s Work for His Church, Resulting in Sanctification"/>
-    <episode start="SBLGNT.Col.3.1.w1" section="12-06" morphGntId="120301"
-        title="The Affections of the Christians Set on Things Above"/>
-    <episode start="SBLGNT.Col.3.5.w1" section="12-07" morphGntId="120305"
-        title="Putting Off the Old Man and Putting On the New"/>
-    <episode start="SBLGNT.Col.3.12.w1" section="12-08" morphGntId="120312"
-        title="The Rule of God’s Peace and Its Effect on Various Stations in Life"/>
-    <episode start="SBLGNT.Col.4.2.w1" section="12-09" morphGntId="120402"
-        title="Concluding Admonitions"/>
-    <episode start="SBLGNT.Col.4.7.w1" section="12-10" morphGntId="120407"
-        title="Personal Matters, Greetings, and Concluding Salutation"/>
-    <episode start="SBLGNT.1Thess.1.1.w1" section="13-01" morphGntId="130101"
-        title="Introduction and Thanksgiving"/>
-    <episode start="SBLGNT.1Thess.1.5.w1" section="13-02" morphGntId="130105"
-        title="A Recommendation of the Congregation’s Attitude"/>
-    <episode start="SBLGNT.1Thess.2.1.w1" section="13-03" morphGntId="130201"
-        title="Paul’s Manner of Working in Thessalonica"/>
-    <episode start="SBLGNT.1Thess.2.13.w1" section="13-04" morphGntId="130213"
-        title="The Manner in Which the Thessalonians Received the Gospel"/>
-    <episode start="SBLGNT.1Thess.3.1.w1" section="13-05" morphGntId="130301"
-        title="Various Proofs of Paul’s Love for the Thessalonians"/>
-    <episode start="SBLGNT.1Thess.4.1.w1" section="13-06" morphGntId="130401"
-        title="Warning Regarding Various Sins"/>
-    <episode start="SBLGNT.1Thess.4.13.w1" section="13-07" morphGntId="130413"
-        title="Information about the Resurrection of the Dead"/>
-    <episode start="SBLGNT.1Thess.5.1.w1" section="13-08" morphGntId="130501"
-        title="Christian Watchfulness with Reference to the Last Day"/>
-    <episode start="SBLGNT.1Thess.5.12.w1" section="13-09" morphGntId="130512"
-        title="Concluding Admonitions and Greeting"/>
-    <episode start="SBLGNT.2Thess.1.1.w1" section="14-01" morphGntId="140101"
-        title="Introductory Salutation"/>
-    <episode start="SBLGNT.2Thess.1.3.w1" section="14-02" morphGntId="140103"
-        title="Paul’s Prayer of Thanksgiving and Intercession"/>
-    <episode start="SBLGNT.2Thess.2.1.w1" section="14-03" morphGntId="140201"
-        title="The Man of Sin and the Mystery of Iniquity"/>
-    <episode start="SBLGNT.2Thess.3.1.w1" section="14-04" morphGntId="140301"
-        title="Concluding Exhortations and Greeting"/>
-    <episode start="SBLGNT.1Tim.1.1.w1" section="15-01" morphGntId="150101"
-        title="Address and Greeting"/>
-    <episode start="SBLGNT.1Tim.1.3.w1" section="15-02" morphGntId="150103"
-        title="Warning Against False Teachers"/>
-    <episode start="SBLGNT.1Tim.1.8.w1" section="15-03" morphGntId="150108"
-        title="The Real Purpose of the Law"/>
-    <episode start="SBLGNT.1Tim.1.12.w1" section="15-04" morphGntId="150112"
-        title="Paul’s Praise for the Grace which He has Experienced"/>
-    <episode start="SBLGNT.1Tim.1.18.w1" section="15-05" morphGntId="150118"
-        title="A Warning against Apostasy"/>
-    <episode start="SBLGNT.1Tim.2.1.w1" section="15-06" morphGntId="150201"
-        title="An Admonition to Pray for All Men on the Basis of Christ’s Atoning Death"/>
-    <episode start="SBLGNT.1Tim.2.9.w1" section="15-07" morphGntId="150209"
-        title="The Station and Calling of Christian Women"/>
-    <episode start="SBLGNT.1Tim.3.1.w1" section="15-08" morphGntId="150301"
-        title="The Office of a Bishop, or Overseer"/>
-    <episode start="SBLGNT.1Tim.3.8.w1" section="15-09" morphGntId="150308"
-        title="The Office of Deacons"/>
-    <episode start="SBLGNT.1Tim.3.14.w1" section="15-10" morphGntId="150314"
-        title="The Purpose of Paul’s Letter and a Doxology"/>
-    <episode start="SBLGNT.1Tim.4.1.w1" section="15-11" morphGntId="150401"
-        title="The False Doctrines of the Last Days and Their Refutation"/>
-    <episode start="SBLGNT.1Tim.4.6.w1" section="15-12" morphGntId="150406"
-        title="The Personal Conduct of Timothy"/>
-    <episode start="SBLGNT.1Tim.5.1.w1" section="15-13" morphGntId="150501"
-        title="The Pastoral Care of the Aged, the Young, the Widows"/>
-    <episode start="SBLGNT.1Tim.5.9.w1" section="15-14" morphGntId="150509"
-        title="The Care of Widows on the Part of the Congregation"/>
-    <episode start="SBLGNT.1Tim.5.17.w1" section="15-15" morphGntId="150517"
-        title="Rules of Conduct with Regard to the Elders of the Congregation"/>
-    <episode start="SBLGNT.1Tim.6.3.w1" section="15-16" morphGntId="150603"
-        title="A Description Characterizing the Errorists"/>
-    <episode start="SBLGNT.1Tim.6.6.w1" section="15-17" morphGntId="150606"
-        title="The Sin of Avarice and Its Results"/>
-    <episode start="SBLGNT.1Tim.6.11.w1" section="15-18" morphGntId="150611"
-        title="The Conduct of the True Christian and Its Reward"/>
-    <episode start="SBLGNT.1Tim.6.17.w1" section="15-19" morphGntId="150617"
-        title="Final Admonitions and Conclusion"/>
-    <episode start="SBLGNT.2Tim.1.1.w1" section="16-01" morphGntId="160101"
-        title="Address and Salutation"/>
-    <episode start="SBLGNT.2Tim.1.3.w1" section="16-02" morphGntId="160103"
-        title="Paul Reminds Timothy of His Early Training and Its Obligations"/>
-    <episode start="SBLGNT.2Tim.1.5.w1" section="16-03" morphGntId="160105"
-        title="An Admonition to Steadfastness"/>
-    <episode start="SBLGNT.2Tim.1.15.w1" section="16-04" morphGntId="160115"
-        title="Paul’s Sorrowful and Cheerful Experiences"/>
-    <episode start="SBLGNT.2Tim.2.1.w1" section="16-05" morphGntId="160201"
-        title="Admonition to Faithfulness in the Ministry"/>
-    <episode start="SBLGNT.2Tim.2.8.w1" section="16-06" morphGntId="160208"
-        title="An Admonition to Faithfulness in Faith and Christian Conduct"/>
-    <episode start="SBLGNT.2Tim.2.14.w1" section="16-07" morphGntId="160214"
-        title="The Proper Dividing of the Word of God"/>
-    <episode start="SBLGNT.2Tim.2.19.w1" section="16-08" morphGntId="160219"
-        title="Of Clean and Unclean Vessels"/>
-    <episode start="SBLGNT.2Tim.2.22.w1" section="16-09" morphGntId="160222"
-        title="The Minister’s Personal Conduct"/>
-    <episode start="SBLGNT.2Tim.3.1.w1" section="16-10" morphGntId="160301"
-        title="The False Teachers and False Brethren of the Last Days"/>
-    <episode start="SBLGNT.2Tim.3.10.w1" section="16-11" morphGntId="160310"
-        title="The Special Lessons of Paul’s Afflictions"/>
-    <episode start="SBLGNT.2Tim.3.14.w1" section="16-12" morphGntId="160314"
-        title="The Purpose of Holy Scriptures"/>
-    <episode start="SBLGNT.2Tim.4.1.w1" section="16-13" morphGntId="160401"
-        title="Faithfulness in Office"/>
-    <episode start="SBLGNT.2Tim.4.6.w1" section="16-14" morphGntId="160406"
-        title="Paul’s Fight and Victory"/>
-    <episode start="SBLGNT.2Tim.4.9.w1" section="16-15" morphGntId="160409"
-        title="A Report Concerning Various Acquaintances and the First Hearing"/>
-    <episode start="SBLGNT.2Tim.4.19.w1" section="16-16" morphGntId="160419"
-        title="Concluding Remarks and Greeting"/>
-    <episode start="SBLGNT.Titus.1.1.w1" section="17-01" morphGntId="170101"
-        title="Address and Opening Salutation"/>
-    <episode start="SBLGNT.Titus.1.5.w1" section="17-02" morphGntId="170105"
-        title="The Qualifications of Christian Pastors"/>
-    <episode start="SBLGNT.Titus.1.10.w1" section="17-03" morphGntId="170110"
-        title="The False Teachers Characterized and the Question of How to Deal with Them"/>
-    <episode start="SBLGNT.Titus.2.1.w1" section="17-04" morphGntId="170201"
-        title="Admonitions concerning Various Stations"/>
-    <episode start="SBLGNT.Titus.2.11.w1" section="17-05" morphGntId="170211"
-        title="The Grace of Salvation and Its Sanctifying Power"/>
-    <episode start="SBLGNT.Titus.3.1.w1" section="17-06" morphGntId="170301"
-        title="An Admonition to Obedience and Meekness"/>
-    <episode start="SBLGNT.Titus.3.4.w1" section="17-07" morphGntId="170304"
-        title="The Washing of Regeneration and Its Wonderful Power"/>
-    <episode start="SBLGNT.Titus.3.9.w1" section="17-08" morphGntId="170309"
-        title="The Conduct of Titus toward False Teachers and Heretics"/>
-    <episode start="SBLGNT.Titus.3.12.w1" section="17-09" morphGntId="170312"
-        title="Final Directions and Greetings"/>
-    <episode start="SBLGNT.Phlm.1.1.w1" section="18-01" morphGntId="180101"
-        title="Address and Salutation"/>
-    <episode start="SBLGNT.Phlm.1.4.w1" section="18-02" morphGntId="180104"
-        title="Paul’s Thankfulness and Sympathy on Account of Philemon’s Christian State"/>
-    <episode start="SBLGNT.Phlm.1.8.w1" section="18-03" morphGntId="180108"
-        title="Paul’s Intercession for Onesimus"/>
-    <episode start="SBLGNT.Phlm.1.15.w1" section="18-04" morphGntId="180115"
-        title="Another Point Urged by the Apostle"/>
-    <episode start="SBLGNT.Phlm.1.21.w1" section="18-05" morphGntId="180121"
-        title="Concluding Remarks and Greeting"/>
-    <episode start="SBLGNT.Heb.1.1.w1" section="19-01" morphGntId="190101"
-        title="The Superiority of Christ over the Angels"/>
-    <episode start="SBLGNT.Heb.2.1.w1" section="19-02" morphGntId="190201"
-        title="The Need of Cheerful Obedience to Christ"/>
-    <episode start="SBLGNT.Heb.2.14.w1" section="19-03" morphGntId="190214"
-        title="The Deliverance Effected by Christ"/>
-    <episode start="SBLGNT.Heb.3.1.w1" section="19-04" morphGntId="190301"
-        title="The Superiority of Christ over Moses"/>
-    <episode start="SBLGNT.Heb.4.1.w1" section="19-05" morphGntId="190401"
-        title="A Further Warning against Unbelief"/>
-    <episode start="SBLGNT.Heb.4.11.w1" section="19-06" morphGntId="190411"
-        title="Boldness in Faith in Our High Priest"/>
-    <episode start="SBLGNT.Heb.5.1.w1" section="19-07" morphGntId="190501"
-        title="The Authority of Christ, Our High Priest"/>
-    <episode start="SBLGNT.Heb.5.11.w1" section="19-08" morphGntId="190511"
-        title="A Reproof of Spiritual Ignorance"/>
-    <episode start="SBLGNT.Heb.6.1.w1" section="19-09" morphGntId="190601"
-        title="An Exhortation to Progress and Steadfastness in the Faith"/>
-    <episode start="SBLGNT.Heb.7.1.w1" section="19-10" morphGntId="190701"
-        title="A Comparison between Christ and Melchizedek"/>
-    <episode start="SBLGNT.Heb.8.1.w1" section="19-11" morphGntId="190801"
-        title="Christ’s Eternal Priesthood has Superseded the Temporary Priesthood of Aaron"/>
-    <episode start="SBLGNT.Heb.9.1.w1" section="19-12" morphGntId="190901"
-        title="The Old Testament System Inferior to the Perfection of Christ’s Sacrifice"/>
-    <episode start="SBLGNT.Heb.10.1.w1" section="19-13" morphGntId="191001"
-        title="The Superiority of the One Perfect Offering of Christ"/>
-    <episode start="SBLGNT.Heb.10.19.w1" section="19-14" morphGntId="191019"
-        title="An Admonition to Stand Firm in the Faith, with Patience and Thanksgiving"/>
-    <episode start="SBLGNT.Heb.11.1.w1" section="19-15" morphGntId="191101"
-        title="A Wonderful Epic on the Power of Faith"/>
-    <episode start="SBLGNT.Heb.12.1.w1" section="19-16" morphGntId="191201"
-        title="An Appeal to Heed the Old Testament Examples, Aided by God’s Chastisement"/>
-    <episode start="SBLGNT.Heb.12.14.w1" section="19-17" morphGntId="191214"
-        title="A Warning against Apostasy on the Basis of the Excellency of the New Covenant"/>
-    <episode start="SBLGNT.Heb.13.1.w1" section="19-18" morphGntId="191301"
-        title="Final Admonitions and Conclusion"/>
-    <episode start="SBLGNT.Jas.1.1.w1" section="20-01" morphGntId="200101"
-        title="Various Temptations and Their Endurance"/>
-    <episode start="SBLGNT.Jas.1.16.w1" section="20-02" morphGntId="200116"
-        title="God’s Fatherhood and the Obligations of Sonship"/>
-    <episode start="SBLGNT.Jas.2.1.w1" section="20-03" morphGntId="200201"
-        title="Dead Faith Compared with Living Faith"/>
-    <episode start="SBLGNT.Jas.3.1.w1" section="20-04" morphGntId="200301"
-        title="Caution against False Activity in Teaching and the Use of the Tongue"/>
-    <episode start="SBLGNT.Jas.4.1.w1" section="20-05" morphGntId="200401"
-        title="Caution against Worldly-Mindedness and Its Consequences"/>
-    <episode start="SBLGNT.Jas.5.1.w1" section="20-06" morphGntId="200501"
-        title="Various Admonitions in View of the Nearness of the Judgment"/>
-    <episode start="SBLGNT.1Pet.1.1.w1" section="21-01" morphGntId="210101"
-        title="Address and Salutation"/>
-    <episode start="SBLGNT.1Pet.1.3.w1" section="21-02" morphGntId="210103"
-        title="A Praise of God for His Manifold Blessings"/>
-    <episode start="SBLGNT.1Pet.1.13.w1" section="21-03" morphGntId="210113"
-        title="An Admonition to Lead a Godly Life"/>
-    <episode start="SBLGNT.1Pet.2.1.w1" section="21-04" morphGntId="210201"
-        title="Further Practical Admonitions"/>
-    <episode start="SBLGNT.1Pet.2.11.w1" section="21-05" morphGntId="210211"
-        title="Specific Admonitions Concerning the Station of the Christians"/>
-    <episode start="SBLGNT.1Pet.3.1.w1" section="21-06" morphGntId="210301"
-        title="Exhortations to the Married"/>
-    <episode start="SBLGNT.1Pet.3.8.w1" section="21-07" morphGntId="210308"
-        title="Exhortations to Christians in General"/>
-    <episode start="SBLGNT.1Pet.4.1.w1" section="21-08" morphGntId="210401"
-        title="Admonitions in View of the Second Coming of Christ"/>
-    <episode start="SBLGNT.1Pet.5.1.w1" section="21-09" morphGntId="210501"
-        title="Final Admonitions and Concluding Greetings"/>
-    <episode start="SBLGNT.2Pet.1.1.w1" section="22-01" morphGntId="220101"
-        title="Address and Salutation"/>
-    <episode start="SBLGNT.2Pet.1.3.w1" section="22-02" morphGntId="220103"
-        title="The Obligations Imposed upon the Believers by the Rich Promises of God"/>
-    <episode start="SBLGNT.2Pet.1.12.w1" section="22-03" morphGntId="220112"
-        title="The Reliability of the Gospel and of the Prophecy"/>
-    <episode start="SBLGNT.2Pet.2.1.w1" section="22-04" morphGntId="220201"
-        title="A Warning against the False Teachers of All Times"/>
-    <episode start="SBLGNT.2Pet.3.1.w1" section="22-05" morphGntId="220301"
-        title="The Certain Coming of Christ and Its Lessons"/>
-    <episode start="SBLGNT.1John.1.1.w1" section="23-01" morphGntId="230101"
-        title="Christ’s Person and Office"/>
-    <episode start="SBLGNT.1John.2.1.w1" section="23-02" morphGntId="230201"
-        title="Christ’s Propitiation and Its Influence upon the Life of the Christians"/>
-    <episode start="SBLGNT.1John.3.1.w1" section="23-03" morphGntId="230301"
-        title="The Glory, Privileges, and Obligations of Sonship"/>
-    <episode start="SBLGNT.1John.4.1.w1" section="23-04" morphGntId="230401"
-        title="The Attitude of Christians toward False Teachers and toward One Another"/>
-    <episode start="SBLGNT.1John.5.1.w1" section="23-05" morphGntId="230501"
-        title="The Power, Testimony, and Substance of Faith"/>
-    <episode start="SBLGNT.1John.5.13.w1" section="23-06" morphGntId="230513"
-        title="A Concluding Summary"/>
-    <episode start="SBLGNT.2John.1.1.w1" section="24-01" morphGntId="240101"
-        title="Address and Salutation"/>
-    <episode start="SBLGNT.2John.1.4.w1" section="24-02" morphGntId="240104"
-        title="Exhortation to Walk in Truth and Love"/>
-    <episode start="SBLGNT.2John.1.7.w1" section="24-03" morphGntId="240107"
-        title="Warning against False Teachers"/>
+    <episode start="SBLGNT.Eph.1.3.w1" section="10-02" morphGntId="100103" title="The Blessings of Eternal Election"/>
+    <episode start="SBLGNT.Eph.1.15.w1" section="10-03" morphGntId="100115" title="Prayer for Spiritual Enlightenment"/>
+    <episode start="SBLGNT.Eph.2.1.w1" section="10-04" morphGntId="100201" title="The Church as the Sum Total of Men Saved by Grace"/>
+    <episode start="SBLGNT.Eph.3.1.w1" section="10-05" morphGntId="100301" title="The Ministry of Paul for the Edification of the Church"/>
+    <episode start="SBLGNT.Eph.4.1.w1" section="10-06" morphGntId="100401" title="Admonitions to Unity, Perfection in Knowledge, Holiness, and Peace"/>
+    <episode start="SBLGNT.Eph.5.1.w1" section="10-07" morphGntId="100501" title="A Warning, Principally against the Sins of Uncleanness"/>
+    <episode start="SBLGNT.Eph.5.22.w1" section="10-08" morphGntId="100522" title="The Duties of Husbands and Wives and the Relation of Christ to the Church"/>
+    <episode start="SBLGNT.Eph.6.1.w1" section="10-09" morphGntId="100601" title="The Duties of Children, of Parents, of Servants"/>
+    <episode start="SBLGNT.Eph.6.10.w1" section="10-10" morphGntId="100610" title="The Christian’s Spiritual Armor and Its Use"/>
+    <episode start="SBLGNT.Eph.6.21.w1" section="10-11" morphGntId="100621" title="Concluding Remarks and Greeting"/>
+    <episode start="SBLGNT.Phil.1.1.w1" section="11-01" morphGntId="110101" title="The Address and Salutation"/>
+    <episode start="SBLGNT.Phil.1.3.w1" section="11-02" morphGntId="110103" title="The Apostle’s Personal Feeling toward the Philippian Christians"/>
+    <episode start="SBLGNT.Phil.1.12.w1" section="11-03" morphGntId="110112" title="Paul’s Present Circumstances, Experiences, and Expectations"/>
+    <episode start="SBLGNT.Phil.1.27.w1" section="11-04" morphGntId="110127" title="An Admonition to Constancy and True Unity"/>
+    <episode start="SBLGNT.Phil.2.1.w1" section="11-05" morphGntId="110201" title="The Need of Loving Humility"/>
+    <episode start="SBLGNT.Phil.2.5.w1" section="11-06" morphGntId="110205" title="The Example of Christ’s Humility"/>
+    <episode start="SBLGNT.Phil.2.12.w1" section="11-07" morphGntId="110212" title="Work Out Your Salvation with Fear and Trembling"/>
+    <episode start="SBLGNT.Phil.2.19.w1" section="11-08" morphGntId="110219" title="Recommendation of Timothy and Epaphroditus"/>
+    <episode start="SBLGNT.Phil.3.1.w1" section="11-09" morphGntId="110301" title="The Dangers of Judaistic Teaching"/>
+    <episode start="SBLGNT.Phil.3.12.w1" section="11-10" morphGntId="110312" title="Pursuing the Goal"/>
+    <episode start="SBLGNT.Phil.4.1.w1" section="11-11" morphGntId="110401" title="Firmness and Unanimity Enjoined"/>
+    <episode start="SBLGNT.Phil.4.4.w1" section="11-12" morphGntId="110404" title="The Rejoicing of the Christians Especially in Their Fellowship with Christ"/>
+    <episode start="SBLGNT.Phil.4.10.w1" section="11-13" morphGntId="110410" title="Acknowledgment of the Kindness of the Philippians"/>
+    <episode start="SBLGNT.Phil.4.21.w1" section="11-14" morphGntId="110421" title="Greetings and Conclusion"/>
+    <episode start="SBLGNT.Col.1.1.w1" section="12-01" morphGntId="120101" title="The Opening Salutation"/>
+    <episode start="SBLGNT.Col.1.3.w1" section="12-02" morphGntId="120103" title="Paul’s Prayer of Thanksgiving and Intercession"/>
+    <episode start="SBLGNT.Col.1.15.w1" section="12-03" morphGntId="120115" title="The Work of the Exalted Christ through the Medium of the Ministry"/>
+    <episode start="SBLGNT.Col.2.1.w1" section="12-04" morphGntId="120201" title="A Warning against Error"/>
+    <episode start="SBLGNT.Col.2.9.w1" section="12-05" morphGntId="120209" title="Christ’s Work for His Church, Resulting in Sanctification"/>
+    <episode start="SBLGNT.Col.3.1.w1" section="12-06" morphGntId="120301" title="The Affections of the Christians Set on Things Above"/>
+    <episode start="SBLGNT.Col.3.5.w1" section="12-07" morphGntId="120305" title="Putting Off the Old Man and Putting On the New"/>
+    <episode start="SBLGNT.Col.3.12.w1" section="12-08" morphGntId="120312" title="The Rule of God’s Peace and Its Effect on Various Stations in Life"/>
+    <episode start="SBLGNT.Col.4.2.w1" section="12-09" morphGntId="120402" title="Concluding Admonitions"/>
+    <episode start="SBLGNT.Col.4.7.w1" section="12-10" morphGntId="120407" title="Personal Matters, Greetings, and Concluding Salutation"/>
+    <episode start="SBLGNT.1Thess.1.1.w1" section="13-01" morphGntId="130101" title="Introduction and Thanksgiving"/>
+    <episode start="SBLGNT.1Thess.1.5.w1" section="13-02" morphGntId="130105" title="A Recommendation of the Congregation’s Attitude"/>
+    <episode start="SBLGNT.1Thess.2.1.w1" section="13-03" morphGntId="130201" title="Paul’s Manner of Working in Thessalonica"/>
+    <episode start="SBLGNT.1Thess.2.13.w1" section="13-04" morphGntId="130213" title="The Manner in Which the Thessalonians Received the Gospel"/>
+    <episode start="SBLGNT.1Thess.3.1.w1" section="13-05" morphGntId="130301" title="Various Proofs of Paul’s Love for the Thessalonians"/>
+    <episode start="SBLGNT.1Thess.4.1.w1" section="13-06" morphGntId="130401" title="Warning Regarding Various Sins"/>
+    <episode start="SBLGNT.1Thess.4.13.w1" section="13-07" morphGntId="130413" title="Information about the Resurrection of the Dead"/>
+    <episode start="SBLGNT.1Thess.5.1.w1" section="13-08" morphGntId="130501" title="Christian Watchfulness with Reference to the Last Day"/>
+    <episode start="SBLGNT.1Thess.5.12.w1" section="13-09" morphGntId="130512" title="Concluding Admonitions and Greeting"/>
+    <episode start="SBLGNT.2Thess.1.1.w1" section="14-01" morphGntId="140101" title="Introductory Salutation"/>
+    <episode start="SBLGNT.2Thess.1.3.w1" section="14-02" morphGntId="140103" title="Paul’s Prayer of Thanksgiving and Intercession"/>
+    <episode start="SBLGNT.2Thess.2.1.w1" section="14-03" morphGntId="140201" title="The Man of Sin and the Mystery of Iniquity"/>
+    <episode start="SBLGNT.2Thess.3.1.w1" section="14-04" morphGntId="140301" title="Concluding Exhortations and Greeting"/>
+    <episode start="SBLGNT.1Tim.1.1.w1" section="15-01" morphGntId="150101" title="Address and Greeting"/>
+    <episode start="SBLGNT.1Tim.1.3.w1" section="15-02" morphGntId="150103" title="Warning Against False Teachers"/>
+    <episode start="SBLGNT.1Tim.1.8.w1" section="15-03" morphGntId="150108" title="The Real Purpose of the Law"/>
+    <episode start="SBLGNT.1Tim.1.12.w1" section="15-04" morphGntId="150112" title="Paul’s Praise for the Grace which He has Experienced"/>
+    <episode start="SBLGNT.1Tim.1.18.w1" section="15-05" morphGntId="150118" title="A Warning against Apostasy"/>
+    <episode start="SBLGNT.1Tim.2.1.w1" section="15-06" morphGntId="150201" title="An Admonition to Pray for All Men on the Basis of Christ’s Atoning Death"/>
+    <episode start="SBLGNT.1Tim.2.9.w1" section="15-07" morphGntId="150209" title="The Station and Calling of Christian Women"/>
+    <episode start="SBLGNT.1Tim.3.1.w1" section="15-08" morphGntId="150301" title="The Office of a Bishop, or Overseer"/>
+    <episode start="SBLGNT.1Tim.3.8.w1" section="15-09" morphGntId="150308" title="The Office of Deacons"/>
+    <episode start="SBLGNT.1Tim.3.14.w1" section="15-10" morphGntId="150314" title="The Purpose of Paul’s Letter and a Doxology"/>
+    <episode start="SBLGNT.1Tim.4.1.w1" section="15-11" morphGntId="150401" title="The False Doctrines of the Last Days and Their Refutation"/>
+    <episode start="SBLGNT.1Tim.4.6.w1" section="15-12" morphGntId="150406" title="The Personal Conduct of Timothy"/>
+    <episode start="SBLGNT.1Tim.5.1.w1" section="15-13" morphGntId="150501" title="The Pastoral Care of the Aged, the Young, the Widows"/>
+    <episode start="SBLGNT.1Tim.5.9.w1" section="15-14" morphGntId="150509" title="The Care of Widows on the Part of the Congregation"/>
+    <episode start="SBLGNT.1Tim.5.17.w1" section="15-15" morphGntId="150517" title="Rules of Conduct with Regard to the Elders of the Congregation"/>
+    <episode start="SBLGNT.1Tim.6.3.w1" section="15-16" morphGntId="150603" title="A Description Characterizing the Errorists"/>
+    <episode start="SBLGNT.1Tim.6.6.w1" section="15-17" morphGntId="150606" title="The Sin of Avarice and Its Results"/>
+    <episode start="SBLGNT.1Tim.6.11.w1" section="15-18" morphGntId="150611" title="The Conduct of the True Christian and Its Reward"/>
+    <episode start="SBLGNT.1Tim.6.17.w1" section="15-19" morphGntId="150617" title="Final Admonitions and Conclusion"/>
+    <episode start="SBLGNT.2Tim.1.1.w1" section="16-01" morphGntId="160101" title="Address and Salutation"/>
+    <episode start="SBLGNT.2Tim.1.3.w1" section="16-02" morphGntId="160103" title="Paul Reminds Timothy of His Early Training and Its Obligations"/>
+    <episode start="SBLGNT.2Tim.1.5.w1" section="16-03" morphGntId="160105" title="An Admonition to Steadfastness"/>
+    <episode start="SBLGNT.2Tim.1.15.w1" section="16-04" morphGntId="160115" title="Paul’s Sorrowful and Cheerful Experiences"/>
+    <episode start="SBLGNT.2Tim.2.1.w1" section="16-05" morphGntId="160201" title="Admonition to Faithfulness in the Ministry"/>
+    <episode start="SBLGNT.2Tim.2.8.w1" section="16-06" morphGntId="160208" title="An Admonition to Faithfulness in Faith and Christian Conduct"/>
+    <episode start="SBLGNT.2Tim.2.14.w1" section="16-07" morphGntId="160214" title="The Proper Dividing of the Word of God"/>
+    <episode start="SBLGNT.2Tim.2.19.w1" section="16-08" morphGntId="160219" title="Of Clean and Unclean Vessels"/>
+    <episode start="SBLGNT.2Tim.2.22.w1" section="16-09" morphGntId="160222" title="The Minister’s Personal Conduct"/>
+    <episode start="SBLGNT.2Tim.3.1.w1" section="16-10" morphGntId="160301" title="The False Teachers and False Brethren of the Last Days"/>
+    <episode start="SBLGNT.2Tim.3.10.w1" section="16-11" morphGntId="160310" title="The Special Lessons of Paul’s Afflictions"/>
+    <episode start="SBLGNT.2Tim.3.14.w1" section="16-12" morphGntId="160314" title="The Purpose of Holy Scriptures"/>
+    <episode start="SBLGNT.2Tim.4.1.w1" section="16-13" morphGntId="160401" title="Faithfulness in Office"/>
+    <episode start="SBLGNT.2Tim.4.6.w1" section="16-14" morphGntId="160406" title="Paul’s Fight and Victory"/>
+    <episode start="SBLGNT.2Tim.4.9.w1" section="16-15" morphGntId="160409" title="A Report Concerning Various Acquaintances and the First Hearing"/>
+    <episode start="SBLGNT.2Tim.4.19.w1" section="16-16" morphGntId="160419" title="Concluding Remarks and Greeting"/>
+    <episode start="SBLGNT.Titus.1.1.w1" section="17-01" morphGntId="170101" title="Address and Opening Salutation"/>
+    <episode start="SBLGNT.Titus.1.5.w1" section="17-02" morphGntId="170105" title="The Qualifications of Christian Pastors"/>
+    <episode start="SBLGNT.Titus.1.10.w1" section="17-03" morphGntId="170110" title="The False Teachers Characterized and the Question of How to Deal with Them"/>
+    <episode start="SBLGNT.Titus.2.1.w1" section="17-04" morphGntId="170201" title="Admonitions concerning Various Stations"/>
+    <episode start="SBLGNT.Titus.2.11.w1" section="17-05" morphGntId="170211" title="The Grace of Salvation and Its Sanctifying Power"/>
+    <episode start="SBLGNT.Titus.3.1.w1" section="17-06" morphGntId="170301" title="An Admonition to Obedience and Meekness"/>
+    <episode start="SBLGNT.Titus.3.4.w1" section="17-07" morphGntId="170304" title="The Washing of Regeneration and Its Wonderful Power"/>
+    <episode start="SBLGNT.Titus.3.9.w1" section="17-08" morphGntId="170309" title="The Conduct of Titus toward False Teachers and Heretics"/>
+    <episode start="SBLGNT.Titus.3.12.w1" section="17-09" morphGntId="170312" title="Final Directions and Greetings"/>
+    <episode start="SBLGNT.Phlm.1.1.w1" section="18-01" morphGntId="180101" title="Address and Salutation"/>
+    <episode start="SBLGNT.Phlm.1.4.w1" section="18-02" morphGntId="180104" title="Paul’s Thankfulness and Sympathy on Account of Philemon’s Christian State"/>
+    <episode start="SBLGNT.Phlm.1.8.w1" section="18-03" morphGntId="180108" title="Paul’s Intercession for Onesimus"/>
+    <episode start="SBLGNT.Phlm.1.15.w1" section="18-04" morphGntId="180115" title="Another Point Urged by the Apostle"/>
+    <episode start="SBLGNT.Phlm.1.21.w1" section="18-05" morphGntId="180121" title="Concluding Remarks and Greeting"/>
+    <episode start="SBLGNT.Heb.1.1.w1" section="19-01" morphGntId="190101" title="The Superiority of Christ over the Angels"/>
+    <episode start="SBLGNT.Heb.2.1.w1" section="19-02" morphGntId="190201" title="The Need of Cheerful Obedience to Christ"/>
+    <episode start="SBLGNT.Heb.2.14.w1" section="19-03" morphGntId="190214" title="The Deliverance Effected by Christ"/>
+    <episode start="SBLGNT.Heb.3.1.w1" section="19-04" morphGntId="190301" title="The Superiority of Christ over Moses"/>
+    <episode start="SBLGNT.Heb.4.1.w1" section="19-05" morphGntId="190401" title="A Further Warning against Unbelief"/>
+    <episode start="SBLGNT.Heb.4.11.w1" section="19-06" morphGntId="190411" title="Boldness in Faith in Our High Priest"/>
+    <episode start="SBLGNT.Heb.5.1.w1" section="19-07" morphGntId="190501" title="The Authority of Christ, Our High Priest"/>
+    <episode start="SBLGNT.Heb.5.11.w1" section="19-08" morphGntId="190511" title="A Reproof of Spiritual Ignorance"/>
+    <episode start="SBLGNT.Heb.6.1.w1" section="19-09" morphGntId="190601" title="An Exhortation to Progress and Steadfastness in the Faith"/>
+    <episode start="SBLGNT.Heb.7.1.w1" section="19-10" morphGntId="190701" title="A Comparison between Christ and Melchizedek"/>
+    <episode start="SBLGNT.Heb.8.1.w1" section="19-11" morphGntId="190801" title="Christ’s Eternal Priesthood has Superseded the Temporary Priesthood of Aaron"/>
+    <episode start="SBLGNT.Heb.9.1.w1" section="19-12" morphGntId="190901" title="The Old Testament System Inferior to the Perfection of Christ’s Sacrifice"/>
+    <episode start="SBLGNT.Heb.10.1.w1" section="19-13" morphGntId="191001" title="The Superiority of the One Perfect Offering of Christ"/>
+    <episode start="SBLGNT.Heb.10.19.w1" section="19-14" morphGntId="191019" title="An Admonition to Stand Firm in the Faith, with Patience and Thanksgiving"/>
+    <episode start="SBLGNT.Heb.11.1.w1" section="19-15" morphGntId="191101" title="A Wonderful Epic on the Power of Faith"/>
+    <episode start="SBLGNT.Heb.12.1.w1" section="19-16" morphGntId="191201" title="An Appeal to Heed the Old Testament Examples, Aided by God’s Chastisement"/>
+    <episode start="SBLGNT.Heb.12.14.w1" section="19-17" morphGntId="191214" title="A Warning against Apostasy on the Basis of the Excellency of the New Covenant"/>
+    <episode start="SBLGNT.Heb.13.1.w1" section="19-18" morphGntId="191301" title="Final Admonitions and Conclusion"/>
+    <episode start="SBLGNT.Jas.1.1.w1" section="20-01" morphGntId="200101" title="Various Temptations and Their Endurance"/>
+    <episode start="SBLGNT.Jas.1.16.w1" section="20-02" morphGntId="200116" title="God’s Fatherhood and the Obligations of Sonship"/>
+    <episode start="SBLGNT.Jas.2.1.w1" section="20-03" morphGntId="200201" title="Dead Faith Compared with Living Faith"/>
+    <episode start="SBLGNT.Jas.3.1.w1" section="20-04" morphGntId="200301" title="Caution against False Activity in Teaching and the Use of the Tongue"/>
+    <episode start="SBLGNT.Jas.4.1.w1" section="20-05" morphGntId="200401" title="Caution against Worldly-Mindedness and Its Consequences"/>
+    <episode start="SBLGNT.Jas.5.1.w1" section="20-06" morphGntId="200501" title="Various Admonitions in View of the Nearness of the Judgment"/>
+    <episode start="SBLGNT.1Pet.1.1.w1" section="21-01" morphGntId="210101" title="Address and Salutation"/>
+    <episode start="SBLGNT.1Pet.1.3.w1" section="21-02" morphGntId="210103" title="A Praise of God for His Manifold Blessings"/>
+    <episode start="SBLGNT.1Pet.1.13.w1" section="21-03" morphGntId="210113" title="An Admonition to Lead a Godly Life"/>
+    <episode start="SBLGNT.1Pet.2.1.w1" section="21-04" morphGntId="210201" title="Further Practical Admonitions"/>
+    <episode start="SBLGNT.1Pet.2.11.w1" section="21-05" morphGntId="210211" title="Specific Admonitions Concerning the Station of the Christians"/>
+    <episode start="SBLGNT.1Pet.3.1.w1" section="21-06" morphGntId="210301" title="Exhortations to the Married"/>
+    <episode start="SBLGNT.1Pet.3.8.w1" section="21-07" morphGntId="210308" title="Exhortations to Christians in General"/>
+    <episode start="SBLGNT.1Pet.4.1.w1" section="21-08" morphGntId="210401" title="Admonitions in View of the Second Coming of Christ"/>
+    <episode start="SBLGNT.1Pet.5.1.w1" section="21-09" morphGntId="210501" title="Final Admonitions and Concluding Greetings"/>
+    <episode start="SBLGNT.2Pet.1.1.w1" section="22-01" morphGntId="220101" title="Address and Salutation"/>
+    <episode start="SBLGNT.2Pet.1.3.w1" section="22-02" morphGntId="220103" title="The Obligations Imposed upon the Believers by the Rich Promises of God"/>
+    <episode start="SBLGNT.2Pet.1.12.w1" section="22-03" morphGntId="220112" title="The Reliability of the Gospel and of the Prophecy"/>
+    <episode start="SBLGNT.2Pet.2.1.w1" section="22-04" morphGntId="220201" title="A Warning against the False Teachers of All Times"/>
+    <episode start="SBLGNT.2Pet.3.1.w1" section="22-05" morphGntId="220301" title="The Certain Coming of Christ and Its Lessons"/>
+    <episode start="SBLGNT.1John.1.1.w1" section="23-01" morphGntId="230101" title="Christ’s Person and Office"/>
+    <episode start="SBLGNT.1John.2.1.w1" section="23-02" morphGntId="230201" title="Christ’s Propitiation and Its Influence upon the Life of the Christians"/>
+    <episode start="SBLGNT.1John.3.1.w1" section="23-03" morphGntId="230301" title="The Glory, Privileges, and Obligations of Sonship"/>
+    <episode start="SBLGNT.1John.4.1.w1" section="23-04" morphGntId="230401" title="The Attitude of Christians toward False Teachers and toward One Another"/>
+    <episode start="SBLGNT.1John.5.1.w1" section="23-05" morphGntId="230501" title="The Power, Testimony, and Substance of Faith"/>
+    <episode start="SBLGNT.1John.5.13.w1" section="23-06" morphGntId="230513" title="A Concluding Summary"/>
+    <episode start="SBLGNT.2John.1.1.w1" section="24-01" morphGntId="240101" title="Address and Salutation"/>
+    <episode start="SBLGNT.2John.1.4.w1" section="24-02" morphGntId="240104" title="Exhortation to Walk in Truth and Love"/>
+    <episode start="SBLGNT.2John.1.7.w1" section="24-03" morphGntId="240107" title="Warning against False Teachers"/>
     <episode start="SBLGNT.2John.1.12.w1" section="24-04" morphGntId="240112" title="Conclusion"/>
-    <episode start="SBLGNT.3John.1.1.w1" section="25-01" morphGntId="250101"
-        title="Address and Commendation"/>
-    <episode start="SBLGNT.3John.1.5.w1" section="25-02" morphGntId="250105"
-        title="The Hospitality of Gaius"/>
-    <episode start="SBLGNT.3John.1.9.w1" section="25-03" morphGntId="250109"
-        title="The Insolence of Diotrephes"/>
-    <episode start="SBLGNT.3John.1.12.w1" section="25-04" morphGntId="250112"
-        title="Commendation of Demetrius and Conclusion"/>
-    <episode start="SBLGNT.Jude.1.1.w1" section="26-01" morphGntId="260101"
-        title="Introductory Salutation"/>
-    <episode start="SBLGNT.Jude.1.3.w1" section="26-02" morphGntId="260103"
-        title="An Exhortation to Constancy in Faith"/>
-    <episode start="SBLGNT.Jude.1.5.w1" section="26-03" morphGntId="260105"
-        title="Examples of the Judgment of God"/>
-    <episode start="SBLGNT.Jude.1.8.w1" section="26-04" morphGntId="260108"
-        title="The Character of the Seducing Teachers"/>
-    <episode start="SBLGNT.Jude.1.14.w1" section="26-05" morphGntId="260114"
-        title="God’s Coming Judgment Upon the False Teachers"/>
-    <episode start="SBLGNT.Jude.1.17.w1" section="26-06" morphGntId="260117"
-        title="An Admonition to Holy Steadfastness"/>
-    <episode start="SBLGNT.Jude.1.24.w1" section="26-07" morphGntId="260124"
-        title="Concluding Doxology"/>
-    <episode start="SBLGNT.Rev.1.1.w1" section="27-01" morphGntId="270101"
-        title="The Mystery of the Seven Stars and the Seven Candlesticks"/>
-    <episode start="SBLGNT.Rev.2.1.w1" section="27-02" morphGntId="270201"
-        title="Letters to Congregations at Ephesus, Smyrna, Pergamum, and Thyatira"/>
-    <episode start="SBLGNT.Rev.3.1.w1" section="27-03" morphGntId="270301"
-        title="Letters to the Congregations at Sardis, at Philadelphia, and at Laodicea"/>
-    <episode start="SBLGNT.Rev.4.1.w1" section="27-04" morphGntId="270401"
-        title="The Vision of God’s Throne of Majesty and Glory"/>
-    <episode start="SBLGNT.Rev.5.1.w1" section="27-05" morphGntId="270501"
-        title="Christ, the Lion and the Lamb, Praised with a New Song"/>
-    <episode start="SBLGNT.Rev.6.1.w1" section="27-06" morphGntId="270601"
-        title="The Opening of Six Seals of the Scroll"/>
-    <episode start="SBLGNT.Rev.7.1.w1" section="27-07" morphGntId="270701"
-        title="The Comfort of the Church in Spiritual Afflictions"/>
-    <episode start="SBLGNT.Rev.8.1.w1" section="27-08" morphGntId="270801"
-        title="The Third Vision and the Opening of the Seventh Seal"/>
-    <episode start="SBLGNT.Rev.9.1.w1" section="27-09" morphGntId="270901"
-        title="The Sounding or the Fifth and Sixth Trumpets"/>
-    <episode start="SBLGNT.Rev.10.1.w1" section="27-10" morphGntId="271001"
-        title="The Angel and the Little Scroll"/>
-    <episode start="SBLGNT.Rev.11.1.w1" section="27-11" morphGntId="271101"
-        title="Of the Two Witnesses and the Sounding of the Seventh Trumpet"/>
-    <episode start="SBLGNT.Rev.12.1.w1" section="27-12" morphGntId="271201"
-        title="The Battle of Michael with the Dragon"/>
-    <episode start="SBLGNT.Rev.13.1.w1" section="27-13" morphGntId="271301"
-        title="The Seven-Headed Beast of Blasphemy and the Two-Horned Beast of Deceit"/>
-    <episode start="SBLGNT.Rev.14.1.w1" section="27-14" morphGntId="271401"
-        title="Of the 144,000 and the Fall of Spiritual Babylon"/>
-    <episode start="SBLGNT.Rev.15.1.w1" section="27-15" morphGntId="271501"
-        title="The Angels with the Seven Vials and the Opening of the Temple"/>
-    <episode start="SBLGNT.Rev.16.1.w1" section="27-16" morphGntId="271601"
-        title="The Seven Vials of Wrath are Poured Out"/>
-    <episode start="SBLGNT.Rev.17.1.w1" section="27-17" morphGntId="271701"
-        title="The Kingdom of Antichrist Symbolized by the Great Harlot"/>
-    <episode start="SBLGNT.Rev.18.1.w1" section="27-18" morphGntId="271801"
-        title="The Fall and Destruction of Antichrist’s Kingdom"/>
-    <episode start="SBLGNT.Rev.19.1.w1" section="27-19" morphGntId="271901"
-        title="The Triumph of the Elect in Heaven"/>
-    <episode start="SBLGNT.Rev.20.1.w1" section="27-20" morphGntId="272001"
-        title="Of the Dragon Bound and Loosed, of Gog and Magog, and of the Last Judgment"/>
-    <episode start="SBLGNT.Rev.21.1.w1" section="27-21" morphGntId="272101"
-        title="The Seventh Vision: Of the Heavenly Jerusalem"/>
-    <episode start="SBLGNT.Rev.22.1.w1" section="27-22" morphGntId="272201"
-        title="Of the Certain Bliss of Eternal Life"/>
+    <episode start="SBLGNT.3John.1.1.w1" section="25-01" morphGntId="250101" title="Address and Commendation"/>
+    <episode start="SBLGNT.3John.1.5.w1" section="25-02" morphGntId="250105" title="The Hospitality of Gaius"/>
+    <episode start="SBLGNT.3John.1.9.w1" section="25-03" morphGntId="250109" title="The Insolence of Diotrephes"/>
+    <episode start="SBLGNT.3John.1.12.w1" section="25-04" morphGntId="250112" title="Commendation of Demetrius and Conclusion"/>
+    <episode start="SBLGNT.Jude.1.1.w1" section="26-01" morphGntId="260101" title="Introductory Salutation"/>
+    <episode start="SBLGNT.Jude.1.3.w1" section="26-02" morphGntId="260103" title="An Exhortation to Constancy in Faith"/>
+    <episode start="SBLGNT.Jude.1.5.w1" section="26-03" morphGntId="260105" title="Examples of the Judgment of God"/>
+    <episode start="SBLGNT.Jude.1.8.w1" section="26-04" morphGntId="260108" title="The Character of the Seducing Teachers"/>
+    <episode start="SBLGNT.Jude.1.14.w1" section="26-05" morphGntId="260114" title="God’s Coming Judgment Upon the False Teachers"/>
+    <episode start="SBLGNT.Jude.1.17.w1" section="26-06" morphGntId="260117" title="An Admonition to Holy Steadfastness"/>
+    <episode start="SBLGNT.Jude.1.24.w1" section="26-07" morphGntId="260124" title="Concluding Doxology"/>
+    <episode start="SBLGNT.Rev.1.1.w1" section="27-01" morphGntId="270101" title="The Mystery of the Seven Stars and the Seven Candlesticks"/>
+    <episode start="SBLGNT.Rev.2.1.w1" section="27-02" morphGntId="270201" title="Letters to Congregations at Ephesus, Smyrna, Pergamum, and Thyatira"/>
+    <episode start="SBLGNT.Rev.3.1.w1" section="27-03" morphGntId="270301" title="Letters to the Congregations at Sardis, at Philadelphia, and at Laodicea"/>
+    <episode start="SBLGNT.Rev.4.1.w1" section="27-04" morphGntId="270401" title="The Vision of God’s Throne of Majesty and Glory"/>
+    <episode start="SBLGNT.Rev.5.1.w1" section="27-05" morphGntId="270501" title="Christ, the Lion and the Lamb, Praised with a New Song"/>
+    <episode start="SBLGNT.Rev.6.1.w1" section="27-06" morphGntId="270601" title="The Opening of Six Seals of the Scroll"/>
+    <episode start="SBLGNT.Rev.7.1.w1" section="27-07" morphGntId="270701" title="The Comfort of the Church in Spiritual Afflictions"/>
+    <episode start="SBLGNT.Rev.8.1.w1" section="27-08" morphGntId="270801" title="The Third Vision and the Opening of the Seventh Seal"/>
+    <episode start="SBLGNT.Rev.9.1.w1" section="27-09" morphGntId="270901" title="The Sounding or the Fifth and Sixth Trumpets"/>
+    <episode start="SBLGNT.Rev.10.1.w1" section="27-10" morphGntId="271001" title="The Angel and the Little Scroll"/>
+    <episode start="SBLGNT.Rev.11.1.w1" section="27-11" morphGntId="271101" title="Of the Two Witnesses and the Sounding of the Seventh Trumpet"/>
+    <episode start="SBLGNT.Rev.12.1.w1" section="27-12" morphGntId="271201" title="The Battle of Michael with the Dragon"/>
+    <episode start="SBLGNT.Rev.13.1.w1" section="27-13" morphGntId="271301" title="The Seven-Headed Beast of Blasphemy and the Two-Horned Beast of Deceit"/>
+    <episode start="SBLGNT.Rev.14.1.w1" section="27-14" morphGntId="271401" title="Of the 144,000 and the Fall of Spiritual Babylon"/>
+    <episode start="SBLGNT.Rev.15.1.w1" section="27-15" morphGntId="271501" title="The Angels with the Seven Vials and the Opening of the Temple"/>
+    <episode start="SBLGNT.Rev.16.1.w1" section="27-16" morphGntId="271601" title="The Seven Vials of Wrath are Poured Out"/>
+    <episode start="SBLGNT.Rev.17.1.w1" section="27-17" morphGntId="271701" title="The Kingdom of Antichrist Symbolized by the Great Harlot"/>
+    <episode start="SBLGNT.Rev.18.1.w1" section="27-18" morphGntId="271801" title="The Fall and Destruction of Antichrist’s Kingdom"/>
+    <episode start="SBLGNT.Rev.19.1.w1" section="27-19" morphGntId="271901" title="The Triumph of the Elect in Heaven"/>
+    <episode start="SBLGNT.Rev.20.1.w1" section="27-20" morphGntId="272001" title="Of the Dragon Bound and Loosed, of Gog and Magog, and of the Last Judgment"/>
+    <episode start="SBLGNT.Rev.21.1.w1" section="27-21" morphGntId="272101" title="The Seventh Vision: Of the Heavenly Jerusalem"/>
+    <episode start="SBLGNT.Rev.22.1.w1" section="27-22" morphGntId="272201" title="Of the Certain Bliss of Eternal Life"/>
 </root>
