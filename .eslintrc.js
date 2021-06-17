@@ -26,6 +26,7 @@ module.exports = {
       },
     ],
   },
+  parser: 'babel-eslint',
   parserOptions: { ecmaVersion: 8, sourceType: 'module' }, // to enable features such as async/await
   ignorePatterns: [
     'node_modules/*',

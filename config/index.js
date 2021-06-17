@@ -5,7 +5,9 @@ export const server = dev
   : 'https://opentext.vercel.app/';
 
 // export const server = 'http://localhost:1337';
-// export const server = 'https://opentext.vercel.app/'
+// export const server = 'https://opentext.vercel.app/';
+
+export const SignificantDimensionThresholdValue = 0.14
 
 export const defaultSEOMeta = {
   pageTitle: 'OpenText',

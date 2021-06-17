@@ -78,7 +78,6 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
       `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
 
     const episodeCluster = props.response.currentEpisodeMetaData?.cluster;
-    console.log(props.response.currentEpisodeMetaData);
     return (
       <Layout
         pageTitle={currentEpisode.title}

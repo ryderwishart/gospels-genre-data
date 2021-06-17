@@ -4,12 +4,19 @@ import styles from '../../styles/Home.module.css';
 import Link from 'next/link';
 
 const AllClustersPage = (props) => {
+  const sortedClusters = Object.keys(props.response)
+    .map((cluster) => cluster)
+    .sort((a, b) =>
+      props.response[a].length < props.response[b].length ? 1 : -1,
+    );
   console.log({ props });
   return (
-    <Layout pageTitle="All Episodes">
-      All Clusters:{' '}
+    <Layout
+      pageTitle="All Clusters"
+      pageDescription="Situation types for episodes in the New Testament"
+    >
       <div className={styles.grid}>
-        {Object.keys(props.response).map((cluster) => (
+        {sortedClusters.map((cluster) => (
           <Link href={`/clusters/${cluster}`} key={cluster}>
             <a>
               <div className={styles.card}>

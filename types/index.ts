@@ -81,6 +81,7 @@ export interface EpisodeMetadata {
   section: string;
   mormorphGntId: string;
   cluster?: string;
+  dimensions?: Dimensions;
 }
 
 // GRAPH DATA
@@ -107,6 +108,7 @@ export type GraphEdge = {
 // PRINCIPAL COMPONENT ANALYSIS DATA
 
 export interface Dimensions {
+  episodeId: string;
   dim_1: number;
   dim_2: number;
   dim_3: number;
