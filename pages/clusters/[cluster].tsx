@@ -2,8 +2,10 @@ import { DimensionLabels, EpisodeMetadata } from '../../types';
 import { server, SignificantDimensionThresholdValue } from '../../config';
 import Layout from '../../components/Layout';
 import styles from '../../styles/Home.module.css';
-import { Table, Tag, Typography } from 'antd';
+import { Table, Tag, Tooltip } from 'antd';
 import Link from 'next/link';
+import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
+import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 
 interface ComponentProps {
   response: EpisodeMetadata[];
@@ -54,19 +56,6 @@ const ClusterPage = (props: ComponentProps) => {
     };
   });
 
-  //   const allEpisodeDimensions = props.response.map((episode) => {
-  //     const dimensions = Object.keys(episode.dimensions).map((dimension) => {
-  //       return {
-  //         dimension: dimension,
-  //         value: episode.dimensions[dimension],
-  //       };
-  //     });
-  //     console.log(dimensions);
-  //     return { title: episode.title, dimensions };
-  //   });
-
-  //   console.log({ allEpisodeDimensions });
-
   const averagesTableColumns = [
     { title: 'Dimension', dataIndex: 'dimension' },
     {
@@ -77,7 +66,7 @@ const ClusterPage = (props: ComponentProps) => {
           ? 'grey'
           : value > 0
           ? 'blue'
-          : 'red'; // Only color for significant values (take average of all dimension readings)
+          : 'red'; // NOTE: Only color for significant values (take average of all dimension readings)
         return (
           <Tag color={color}>
             {value + ' ' + (row.label ? row.label : null)}
@@ -98,55 +87,81 @@ const ClusterPage = (props: ComponentProps) => {
           columns={averagesTableColumns}
         />
       </div>
-      <div className={styles.grid}>
+      <div className={styles.grid} style={{ maxWidth: '95vw' }}>
         <Table
           pagination={false}
+          scroll={{ x: 1000 }}
           columns={[
             // TODO: non-averages table needs to have episodes as rows and dimensions as columns
-            { title: 'Episode', dataIndex: 'title' },
-            ...Object.keys(props.response[0].dimensions).map((dimension) => {
-              console.log({ dimension });
-              return {
-                title: dimension,
-                dataIndex: ['dimensions', dimension],
-                render: (value) => {
-                  const color = value > 0 ? 'blue' : 'red'; // Only color for significant values (take average of all dimension readings)
-                  return <Tag color={color}>{value}</Tag>;
-                },
-              };
-            }),
+            {
+              title: 'Episode',
+              dataIndex: 'title',
+              fixed: 'left',
+              width: 50,
+            },
+            {
+              title: 'Dimensions of Variation (Based on Principal Components)',
+              children:
+                Object.keys(props.response[0].dimensions) &&
+                [
+                  ...Object.keys(props.response[0].dimensions).map(
+                    (dimension) => {
+                      if (dimension) {
+                        const inRangeDimensions = [
+                          '1',
+                          '2',
+                          '3',
+                          '4',
+                          '5',
+                          '6',
+                          '7',
+                        ];
+                        const dimensionValue = dimension.split('_')[1];
+                        const tooltipContent = `(+) ${DimensionLabels[dimension]?.positive} or (–) ${DimensionLabels[dimension]?.negative}`;
+                        if (inRangeDimensions.includes(dimensionValue)) {
+                          return {
+                            title: dimensionValue,
+                            dataIndex: ['dimensions', dimension],
+                            width: 50,
+                            render: (value) => {
+                              const color = value > 0 ? 'blue' : 'red'; // NOTE: Only color for significant values (take average of all dimension readings)
+                              return (
+                                <Tooltip title={tooltipContent}>
+                                  <Tag color={color}>{value}</Tag>
+                                </Tooltip>
+                              );
+                            },
+                          };
+                        }
+                      }
+                    },
+                  ),
+                ].filter((column) => column !== undefined),
+            },
           ]}
           dataSource={props.response}
           //   summary={(pageData) => {
-          //     let totalBorrow = 0;
-          //     let totalRepayment = 0;
-
-          //     pageData.forEach(({ borrow, repayment }) => {
-          //       totalBorrow += borrow;
-          //       totalRepayment += repayment;
-          //     });
-
           //     return (
           //       <>
-          //         <Table.Summary.Row>
-          //           <Table.Summary.Cell>Total</Table.Summary.Cell>
-          //           <Table.Summary.Cell>
-          //             <Typography.Text type="danger">
-          //               {totalBorrow}
-          //             </Typography.Text>
-          //           </Table.Summary.Cell>
-          //           <Table.Summary.Cell>
-          //             <Typography.Text>{totalRepayment}</Typography.Text>
-          //           </Table.Summary.Cell>
-          //         </Table.Summary.Row>
-          //         <Table.Summary.Row>
-          //           <Table.Summary.Cell>Balance</Table.Summary.Cell>
-          //           <Table.Summary.Cell colSpan={2}>
-          //             <Typography.Text type="danger">
-          //               {totalBorrow - totalRepayment}
-          //             </Typography.Text>
-          //           </Table.Summary.Cell>
-          //         </Table.Summary.Row>
+          //         {dimensionAverages.map((averageObject) => {
+          //           return (
+          //             <Table.Summary.Row>
+          //               <Table.Summary.Cell>
+          //                 <Typography.Text>
+          //                   {averageObject.dimension}
+          //                 </Typography.Text>
+          //               </Table.Summary.Cell>
+          //               <Table.Summary.Cell>
+          //                 {averageObject.value}
+          //               </Table.Summary.Cell>
+          //               <Table.Summary.Cell>
+          //                 <Typography.Text type="danger">
+          //                   {averageObject.label}
+          //                 </Typography.Text>
+          //               </Table.Summary.Cell>
+          //             </Table.Summary.Row>
+          //           );
+          //         })}
           //       </>
           //     );
           //   }}
@@ -164,6 +179,13 @@ const ClusterPage = (props: ComponentProps) => {
             return (
               <div key={episode.section} className={styles.card}>
                 <p>{episode.title}</p>
+                <Link
+                  href={`${server}/episodes/${getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+                    { string: episode.title },
+                  )}`}
+                >
+                  <a>View Episode</a>
+                </Link>
                 <Table
                   dataSource={dimensions.slice(0, 7)}
                   pagination={false}
@@ -173,7 +195,7 @@ const ClusterPage = (props: ComponentProps) => {
                       title: 'Value',
                       dataIndex: 'value',
                       render: (value) => {
-                        const color = value > 0 ? 'blue' : 'red'; // Only color for significant values (take average of all dimension readings)
+                        const color = value > 0 ? 'blue' : 'red'; // NOTE: Only color for significant values (take average of all dimension readings)
                         return <Tag color={color}>{value}</Tag>;
                       },
                     },
@@ -217,7 +239,9 @@ export const getStaticPaths = async () => {
   const clusters = await (await fetch(`${server}/api/clusters/`)).json();
   const clusterNumbers = Object.keys(clusters);
   const paths = clusterNumbers.map((cluster) => ({
-    params: { cluster: cluster.toString() },
+    params: {
+      cluster: getURLSlugFromClusterName({ string: cluster.toString() }),
+    },
   }));
   return {
     paths,

@@ -1,3 +1,4 @@
+import { getURLSlugFromClusterName } from '../../../functions/getURLSlugFromClusterName';
 import episodesData from '../../../public/data/stages/episodes-ranges.xml';
 import dimensionScoresByEpisode from '../../../public/data/stages/principal-component-analysis/episode-dimension-values.json';
 
@@ -17,20 +18,26 @@ const groupBy = (arrayOfObjects, key) => {
 };
 
 const flattenedEpisodes = allEpisodesWithClusterValue.map(
-  (episode) => episode.$,
+  (episode) => {
+    const episodeWithSlugForMatching = {
+      ...episode.$, 
+      episodeSlug: getURLSlugFromClusterName({string: episode.$.cluster}),
+    }
+    return episodeWithSlugForMatching
+  }
 );
 
 const episodesByCluster = groupBy(flattenedEpisodes, 'cluster');
 
 const handler = (req, res) => {
   const cluster = req.query.cluster;
-  const selectedEpisodes = episodesByCluster[cluster];
+  const clusterName = Object.keys(episodesByCluster) && Object.keys(episodesByCluster).filter(clusterName => episodesByCluster[clusterName][0]?.episodeSlug === cluster);
+  const selectedEpisodes = clusterName && episodesByCluster[clusterName]
   try {
     const selectedDimensionValues = selectedEpisodes.map((episode) => {
-      const episodeID = episode.section.split('-').join('§');
-      const episodeIDAndTitle = `${episodeID} ${episode.title}`;
+      const episodeID = episode.section.split('-').join('§').split(' ');
       const dimensionValuesForEpisode = dimensionScoresByEpisode.find(
-        (dimensions) => dimensions.episodeId === episodeIDAndTitle,
+        (dimensions) => episodeID.some(id => dimensions.episodeId.split(' ').includes(id)),
       );
       if (dimensionValuesForEpisode) {
         const { episodeId, ...dimensions } =

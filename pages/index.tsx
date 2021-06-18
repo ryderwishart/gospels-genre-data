@@ -10,6 +10,11 @@ export default function Home() {
           <a>Episodes</a>
         </Link>
       </div>
+      <div className={styles.card}>
+        <Link href="/clusters">
+          <a>Situation Types</a>
+        </Link>
+      </div>
     </Layout>
   );
 }

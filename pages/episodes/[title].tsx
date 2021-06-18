@@ -83,8 +83,17 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         pageTitle={currentEpisode.title}
         pageDescription={`Episode analysis for ${currentEpisode.title}`}
       >
-        {episodeStartReference && episodeStartReference + ';'}
-        {episodeCluster && '\nCluster number' + episodeCluster}
+        {episodeStartReference && episodeStartReference}
+        {episodeCluster && '; Situation type: '}
+        {episodeCluster && (
+          <Link
+            href={`${server}/clusters/${getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+              { string: episodeCluster },
+            )}`}
+          >
+            <a>{episodeCluster}</a>
+          </Link>
+        )}
         {(mutations.length > 0 && (
           <div>
             <h2>Situation Mutations</h2>
