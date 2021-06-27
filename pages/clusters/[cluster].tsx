@@ -99,10 +99,10 @@ const ClusterPage = (props: ComponentProps) => {
       Array.isArray(episodeDataSet?.preTextFeatures) &&
       sharedFeatures.push(
         ...episodeDataSet?.preTextFeatures?.filter((feature) =>
-          episodeDataSet?.viaTextFeatures.includes(feature),
+          episodeDataSet?.viaTextFeatures?.includes(feature),
         ),
       );
-    globalPreTextFeatures.push(...episodeDataSet.preTextFeatures);
+    globalPreTextFeatures.push(...episodeDataSet?.preTextFeatures);
     globalViaTextFeatures.push(...episodeDataSet?.viaTextFeatures);
   });
 
