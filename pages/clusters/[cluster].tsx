@@ -32,7 +32,7 @@ const ClusterPage = (props: ComponentProps) => {
     dim_7: [],
   };
 
-  props.response.selectedDimensionValues.forEach((episode) => {
+  props.response.selectedDimensionValues?.forEach((episode) => {
     if (episode.dimensions) {
       Object.keys(episode.dimensions).forEach((dimension, index) => {
         if (index < 7) {
@@ -94,7 +94,6 @@ const ClusterPage = (props: ComponentProps) => {
   const sharedFeatures = [];
   const globalPreTextFeatures = [];
   const globalViaTextFeatures = [];
-  console.log({ globalPreTextFeatures });
   props.response.selectedEpisodeFeatures?.forEach((episodeDataSet) => {
     episodeDataSet?.preTextFeatures &&
       Array.isArray(episodeDataSet?.preTextFeatures) &&
@@ -132,10 +131,12 @@ const ClusterPage = (props: ComponentProps) => {
   },
   {});
 
-  const clusterTitle = getSentenceCaseString(
-    props.response.selectedDimensionValues[0].cluster,
-    ' ',
-  );
+  const clusterTitle =
+    props.response.selectedDimensionValues &&
+    getSentenceCaseString(
+      props.response.selectedDimensionValues[0].cluster,
+      ' ',
+    );
 
   return (
     <Layout pageTitle={`New Testament Situation Type: ${clusterTitle}`}>
@@ -181,48 +182,74 @@ const ClusterPage = (props: ComponentProps) => {
                     title: 'Pre-Text',
                     dataIndex: 'preCount',
                     render: (featureCount, row) => {
-                      const ratio = (
-                        featureCount /
-                        props.response.selectedDimensionValues.length
-                      ).toFixed(2);
-                      return (
-                        <Tooltip
-                          title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
-                        >
-                          <span
-                            style={{
-                              color:
-                                ratio === '1.00' ? constants.color.blue : null,
-                            }}
+                      if (typeof featureCount !== 'undefined') {
+                        const ratio = props.response.selectedDimensionValues
+                          ? (
+                              featureCount /
+                              props.response.selectedDimensionValues?.length
+                            ).toFixed(2)
+                          : 0;
+                        return (
+                          <Tooltip
+                            title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
                           >
-                            {ratio}
-                          </span>
-                        </Tooltip>
-                      );
+                            <span
+                              style={{
+                                color:
+                                  ratio === '1.00'
+                                    ? constants.color.blue
+                                    : null,
+                              }}
+                            >
+                              {ratio}
+                            </span>
+                          </Tooltip>
+                        );
+                      } else {
+                        return (
+                          <Tooltip
+                            title={`No episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
+                          >
+                            <span>0</span>
+                          </Tooltip>
+                        );
+                      }
                     },
                   },
                   {
                     title: 'Via-Text',
                     dataIndex: 'viaCount',
                     render: (featureCount, row) => {
-                      const ratio = (
-                        featureCount /
-                        props.response.selectedDimensionValues.length
-                      ).toFixed(2);
-                      return (
-                        <Tooltip
-                          title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the conclusion of the episode.`}
-                        >
-                          <span
-                            style={{
-                              color:
-                                ratio === '1.00' ? constants.color.blue : null,
-                            }}
+                      if (typeof featureCount !== 'undefined') {
+                        const ratio = (
+                          featureCount /
+                          props.response.selectedDimensionValues.length
+                        ).toFixed(2);
+                        return (
+                          <Tooltip
+                            title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the conclusion of the episode.`}
                           >
-                            {ratio}
-                          </span>
-                        </Tooltip>
-                      );
+                            <span
+                              style={{
+                                color:
+                                  ratio === '1.00'
+                                    ? constants.color.blue
+                                    : null,
+                              }}
+                            >
+                              {ratio}
+                            </span>
+                          </Tooltip>
+                        );
+                      } else {
+                        return (
+                          <Tooltip
+                            title={`No episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
+                          >
+                            <span>0</span>
+                          </Tooltip>
+                        );
+                      }
                     },
                   },
                 ]}
@@ -255,6 +282,7 @@ const ClusterPage = (props: ComponentProps) => {
                   title:
                     'Dimensions of Variation (Based on Principal Components)',
                   children:
+                    props.response.selectedDimensionValues &&
                     Object.keys(
                       props.response.selectedDimensionValues[0].dimensions,
                     ) &&
