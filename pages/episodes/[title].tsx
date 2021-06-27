@@ -8,9 +8,10 @@ import { Button, Drawer, InputNumber, Tag, Tooltip, Slider } from 'antd';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import getSystemFromFeature from '../../functions/getSystemFromFeature';
-import { systemsDictionary } from '../../types/systemDefinitions';
 import { Episode, GraphEdge, GraphNode } from '../../types';
 import { useState } from 'react';
+import MutationSet from '../../components/MutationSet';
+import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
 
 interface EpisodeProps {
   response: {
@@ -87,9 +88,9 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         {episodeCluster && '; Situation type: '}
         {episodeCluster && (
           <Link
-            href={`${server}/clusters/${getFirstTitleHyphenatedLowerCaseStringFromTitleString(
-              { string: episodeCluster },
-            )}`}
+            href={`${server}/clusters/${getURLSlugFromClusterName({
+              string: episodeCluster,
+            })}`}
           >
             <a>{episodeCluster}</a>
           </Link>
@@ -98,79 +99,30 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           <div>
             <h2>Situation Mutations</h2>
             <div>
-              <h3>Field</h3>
-              {Object.keys(systemsDictionary.field).map((system) => {
-                return (
-                  <div key={system}>
-                    {systemsDictionary.field[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.preTextFeatures.includes(mutation),
-                      )
-                      .map((mutation) => (
-                        <span key={mutation}>
-                          {mutation}{' '}
-                          <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
-                        </span>
-                      ))}
-                    {systemsDictionary.field[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.viaTextFeatures.includes(mutation),
-                      )}
-                  </div>
-                );
-              })}
-            </div>
-            <div>
-              <h3>Tenor</h3>
-              {Object.keys(systemsDictionary.tenor).map((system) => {
-                return (
-                  <div>
-                    {systemsDictionary.tenor[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.preTextFeatures.includes(mutation),
-                      )
-                      .map((mutation) => (
-                        <span>
-                          {mutation}{' '}
-                          <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
-                        </span>
-                      ))}
-                    {systemsDictionary.tenor[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.viaTextFeatures.includes(mutation),
-                      )}
-                  </div>
-                );
-              })}
-            </div>
-            <div>
-              <h3>Mode</h3>
-              {Object.keys(systemsDictionary.mode).map((system) => {
-                return (
-                  <div>
-                    {systemsDictionary.mode[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.preTextFeatures.includes(mutation),
-                      )
-                      .map((mutation) => (
-                        <span>
-                          {mutation}{' '}
-                          <span style={{ color: '#1890ff' }}>&rarr;</span>{' '}
-                        </span>
-                      ))}
-                    {systemsDictionary.mode[system]
-                      .filter((feature) => mutations.includes(feature))
-                      .filter((mutation) =>
-                        currentEpisode.viaTextFeatures.includes(mutation),
-                      )}
-                  </div>
-                );
-              })}
+              <div>
+                <h3>Field</h3>
+                <MutationSet
+                  preAndViaFeatureSets={currentEpisode}
+                  mutations={mutations}
+                  registerParameterSelection="field"
+                />
+              </div>
+              <div>
+                <h3>Tenor</h3>
+                <MutationSet
+                  preAndViaFeatureSets={currentEpisode}
+                  mutations={mutations}
+                  registerParameterSelection="tenor"
+                />
+              </div>
+              <div>
+                <h3>Mode</h3>
+                <MutationSet
+                  preAndViaFeatureSets={currentEpisode}
+                  mutations={mutations}
+                  registerParameterSelection="mode"
+                />
+              </div>
             </div>
           </div>
         )) || <h2>Non-mutating situation</h2>}

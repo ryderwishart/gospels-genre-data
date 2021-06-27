@@ -1,21 +1,14 @@
 import { getURLSlugFromClusterName } from '../../../functions/getURLSlugFromClusterName';
 import episodesData from '../../../public/data/stages/episodes-ranges.xml';
 import dimensionScoresByEpisode from '../../../public/data/stages/principal-component-analysis/episode-dimension-values.json';
+import episodesFeatures from '../../../public/data/stages/episodesDynamicFeatures.json';
+import groupBy from '../../../functions/groupBy'
 
 const episodes = episodesData.root.episode;
 
 const allEpisodesWithClusterValue = episodes.filter(
   (episodeContainer) => episodeContainer.$.cluster,
 );
-
-const groupBy = (arrayOfObjects, key) => {
-  return arrayOfObjects.reduce((accumulator, item) => {
-    const group = item[key];
-    accumulator[group] = accumulator[group] || [];
-    accumulator[group].push(item);
-    return accumulator;
-  }, {}); // NOTE: {} is the initial value of the accumulator
-};
 
 const flattenedEpisodes = allEpisodesWithClusterValue.map(
   (episode) => {
@@ -33,6 +26,7 @@ const handler = (req, res) => {
   const cluster = req.query.cluster;
   const clusterName = Object.keys(episodesByCluster) && Object.keys(episodesByCluster).filter(clusterName => episodesByCluster[clusterName][0]?.episodeSlug === cluster);
   const selectedEpisodes = clusterName && episodesByCluster[clusterName]
+  let selectedEpisodeFeatures = []
   try {
     const selectedDimensionValues = selectedEpisodes.map((episode) => {
       const episodeID = episode.section.split('-').join('§').split(' ');
@@ -44,9 +38,19 @@ const handler = (req, res) => {
           dimensionValuesForEpisode && dimensionValuesForEpisode;
         episode.dimensions = dimensions;
       }
+      selectedEpisodeFeatures.push(episodesFeatures.find((episodeFeatureSet, index) => {
+        if (episodeFeatureSet.title.includes(episode.title)) {
+          return episodeFeatureSet;
+        } else {
+          return null;
+        }
+      }));
       return episode;
     });
-    res.status(200).send(selectedDimensionValues);
+
+    const episodeData = {selectedDimensionValues, selectedEpisodeFeatures}
+
+    res.status(200).send(episodeData);
   } catch (error) {
     res.status(404).send('Error ' + error);
   }
