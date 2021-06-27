@@ -71,6 +71,7 @@ export type StageFeatureSet = {
 export type Episode = {
   episode: string;
   title: string;
+  section?: string;
   preTextFeatures: string[];
   viaTextFeatures: string[];
 };
