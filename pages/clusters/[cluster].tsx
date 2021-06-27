@@ -90,6 +90,7 @@ const ClusterPage = (props: ComponentProps) => {
       },
     },
   ];
+  console.log({ props });
 
   const sharedFeatures = [];
   const globalPreTextFeatures = [];
@@ -98,12 +99,14 @@ const ClusterPage = (props: ComponentProps) => {
     episodeDataSet?.preTextFeatures &&
       Array.isArray(episodeDataSet?.preTextFeatures) &&
       sharedFeatures.push(
-        ...episodeDataSet?.preTextFeatures?.filter((feature) =>
-          episodeDataSet?.viaTextFeatures?.includes(feature),
+        ...episodeDataSet.preTextFeatures?.filter((feature) =>
+          episodeDataSet.viaTextFeatures?.includes(feature),
         ),
       );
-    globalPreTextFeatures.push(...episodeDataSet?.preTextFeatures);
-    globalViaTextFeatures.push(...episodeDataSet?.viaTextFeatures);
+    episodeDataSet?.preTextFeatures &&
+      globalPreTextFeatures.push(...episodeDataSet.preTextFeatures);
+    episodeDataSet?.viaTextFeatures &&
+      globalViaTextFeatures.push(...episodeDataSet.viaTextFeatures);
   });
 
   const groupedPreTextFeatures = globalPreTextFeatures.reduce(function (
