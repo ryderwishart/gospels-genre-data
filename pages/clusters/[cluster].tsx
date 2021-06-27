@@ -12,7 +12,6 @@ import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromCluster
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import MutationSet from '../../components/MutationSet';
-import groupBy from '../../functions/groupBy';
 
 interface ComponentProps {
   response: {
@@ -90,8 +89,8 @@ const ClusterPage = (props: ComponentProps) => {
       },
     },
   ];
-  console.log({ props });
 
+  const allFeatures = [];
   const sharedFeatures = [];
   const globalPreTextFeatures = [];
   const globalViaTextFeatures = [];
@@ -107,7 +106,12 @@ const ClusterPage = (props: ComponentProps) => {
       globalPreTextFeatures.push(...episodeDataSet.preTextFeatures);
     episodeDataSet?.viaTextFeatures &&
       globalViaTextFeatures.push(...episodeDataSet.viaTextFeatures);
+    episodeDataSet?.preTextFeatures &&
+      allFeatures.push(...episodeDataSet.preTextFeatures);
+    episodeDataSet?.viaTextFeatures &&
+      allFeatures.push(...episodeDataSet.viaTextFeatures);
   });
+  const allFeaturesSet = new Set(allFeatures);
 
   const groupedPreTextFeatures = globalPreTextFeatures.reduce(function (
     accumulator,
@@ -213,7 +217,9 @@ const ClusterPage = (props: ComponentProps) => {
                           <Tooltip
                             title={`No episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
                           >
-                            <span>0</span>
+                            <span style={{ color: constants.color.lightGrey }}>
+                              0
+                            </span>
                           </Tooltip>
                         );
                       }
@@ -249,20 +255,47 @@ const ClusterPage = (props: ComponentProps) => {
                           <Tooltip
                             title={`No episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
                           >
-                            <span>0</span>
+                            <span style={{ color: constants.color.lightGrey }}>
+                              0
+                            </span>
                           </Tooltip>
                         );
                       }
                     },
                   },
                 ]}
-                dataSource={Object.keys(groupedPreTextFeatures)
-                  .sort()
-                  .map((feature: string) => ({
+                dataSource={
+                  //   [
+                  //   ...Object.keys(groupedPreTextFeatures)
+                  //     .sort()
+                  //     .map((feature: string) => ({
+                  //       key: feature,
+                  //       preCount: groupedPreTextFeatures[feature],
+                  //       viaCount: groupedViaTextFeatures[feature],
+                  //     })),
+                  //   ...Object.keys(groupedViaTextFeatures)
+                  //     .sort()
+                  //     .map((feature: string) => {
+                  //       if (groupedPreTextFeatures[feature]) {
+                  //         return {
+                  //           key: feature,
+                  //           preCount: groupedPreTextFeatures[feature],
+                  //           viaCount: groupedViaTextFeatures[feature],
+                  //         };
+                  //       }
+                  //       return {
+                  //         key: feature,
+                  //         preCount: 0,
+                  //         viaCount: groupedViaTextFeatures[feature],
+                  //       };
+                  //     }),
+                  // ]
+                  [...allFeaturesSet].map((feature) => ({
                     key: feature,
                     preCount: groupedPreTextFeatures[feature],
                     viaCount: groupedViaTextFeatures[feature],
-                  }))}
+                  }))
+                }
                 pagination={false}
               />
             </div>

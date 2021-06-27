@@ -7,7 +7,7 @@ export const server = dev
 // export const server = 'http://localhost:1337';
 // export const server = 'https://opentext.vercel.app/';
 
-export const SignificantDimensionThresholdValue = 0.14
+export const SignificantDimensionThresholdValue = 0.14;
 
 export const defaultSEOMeta = {
   pageTitle: 'OpenText',
@@ -17,6 +17,7 @@ export const defaultSEOMeta = {
 
 export const constants = {
   color: {
-    blue: '#1890ff'
-  }
-}
+    blue: '#1890ff',
+    lightGrey: '#8181813d',
+  },
+};

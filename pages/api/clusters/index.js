@@ -21,15 +21,6 @@ const flattenedEpisodes = allEpisodesWithClusterValue.map(
 
 const episodesByCluster = groupBy(flattenedEpisodes, 'cluster');
 
-// const clusters = clustersNumbers.map((clusterID) => {
-//   const cluster = {
-//     id: allEpisodesWithClusterValue.filter(
-//       (episode) => episode.$.cluster === clusterID,
-//     ),
-//   };
-//   return cluster;
-// });
-
 const handler = (req, res) => {
   res.status(200).send(episodesByCluster);
 };
