@@ -49,17 +49,6 @@ const Graph = (props: GraphProps) => {
           sprite.textHeight = 8;
           return sprite;
         }}
-        nodePointerAreaPaint={(node: any, color, context) => {
-          context.fillStyle = color;
-          const bckgDimensions = node.__bckgDimensions;
-          bckgDimensions &&
-            context.fillRect(
-              node.x - bckgDimensions[0] / 2,
-              node.y - bckgDimensions[1] / 2,
-              bckgDimensions[0],
-              bckgDimensions[1],
-            );
-        }}
         linkVisibility={true}
         //   onNodeClick={(node: GraphNode) => {
         //     const nodeTitle = node.id
