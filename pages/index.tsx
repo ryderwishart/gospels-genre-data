@@ -15,6 +15,11 @@ export default function Home() {
           <a>Situation Types</a>
         </Link>
       </div>
+      <div className={styles.card}>
+        <Link href="/appendix">
+          <a>Appendices</a>
+        </Link>
+      </div>
     </Layout>
   );
 }

@@ -154,6 +154,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                   if (currentEpisode.viaTextFeatures.includes(feature)) {
                     return (
                       <Tooltip
+                        key={feature}
                         title={getSentenceCaseString(system) + ': ' + feature}
                       >
                         <Tag>{featureTruncated}</Tag>
@@ -162,6 +163,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                   } else {
                     return (
                       <Tooltip
+                        key={feature}
                         title={getSentenceCaseString(system) + ': ' + feature}
                       >
                         <Tag color={highlightColor}>{featureTruncated}</Tag>
