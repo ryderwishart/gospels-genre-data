@@ -15,7 +15,7 @@ interface ComponentProps {
 
 const EpisodesGraphPage = (props: ComponentProps) => {
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
-    0.93,
+    0.83,
   );
   const { nodes, edges } = props.response;
 
@@ -47,7 +47,7 @@ const EpisodesGraphPage = (props: ComponentProps) => {
           min={0.8}
           max={1.0}
           step={0.01}
-          defaultValue={0.93}
+          defaultValue={0.83}
           onChange={(value) => setEdgeStrengthInputValue(value)}
         />
       </div>
@@ -57,7 +57,7 @@ const EpisodesGraphPage = (props: ComponentProps) => {
             graphData={graphData}
             // cooldown={50}
             threeDimensional
-            width={window.innerWidth * 0.95}
+            width={window.innerWidth * 0.9}
             height={window.innerHeight * 0.7}
           />
         )}

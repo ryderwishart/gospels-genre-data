@@ -20,7 +20,7 @@ const AllClustersPage = (props) => {
       <p>
         Episodes are clustered together on the basis of their annotated
         situational features. All episodes are compared, and only similarity
-        values of 93% or greater (in this analysis) are retained. This produces
+        values of 83% or greater (in this analysis) are retained. This produces
         the following clusters of episodes.
       </p>
       <p>

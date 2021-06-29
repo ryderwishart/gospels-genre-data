@@ -12,6 +12,7 @@ import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromCluster
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import MutationSet from '../../components/MutationSet';
+import clusterLabels from '../../types/clusterLabels';
 
 interface ComponentProps {
   response: {
@@ -32,6 +33,7 @@ const ClusterPage = (props: ComponentProps) => {
   };
 
   props.response.selectedDimensionValues?.forEach((episode) => {
+    // TODO: add a function name here to explain what's going on...
     if (episode.dimensions) {
       Object.keys(episode.dimensions).forEach((dimension, index) => {
         if (index < 7) {
@@ -83,7 +85,15 @@ const ClusterPage = (props: ComponentProps) => {
           : 'red'; // NOTE: Only color for significant values (take average of all dimension readings)
         return (
           <Tag color={color}>
-            {value + ' ' + (row.label ? row.label : null)}
+            {value + ' ' + (row.label ? row.label : null)}{' '}
+            {/* // TODO: add bar-chart */}
+            {/* <div
+                                style={{
+                                  width: `${ratio * 50}px`,
+                                  backgroundColor: constants.color.blue,
+                                  marginLeft: '5px',
+                                }}
+                              /> */}
           </Tag>
         );
       },
@@ -138,15 +148,20 @@ const ClusterPage = (props: ComponentProps) => {
   },
   {});
 
+  const clusterLabel =
+    clusterLabels[props.response.selectedDimensionValues[0].cluster];
   const clusterTitle =
     props.response.selectedDimensionValues &&
-    getSentenceCaseString(
+    `${clusterLabel} (number ${getSentenceCaseString(
       props.response.selectedDimensionValues[0].cluster,
       ' ',
-    );
-
+    )})`;
   return (
-    <Layout pageTitle={`New Testament Situation Type: ${clusterTitle}`}>
+    <Layout
+      pageTitle={`New Testament Situation Type: ${
+        clusterLabel ? clusterLabel : clusterTitle
+      }`}
+    >
       <div className={styles.grid} style={{ maxWidth: '95vw' }}>
         <Collapse defaultActiveKey={['dimension-averages']}>
           <Collapse.Panel
@@ -188,9 +203,11 @@ const ClusterPage = (props: ComponentProps) => {
                   {
                     title: 'Pre-Text',
                     dataIndex: 'preCount',
+                    sorter: (a, b) => a.preCount - b.preCount,
                     render: (featureCount, row) => {
                       if (typeof featureCount !== 'undefined') {
-                        const ratio = props.response.selectedDimensionValues
+                        const ratio: any = props.response
+                          .selectedDimensionValues
                           ? (
                               featureCount /
                               props.response.selectedDimensionValues?.length
@@ -200,16 +217,30 @@ const ClusterPage = (props: ComponentProps) => {
                           <Tooltip
                             title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
                           >
-                            <span
+                            <div
                               style={{
-                                color:
-                                  ratio === '1.00'
-                                    ? constants.color.blue
-                                    : null,
+                                display: 'flex',
+                                flexFlow: 'row nowrap',
                               }}
                             >
-                              {ratio}
-                            </span>
+                              <span
+                                style={{
+                                  color:
+                                    ratio === '1.00'
+                                      ? constants.color.blue
+                                      : null,
+                                }}
+                              >
+                                {ratio}
+                              </span>
+                              <div
+                                style={{
+                                  width: `${ratio * 50}px`,
+                                  backgroundColor: constants.color.blue,
+                                  marginLeft: '5px',
+                                }}
+                              />
+                            </div>
                           </Tooltip>
                         );
                       } else {
@@ -228,9 +259,10 @@ const ClusterPage = (props: ComponentProps) => {
                   {
                     title: 'Via-Text',
                     dataIndex: 'viaCount',
+                    sorter: (a, b) => a.viaCount - b.viaCount,
                     render: (featureCount, row) => {
                       if (typeof featureCount !== 'undefined') {
-                        const ratio = (
+                        const ratio: any = (
                           featureCount /
                           props.response.selectedDimensionValues.length
                         ).toFixed(2);
@@ -238,16 +270,30 @@ const ClusterPage = (props: ComponentProps) => {
                           <Tooltip
                             title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the conclusion of the episode.`}
                           >
-                            <span
+                            <div
                               style={{
-                                color:
-                                  ratio === '1.00'
-                                    ? constants.color.blue
-                                    : null,
+                                display: 'flex',
+                                flexFlow: 'row nowrap',
                               }}
                             >
-                              {ratio}
-                            </span>
+                              <span
+                                style={{
+                                  color:
+                                    ratio === '1.00'
+                                      ? constants.color.blue
+                                      : null,
+                                }}
+                              >
+                                {ratio}
+                              </span>
+                              <div
+                                style={{
+                                  width: `${ratio * 50}px`,
+                                  backgroundColor: constants.color.blue,
+                                  marginLeft: '5px',
+                                }}
+                              />
+                            </div>
                           </Tooltip>
                         );
                       } else {
@@ -264,38 +310,11 @@ const ClusterPage = (props: ComponentProps) => {
                     },
                   },
                 ]}
-                dataSource={
-                  //   [
-                  //   ...Object.keys(groupedPreTextFeatures)
-                  //     .sort()
-                  //     .map((feature: string) => ({
-                  //       key: feature,
-                  //       preCount: groupedPreTextFeatures[feature],
-                  //       viaCount: groupedViaTextFeatures[feature],
-                  //     })),
-                  //   ...Object.keys(groupedViaTextFeatures)
-                  //     .sort()
-                  //     .map((feature: string) => {
-                  //       if (groupedPreTextFeatures[feature]) {
-                  //         return {
-                  //           key: feature,
-                  //           preCount: groupedPreTextFeatures[feature],
-                  //           viaCount: groupedViaTextFeatures[feature],
-                  //         };
-                  //       }
-                  //       return {
-                  //         key: feature,
-                  //         preCount: 0,
-                  //         viaCount: groupedViaTextFeatures[feature],
-                  //       };
-                  //     }),
-                  // ]
-                  [...allFeaturesSet].map((feature) => ({
-                    key: feature,
-                    preCount: groupedPreTextFeatures[feature],
-                    viaCount: groupedViaTextFeatures[feature],
-                  }))
-                }
+                dataSource={[...allFeaturesSet].map((feature) => ({
+                  key: feature,
+                  preCount: groupedPreTextFeatures[feature],
+                  viaCount: groupedViaTextFeatures[feature],
+                }))}
                 pagination={false}
               />
             </div>
@@ -313,6 +332,20 @@ const ClusterPage = (props: ComponentProps) => {
                   dataIndex: 'title',
                   fixed: 'left',
                   width: 50,
+                },
+                {
+                  title: 'Reference',
+                  dataIndex: 'start',
+                  fixed: 'left',
+                  width: 50,
+                  render: (startReference) => {
+                    const episodeStartReferenceArray = startReference.split(
+                      '.',
+                    );
+                    if (episodeStartReferenceArray) {
+                      return `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
+                    }
+                  },
                 },
                 {
                   title:

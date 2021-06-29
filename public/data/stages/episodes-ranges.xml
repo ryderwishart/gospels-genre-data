@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <episode start="SBLGNT.Matt.1.1.w1" section="01-01" morphGntId="010101" title="The Genealogy of Christ"/>
-<episode start="SBLGNT.Matt.1.18.w1" section="01-02" morphGntId="010118" title="The Annunciation to Joseph and the Birth of Jesus"/>
+<episode start="SBLGNT.Matt.1.18.w1" section="01-02" morphGntId="010118" title="The Annunciation to Joseph and the Birth of Jesus" cluster="0"/>
 <episode start="SBLGNT.Matt.2.1.w1" section="01-03" morphGntId="010201" title="The Wise Men from the East"/>
-<episode start="SBLGNT.Matt.2.13.w1" section="01-04" morphGntId="010213" title="The Flight into Egypt and the Return to Nazareth" cluster="12"/>
-<episode start="SBLGNT.Matt.3.1.w1" section="01-05" morphGntId="010301" title="The Ministry of John the Baptist"/>
+<episode start="SBLGNT.Matt.2.13.w1" section="01-04" morphGntId="010213" title="The Flight into Egypt and the Return to Nazareth" cluster="0"/>
+<episode start="SBLGNT.Matt.3.1.w1" section="01-05" morphGntId="010301" title="The Ministry of John the Baptist" cluster="1"/>
 <episode start="SBLGNT.Matt.3.13.w1" section="01-06" morphGntId="010313" title="The Baptism of Jesus"/>
-<episode start="SBLGNT.Matt.4.1.w1" section="01-07" morphGntId="010401" title="The Temptation in the Wilderness" cluster="28"/>
+<episode start="SBLGNT.Matt.4.1.w1" section="01-07" morphGntId="010401" title="The Temptation in the Wilderness" cluster="16"/>
 <episode start="SBLGNT.Matt.4.12.w1" section="01-08a" morphGntId="010412" title="The Beginning of the Galilean Ministry"/>
-<episode start="SBLGNT.Matt.4.18.w1" section="01-08b" morphGntId="null" title="The Call of the Four" cluster="pushing to do something surprising?"/>
-<episode start="SBLGNT.Matt.5.1.w1" section="01-09" morphGntId="010501" title="The Beatitudes"/>
+<episode start="SBLGNT.Matt.4.18.w1" section="01-08b" morphGntId="null" title="The Call of the Four" cluster="4"/>
+<episode start="SBLGNT.Matt.5.1.w1" section="01-09" morphGntId="010501" title="The Beatitudes" cluster="24"/>
 <episode start="SBLGNT.Matt.5.13.w1" section="01-10" morphGntId="010513" title="The Chief Functions of the Disciples in the World"/>
 <episode start="SBLGNT.Matt.5.17.w1" section="01-11" morphGntId="010517" title="Christ Confirms and Expounds the Law of Moses"/>
 <episode start="SBLGNT.Matt.5.38.w1" section="01-12" morphGntId="010538" title="The Law of Love toward the Enemy"/>
@@ -17,305 +17,305 @@
 <episode start="SBLGNT.Matt.6.19.w1" section="01-14" morphGntId="010619" title="Warning against Covetousness and Care"/>
 <episode start="SBLGNT.Matt.7.1.w1" section="01-15" morphGntId="010701" title="Warning against Unauthorized Judging and Admonition to Persevere in Prayer"/>
 <episode start="SBLGNT.Matt.7.13.w1" section="01-16" morphGntId="010713" title="The Conclusion of the Sermon"/>
-<episode start="SBLGNT.Matt.8.1.w1" section="01-17" morphGntId="010801" title="The Healing of the Leper" cluster="pushing to do something surprising?"/>
+<episode start="SBLGNT.Matt.8.1.w1" section="01-17" morphGntId="010801" title="The Healing of the Leper" cluster="4"/>
 <episode start="SBLGNT.Matt.8.5.w1" section="01-18" morphGntId="010805" title="The Centurion of Capernaum"/>
 <episode start="SBLGNT.Matt.8.14.w1" section="01-19" morphGntId="010814" title="Various Miracles of Healing"/>
 <episode start="SBLGNT.Matt.8.18.w1" section="01-20" morphGntId="010818" title="The Discipleship of Christ"/>
-<episode start="SBLGNT.Matt.8.23.w1" section="01-21" morphGntId="010823" title="The Storm on the Lake" cluster="turn of events/surprise"/>
-<episode start="SBLGNT.Matt.8.28.w1" section="01-22" morphGntId="010828" title="Jesus and the Gadarenes" cluster="request from a stranger; negotiation?"/>
-<episode start="SBLGNT.Matt.9.1.w1" section="01-23" morphGntId="010901" title="The Healing of the Palsied Man"/>
-<episode start="SBLGNT.Matt.9.9.w1" section="01-24" morphGntId="010909" title="The Call of Matthew and His Feast" cluster="unfolding negotiation?"/>
-<episode start="SBLGNT.Matt.9.18.w1" section="01-25" morphGntId="010918" title="The Daughter of Jairus" cluster="pushing to do something surprising?"/>
-<episode start="SBLGNT.Matt.9.27.w1" section="01-26" morphGntId="010927" title="Further Miracles of That Day" cluster="unfolding negotiation?"/>
-<episode start="SBLGNT.Matt.9.35.w1" section="01-27" morphGntId="010935" title="Continuation of Christ's Teaching and Healing Ministry" cluster="6"/>
+<episode start="SBLGNT.Matt.8.23.w1" section="01-21" morphGntId="010823" title="The Storm on the Lake"/>
+<episode start="SBLGNT.Matt.8.28.w1" section="01-22" morphGntId="010828" title="Jesus and the Gadarenes"/>
+<episode start="SBLGNT.Matt.9.1.w1" section="01-23" morphGntId="010901" title="The Healing of the Palsied Man" cluster="7"/>
+<episode start="SBLGNT.Matt.9.9.w1" section="01-24" morphGntId="010909" title="The Call of Matthew and His Feast" cluster="4"/>
+<episode start="SBLGNT.Matt.9.18.w1" section="01-25" morphGntId="010918" title="The Daughter of Jairus"/>
+<episode start="SBLGNT.Matt.9.27.w1" section="01-26" morphGntId="010927" title="Further Miracles of That Day" cluster="4"/>
+<episode start="SBLGNT.Matt.9.35.w1" section="01-27" morphGntId="010935" title="Continuation of Christ's Teaching and Healing Ministry" cluster="3"/>
 <episode start="SBLGNT.Matt.10.1.w1" section="01-28" morphGntId="011001" title="The Commission to the Twelve"/>
 <episode start="SBLGNT.Matt.10.16.w1" section="01-29" morphGntId="011016" title="The Perils of Apostleship"/>
 <episode start="SBLGNT.Matt.10.26.w1" section="01-30" morphGntId="011026" title="Fearless Confession of Christ Demanded"/>
 <episode start="SBLGNT.Matt.10.37.w1" section="01-31" morphGntId="011037" title="Perfect Consecration to Christ"/>
-<episode start="SBLGNT.Matt.11.1.w1" section="01-32" morphGntId="011101" title="John the Baptist's Disciples Come to Jesus" cluster="26"/>
-<episode start="SBLGNT.Matt.11.7.w1" section="01-33" morphGntId="011107" title="Christ's Testimony Concerning John" cluster="openly challenging"/>
-<episode start="SBLGNT.Matt.11.20.w1" section="01-34" morphGntId="011120" title="The Woe upon the Galilean Cities" cluster="21"/>
-<episode start="SBLGNT.Matt.11.25.w1" section="01-35" morphGntId="011125" title="The Gospel Call" cluster="0"/>
-<episode start="SBLGNT.Matt.12.1.w1" section="01-36a" morphGntId="011201" title="The Lord of Food on the Sabbath" cluster="24"/>
-<episode start="SBLGNT.Matt.12.9.w1" section="01-36b" morphGntId="null" title="The Lord of Healing on the Sabbath" cluster="disputation"/>
-<episode start="SBLGNT.Matt.12.14.w1" section="01-37" morphGntId="011214" title="The Enmity of the Pharisees and Christ's Answer"/>
+<episode start="SBLGNT.Matt.11.1.w1" section="01-32" morphGntId="011101" title="John the Baptist's Disciples Come to Jesus" cluster="14"/>
+<episode start="SBLGNT.Matt.11.7.w1" section="01-33" morphGntId="011107" title="Christ's Testimony Concerning John"/>
+<episode start="SBLGNT.Matt.11.20.w1" section="01-34" morphGntId="011120" title="The Woe upon the Galilean Cities" cluster="10"/>
+<episode start="SBLGNT.Matt.11.25.w1" section="01-35" morphGntId="011125" title="The Gospel Call" cluster="24"/>
+<episode start="SBLGNT.Matt.12.1.w1" section="01-36a" morphGntId="011201" title="The Lord of Food on the Sabbath" cluster="23"/>
+<episode start="SBLGNT.Matt.12.9.w1" section="01-36b" morphGntId="null" title="The Lord of Healing on the Sabbath" cluster="23"/>
+<episode start="SBLGNT.Matt.12.14.w1" section="01-37" morphGntId="011214" title="The Enmity of the Pharisees and Christ's Answer" cluster="1"/>
 <episode start="SBLGNT.Matt.12.31.w1" section="01-38" morphGntId="011231" title="The Sin against the Holy Spirit"/>
-<episode start="SBLGNT.Matt.12.38.w1" section="01-39" morphGntId="011238" title="The Sign from Heaven and a Warning"/>
-<episode start="SBLGNT.Matt.12.46.w1" section="01-40" morphGntId="011246" title="Christ's Relatives" cluster="1"/>
-<episode start="SBLGNT.Matt.13.1.w1" section="01-41a" morphGntId="011301" title="The Parable of the Sower" cluster="challenge story?"/>
-<episode start="SBLGNT.Matt.13.10.w1" section="01-41b" morphGntId="null" title="The Parable of the Sower Explained" cluster="10"/>
-<episode start="SBLGNT.Matt.13.24.w1" section="01-42a" morphGntId="011324" title="The Parable of the Tares, and Others" cluster="challenge story?"/>
-<episode start="SBLGNT.Matt.13.36.w1" section="01-42b" morphGntId="null" title="The Parable of the Tares, and Others Explained" cluster="private discussion"/>
-<episode start="SBLGNT.Matt.13.53.w1" section="01-43" morphGntId="011353" title="A Visit to Nazareth"/>
-<episode start="SBLGNT.Matt.14.1.w1" section="01-44" morphGntId="011401" title="The Death of John the Baptist" cluster="turn of events/surprise"/>
-<episode start="SBLGNT.Matt.14.13.w1" section="01-45" morphGntId="011413" title="The Feeding of the Five Thousand" cluster="task-oriented instructing"/>
+<episode start="SBLGNT.Matt.12.38.w1" section="01-39" morphGntId="011238" title="The Sign from Heaven and a Warning" cluster="26"/>
+<episode start="SBLGNT.Matt.12.46.w1" section="01-40" morphGntId="011246" title="Christ's Relatives"/>
+<episode start="SBLGNT.Matt.13.1.w1" section="01-41a" morphGntId="011301" title="The Parable of the Sower" cluster="24"/>
+<episode start="SBLGNT.Matt.13.10.w1" section="01-41b" morphGntId="null" title="The Parable of the Sower Explained" cluster="2"/>
+<episode start="SBLGNT.Matt.13.24.w1" section="01-42a" morphGntId="011324" title="The Parable of the Tares, and Others" cluster="24"/>
+<episode start="SBLGNT.Matt.13.36.w1" section="01-42b" morphGntId="null" title="The Parable of the Tares, and Others Explained" cluster="2"/>
+<episode start="SBLGNT.Matt.13.53.w1" section="01-43" morphGntId="011353" title="A Visit to Nazareth" cluster="8"/>
+<episode start="SBLGNT.Matt.14.1.w1" section="01-44" morphGntId="011401" title="The Death of John the Baptist"/>
+<episode start="SBLGNT.Matt.14.13.w1" section="01-45" morphGntId="011413" title="The Feeding of the Five Thousand" cluster="11"/>
 <episode start="SBLGNT.Matt.14.22.w1" section="01-46" morphGntId="011422" title="Christ Walks on the Sea"/>
-<episode start="SBLGNT.Matt.15.1.w1" section="01-47" morphGntId="011501" title="A Lesson Concerning Defilement"/>
-<episode start="SBLGNT.Matt.15.21.w1" section="01-48" morphGntId="011521" title="The Syrophoenician Woman" cluster="unfolding negotiation?"/>
-<episode start="SBLGNT.Matt.15.29.w1" section="01-49" morphGntId="011529" title="Christ Teaches and Feeds Four Thousand" cluster="task-oriented instructing"/>
+<episode start="SBLGNT.Matt.15.1.w1" section="01-47" morphGntId="011501" title="A Lesson Concerning Defilement" cluster="8"/>
+<episode start="SBLGNT.Matt.15.21.w1" section="01-48" morphGntId="011521" title="The Syrophoenician Woman" cluster="4"/>
+<episode start="SBLGNT.Matt.15.29.w1" section="01-49" morphGntId="011529" title="Christ Teaches and Feeds Four Thousand" cluster="11"/>
 <episode start="SBLGNT.Matt.16.1.w1" section="01-50" morphGntId="011601" title="The Demand for a Sign"/>
-<episode start="SBLGNT.Matt.16.5.w1" section="01-51" morphGntId="011605" title="The Leaven of the Pharisees" cluster="forewarning"/>
-<episode start="SBLGNT.Matt.16.13.w1" section="01-52" morphGntId="011613" title="Christ the Son of the Living God" cluster="evaluating? while doing something"/>
-<episode start="SBLGNT.Matt.16.21.w1" section="01-53" morphGntId="011621" title="Christ's First Prophecy Concerning His Passion" cluster="forewarning"/>
+<episode start="SBLGNT.Matt.16.5.w1" section="01-51" morphGntId="011605" title="The Leaven of the Pharisees" cluster="2"/>
+<episode start="SBLGNT.Matt.16.13.w1" section="01-52" morphGntId="011613" title="Christ the Son of the Living God" cluster="2"/>
+<episode start="SBLGNT.Matt.16.21.w1" section="01-53" morphGntId="011621" title="Christ's First Prophecy Concerning His Passion" cluster="2"/>
 <episode start="SBLGNT.Matt.17.1.w1" section="01-54" morphGntId="011701" title="The Transfiguration of Christ"/>
 <episode start="SBLGNT.Matt.17.14.w1" section="01-55" morphGntId="011714" title="The Healing of a Boy with a Demon"/>
-<episode start="SBLGNT.Matt.17.22.w1" section="01-56a" morphGntId="011722" title="Christ Foretells His Passion" cluster="34"/>
-<episode start="SBLGNT.Matt.17.24.w1" section="01-56b" morphGntId="null" title="Christ Pays the Temple-Tax"/>
-<episode start="SBLGNT.Matt.18.1.w1" section="01-57" morphGntId="011801" title="The Greatest in the Kingdom of Heaven" cluster="teaching about the future"/>
+<episode start="SBLGNT.Matt.17.22.w1" section="01-56a" morphGntId="011722" title="Christ Foretells His Passion" cluster="3"/>
+<episode start="SBLGNT.Matt.17.24.w1" section="01-56b" morphGntId="null" title="Christ Pays the Temple-Tax" cluster="25"/>
+<episode start="SBLGNT.Matt.18.1.w1" section="01-57" morphGntId="011801" title="The Greatest in the Kingdom of Heaven" cluster="2"/>
 <episode start="SBLGNT.Matt.18.15.w1" section="01-58" morphGntId="011815" title="How to Deal with an Erring Brother"/>
 <episode start="SBLGNT.Matt.18.23.w1" section="01-59" morphGntId="011823" title="Parable of the Unmerciful Servant"/>
-<episode start="SBLGNT.Matt.19.1.w1" section="01-60" morphGntId="011901" title="On Marriage and Divorce" cluster="disputation"/>
-<episode start="SBLGNT.Matt.19.13.w1" section="01-61" morphGntId="011913" title="Christ Blessing Little Children"/>
-<episode start="SBLGNT.Matt.19.16.w1" section="01-62" morphGntId="011916" title="The Dangers of Riches" cluster="31"/>
-<episode start="SBLGNT.Matt.19.27.w1" section="01-63" morphGntId="011927" title="The Reward of the Apostles" cluster="teaching about the future"/>
+<episode start="SBLGNT.Matt.19.1.w1" section="01-60" morphGntId="011901" title="On Marriage and Divorce" cluster="8"/>
+<episode start="SBLGNT.Matt.19.13.w1" section="01-61" morphGntId="011913" title="Christ Blessing Little Children" cluster="23"/>
+<episode start="SBLGNT.Matt.19.16.w1" section="01-62" morphGntId="011916" title="The Dangers of Riches" cluster="14"/>
+<episode start="SBLGNT.Matt.19.27.w1" section="01-63" morphGntId="011927" title="The Reward of the Apostles" cluster="2"/>
 <episode start="SBLGNT.Matt.20.1.w1" section="01-64" morphGntId="012001" title="Parable of the Laborers in the Vineyard"/>
-<episode start="SBLGNT.Matt.20.17.w1" section="01-65" morphGntId="012017" title="Christ Again Foretells His Passion" cluster="6"/>
+<episode start="SBLGNT.Matt.20.17.w1" section="01-65" morphGntId="012017" title="Christ Again Foretells His Passion" cluster="3"/>
 <episode start="SBLGNT.Matt.20.20.w1" section="01-66" morphGntId="012020" title="The Requests of the Sons of Zebedee"/>
-<episode start="SBLGNT.Matt.20.29.w1" section="01-67" morphGntId="012029" title="Healing of Two Blind Men" cluster="pushing to do something surprising?"/>
-<episode start="SBLGNT.Matt.21.1.w1" section="01-68" morphGntId="012101" title="Christ's Entry into Jerusalem" cluster="17"/>
-<episode start="SBLGNT.Matt.21.12.w1" section="01-69" morphGntId="012112" title="Christ Visits the Temple" cluster="controversial exemplification"/>
+<episode start="SBLGNT.Matt.20.29.w1" section="01-67" morphGntId="012029" title="Healing of Two Blind Men" cluster="4"/>
+<episode start="SBLGNT.Matt.21.1.w1" section="01-68" morphGntId="012101" title="Christ's Entry into Jerusalem"/>
+<episode start="SBLGNT.Matt.21.12.w1" section="01-69" morphGntId="012112" title="Christ Visits the Temple" cluster="23"/>
 <episode start="SBLGNT.Matt.21.17.w1" section="01-70" morphGntId="012117" title="The Cursing of the Fig-Tree"/>
-<episode start="SBLGNT.Matt.21.23.w1" section="01-71" morphGntId="012123" title="The Authority of Christ" cluster="disputation"/>
+<episode start="SBLGNT.Matt.21.23.w1" section="01-71" morphGntId="012123" title="The Authority of Christ" cluster="8"/>
 <episode start="SBLGNT.Matt.21.28.w1" section="01-72" morphGntId="012128" title="The Parable of the Two Sons"/>
 <episode start="SBLGNT.Matt.21.33.w1" section="01-73" morphGntId="012133" title="The Parable of the Wicked Husbandmen"/>
-<episode start="SBLGNT.Matt.22.1.w1" section="01-74" morphGntId="012201" title="The Parable of the Marriage Feast" cluster="19"/>
-<episode start="SBLGNT.Matt.22.15.w1" section="01-75" morphGntId="012215" title="The Question Concerning Tribute" cluster="openly challenging"/>
-<episode start="SBLGNT.Matt.22.23.w1" section="01-76" morphGntId="012223" title="The Question of the Sadducees" cluster="openly challenging"/>
-<episode start="SBLGNT.Matt.22.34.w1" section="01-77" morphGntId="012234" title="The Silencing of the Pharisees" cluster="disputation"/>
-<episode start="SBLGNT.Matt.23.1.w1" section="01-78" morphGntId="012301" title="The Inordinate Ambition of the Pharisees" cluster="36"/>
+<episode start="SBLGNT.Matt.22.1.w1" section="01-74" morphGntId="012201" title="The Parable of the Marriage Feast" cluster="9"/>
+<episode start="SBLGNT.Matt.22.15.w1" section="01-75" morphGntId="012215" title="The Question Concerning Tribute" cluster="14"/>
+<episode start="SBLGNT.Matt.22.23.w1" section="01-76" morphGntId="012223" title="The Question of the Sadducees" cluster="14"/>
+<episode start="SBLGNT.Matt.22.34.w1" section="01-77" morphGntId="012234" title="The Silencing of the Pharisees" cluster="8"/>
+<episode start="SBLGNT.Matt.23.1.w1" section="01-78" morphGntId="012301" title="The Inordinate Ambition of the Pharisees" cluster="24"/>
 <episode start="SBLGNT.Matt.23.13.w1" section="01-79" morphGntId="012313" title="The Woes upon the Hypocrisy of the Pharisees"/>
 <episode start="SBLGNT.Matt.23.34.w1" section="01-80" morphGntId="012334" title="The Peroration and the Lament over Jerusalem"/>
-<episode start="SBLGNT.Matt.24.1.w1" section="01-81" morphGntId="012401" title="The Judgment of God upon Jerusalem and upon the World" cluster="teaching about the future"/>
+<episode start="SBLGNT.Matt.24.1.w1" section="01-81" morphGntId="012401" title="The Judgment of God upon Jerusalem and upon the World" cluster="2"/>
 <episode start="SBLGNT.Matt.24.42.w1" section="01-82" morphGntId="012442" title="The Need of Watchfulness"/>
 <episode start="SBLGNT.Matt.25.1.w1" section="01-83" morphGntId="012501" title="The Parable of the Ten Virgins"/>
 <episode start="SBLGNT.Matt.25.14.w1" section="01-84" morphGntId="012514" title="The Parable of the Talents"/>
 <episode start="SBLGNT.Matt.25.31.w1" section="01-85" morphGntId="012531" title="The Last Judgment"/>
-<episode start="SBLGNT.Matt.26.1.w1" section="01-86a" morphGntId="012601" title="Jesus Predicts Crucifixion" cluster="16"/>
-<episode start="SBLGNT.Matt.26.3.w1" section="01-86b" morphGntId="null" title="Leaders Conspire"/>
-<episode start="SBLGNT.Matt.26.6.w1" section="01-86c" morphGntId="null" title="A Woman Anoints Jesus" cluster="22"/>
+<episode start="SBLGNT.Matt.26.1.w1" section="01-86a" morphGntId="012601" title="Jesus Predicts Crucifixion" cluster="3"/>
+<episode start="SBLGNT.Matt.26.3.w1" section="01-86b" morphGntId="null" title="Leaders Conspire" cluster="3"/>
+<episode start="SBLGNT.Matt.26.6.w1" section="01-86c" morphGntId="null" title="A Woman Anoints Jesus" cluster="5"/>
 <episode start="SBLGNT.Matt.26.14.w1" section="01-86d" morphGntId="null" title="Judas Bargains for Jesus"/>
-<episode start="SBLGNT.Matt.26.17.w1" section="01-86e" morphGntId="null" title="Jesus Gives Instructions for Supper" cluster="planning"/>
-<episode start="SBLGNT.Matt.26.20.w1" section="01-87a" morphGntId="012620" title="The Passover Meal"/>
-<episode start="SBLGNT.Matt.26.26.w1" section="01-87b" morphGntId="null" title="The Institution of the Lord's Supper" cluster="4"/>
-<episode start="SBLGNT.Matt.26.30.w1" section="01-88a" morphGntId="012630" title="On the Way to Gethsemane" cluster="forewarning"/>
-<episode start="SBLGNT.Matt.26.36.w1" section="01-88b" morphGntId="null" title="Events at Gethsemane" cluster="4"/>
+<episode start="SBLGNT.Matt.26.17.w1" section="01-86e" morphGntId="null" title="Jesus Gives Instructions for Supper" cluster="11"/>
+<episode start="SBLGNT.Matt.26.20.w1" section="01-87a" morphGntId="012620" title="The Passover Meal" cluster="2"/>
+<episode start="SBLGNT.Matt.26.26.w1" section="01-87b" morphGntId="null" title="The Institution of the Lord's Supper" cluster="3"/>
+<episode start="SBLGNT.Matt.26.30.w1" section="01-88a" morphGntId="012630" title="On the Way to Gethsemane" cluster="2"/>
+<episode start="SBLGNT.Matt.26.36.w1" section="01-88b" morphGntId="null" title="Events at Gethsemane" cluster="3"/>
 <episode start="SBLGNT.Matt.26.47.w1" section="01-89" morphGntId="012647" title="The Betrayal and Arrest"/>
-<episode start="SBLGNT.Matt.26.57.w1" section="01-90a" morphGntId="012657" title="The Trial before Caiaphas" cluster="setting the record straight (trial? Inquisition? Investigation?)"/>
-<episode start="SBLGNT.Matt.26.69.w1" section="01-90b" morphGntId="null" title="The Denial of Peter" cluster="5"/>
+<episode start="SBLGNT.Matt.26.57.w1" section="01-90a" morphGntId="012657" title="The Trial before Caiaphas" cluster="12"/>
+<episode start="SBLGNT.Matt.26.69.w1" section="01-90b" morphGntId="null" title="The Denial of Peter" cluster="6"/>
 <episode start="SBLGNT.Matt.27.1.w1" section="01-91" morphGntId="012701" title="The End of Judas"/>
-<episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711" title="The Trial before Pilate" cluster="revelation"/>
-<episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731" title="The Crucifixion and Death of Christ" cluster="25"/>
+<episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711" title="The Trial before Pilate" cluster="28"/>
+<episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731" title="The Crucifixion and Death of Christ"/>
 <episode start="SBLGNT.Matt.27.57.w1" section="01-94" morphGntId="012757" title="The Burial of Christ"/>
-<episode start="SBLGNT.Matt.28.1.w1" section="01-95a" morphGntId="012801" title="The Resurrection of Christ"/>
+<episode start="SBLGNT.Matt.28.1.w1" section="01-95a" morphGntId="012801" title="The Resurrection of Christ" cluster="0"/>
 <episode start="SBLGNT.Matt.28.11.w1" section="01-95b" morphGntId="null" title="The Resurrection of Christ"/>
-<episode start="SBLGNT.Matt.28.16.w1" section="01-96" morphGntId="012816" title="The Great Missionary Command" cluster="6"/>
-<episode section="02-01" start="SBLGNT.Mark.1.1.w1" title="The Ministry of John the Baptist" cluster="challenge story?"/>
-<episode section="02-02a" start="SBLGNT.Mark.1.9.w1" title="The Baptism and Temptation of Christ" cluster="27"/>
+<episode start="SBLGNT.Matt.28.16.w1" section="01-96" morphGntId="012816" title="The Great Missionary Command" cluster="3"/>
+<episode section="02-01" start="SBLGNT.Mark.1.1.w1" title="The Ministry of John the Baptist" cluster="24"/>
+<episode section="02-02a" start="SBLGNT.Mark.1.9.w1" title="The Baptism and Temptation of Christ" cluster="15"/>
 <episode section="02-02b" start="SBLGNT.Mark.1.14.w1" title="The Beginning of His Ministry"/>
-<episode section="02-03a" start="SBLGNT.Mark.1.21.w1" title="Ministry in Capernaum"/>
-<episode section="02-03b" start="SBLGNT.Mark.1.35.w1" title="Jesus Prays in a Solitary Place" cluster="planning"/>
-<episode section="02-04" start="SBLGNT.Mark.1.40.w1" title="The Healing of a Leper" cluster="29"/>
-<episode section="02-05" start="SBLGNT.Mark.2.1.w1" title="Healing the Palsied Man" cluster="unfolding negotiation?"/>
-<episode section="02-06" start="SBLGNT.Mark.2.13.w1" title="The Calling of Levi and the Dinner at His House" cluster="unfolding negotiation?"/>
-<episode section="02-07a" start="SBLGNT.Mark.2.18.w1" title="New Wine into Old Wineskins" cluster="openly challenging"/>
-<episode section="02-07b" start="SBLGNT.Mark.2.23.w1" title="The Lord of the Sabbath" cluster="disputation"/>
-<episode section="02-08" start="SBLGNT.Mark.3.1.w1" title="Healing the Withered Hand" cluster="39"/>
+<episode section="02-03a" start="SBLGNT.Mark.1.21.w1" title="Ministry in Capernaum" cluster="17"/>
+<episode section="02-03b" start="SBLGNT.Mark.1.35.w1" title="Jesus Prays in a Solitary Place" cluster="11"/>
+<episode section="02-04" start="SBLGNT.Mark.1.40.w1" title="The Healing of a Leper" cluster="4"/>
+<episode section="02-05" start="SBLGNT.Mark.2.1.w1" title="Healing the Palsied Man" cluster="7"/>
+<episode section="02-06" start="SBLGNT.Mark.2.13.w1" title="The Calling of Levi and the Dinner at His House" cluster="4"/>
+<episode section="02-07a" start="SBLGNT.Mark.2.18.w1" title="New Wine into Old Wineskins" cluster="14"/>
+<episode section="02-07b" start="SBLGNT.Mark.2.23.w1" title="The Lord of the Sabbath" cluster="8"/>
+<episode section="02-08" start="SBLGNT.Mark.3.1.w1" title="Healing the Withered Hand" cluster="23"/>
 <episode section="02-09" start="SBLGNT.Mark.3.7.w1" title="Miracles by the Seaside"/>
 <episode section="02-10a" start="SBLGNT.Mark.3.13.w1" title="Jesus Appoints the Twelve"/>
-<episode section="02-10b" start="SBLGNT.Mark.3.20.w1" title="Discourse on the Casting Out of Demons" cluster="disputation"/>
-<episode section="02-11a" start="SBLGNT.Mark.4.1.w1" title="The Parable of the Sower" cluster="challenge story?"/>
-<episode section="02-11b" start="SBLGNT.Mark.4.10.w1" title="Teaching the Disciples by Means of Parables" cluster="10"/>
-<episode section="02-12" start="SBLGNT.Mark.4.35.w1" title="Christ Stilling the Tempest" cluster="turn of events/surprise"/>
-<episode section="02-13" start="SBLGNT.Mark.5.1.w1" title="The Healing of a Demon-Possessed Man" cluster="pushing to do something surprising?"/>
-<episode section="02-14" start="SBLGNT.Mark.5.21.w1" title="Raising of the Daughter of Jairus" cluster="12"/>
-<episode section="02-15" start="SBLGNT.Mark.6.1.w1" title="Jesus at Nazareth"/>
-<episode section="02-16" start="SBLGNT.Mark.6.6.w7" title="The Mission of the Twelve" cluster="30"/>
-<episode section="02-17" start="SBLGNT.Mark.6.14.w1" title="Death of John the Baptist" cluster="13"/>
-<episode section="02-18" start="SBLGNT.Mark.6.30.w1" title="The Feeding of the Five Thousand" cluster="task-oriented instructing"/>
-<episode section="02-19" start="SBLGNT.Mark.6.45.w1" title="Christ Walking on the Sea and His Return to Galilee"/>
-<episode section="02-20 02-21" start="SBLGNT.Mark.7.1.w1" title="Concerning Ceremonial Washings, Christ's Denunciation of the Pharisees" cluster="38"/>
-<episode section="02-22" start="SBLGNT.Mark.7.24.w1" title="The Syrophoenician Woman" cluster="request from a stranger; negotiation?"/>
+<episode section="02-10b" start="SBLGNT.Mark.3.20.w1" title="Discourse on the Casting Out of Demons" cluster="8"/>
+<episode section="02-11a" start="SBLGNT.Mark.4.1.w1" title="The Parable of the Sower" cluster="24"/>
+<episode section="02-11b" start="SBLGNT.Mark.4.10.w1" title="Teaching the Disciples by Means of Parables"/>
+<episode section="02-12" start="SBLGNT.Mark.4.35.w1" title="Christ Stilling the Tempest" cluster="19"/>
+<episode section="02-13" start="SBLGNT.Mark.5.1.w1" title="The Healing of a Demon-Possessed Man" cluster="4"/>
+<episode section="02-14" start="SBLGNT.Mark.5.21.w1" title="Raising of the Daughter of Jairus" cluster="0"/>
+<episode section="02-15" start="SBLGNT.Mark.6.1.w1" title="Jesus at Nazareth" cluster="8"/>
+<episode section="02-16" start="SBLGNT.Mark.6.6.w7" title="The Mission of the Twelve" cluster="3"/>
+<episode section="02-17" start="SBLGNT.Mark.6.14.w1" title="Death of John the Baptist"/>
+<episode section="02-18" start="SBLGNT.Mark.6.30.w1" title="The Feeding of the Five Thousand"/>
+<episode section="02-19" start="SBLGNT.Mark.6.45.w1" title="Christ Walking on the Sea and His Return to Galilee" cluster="3"/>
+<episode section="02-20 02-21" start="SBLGNT.Mark.7.1.w1" title="Concerning Ceremonial Washings, Christ's Denunciation of the Pharisees" cluster="8"/>
+<episode section="02-22" start="SBLGNT.Mark.7.24.w1" title="The Syrophoenician Woman"/>
 <episode section="02-23" start="SBLGNT.Mark.7.31.w1" title="Healing of the Deaf Man"/>
-<episode section="02-24" start="SBLGNT.Mark.8.1.w1" title="The Feeding of the Four Thousand" cluster="task-oriented instructing"/>
+<episode section="02-24" start="SBLGNT.Mark.8.1.w1" title="The Feeding of the Four Thousand" cluster="11"/>
 <episode section="02-25a" start="SBLGNT.Mark.8.11.w1" title="The Pharisees Ask for a Sign"/>
 <episode section="02-25b" start="SBLGNT.Mark.8.14.w1" title="The Leaven of the Pharisees"/>
-<episode section="02-26" start="SBLGNT.Mark.8.22.w1" title="The Blind Man of Bethsaida" cluster="29"/>
-<episode section="02-27a" start="SBLGNT.Mark.8.27.w1" title="The Identity of the Son of Man" cluster="forewarning"/>
+<episode section="02-26" start="SBLGNT.Mark.8.22.w1" title="The Blind Man of Bethsaida" cluster="4"/>
+<episode section="02-27a" start="SBLGNT.Mark.8.27.w1" title="The Identity of the Son of Man" cluster="2"/>
 <episode section="02-27b" start="SBLGNT.Mark.8.34.w1" title="Jesus the Christ and His Service"/>
-<episode section="02-28" start="SBLGNT.Mark.9.2.w1" title="The Transfiguration of Jesus" cluster="private discussion"/>
+<episode section="02-28" start="SBLGNT.Mark.9.2.w1" title="The Transfiguration of Jesus" cluster="2"/>
 <episode section="02-29" start="SBLGNT.Mark.9.14.w1" title="Casting Out an Unclean Spirit"/>
-<episode section="02-30" start="SBLGNT.Mark.9.30.w1" title="The Last Discourses of Christ in Galilee" cluster="forewarning"/>
-<episode section="02-31" start="SBLGNT.Mark.10.1.w1" title="A Question concerning Divorce" cluster="disputation"/>
-<episode section="02-32" start="SBLGNT.Mark.10.13.w1" title="Jesus Blesses Little Children" cluster="controversial exemplification"/>
+<episode section="02-30" start="SBLGNT.Mark.9.30.w1" title="The Last Discourses of Christ in Galilee" cluster="2"/>
+<episode section="02-31" start="SBLGNT.Mark.10.1.w1" title="A Question concerning Divorce" cluster="8"/>
+<episode section="02-32" start="SBLGNT.Mark.10.13.w1" title="Jesus Blesses Little Children" cluster="23"/>
 <episode section="02-33" start="SBLGNT.Mark.10.17.w1" title="The Rich Young Man"/>
-<episode section="02-34a" start="SBLGNT.Mark.10.32.w1" title="Jesus Turns Toward Jerusalem" cluster="16"/>
-<episode section="02-34b" start="SBLGNT.Mark.10.35.w1" title="Priority in Christ's Kingdom" cluster="forewarning"/>
+<episode section="02-34a" start="SBLGNT.Mark.10.32.w1" title="Jesus Turns Toward Jerusalem" cluster="3"/>
+<episode section="02-34b" start="SBLGNT.Mark.10.35.w1" title="Priority in Christ's Kingdom" cluster="2"/>
 <episode section="02-35" start="SBLGNT.Mark.10.46.w1" title="The Healing of Bartimaeus"/>
-<episode section="02-36" start="SBLGNT.Mark.11.1.w1" title="Christ's Entry into Jerusalem" cluster="17"/>
+<episode section="02-36" start="SBLGNT.Mark.11.1.w1" title="Christ's Entry into Jerusalem"/>
 <episode section="02-37" start="SBLGNT.Mark.11.12.w1" title="The Miracle of the Fig-Tree"/>
-<episode section="02-38" start="SBLGNT.Mark.11.27.w1" title="The Question concerning Christ's Authority" cluster="disputation"/>
-<episode section="02-39" start="SBLGNT.Mark.12.1.w1" title="The Parable of the Vineyard" cluster="19"/>
-<episode section="02-40a" start="SBLGNT.Mark.12.13.w1" title="The Pharisees and Herodians Ask About Paying Taxes to Caesar" cluster="disputation"/>
-<episode section="02-40b" start="SBLGNT.Mark.12.18.w1" title="The Sadducees Question Jesus About the Resurrection" cluster="38"/>
-<episode section="02-40c" start="SBLGNT.Mark.12.28.w1" title="The Greatest Commandment" cluster="disputation"/>
-<episode section="02-41" start="SBLGNT.Mark.12.35.w1" title="Jesus Condemns the Teachers of the Law" cluster="21"/>
-<episode section="02-42" start="SBLGNT.Mark.13.1.w1" title="Christ Foretells the Destruction of Jerusalem and the End of the World" cluster="forewarning"/>
+<episode section="02-38" start="SBLGNT.Mark.11.27.w1" title="The Question concerning Christ's Authority" cluster="8"/>
+<episode section="02-39" start="SBLGNT.Mark.12.1.w1" title="The Parable of the Vineyard" cluster="9"/>
+<episode section="02-40a" start="SBLGNT.Mark.12.13.w1" title="The Pharisees and Herodians Ask About Paying Taxes to Caesar" cluster="8"/>
+<episode section="02-40b" start="SBLGNT.Mark.12.18.w1" title="The Sadducees Question Jesus About the Resurrection" cluster="8"/>
+<episode section="02-40c" start="SBLGNT.Mark.12.28.w1" title="The Greatest Commandment" cluster="8"/>
+<episode section="02-41" start="SBLGNT.Mark.12.35.w1" title="Jesus Condemns the Teachers of the Law" cluster="10"/>
+<episode section="02-42" start="SBLGNT.Mark.13.1.w1" title="Christ Foretells the Destruction of Jerusalem and the End of the World"/>
 <episode section="02-43a" start="SBLGNT.Mark.14.1.w1" title="The Teachers of the Law Scheme"/>
-<episode section="02-43b" start="SBLGNT.Mark.14.3.w1" title="The Anointing of Jesus" cluster="22"/>
+<episode section="02-43b" start="SBLGNT.Mark.14.3.w1" title="The Anointing of Jesus" cluster="5"/>
 <episode section="02-43c" start="SBLGNT.Mark.14.10.w1" title="Judas Promises to Betray Jesus"/>
-<episode section="02-44a" start="SBLGNT.Mark.14.12.w1" title="The Preparation for the Passover" cluster="planning"/>
+<episode section="02-44a" start="SBLGNT.Mark.14.12.w1" title="The Preparation for the Passover" cluster="11"/>
 <episode section="02-44b" start="SBLGNT.Mark.14.17.w1" title="The Celebration of the Passover"/>
-<episode section="02-45a" start="SBLGNT.Mark.14.26.w1" title="Jesus Predicts Peter's Denials" cluster="forewarning"/>
+<episode section="02-45a" start="SBLGNT.Mark.14.26.w1" title="Jesus Predicts Peter's Denials" cluster="2"/>
 <episode section="02-45b" start="SBLGNT.Mark.14.32.w1" title="Jesus Prays in Gethsemane"/>
-<episode section="02-46" start="SBLGNT.Mark.14.43.w1" title="The Capture of Jesus"/>
-<episode section="02-47" start="SBLGNT.Mark.14.53.w1" title="The Trial before the High Priest" cluster="setting the record straight (trial? Inquisition? Investigation?)"/>
+<episode section="02-46" start="SBLGNT.Mark.14.43.w1" title="The Capture of Jesus" cluster="23"/>
+<episode section="02-47" start="SBLGNT.Mark.14.53.w1" title="The Trial before the High Priest" cluster="12"/>
 <episode section="02-48" start="SBLGNT.Mark.14.66.w1" title="The Denial of Peter"/>
-<episode section="02-49a" start="SBLGNT.Mark.15.1.w1" title="Jesus before Pilate" cluster="disputation"/>
-<episode section="02-49b" start="SBLGNT.Mark.15.6.w1" title="Pilate before the Crowd" cluster="24"/>
+<episode section="02-49a" start="SBLGNT.Mark.15.1.w1" title="Jesus before Pilate" cluster="8"/>
+<episode section="02-49b" start="SBLGNT.Mark.15.6.w1" title="Pilate before the Crowd" cluster="23"/>
 <episode section="02-50a" start="SBLGNT.Mark.15.16.w1" title="Jesus before the Soldiers"/>
 <episode section="02-50b" start="SBLGNT.Mark.15.21.w1" title="The Crucifixion and Death of Christ"/>
 <episode section="02-51" start="SBLGNT.Mark.15.40.w1" title="The Burial of Jesus"/>
 <episode section="02-52" start="SBLGNT.Mark.16.1.w1" title="The Resurrection of Jesus"/>
-<episode section="02-53" start="SBLGNT.Mark.16.9.w1" title="The Appearances and the Ascension of Jesus"/>
+<episode section="02-53" start="SBLGNT.Mark.16.9.w1" title="The Appearances and the Ascension of Jesus" cluster="3"/>
 <episode section="03-01" start="SBLGNT.Luke.1.1.w1" title="The Preface to the Gospel"/>
 <episode section="03-02a" start="SBLGNT.Luke.1.5.w1" title="The Announcement of John the Baptist's Birth"/>
-<episode section="03-02b" start="SBLGNT.Luke.1.23.w1" title="Elizabeth Conceives"/>
-<episode section="03-03" start="SBLGNT.Luke.1.26.w1" title="The Annunciation to Mary" cluster="26"/>
+<episode section="03-02b" start="SBLGNT.Luke.1.23.w1" title="Elizabeth Conceives" cluster="24"/>
+<episode section="03-03" start="SBLGNT.Luke.1.26.w1" title="The Annunciation to Mary" cluster="14"/>
 <episode section="03-04" start="SBLGNT.Luke.1.39.w1" title="Mary's Visit to Elizabeth"/>
 <episode section="03-05" start="SBLGNT.Luke.1.57.w1" title="The Birth of John the Baptist and Zechariah's Song"/>
 <episode section="03-06a" start="SBLGNT.Luke.2.1.w1" title="The Birth of Jesus"/>
 <episode section="03-06b" start="SBLGNT.Luke.2.8.w1" title="The Adoration of the Shepherds"/>
 <episode section="03-07" start="SBLGNT.Luke.2.21.w1" title="The Circumcision and Presentation of Christ"/>
-<episode section="03-08" start="SBLGNT.Luke.2.41.w1" title="The Christ-Child in the Temple"/>
+<episode section="03-08" start="SBLGNT.Luke.2.41.w1" title="The Christ-Child in the Temple" cluster="2"/>
 <episode section="03-09" start="SBLGNT.Luke.3.1.w1" title="The Ministry of John the Baptist"/>
-<episode section="03-10a" start="SBLGNT.Luke.3.21.w1" title="The Baptism of Christ" cluster="27"/>
+<episode section="03-10a" start="SBLGNT.Luke.3.21.w1" title="The Baptism of Christ" cluster="15"/>
 <episode section="03-10b" start="SBLGNT.Luke.3.23.w1" title="The Genealogy of Christ"/>
-<episode section="03-11" start="SBLGNT.Luke.4.1.w1" title="The Temptation of Christ" cluster="28"/>
+<episode section="03-11" start="SBLGNT.Luke.4.1.w1" title="The Temptation of Christ" cluster="16"/>
 <episode section="03-12" start="SBLGNT.Luke.4.14.w1" title="The Beginning of Christ's Ministry and His Teaching in Nazareth"/>
-<episode section="03-13a" start="SBLGNT.Luke.4.33.w1" title="Healing of a Demoniac" cluster="20"/>
-<episode section="03-13b" start="SBLGNT.Luke.4.38.w1" title="Jesus Heals Many" cluster="openly challenging"/>
-<episode section="03-14" start="SBLGNT.Luke.5.1.w1" title="The Miraculous Draught of Fishes and the Call of the First Disciples" cluster="pushing to do something surprising?"/>
+<episode section="03-13a" start="SBLGNT.Luke.4.33.w1" title="Healing of a Demoniac" cluster="17"/>
+<episode section="03-13b" start="SBLGNT.Luke.4.38.w1" title="Jesus Heals Many" cluster="14"/>
+<episode section="03-14" start="SBLGNT.Luke.5.1.w1" title="The Miraculous Draught of Fishes and the Call of the First Disciples" cluster="4"/>
 <episode section="03-15a" start="SBLGNT.Luke.5.12.w1" title="The Healing of a Leper"/>
 <episode section="03-15b" start="SBLGNT.Luke.5.17.w1" title="The Healing of a Paralytic"/>
 <episode section="03-16" start="SBLGNT.Luke.5.27.w1" title="The Call of Levi and the Discourse Concerning Christ's Ministry"/>
-<episode section="03-17" start="SBLGNT.Luke.6.1.w1" title="Disputes Concerning Sabbath Observance" cluster="disputation"/>
+<episode section="03-17" start="SBLGNT.Luke.6.1.w1" title="Disputes Concerning Sabbath Observance" cluster="23"/>
 <episode section="03-18" start="SBLGNT.Luke.6.12.w1" title="The Twelve Apostles"/>
-<episode section="03-19" start="SBLGNT.Luke.6.17.w1" title="Miracles of Healing and Preaching"/>
-<episode section="03-20" start="SBLGNT.Luke.7.1.w1" title="The Centurion of Capernaum"/>
-<episode section="03-21" start="SBLGNT.Luke.7.11.w1" title="Raising of the Widow's Son"/>
-<episode section="03-22" start="SBLGNT.Luke.7.18.w1" title="The Embassy of John the Baptist" cluster="openly challenging"/>
+<episode section="03-19" start="SBLGNT.Luke.6.17.w1" title="Miracles of Healing and Preaching" cluster="22"/>
+<episode section="03-20" start="SBLGNT.Luke.7.1.w1" title="The Centurion of Capernaum" cluster="17"/>
+<episode section="03-21" start="SBLGNT.Luke.7.11.w1" title="Raising of the Widow's Son" cluster="17"/>
+<episode section="03-22" start="SBLGNT.Luke.7.18.w1" title="The Embassy of John the Baptist" cluster="20"/>
 <episode section="03-23" start="SBLGNT.Luke.7.36.w1" title="The First Anointing of Jesus"/>
 <episode section="03-24a" start="SBLGNT.Luke.8.1.w1" title="Teaching in Parables"/>
 <episode section="03-24b" start="SBLGNT.Luke.8.19.w1" title="Jesus Mother and Brothers"/>
-<episode section="03-25" start="SBLGNT.Luke.8.22.w1" title="The Storm on the Sea" cluster="turn of events/surprise"/>
-<episode section="03-26" start="SBLGNT.Luke.8.26.w1" title="In the Country of the Gadarenes" cluster="pushing to do something surprising?"/>
+<episode section="03-25" start="SBLGNT.Luke.8.22.w1" title="The Storm on the Sea" cluster="19"/>
+<episode section="03-26" start="SBLGNT.Luke.8.26.w1" title="In the Country of the Gadarenes" cluster="4"/>
 <episode section="03-27" start="SBLGNT.Luke.8.40.w1" title="The Woman with an Issue and the Daughter of Jairus"/>
-<episode section="03-28a" start="SBLGNT.Luke.9.1.w1" title="The Mission of the Twelve" cluster="30"/>
+<episode section="03-28a" start="SBLGNT.Luke.9.1.w1" title="The Mission of the Twelve" cluster="3"/>
 <episode section="03-28b" start="SBLGNT.Luke.9.7.w1" title="Herod Hears about Jesus"/>
-<episode section="03-29" start="SBLGNT.Luke.9.10.w1" title="The Feeding of the Five Thousand" cluster="task-oriented instructing"/>
-<episode section="03-30" start="SBLGNT.Luke.9.18.w1" title="Peter's Confession and Christ's Answer" cluster="forewarning"/>
+<episode section="03-29" start="SBLGNT.Luke.9.10.w1" title="The Feeding of the Five Thousand" cluster="11"/>
+<episode section="03-30" start="SBLGNT.Luke.9.18.w1" title="Peter's Confession and Christ's Answer" cluster="2"/>
 <episode section="03-31" start="SBLGNT.Luke.9.28.w1" title="The Transfiguration"/>
-<episode section="03-32" start="SBLGNT.Luke.9.37.w1" title="The Healing of the Epileptic Boy" cluster="31"/>
-<episode section="03-33" start="SBLGNT.Luke.9.46.w1" title="Lessons in Humility"/>
+<episode section="03-32" start="SBLGNT.Luke.9.37.w1" title="The Healing of the Epileptic Boy" cluster="27"/>
+<episode section="03-33" start="SBLGNT.Luke.9.46.w1" title="Lessons in Humility" cluster="2"/>
 <episode section="03-34a" start="SBLGNT.Luke.9.51.w1" title="Opposition in Samaria"/>
-<episode section="03-34b" start="SBLGNT.Luke.9.57.w1" title="True Discipleship of Christ" cluster="revelation"/>
+<episode section="03-34b" start="SBLGNT.Luke.9.57.w1" title="True Discipleship of Christ" cluster="28"/>
 <episode section="03-35" start="SBLGNT.Luke.10.1.w1" title="The Mission of the Seventy"/>
 <episode section="03-36" start="SBLGNT.Luke.10.25.w1" title="The Good Samaritan"/>
 <episode section="03-37" start="SBLGNT.Luke.10.38.w1" title="Mary and Martha"/>
-<episode section="03-38" start="SBLGNT.Luke.11.1.w1" title="A Lesson in Prayer" cluster="private discussion"/>
+<episode section="03-38" start="SBLGNT.Luke.11.1.w1" title="A Lesson in Prayer" cluster="2"/>
 <episode section="03-39, 03-40" start="SBLGNT.Luke.11.14.w1" title="Christ Casts Out a Demon and Rebukes The Generation"/>
-<episode section="03-41" start="SBLGNT.Luke.11.37.w1" title="Woes upon the Pharisees and Lawyers"/>
-<episode section="03-42 03-43 03-44" start="SBLGNT.Luke.11.53.w1" title="The Teaching of the Kingdom"/>
+<episode section="03-41" start="SBLGNT.Luke.11.37.w1" title="Woes upon the Pharisees and Lawyers" cluster="8"/>
+<episode section="03-42 03-43 03-44" start="SBLGNT.Luke.11.53.w1" title="The Teaching of the Kingdom" cluster="24"/>
 <episode section="03-45" start="SBLGNT.Luke.13.10.w1" title="The Crippled Woman Healed"/>
-<episode section="03-46a" start="SBLGNT.Luke.13.22.w1" title="Few Are Saved" cluster="openly challenging"/>
-<episode section="03-46b" start="SBLGNT.Luke.13.31.w1" title="Some Pharisees Warn Jesus"/>
+<episode section="03-46a" start="SBLGNT.Luke.13.22.w1" title="Few Are Saved" cluster="20"/>
+<episode section="03-46b" start="SBLGNT.Luke.13.31.w1" title="Some Pharisees Warn Jesus" cluster="21"/>
 <episode section="03-47 03-48" start="SBLGNT.Luke.14.1.w1" title="Christ the Guest of a Pharisee"/>
 <episode section="03-49" start="SBLGNT.Luke.14.25.w1" title="The Obligations of Christ's Discipleship"/>
 <episode section="03-50 03-51 03-52 03-53 03-54" start="SBLGNT.Luke.15.1.w1" title="Parables and Teaching"/>
 <episode section="03-55" start="SBLGNT.Luke.17.11.w1" title="The Ten Lepers"/>
 <episode section="03-56" start="SBLGNT.Luke.17.20.w1" title="Concerning the Kingdom of God and the Coming of Christ"/>
-<episode section="03-57" start="SBLGNT.Luke.18.1.w1" title="The Unjust Judge"/>
-<episode section="03-58" start="SBLGNT.Luke.18.9.w1" title="The Pharisee and the Publican"/>
+<episode section="03-57" start="SBLGNT.Luke.18.1.w1" title="The Unjust Judge" cluster="22"/>
+<episode section="03-58" start="SBLGNT.Luke.18.9.w1" title="The Pharisee and the Publican" cluster="24"/>
 <episode section="03-59" start="SBLGNT.Luke.18.15.w1" title="Christ Blesses Little Children"/>
 <episode section="03-60" start="SBLGNT.Luke.18.18.w1" title="Denying All for Christ's Sake"/>
-<episode section="03-61" start="SBLGNT.Luke.18.31.w1" title="The Lord's Third Prediction of His Passion" cluster="34"/>
-<episode section="03-62" start="SBLGNT.Luke.18.35.w1" title="The Blind Man of Jericho" cluster="pushing to do something surprising?"/>
-<episode section="03-63" start="SBLGNT.Luke.19.1.w1" title="Zacchaeus the Publican" cluster="unfolding negotiation?"/>
-<episode section="03-64" start="SBLGNT.Luke.19.11.w1" title="The Parable of the Talents" cluster="36"/>
+<episode section="03-61" start="SBLGNT.Luke.18.31.w1" title="The Lord's Third Prediction of His Passion" cluster="3"/>
+<episode section="03-62" start="SBLGNT.Luke.18.35.w1" title="The Blind Man of Jericho" cluster="4"/>
+<episode section="03-63" start="SBLGNT.Luke.19.1.w1" title="Zacchaeus the Publican" cluster="4"/>
+<episode section="03-64" start="SBLGNT.Luke.19.11.w1" title="The Parable of the Talents" cluster="24"/>
 <episode section="03-65a" start="SBLGNT.Luke.19.29.w1" title="Jesus Procures a Donkey"/>
-<episode section="03-65b" start="SBLGNT.Luke.19.37.w1" title="Christ's Entry into Jerusalem" cluster="revelation"/>
-<episode section="03-65c" start="SBLGNT.Luke.19.45.w1" title="Cleansing the Temple" cluster="controversial exemplification"/>
-<episode section="03-66a" start="SBLGNT.Luke.20.1.w1" title="The Authority of Jesus" cluster="disputation"/>
+<episode section="03-65b" start="SBLGNT.Luke.19.37.w1" title="Christ's Entry into Jerusalem" cluster="28"/>
+<episode section="03-65c" start="SBLGNT.Luke.19.45.w1" title="Cleansing the Temple" cluster="23"/>
+<episode section="03-66a" start="SBLGNT.Luke.20.1.w1" title="The Authority of Jesus" cluster="8"/>
 <episode section="03-66b" start="SBLGNT.Luke.20.9.w1" title="Parable of the Wicked Tenants"/>
 <episode section="03-67a" start="SBLGNT.Luke.20.20.w1" title="The Pharisees Confounded"/>
 <episode section="03-67b" start="SBLGNT.Luke.20.27.w1" title="The Sadducees Confounded"/>
 <episode section="03-68" start="SBLGNT.Luke.20.45.w1" title="Devouring Widows Houses"/>
 <episode section="03-69" start="SBLGNT.Luke.21.5.w1" title="The Destruction of Jerusalem and the End of the World"/>
 <episode section="03-70a" start="SBLGNT.Luke.22.1.w1" title="Judas Agrees to Betray Jesus"/>
-<episode section="03-71" start="SBLGNT.Luke.22.7.w1" title="The Preparation for, and the Celebration of, the Passover" cluster="planning"/>
-<episode section="03-72a" start="SBLGNT.Luke.22.39.w1" title="The Walk to Gethsemane and the Agony"/>
-<episode section="03-72b" start="SBLGNT.Luke.22.47.w1" title="Jesus Arrested"/>
-<episode section="03-73a" start="SBLGNT.Luke.22.54.w1" title="The Denial of Peter"/>
-<episode section="03-73b" start="SBLGNT.Luke.22.63.w1" title="The Guards Mistreat Jesus" cluster="39"/>
-<episode section="03-73c" start="SBLGNT.Luke.22.66.w1" title="Christ before the Council of the Elders" cluster="disputation"/>
-<episode section="03-74" start="SBLGNT.Luke.23.1.w1" title="The Trial before Pilate" cluster="revelation"/>
+<episode section="03-71" start="SBLGNT.Luke.22.7.w1" title="The Preparation for, and the Celebration of, the Passover" cluster="11"/>
+<episode section="03-72a" start="SBLGNT.Luke.22.39.w1" title="The Walk to Gethsemane and the Agony" cluster="2"/>
+<episode section="03-72b" start="SBLGNT.Luke.22.47.w1" title="Jesus Arrested" cluster="23"/>
+<episode section="03-73a" start="SBLGNT.Luke.22.54.w1" title="The Denial of Peter" cluster="6"/>
+<episode section="03-73b" start="SBLGNT.Luke.22.63.w1" title="The Guards Mistreat Jesus" cluster="23"/>
+<episode section="03-73c" start="SBLGNT.Luke.22.66.w1" title="Christ before the Council of the Elders" cluster="8"/>
+<episode section="03-74" start="SBLGNT.Luke.23.1.w1" title="The Trial before Pilate" cluster="28"/>
 <episode section="03-75a" start="SBLGNT.Luke.23.26.w1" title="The Crucifixion and Death of Christ"/>
 <episode section="03-75b" start="SBLGNT.Luke.23.50.w1" title="Jesus Buried"/>
 <episode section="03-76" start="SBLGNT.Luke.24.1.w1" title="The Resurrection of Christ"/>
 <episode section="03-77 03-78" start="SBLGNT.Luke.24.13.w1" title="The Emmaus Disciples and the Last Appearances of Christ"/>
-<episode section="04-01" start="SBLGNT.John.1.1.w1" title="The Word Became Flesh"/>
-<episode section="04-02" start="SBLGNT.John.1.19.w1" title="The Pharisees Question John the Baptist" cluster="1"/>
-<episode section="04-03" start="SBLGNT.John.1.29.w1" title="John Meets Jesus" cluster="0"/>
+<episode section="04-01" start="SBLGNT.John.1.1.w1" title="The Word Became Flesh" cluster="24"/>
+<episode section="04-02" start="SBLGNT.John.1.19.w1" title="The Pharisees Question John the Baptist" cluster="8"/>
+<episode section="04-03" start="SBLGNT.John.1.29.w1" title="John Meets Jesus" cluster="24"/>
 <episode section="04-04a" start="SBLGNT.John.1.35.w1" title="The First Disciples of Jesus"/>
 <episode section="04-04b" start="SBLGNT.John.1.43.w1" title="Jesus Calls Philip and Nathaniel"/>
-<episode section="04-05" start="SBLGNT.John.2.1.w1" title="The Marriage at Cana" cluster="13"/>
-<episode section="04-06" start="SBLGNT.John.2.13.w1" title="The Purging of the Temple and Its Results" cluster="disputation"/>
+<episode section="04-05" start="SBLGNT.John.2.1.w1" title="The Marriage at Cana" cluster="25"/>
+<episode section="04-06" start="SBLGNT.John.2.13.w1" title="The Purging of the Temple and Its Results" cluster="26"/>
 <episode section="04-07" start="SBLGNT.John.3.1.w1" title="The Visit of Nicodemus"/>
-<episode section="04-08" start="SBLGNT.John.3.22.w1" title="John's Second Testimony of Christ" cluster="forewarning"/>
-<episode section="04-09a" start="SBLGNT.John.4.1.w1" title="Christ and the Woman of Samaria" cluster="request from a stranger; negotiation?"/>
+<episode section="04-08" start="SBLGNT.John.3.22.w1" title="John's Second Testimony of Christ" cluster="2"/>
+<episode section="04-09a" start="SBLGNT.John.4.1.w1" title="Christ and the Woman of Samaria"/>
 <episode section="04-09b" start="SBLGNT.John.4.27.w1" title="The Samaritans Believe"/>
 <episode section="04-10" start="SBLGNT.John.4.43.w1" title="The Healing of the Nobleman's Son"/>
 <episode section="04-11" start="SBLGNT.John.5.1.w1" title="The Sick Man of Bethesda"/>
-<episode section="04-12 04-13" start="SBLGNT.John.5.17.w1" title="Jesus Defends Himself Against Jews Persecuting Him"/>
+<episode section="04-12 04-13" start="SBLGNT.John.5.17.w1" title="Jesus Defends Himself Against Jews Persecuting Him" cluster="24"/>
 <episode section="04-14" start="SBLGNT.John.6.1.w1" title="The Feeding of the Five Thousand"/>
-<episode section="04-15" start="SBLGNT.John.6.15.w1" title="Christ Walks on the Sea"/>
-<episode section="04-16 04-17" start="SBLGNT.John.6.22.w1" title="Christ the Bread of Life"/>
+<episode section="04-15" start="SBLGNT.John.6.15.w1" title="Christ Walks on the Sea" cluster="3"/>
+<episode section="04-16 04-17" start="SBLGNT.John.6.22.w1" title="Christ the Bread of Life" cluster="27"/>
 <episode section="04-18a" start="SBLGNT.John.7.1.w1" title="The Unbelief of Christ's Brothers"/>
-<episode section="04-18b" start="SBLGNT.John.7.10.w1" title="Jesus Is Sought at the Festival"/>
-<episode section="04-18c" start="SBLGNT.John.7.14.w1" title="Jesus at the Festival" cluster="disputation"/>
-<episode section="04-18d" start="SBLGNT.John.7.45.w1" title="The Jewish Elites Disbelieve"/>
-<episode section="04-19" start="SBLGNT.John.8.1.w1" title="The Woman Taken in Adultery" cluster="20"/>
-<episode section="04-20 04-21" start="SBLGNT.John.8.12.w1" title="Jesus the Light of the World" cluster="disputation"/>
-<episode section="04-22" start="SBLGNT.John.9.1.w1" title="Healing of the Man That was Born Blind" cluster="setting the record straight (trial? Inquisition? Investigation?)"/>
-<episode section="04-23" start="SBLGNT.John.9.35.w1" title="Jesus the Good Shepherd" cluster="disputation"/>
-<episode section="04-24a" start="SBLGNT.John.10.22.w1" title="Christ's Sermon at the Feast of Dedication" cluster="disputation"/>
+<episode section="04-18b" start="SBLGNT.John.7.10.w1" title="Jesus Is Sought at the Festival" cluster="8"/>
+<episode section="04-18c" start="SBLGNT.John.7.14.w1" title="Jesus at the Festival" cluster="8"/>
+<episode section="04-18d" start="SBLGNT.John.7.45.w1" title="The Jewish Elites Disbelieve" cluster="2"/>
+<episode section="04-19" start="SBLGNT.John.8.1.w1" title="The Woman Taken in Adultery" cluster="17"/>
+<episode section="04-20 04-21" start="SBLGNT.John.8.12.w1" title="Jesus the Light of the World" cluster="8"/>
+<episode section="04-22" start="SBLGNT.John.9.1.w1" title="Healing of the Man That was Born Blind"/>
+<episode section="04-23" start="SBLGNT.John.9.35.w1" title="Jesus the Good Shepherd" cluster="8"/>
+<episode section="04-24a" start="SBLGNT.John.10.22.w1" title="Christ's Sermon at the Feast of Dedication" cluster="8"/>
 <episode section="04-24b" start="SBLGNT.John.10.40.w1" title="Jesus Returns to the Other Side of the Jordan"/>
 <episode section="04-25a" start="SBLGNT.John.11.1.w1" title="Jesus Hears of Lazarus"/>
-<episode section="04-25b" start="SBLGNT.John.11.17.w1" title="Martha Confronts Jesus"/>
+<episode section="04-25b" start="SBLGNT.John.11.17.w1" title="Martha Confronts Jesus" cluster="2"/>
 <episode section="04-25c" start="SBLGNT.John.11.28.w1" title="Jesus at the Tomb of Lazarus"/>
 <episode section="04-26a" start="SBLGNT.John.11.47.w1" title="The Council concerning Christ's Removal"/>
 <episode section="04-26b" start="SBLGNT.John.11.55.w1" title="Many Seek Jesus at the Festival"/>
-<episode section="04-27" start="SBLGNT.John.12.1.w1" title="The Anointing of Jesus"/>
+<episode section="04-27" start="SBLGNT.John.12.1.w1" title="The Anointing of Jesus" cluster="5"/>
 <episode section="04-28" start="SBLGNT.John.12.12.w1" title="Christ's Entry into Jerusalem"/>
-<episode section="04-29 04-30 04-31" start="SBLGNT.John.12.20.w1" title="Some Greeks Seek Jesus but Many Disbelieve"/>
+<episode section="04-29 04-30 04-31" start="SBLGNT.John.12.20.w1" title="Some Greeks Seek Jesus but Many Disbelieve" cluster="21"/>
 <episode section="04-32" start="SBLGNT.John.13.1.w1" title="Jesus Washes the Disciples' Feet"/>
-<episode section="04-33" start="SBLGNT.John.13.21.w1" title="Jesus Reveals His Betrayor" cluster="evaluating? while doing something"/>
-<episode section="04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41" start="SBLGNT.John.13.31.w1" title="Jesus Teaches at the Last Supper" cluster="evaluating? while doing something"/>
+<episode section="04-33" start="SBLGNT.John.13.21.w1" title="Jesus Reveals His Betrayor"/>
+<episode section="04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41" start="SBLGNT.John.13.31.w1" title="Jesus Teaches at the Last Supper" cluster="2"/>
 <episode section="04-42" start="SBLGNT.John.17.1.w1" title="Christ's Great Sacerdotal Prayer"/>
-<episode section="04-43" start="SBLGNT.John.18.1.w1" title="The Arrest of Jesus" cluster="24"/>
-<episode section="04-44a" start="SBLGNT.John.18.15.w1" title="Peter's First Denial" cluster="5"/>
-<episode section="04-44b" start="SBLGNT.John.18.19.w1" title="The High Priest Questions Jesus" cluster="revelation"/>
-<episode section="04-44c" start="SBLGNT.John.18.25.w1" title="Peter's Second and Third Denials"/>
-<episode section="04-45 04-46" start="SBLGNT.John.18.28.w1" title="The Trial Before Pilate" cluster="setting the record straight (trial? Inquisition? Investigation?)"/>
-<episode section="04-47a" start="SBLGNT.John.19.19.w1" title="The Jews Protest Pilate's Sign" cluster="25"/>
-<episode section="04-47b" start="SBLGNT.John.19.23.w1" title="The Soldiers Divide Jesus's Clothes"/>
+<episode section="04-43" start="SBLGNT.John.18.1.w1" title="The Arrest of Jesus" cluster="23"/>
+<episode section="04-44a" start="SBLGNT.John.18.15.w1" title="Peter's First Denial" cluster="6"/>
+<episode section="04-44b" start="SBLGNT.John.18.19.w1" title="The High Priest Questions Jesus" cluster="28"/>
+<episode section="04-44c" start="SBLGNT.John.18.25.w1" title="Peter's Second and Third Denials" cluster="8"/>
+<episode section="04-45 04-46" start="SBLGNT.John.18.28.w1" title="The Trial Before Pilate" cluster="12"/>
+<episode section="04-47a" start="SBLGNT.John.19.19.w1" title="The Jews Protest Pilate's Sign"/>
+<episode section="04-47b" start="SBLGNT.John.19.23.w1" title="The Soldiers Divide Jesus's Clothes" cluster="3"/>
 <episode section="04-47c" start="SBLGNT.John.19.25.w1" title="Jesus Entrusts His Mother and Dies"/>
 <episode section="04-48" start="SBLGNT.John.19.31.w1" title="The Burial of Jesus"/>
-<episode section="04-49" start="SBLGNT.John.20.1.w1" title="Easter Morning"/>
+<episode section="04-49" start="SBLGNT.John.20.1.w1" title="Easter Morning" cluster="11"/>
 <episode section="04-50a" start="SBLGNT.John.20.19.w1" title="The Appearance to the Hidden Disciples"/>
 <episode section="04-50b" start="SBLGNT.John.20.19.w1" title="The Appearance to Thomas"/>
-<episode section="04-51" start="SBLGNT.John.21.1.w1" title="The Appearance of Christ at the Sea of Tiberias" cluster="planning"/>
-<episode section="04-52" start="SBLGNT.John.21.15.w1" title="The Test of Peter's Love" cluster="forewarning"/>
+<episode section="04-51" start="SBLGNT.John.21.1.w1" title="The Appearance of Christ at the Sea of Tiberias" cluster="11"/>
+<episode section="04-52" start="SBLGNT.John.21.15.w1" title="The Test of Peter's Love" cluster="2"/>
 <episode start="SBLGNT.Acts.1.1.w1" section="05-01" morphGntId="050101" title="The Ascension of Jesus"/>
 <episode start="SBLGNT.Acts.1.12.w1" section="05-02" morphGntId="050112" title="The Election of Matthias"/>
 <episode start="SBLGNT.Acts.2.1.w1" section="05-03" morphGntId="050201" title="The Pentecost Miracle"/>

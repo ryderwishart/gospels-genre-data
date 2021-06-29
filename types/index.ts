@@ -141,8 +141,8 @@ export const DimensionLabels = {
     negative: 'descriptive',
   },
   dim_3: {
-    positive: 'public',
-    negative: 'private',
+    positive: 'unconventional',
+    negative: 'conventional',
   },
   dim_4: {
     positive: 'flexible',

@@ -122,9 +122,17 @@
   }
 }
 
+/* TODO: fix the canvas size/style, particularly on mobile */
+.scene-container > canvas {
+  max-width: -webkit-fill-available;
+  width: 100%;
+  display: flex
+}
+
 .largeGraph {
   margin: 0 0 0 0;
   flex-basis: auto;
+  flex: 1;
   padding: 1.5rem;
   color: inherit;
   text-decoration: none;
