@@ -188,10 +188,12 @@ const ClusterPage = (props: ComponentProps) => {
   const clusterLabel =
     clusterLabels[props.response.selectedDimensionValues[0].cluster];
   const clusterTitle =
-    props.response.selectedDimensionValues &&
-    `${getSentenceCaseString(clusterLabel, ' ')} (number ${
-      props.response.selectedDimensionValues[0].cluster
-    })`;
+    (props.response.selectedDimensionValues &&
+      clusterLabel &&
+      `${getSentenceCaseString(clusterLabel, ' ')} (number ${
+        props.response.selectedDimensionValues[0].cluster
+      })`) ||
+    `number ${props.response.selectedDimensionValues[0].cluster}`;
   return (
     <Layout
       pageTitle={`New Testament Situation Type: ${
