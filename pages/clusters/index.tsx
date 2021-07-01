@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css';
 import Link from 'next/link';
 import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
 import { Typography } from 'antd';
+import clusterLabels from '../../types/clusterLabels';
 
 const AllClustersPage = (props) => {
   const sortedClusters = Object.keys(props.response)
@@ -39,21 +40,29 @@ const AllClustersPage = (props) => {
         are, on average, insignificant for describing the situation.
       </p>
       <div className={styles.grid}>
-        {sortedClusters.map((cluster) => (
-          <Link
-            href={`/clusters/${getURLSlugFromClusterName({ string: cluster })}`}
-            key={cluster}
-          >
-            <a>
-              <div className={styles.card}>
-                <h2>Cluster: {cluster}</h2>
-                {props.response[cluster].map((episode) => (
-                  <p key={episode.section}>{episode.title}</p>
-                ))}
-              </div>
-            </a>
-          </Link>
-        ))}
+        {sortedClusters.map((cluster) => {
+          const clusterLabel =
+            clusterLabels && clusterLabels[parseInt(cluster)];
+          return (
+            <Link
+              href={`/clusters/${getURLSlugFromClusterName({
+                string: cluster,
+              })}`}
+              key={cluster}
+            >
+              <a>
+                <div className={styles.card}>
+                  <h2>
+                    Cluster: {clusterLabel} (number {cluster})
+                  </h2>
+                  {props.response[cluster].map((episode) => (
+                    <p key={episode.section}>{episode.title}</p>
+                  ))}
+                </div>
+              </a>
+            </Link>
+          );
+        })}
       </div>
     </Layout>
   );
