@@ -19,5 +19,6 @@ export const constants = {
   color: {
     blue: '#1890ff',
     lightGrey: '#8181813d',
+    red: '#cf1322',
   },
 };

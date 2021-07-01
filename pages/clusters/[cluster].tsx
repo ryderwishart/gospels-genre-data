@@ -48,12 +48,15 @@ const ClusterPage = (props: ComponentProps) => {
     }
   });
 
+  const allAveragesArray = [];
+
   const dimensionAverages = Object.keys(dimensions).map((dimension, index) => {
     const values = dimensions[dimension];
     const sum = values?.reduce((runningAverage, value) => {
       return runningAverage + value;
     }, 0);
     const average = parseFloat((sum / values.length).toFixed(2));
+    allAveragesArray.push(average);
     const label =
       average > SignificantDimensionThresholdValue
         ? DimensionLabels[dimension].positive
@@ -66,6 +69,9 @@ const ClusterPage = (props: ComponentProps) => {
       label,
     };
   });
+  allAveragesArray.sort((a, b) => a - b);
+  const lowestAverageValue = allAveragesArray[0];
+  const highestAverageValue = allAveragesArray[allAveragesArray.length - 1]; // NOTE: assumes only seven principal components
 
   const averagesTableColumns = [
     {
@@ -78,23 +84,54 @@ const ClusterPage = (props: ComponentProps) => {
       title: 'Average Value',
       dataIndex: 'value',
       render: (value, row) => {
-        const color = row.label.startsWith('Neither')
+        const normalizedRowValue =
+          (value - lowestAverageValue) /
+          (highestAverageValue - lowestAverageValue);
+        const tagColor = row.label.startsWith('Neither')
           ? 'grey'
           : value > 0
           ? 'blue'
           : 'red'; // NOTE: Only color for significant values (take average of all dimension readings)
         return (
-          <Tag color={color}>
+          <Tag color={tagColor} key={row.label + row.value}>
             {value + ' ' + (row.label ? row.label : null)}{' '}
-            {/* // TODO: add bar-chart */}
-            {/* <div
-                                style={{
-                                  width: `${ratio * 50}px`,
-                                  backgroundColor: constants.color.blue,
-                                  marginLeft: '5px',
-                                }}
-                              /> */}
           </Tag>
+        );
+      },
+    },
+    {
+      title: '',
+      dataIndex: 'value',
+      render: (value, row) => {
+        const barColor = row.label.startsWith('Neither')
+          ? constants.color.lightGrey
+          : value > 0
+          ? constants.color.blue
+          : constants.color.red;
+        const shouldShiftBarLeft = value < 0;
+        return (
+          <div
+            style={{
+              display: 'flex',
+              flexFlow: 'row nowrap',
+              width: highestAverageValue + lowestAverageValue,
+              paddingLeft: 50,
+            }}
+          >
+            <div
+              style={{
+                width:
+                  row.label === 'Neither'
+                    ? 0
+                    : shouldShiftBarLeft
+                    ? `${-value * 20}px`
+                    : `${value * 20}px`,
+                backgroundColor: barColor,
+                marginLeft: `${shouldShiftBarLeft ? value * 20 : 0}px`,
+                height: '20px',
+              }}
+            />
+          </div>
         );
       },
     },
@@ -152,16 +189,27 @@ const ClusterPage = (props: ComponentProps) => {
     clusterLabels[props.response.selectedDimensionValues[0].cluster];
   const clusterTitle =
     props.response.selectedDimensionValues &&
-    `${clusterLabel} (number ${getSentenceCaseString(
-      props.response.selectedDimensionValues[0].cluster,
-      ' ',
-    )})`;
+    `${getSentenceCaseString(clusterLabel, ' ')} (number ${
+      props.response.selectedDimensionValues[0].cluster
+    })`;
   return (
     <Layout
       pageTitle={`New Testament Situation Type: ${
         clusterLabel ? clusterLabel : clusterTitle
       }`}
     >
+      <p>
+        Cluster number:{' '}
+        <span style={{ color: constants.color.blue }}>
+          {props.response.selectedDimensionValues[0].cluster}
+        </span>
+      </p>
+      <p>
+        Cluster size (number of episodes):{' '}
+        <span style={{ color: constants.color.blue }}>
+          {props.response.selectedDimensionValues.length}
+        </span>
+      </p>
       <div className={styles.grid} style={{ maxWidth: '95vw' }}>
         <Collapse defaultActiveKey={['dimension-averages']}>
           <Collapse.Panel
