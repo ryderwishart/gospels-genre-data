@@ -108,13 +108,13 @@ const ClusterPage = (props: ComponentProps) => {
           : value > 0
           ? constants.color.blue
           : constants.color.red;
-        const shouldShiftBarLeft = value < 0;
+        const shouldShiftBarLeft = value < 0; // FIXME: this is a hack to get the bar to align with the text, and it doesn't work because there are no negative values when everything is normalized
         return (
           <div
             style={{
               display: 'flex',
               flexFlow: 'row nowrap',
-              width: highestAverageValue + lowestAverageValue,
+              width: 100,
               paddingLeft: 50,
             }}
           >
@@ -190,9 +190,7 @@ const ClusterPage = (props: ComponentProps) => {
   const clusterTitle =
     (props.response.selectedDimensionValues &&
       clusterLabel &&
-      `${getSentenceCaseString(clusterLabel, ' ')} (number ${
-        props.response.selectedDimensionValues[0].cluster
-      })`) ||
+      `${getSentenceCaseString(clusterLabel, ' ')}`) ||
     `number ${props.response.selectedDimensionValues[0].cluster}`;
   return (
     <Layout
