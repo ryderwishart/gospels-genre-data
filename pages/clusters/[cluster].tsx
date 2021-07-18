@@ -77,6 +77,7 @@ const ClusterPage = (props: ComponentProps) => {
     {
       title: 'Dimension',
       dataIndex: 'dimension',
+      fixed: true,
       render: (dimension) =>
         `${DimensionLabels[dimension].positive} or ${DimensionLabels[dimension].negative}`,
     },
@@ -213,13 +214,19 @@ const ClusterPage = (props: ComponentProps) => {
         </span>
       </p>
       <div className={styles.grid} style={{ maxWidth: '95vw' }}>
-        <Collapse defaultActiveKey={['dimension-averages']}>
+        <Collapse
+          defaultActiveKey={['dimension-averages', 'dimensions']}
+          style={{ maxWidth: '99vw' }}
+        >
           <Collapse.Panel
             header="Principal Component Averages"
             key="dimension-averages"
           >
             <Table
               dataSource={dimensionAverages}
+              scroll={{ x: true }}
+              size={'small'}
+              style={{ maxWidth: '100%' }}
               pagination={false}
               columns={averagesTableColumns}
             />
@@ -230,10 +237,14 @@ const ClusterPage = (props: ComponentProps) => {
           >
             <div className={styles.card}>
               <Table
+                style={{ maxWidth: '100%' }}
+                size={'small'}
+                scroll={{ x: true }}
                 columns={[
                   {
                     title: 'Feature',
                     dataIndex: 'key',
+                    fixed: true,
                     render: (label, row) => {
                       const featureAlwaysOccurs =
                         row.preCount /
@@ -375,7 +386,9 @@ const ClusterPage = (props: ComponentProps) => {
           >
             <Table
               pagination={false}
+              style={{ maxWidth: '100%' }}
               scroll={{ x: 1000 }}
+              size={'small'}
               columns={[
                 {
                   title: 'Episode',

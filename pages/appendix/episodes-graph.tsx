@@ -13,9 +13,11 @@ interface ComponentProps {
   };
 }
 
+const edgeStrengthDefaultValue = 83;
+
 const EpisodesGraphPage = (props: ComponentProps) => {
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
-    0.83,
+    edgeStrengthDefaultValue / 100,
   );
   const { nodes, edges } = props.response;
 
@@ -37,12 +39,15 @@ const EpisodesGraphPage = (props: ComponentProps) => {
         link threshold results in fewer but denser clusters.
       </p>
       <p>
-        The default value, <Typography.Text type="danger">0.93</Typography.Text>
-        , allows for connections between texts if they are 93% similar or more.
-        This value results in a nearly one-to-one link-to-node ratio, at 0.89
-        links per node.
+        The default value,{' '}
+        <Typography.Text type="danger">
+          0.{edgeStrengthDefaultValue}
+        </Typography.Text>
+        , allows for connections between texts if they are{' '}
+        {edgeStrengthDefaultValue}% similar or more. This value results in a
+        nearly one-to-one link-to-node ratio, at 0.89 links per node.
       </p>
-      <div style={{ width: 500 }}>
+      <div style={{ width: 500, maxWidth: '50vw' }}>
         <Slider
           min={0.8}
           max={1.0}
@@ -51,17 +56,17 @@ const EpisodesGraphPage = (props: ComponentProps) => {
           onChange={(value) => setEdgeStrengthInputValue(value)}
         />
       </div>
-      <div className={styles.largeGraph}>
-        {typeof window !== 'undefined' && (
-          <Graph
-            graphData={graphData}
-            // cooldown={50}
-            threeDimensional
-            width={window.innerWidth * 0.9}
-            height={window.innerHeight * 0.7}
-          />
-        )}
-      </div>
+      {/* <div className={styles.largeGraph}> */}
+      {typeof window !== 'undefined' && (
+        <Graph
+          graphData={graphData}
+          // cooldown={50}
+          threeDimensional
+          width={window.innerWidth * 0.9}
+          height={window.innerHeight * 0.7}
+        />
+      )}
+      {/* </div> */}
     </Layout>
   );
 };

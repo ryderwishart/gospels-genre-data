@@ -41,7 +41,7 @@
 <episode start="SBLGNT.Matt.12.14.w1" section="01-37" morphGntId="011214" title="The Enmity of the Pharisees and Christ's Answer" cluster="1"/>
 <episode start="SBLGNT.Matt.12.31.w1" section="01-38" morphGntId="011231" title="The Sin against the Holy Spirit"/>
 <episode start="SBLGNT.Matt.12.38.w1" section="01-39" morphGntId="011238" title="The Sign from Heaven and a Warning" cluster="26"/>
-<episode start="SBLGNT.Matt.12.46.w1" section="01-40" morphGntId="011246" title="Christ's Relatives"/>
+<episode start="SBLGNT.Matt.12.46.w1" section="01-40" morphGntId="011246" title="Christ's Relatives" cluster="18"/>
 <episode start="SBLGNT.Matt.13.1.w1" section="01-41a" morphGntId="011301" title="The Parable of the Sower" cluster="24"/>
 <episode start="SBLGNT.Matt.13.10.w1" section="01-41b" morphGntId="null" title="The Parable of the Sower Explained" cluster="2"/>
 <episode start="SBLGNT.Matt.13.24.w1" section="01-42a" morphGntId="011324" title="The Parable of the Tares, and Others" cluster="24"/>
@@ -206,7 +206,7 @@
 <episode section="03-22" start="SBLGNT.Luke.7.18.w1" title="The Embassy of John the Baptist" cluster="20"/>
 <episode section="03-23" start="SBLGNT.Luke.7.36.w1" title="The First Anointing of Jesus"/>
 <episode section="03-24a" start="SBLGNT.Luke.8.1.w1" title="Teaching in Parables"/>
-<episode section="03-24b" start="SBLGNT.Luke.8.19.w1" title="Jesus Mother and Brothers"/>
+<episode section="03-24b" start="SBLGNT.Luke.8.19.w1" title="Jesus' Mother and Brothers" cluster="18"/>
 <episode section="03-25" start="SBLGNT.Luke.8.22.w1" title="The Storm on the Sea" cluster="19"/>
 <episode section="03-26" start="SBLGNT.Luke.8.26.w1" title="In the Country of the Gadarenes" cluster="4"/>
 <episode section="03-27" start="SBLGNT.Luke.8.40.w1" title="The Woman with an Issue and the Daughter of Jairus"/>

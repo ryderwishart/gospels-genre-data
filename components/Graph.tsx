@@ -27,7 +27,9 @@ const ForceGraph3dDynamicLoad = dynamic(
 const Graph = (props: GraphProps) => {
   // NOTE: 'any' types below are attempting to reconcile my data with react-force-graph's types
   const width = !props.width
-    ? window.innerWidth <= 400
+    ? window.innerWidth <= 350
+      ? 200
+      : window.innerWidth <= 400
       ? 300
       : window.innerWidth <= 800
       ? 400
