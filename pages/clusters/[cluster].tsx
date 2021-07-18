@@ -100,21 +100,22 @@ const ClusterPage = (props: ComponentProps) => {
       },
     },
     {
+      // FIXME: this hack displays the value as a bar graph... but outliers break it because negative values are shifted left using a negative margin
       title: '',
       dataIndex: 'value',
+      width: 100,
       render: (value, row) => {
         const barColor = row.label.startsWith('Neither')
           ? constants.color.lightGrey
           : value > 0
           ? constants.color.blue
           : constants.color.red;
-        const shouldShiftBarLeft = value < 0; // FIXME: this is a hack to get the bar to align with the text, and it doesn't work because there are no negative values when everything is normalized
+        const shouldShiftBarLeft = value < 0;
         return (
           <div
             style={{
               display: 'flex',
               flexFlow: 'row nowrap',
-              width: 100,
               paddingLeft: 50,
             }}
           >
@@ -129,6 +130,7 @@ const ClusterPage = (props: ComponentProps) => {
                 backgroundColor: barColor,
                 marginLeft: `${shouldShiftBarLeft ? value * 20 : 0}px`,
                 height: '20px',
+                opacity: '80%',
               }}
             />
           </div>

@@ -104,7 +104,7 @@
 <episode start="SBLGNT.Matt.26.69.w1" section="01-90b" morphGntId="null" title="The Denial of Peter" cluster="6"/>
 <episode start="SBLGNT.Matt.27.1.w1" section="01-91" morphGntId="012701" title="The End of Judas"/>
 <episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711" title="The Trial before Pilate" cluster="28"/>
-<episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731" title="The Crucifixion and Death of Christ"/>
+<episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731" title="The Crucifixion and Death of Christ" cluster="13"/>
 <episode start="SBLGNT.Matt.27.57.w1" section="01-94" morphGntId="012757" title="The Burial of Christ"/>
 <episode start="SBLGNT.Matt.28.1.w1" section="01-95a" morphGntId="012801" title="The Resurrection of Christ" cluster="0"/>
 <episode start="SBLGNT.Matt.28.11.w1" section="01-95b" morphGntId="null" title="The Resurrection of Christ"/>
@@ -173,7 +173,7 @@
 <episode section="02-49a" start="SBLGNT.Mark.15.1.w1" title="Jesus before Pilate" cluster="8"/>
 <episode section="02-49b" start="SBLGNT.Mark.15.6.w1" title="Pilate before the Crowd" cluster="23"/>
 <episode section="02-50a" start="SBLGNT.Mark.15.16.w1" title="Jesus before the Soldiers"/>
-<episode section="02-50b" start="SBLGNT.Mark.15.21.w1" title="The Crucifixion and Death of Christ"/>
+<episode section="02-50b" start="SBLGNT.Mark.15.21.w1" title="The Crucifixion and Death of Christ" cluster="13"/>
 <episode section="02-51" start="SBLGNT.Mark.15.40.w1" title="The Burial of Jesus"/>
 <episode section="02-52" start="SBLGNT.Mark.16.1.w1" title="The Resurrection of Jesus"/>
 <episode section="02-53" start="SBLGNT.Mark.16.9.w1" title="The Appearances and the Ascension of Jesus" cluster="3"/>
