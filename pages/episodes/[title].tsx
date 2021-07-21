@@ -12,6 +12,7 @@ import { Episode, GraphEdge, GraphNode } from '../../types';
 import { useState } from 'react';
 import MutationSet from '../../components/MutationSet';
 import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
+import clusterLabels from '../../types/clusterLabels';
 
 interface EpisodeProps {
   response: {
@@ -78,7 +79,11 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
       episodeStartReferenceArray &&
       `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
 
-    const episodeCluster = props.response.currentEpisodeMetaData?.cluster;
+    const episodeCluster = clusterLabels[
+      props.response.currentEpisodeMetaData?.cluster
+    ]
+      ? clusterLabels[props.response.currentEpisodeMetaData?.cluster]
+      : props.response.currentEpisodeMetaData?.cluster;
     return (
       <Layout
         pageTitle={currentEpisode.title}
