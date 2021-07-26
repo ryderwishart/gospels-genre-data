@@ -1,10 +1,15 @@
-import { server, SignificantDimensionThresholdValue } from '../../config';
+import {
+  constants,
+  server,
+  SignificantDimensionThresholdValue,
+} from '../../config';
 import Layout from '../../components/Layout';
 import styles from '../../styles/Home.module.css';
 import Link from 'next/link';
 import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
-import { Typography } from 'antd';
+import { Table, Tag, Typography } from 'antd';
 import clusterLabels from '../../types/clusterLabels';
+import Graph from '../../components/Graph';
 
 const AllClustersPage = (props) => {
   const sortedClusters = Object.keys(props.response)
@@ -39,6 +44,61 @@ const AllClustersPage = (props) => {
         </Typography.Text>{' '}
         are, on average, insignificant for describing the situation.
       </p>
+      <Table
+        dataSource={sortedClusters.map((cluster) => {
+          const clusterLabel =
+            clusterLabels && clusterLabels[parseInt(cluster)];
+          return {
+            label: clusterLabel,
+            id: clusterLabel,
+            originalClusterObject: cluster,
+            color: constants.color.blue,
+            attributes: {
+              size: props.response[cluster].length,
+            },
+          };
+        })}
+        pagination={false}
+        size="small"
+        columns={[
+          {
+            title: 'Cluster',
+            dataIndex: 'label',
+            render: (label, rowData) => (
+              <Link
+                href={`/clusters/${getURLSlugFromClusterName({
+                  string: rowData.originalClusterObject,
+                })}`}
+              >
+                <a>{label}</a>
+              </Link>
+            ),
+          },
+          {
+            title: 'Number of Episodes in Cluster',
+            dataIndex: ['attributes', 'size'],
+            render: (size) => (
+              <div
+                style={{
+                  display: 'flex',
+                  flexFlow: 'row nowrap',
+                }}
+              >
+                <div
+                  style={{
+                    width: `${size}vw`,
+                    backgroundImage: `linear-gradient(45deg, ${constants.color.red}, ${constants.color.blue})`,
+                    height: '21px',
+                    marginRight: '5px',
+                    borderRadius: constants.border.radius,
+                  }}
+                />
+                <Tag>{size}</Tag>
+              </div>
+            ),
+          },
+        ]}
+      />
       <div className={styles.grid}>
         {sortedClusters.map((cluster) => {
           const clusterLabel =
@@ -53,7 +113,8 @@ const AllClustersPage = (props) => {
               <a>
                 <div className={styles.card}>
                   <h2>
-                    Cluster: {clusterLabel} (number {cluster})
+                    Cluster: {clusterLabel} (number {cluster}; size:{' '}
+                    {props.response[cluster].length})
                   </h2>
                   {props.response[cluster].map((episode) => (
                     <p key={episode.section}>{episode.title}</p>

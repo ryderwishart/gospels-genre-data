@@ -21,4 +21,7 @@ export const constants = {
     lightGrey: '#8181813d',
     red: '#cf1322',
   },
+  border: {
+    radius: '2px',
+  },
 };

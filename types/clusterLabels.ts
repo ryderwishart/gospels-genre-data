@@ -1,7 +1,7 @@
 const clusterLabels = {
   0: 'narration/account',
   1: 'denouncement/reprimand',
-  2: 'private discussion', // and predictions? look into this
+  2: 'forewarning/private discussion', // and predictions? look into this
   3: 'assignment', // with predictions of how it will go?
   4: 'charge',
   5: 'appraisal',
@@ -9,7 +9,7 @@ const clusterLabels = {
   7: 'controversial action', // jesus heals a person, and people ask questions about it
   8: 'disputation',
   9: 'vilifying story',
-  10: 'forewarning',
+  10: 'rebuke',
   11: 'organizing',
   12: 'judicial examination',
   13: 'public execution',

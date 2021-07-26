@@ -299,6 +299,7 @@ const ClusterPage = (props: ComponentProps) => {
                                   width: `${ratio * 50}px`,
                                   backgroundColor: constants.color.blue,
                                   marginLeft: '5px',
+                                  borderRadius: constants.border.radius,
                                 }}
                               />
                             </div>
@@ -352,6 +353,7 @@ const ClusterPage = (props: ComponentProps) => {
                                   width: `${ratio * 50}px`,
                                   backgroundColor: constants.color.blue,
                                   marginLeft: '5px',
+                                  borderRadius: constants.border.radius,
                                 }}
                               />
                             </div>
