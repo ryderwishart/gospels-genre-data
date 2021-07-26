@@ -90,14 +90,16 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
         pageDescription={`Episode analysis for ${currentEpisode.title}`}
       >
         {episodeStartReference && episodeStartReference}
-        {episodeCluster && '; Situation type: '}
+        <br />
         {episodeCluster && (
           <Link
             href={`${server}/clusters/${getURLSlugFromClusterName({
-              string: episodeCluster,
+              string: props.response.currentEpisodeMetaData.cluster,
             })}`}
           >
-            <a>{episodeCluster}</a>
+            <p>
+              Situation type: <a>{episodeCluster}</a>
+            </p>
           </Link>
         )}
         {(mutations.length > 0 && (

@@ -10,6 +10,7 @@ import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromCluster
 import { Table, Tag, Typography } from 'antd';
 import clusterLabels from '../../types/clusterLabels';
 import Graph from '../../components/Graph';
+import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 
 const AllClustersPage = (props) => {
   const sortedClusters = Object.keys(props.response)
@@ -50,7 +51,7 @@ const AllClustersPage = (props) => {
             clusterLabels && clusterLabels[parseInt(cluster)];
           return {
             label: clusterLabel,
-            id: clusterLabel,
+            key: clusterLabel,
             originalClusterObject: cluster,
             color: constants.color.blue,
             attributes: {
@@ -60,15 +61,38 @@ const AllClustersPage = (props) => {
         })}
         pagination={false}
         size="small"
+        expandable={{
+          expandedRowRender: (cluster) => (
+            <p style={{ margin: 0 }}>
+              {props.response[cluster.originalClusterObject].map((episode) => {
+                const titleStringForLink = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+                  { string: episode.title },
+                );
+                return (
+                  <Link
+                    href={`/episodes/${titleStringForLink}`}
+                    key={episode.section}
+                  >
+                    <a>
+                      <p>{episode.title}</p>
+                    </a>
+                  </Link>
+                );
+              })}
+            </p>
+          ),
+        }}
         columns={[
           {
             title: 'Cluster',
             dataIndex: 'label',
+            key: 'label',
             render: (label, rowData) => (
               <Link
                 href={`/clusters/${getURLSlugFromClusterName({
                   string: rowData.originalClusterObject,
                 })}`}
+                key={rowData.key}
               >
                 <a>{label}</a>
               </Link>
@@ -77,12 +101,13 @@ const AllClustersPage = (props) => {
           {
             title: 'Number of Episodes in Cluster',
             dataIndex: ['attributes', 'size'],
-            render: (size) => (
+            render: (size, rowData) => (
               <div
                 style={{
                   display: 'flex',
                   flexFlow: 'row nowrap',
                 }}
+                key={rowData.key}
               >
                 <div
                   style={{
@@ -99,32 +124,6 @@ const AllClustersPage = (props) => {
           },
         ]}
       />
-      <div className={styles.grid}>
-        {sortedClusters.map((cluster) => {
-          const clusterLabel =
-            clusterLabels && clusterLabels[parseInt(cluster)];
-          return (
-            <Link
-              href={`/clusters/${getURLSlugFromClusterName({
-                string: cluster,
-              })}`}
-              key={cluster}
-            >
-              <a>
-                <div className={styles.card}>
-                  <h2>
-                    Cluster: {clusterLabel} (number {cluster}; size:{' '}
-                    {props.response[cluster].length})
-                  </h2>
-                  {props.response[cluster].map((episode) => (
-                    <p key={episode.section}>{episode.title}</p>
-                  ))}
-                </div>
-              </a>
-            </Link>
-          );
-        })}
-      </div>
     </Layout>
   );
 };

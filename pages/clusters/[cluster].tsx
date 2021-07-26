@@ -203,13 +203,13 @@ const ClusterPage = (props: ComponentProps) => {
     >
       <p>
         Cluster number:{' '}
-        <span style={{ color: constants.color.blue }}>
+        <span style={{ color: constants.color.red }}>
           {props.response.selectedDimensionValues[0].cluster}
         </span>
       </p>
       <p>
         Cluster size (number of episodes):{' '}
-        <span style={{ color: constants.color.blue }}>
+        <span style={{ color: constants.color.red }}>
           {props.response.selectedDimensionValues.length}
         </span>
       </p>
