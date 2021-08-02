@@ -27,7 +27,7 @@ const clusterLabels = {
   25: 'accommodation',
   26: 'challenge',
   27: 'disappointing request',
-  28: 'argument',
+  28: 'disagreement',
 }; // NOTE: these should probably be reworded to represent situational activities better
 
 export default clusterLabels;

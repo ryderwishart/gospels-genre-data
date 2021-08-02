@@ -17,7 +17,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types/declarations.d.ts"
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -25,7 +29,7 @@
     "**/*.tsx",
     "**/*.css",
     "**.*.js"
-, "pages/api/clusters/[cluster].js"  ],
+, "pages/api/clusters/[cluster].ts"  ],
   "exclude": [
     "node_modules"
   ]

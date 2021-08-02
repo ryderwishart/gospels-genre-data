@@ -79,10 +79,21 @@ export type Episode = {
 export interface EpisodeMetadata {
   title: string;
   start: string;
+  episodeSlug: string;
+  passage: Paragraph[];
   section: string;
-  mormorphGntId: string;
+  morphGntId: string;
   cluster?: string;
   dimensions?: Dimensions;
+}
+
+export interface Paragraph {
+  verses: Verse[];
+}
+
+export interface Verse {
+  text: string;
+  osisID: string;
 }
 
 // GRAPH DATA
