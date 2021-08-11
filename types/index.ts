@@ -80,7 +80,7 @@ export interface EpisodeMetadata {
   title: string;
   start: string;
   episodeSlug: string;
-  passage: Paragraph[];
+  passage: Verse[] | Paragraph[];
   section: string;
   morphGntId: string;
   cluster?: string;
