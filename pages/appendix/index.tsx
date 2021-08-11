@@ -7,7 +7,12 @@ export default function Appendices() {
     <Layout pageTitle="Appendices">
       <div className={styles.card}>
         <Link href="/appendix/principal-components">
-          <a>Principal Components</a>
+          <a>Episode Principal Component Scores</a>
+        </Link>
+      </div>
+      <div className={styles.card}>
+        <Link href="/appendix/principal-component-features">
+          <a>Principal Component Feature Correlations</a>
         </Link>
       </div>
       <div className={styles.card}>
