@@ -100,10 +100,10 @@
 <episode start="SBLGNT.Matt.26.30.w1" section="01-88a" morphGntId="012630" title="On the Way to Gethsemane" cluster="2"/>
 <episode start="SBLGNT.Matt.26.36.w1" section="01-88b" morphGntId="null" title="Events at Gethsemane" cluster="3"/>
 <episode start="SBLGNT.Matt.26.47.w1" section="01-89" morphGntId="012647" title="The Betrayal and Arrest"/>
-<episode start="SBLGNT.Matt.26.57.w1" section="01-90a" morphGntId="012657" title="The Trial before Caiaphas" cluster="12"/>
+<episode start="SBLGNT.Matt.26.57.w1" section="01-90a" morphGntId="012657" title="The Trial Before Caiaphas" cluster="12"/>
 <episode start="SBLGNT.Matt.26.69.w1" section="01-90b" morphGntId="null" title="The Denial of Peter" cluster="6"/>
 <episode start="SBLGNT.Matt.27.1.w1" section="01-91" morphGntId="012701" title="The End of Judas"/>
-<episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711" title="The Trial before Pilate" cluster="28"/>
+<episode start="SBLGNT.Matt.27.11.w1" section="01-92" morphGntId="012711" title="The Trial Before Pilate" cluster="28"/>
 <episode start="SBLGNT.Matt.27.31.w1" section="01-93" morphGntId="012731" title="The Crucifixion and Death of Christ" cluster="13"/>
 <episode start="SBLGNT.Matt.27.57.w1" section="01-94" morphGntId="012757" title="The Burial of Christ"/>
 <episode start="SBLGNT.Matt.28.1.w1" section="01-95a" morphGntId="012801" title="The Resurrection of Christ" cluster="0"/>
@@ -168,7 +168,7 @@
 <episode section="02-45a" start="SBLGNT.Mark.14.26.w1" title="Jesus Predicts Peter's Denials" cluster="2"/>
 <episode section="02-45b" start="SBLGNT.Mark.14.32.w1" title="Jesus Prays in Gethsemane"/>
 <episode section="02-46" start="SBLGNT.Mark.14.43.w1" title="The Capture of Jesus" cluster="23"/>
-<episode section="02-47" start="SBLGNT.Mark.14.53.w1" title="The Trial before the High Priest" cluster="12"/>
+<episode section="02-47" start="SBLGNT.Mark.14.53.w1" title="The Trial Before the High Priest" cluster="12"/>
 <episode section="02-48" start="SBLGNT.Mark.14.66.w1" title="The Denial of Peter"/>
 <episode section="02-49a" start="SBLGNT.Mark.15.1.w1" title="Jesus before Pilate" cluster="8"/>
 <episode section="02-49b" start="SBLGNT.Mark.15.6.w1" title="Pilate before the Crowd" cluster="23"/>
@@ -258,7 +258,7 @@
 <episode section="03-73a" start="SBLGNT.Luke.22.54.w1" title="The Denial of Peter" cluster="6"/>
 <episode section="03-73b" start="SBLGNT.Luke.22.63.w1" title="The Guards Mistreat Jesus" cluster="23"/>
 <episode section="03-73c" start="SBLGNT.Luke.22.66.w1" title="Christ before the Council of the Elders" cluster="8"/>
-<episode section="03-74" start="SBLGNT.Luke.23.1.w1" title="The Trial before Pilate" cluster="28"/>
+<episode section="03-74" start="SBLGNT.Luke.23.1.w1" title="The Trial Before Pilate" cluster="28"/>
 <episode section="03-75a" start="SBLGNT.Luke.23.26.w1" title="The Crucifixion and Death of Christ"/>
 <episode section="03-75b" start="SBLGNT.Luke.23.50.w1" title="Jesus Buried"/>
 <episode section="03-76" start="SBLGNT.Luke.24.1.w1" title="The Resurrection of Christ"/>
@@ -361,7 +361,7 @@
 <episode start="SBLGNT.Acts.23.1.w1" section="05-43" morphGntId="052301" title="The Hearing in the Presence of the Sanhedrin"/>
 <episode start="SBLGNT.Acts.23.12.w1" section="05-44" morphGntId="052312" title="The Plot to Kill Paul"/>
 <episode start="SBLGNT.Acts.23.23.w1" section="05-45" morphGntId="052323" title="Paul Brought to Caesarea"/>
-<episode start="SBLGNT.Acts.24.1.w1" section="05-46" morphGntId="052401" title="Paul's Trial before Felix"/>
+<episode start="SBLGNT.Acts.24.1.w1" section="05-46" morphGntId="052401" title="Paul's Trial Before Felix"/>
 <episode start="SBLGNT.Acts.24.23.w1" section="05-47" morphGntId="052423" title="Paul Retained a Prisoner"/>
 <episode start="SBLGNT.Acts.25.1.w1" section="05-48" morphGntId="052501" title="Paul Appeals to Caesar"/>
 <episode start="SBLGNT.Acts.25.13.w1" section="05-49" morphGntId="052513" title="Agrippa and Bernice in Caesarea"/>
