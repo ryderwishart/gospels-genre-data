@@ -11,6 +11,7 @@ interface GraphProps {
   height?: number;
   cooldown?: number;
   threeDimensional?: boolean;
+  useNonTextNodes?: boolean;
 }
 
 const ForceGraphDynamicLoad = dynamic(() => import('./ForceGraphDynamicLoad'), {
@@ -44,13 +45,17 @@ const Graph = (props: GraphProps) => {
         height={width && !props.height ? width * 0.5 : props.height}
         cooldownTicks={props.cooldown ? props.cooldown : Infinity}
         nodeLabel={(node: GraphNode) => node.id}
-        nodeThreeObject={(node) => {
-          const sprite: any = new SpriteText(node.id);
-          sprite.material.depthWrite = false; // make sprite background transparent
-          sprite.color = node.color;
-          sprite.textHeight = 8;
-          return sprite;
-        }}
+        nodeThreeObject={
+          !props.useNonTextNodes
+            ? (node) => {
+                const sprite: any = new SpriteText(node.id);
+                sprite.material.depthWrite = false; // make sprite background transparent
+                sprite.color = node.color;
+                sprite.textHeight = 8;
+                return sprite;
+              }
+            : false
+        }
         linkVisibility={true}
         //   onNodeClick={(node: GraphNode) => {
         //     const nodeTitle = node.id
@@ -73,42 +78,46 @@ const Graph = (props: GraphProps) => {
         height={width && !props.height ? width * 0.5 : props.height}
         cooldownTicks={props.cooldown ? props.cooldown : Infinity}
         nodeLabel={(node: GraphNode) => node.id}
-        nodeCanvasObject={(node: any, context, globalScale) => {
-          if (node) {
-            const label = node.id;
-            const fontSize = 12 / globalScale;
-            context.font = `${fontSize}px Sans-Serif`;
-            const textWidth = context.measureText(label).width;
+        nodeCanvasObject={
+          !props.useNonTextNodes
+            ? (node: any, context, globalScale) => {
+                if (node) {
+                  const label = node.id;
+                  const fontSize = 12 / globalScale;
+                  context.font = `${fontSize}px Sans-Serif`;
+                  const textWidth = context.measureText(label).width;
 
-            // NOTE: Background rectangle
-            const bckgDimensions = [textWidth, fontSize].map(
-              (n) => n + fontSize * 0.2,
-            ); // NOTE: Adds some padding
-            context.fillStyle = 'rgba(255, 255, 255, 0.8)';
-            context.fillRect(
-              node.x - bckgDimensions[0] / 2,
-              node.y - bckgDimensions[1] / 2,
-              bckgDimensions[0],
-              bckgDimensions[1],
-            );
+                  // NOTE: Background rectangle
+                  const bckgDimensions = [textWidth, fontSize].map(
+                    (n) => n + fontSize * 0.2,
+                  ); // NOTE: Adds some padding
+                  context.fillStyle = 'rgba(255, 255, 255, 0.8)';
+                  context.fillRect(
+                    node.x - bckgDimensions[0] / 2,
+                    node.y - bckgDimensions[1] / 2,
+                    bckgDimensions[0],
+                    bckgDimensions[1],
+                  );
 
-            // NOTE: Text outline
-            context.strokeStyle = node.color;
-            context.miterLimit = 2;
-            context.lineJoin = 'round';
-            context.lineWidth = 1 / globalScale;
-            context.strokeText(label, node.x, node.y);
-            context.lineWidth = 1 / globalScale;
-            context.fillText(label, node.x, node.y);
+                  // NOTE: Text outline
+                  context.strokeStyle = node.color;
+                  context.miterLimit = 2;
+                  context.lineJoin = 'round';
+                  context.lineWidth = 1 / globalScale;
+                  context.strokeText(label, node.x, node.y);
+                  context.lineWidth = 1 / globalScale;
+                  context.fillText(label, node.x, node.y);
 
-            // NOTE: Text label
-            context.textAlign = 'center';
-            context.textBaseline = 'middle';
-            context.fillStyle = 'black';
-            context.fillText(label, node.x, node.y);
-            node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
-          }
-        }}
+                  // NOTE: Text label
+                  context.textAlign = 'center';
+                  context.textBaseline = 'middle';
+                  context.fillStyle = 'black';
+                  context.fillText(label, node.x, node.y);
+                  node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
+                }
+              }
+            : null
+        }
         nodePointerAreaPaint={(node: any, color, context) => {
           context.fillStyle = color;
           const bckgDimensions = node.__bckgDimensions;
