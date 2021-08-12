@@ -1,6 +1,7 @@
 import graphData from '../../../public/data/graphData/graphData.json';
 
-const { nodes, edges } = graphData;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const { nodes, edges }: any = graphData;
 
 const handler = (req, res) => {
   res.status(200).send({ nodes, edges });
