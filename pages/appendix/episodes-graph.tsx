@@ -49,9 +49,9 @@ const EpisodesGraphPage = (props: ComponentProps) => {
       </p>
       <div style={{ width: 500, maxWidth: '50vw' }}>
         <Slider
-          min={0.8}
+          min={0.7}
           max={1.0}
-          step={0.01}
+          step={0.05}
           defaultValue={0.83}
           onChange={(value) => setEdgeStrengthInputValue(value)}
         />
