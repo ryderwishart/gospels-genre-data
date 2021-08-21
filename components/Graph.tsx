@@ -12,6 +12,8 @@ interface GraphProps {
   cooldown?: number;
   threeDimensional?: boolean;
   useNonTextNodes?: boolean;
+  onNodeHover?: (node: GraphNode) => void;
+  nodeLabel?: (node: GraphNode) => JSX.Element | string;
 }
 
 const ForceGraphDynamicLoad = dynamic(() => import('./ForceGraphDynamicLoad'), {
@@ -44,7 +46,9 @@ const Graph = (props: GraphProps) => {
         width={width}
         height={width && !props.height ? width * 0.5 : props.height}
         cooldownTicks={props.cooldown ? props.cooldown : Infinity}
-        nodeLabel={(node: GraphNode) => node.id}
+        nodeLabel={
+          props.nodeLabel ? props.nodeLabel : (node: GraphNode) => node.id
+        }
         nodeThreeObject={
           !props.useNonTextNodes
             ? (node) => {
@@ -57,6 +61,7 @@ const Graph = (props: GraphProps) => {
             : false
         }
         linkVisibility={true}
+        onNodeHover={props.onNodeHover}
         //   onNodeClick={(node: GraphNode) => {
         //     const nodeTitle = node.id
         //       .split(' ')

@@ -5,6 +5,7 @@ import { GraphEdge, GraphNode } from '../../types';
 import styles from '../../styles/Home.module.css';
 import Graph from '../../components/Graph';
 import { Slider, Typography } from 'antd';
+import clusterLabels from '../../types/clusterLabels';
 
 interface ComponentProps {
   response: {
@@ -13,7 +14,7 @@ interface ComponentProps {
   };
 }
 
-const edgeStrengthDefaultValue = 83;
+const edgeStrengthDefaultValue = 88;
 
 const EpisodesGraphPage = (props: ComponentProps) => {
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
@@ -24,8 +25,6 @@ const EpisodesGraphPage = (props: ComponentProps) => {
   const filteredEdges = props.response.edges.filter((similarEdge) => {
     return similarEdge.weight >= edgeStrengthInputValue;
   });
-
-  //   const filteredNodes = props.response.nodes;
 
   const graphData = {
     links: filteredEdges,
@@ -45,14 +44,45 @@ const EpisodesGraphPage = (props: ComponentProps) => {
         </Typography.Text>
         , allows for connections between texts if they are{' '}
         {edgeStrengthDefaultValue}% similar or more. This value results in a
-        nearly one-to-one link-to-node ratio, at 0.89 links per node.
+        nearly one-to-one link-to-node ratio among nodes with links, at 1.03
+        links per node.
       </p>
       <div style={{ width: 500, maxWidth: '50vw' }}>
         <Slider
+          marks={{
+            0.7: '70%',
+            0.8: '80%',
+            0.88: '88%',
+            0.95: '95%',
+            1: '100%',
+          }}
           min={0.7}
           max={1.0}
-          step={0.05}
-          defaultValue={0.83}
+          step={0.01}
+          tipFormatter={(value) => {
+            if (value < 0.8) {
+              return `${value * 100}% similar: ${
+                graphData.links.length
+              } links reveal low differentiation between clusters`;
+            }
+            if (value < 0.88) {
+              return `${value * 100}% similar: ${
+                graphData.links.length
+              } links reveal medium differentiation between clusters, with a nearly one-to-one ratio between links and nodes with links`;
+            }
+            if (value < 0.95) {
+              return `${value * 100}% similar: ${
+                graphData.links.length
+              } links reveal high differentiation between clusters, with few links between clusters`;
+            }
+            if (value < 1) {
+              return `${value * 100}% similar: ${
+                graphData.links.length
+              } links reveal low clustering with only the most similar situations linked`;
+            }
+            return `100% similar: ${graphData.links.length} links reveal only links between identical situations are displayed`;
+          }}
+          defaultValue={edgeStrengthDefaultValue / 100}
           onChange={(value) => setEdgeStrengthInputValue(value)}
         />
       </div>
@@ -64,6 +94,13 @@ const EpisodesGraphPage = (props: ComponentProps) => {
           threeDimensional
           width={window.innerWidth * 0.9}
           height={window.innerHeight * 0.7}
+          nodeLabel={(node) => {
+            return `TYPE: ${
+              node.attributes.modularity_class !== null
+                ? clusterLabels[node.attributes.modularity_class]
+                : 'UNCLASSIFIED'
+            }\nSITUATION: ${node.label}`;
+          }}
         />
       )}
       {/* </div> */}

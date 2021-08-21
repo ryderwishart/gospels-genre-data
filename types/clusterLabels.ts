@@ -28,6 +28,7 @@ const clusterLabels = {
   26: 'challenge',
   27: 'disappointing request',
   28: 'disagreement',
+  999: 'unclassified',
 }; // NOTE: these should probably be reworded to represent situational activities better
 
 export default clusterLabels;
