@@ -13,7 +13,7 @@ interface GraphProps {
   threeDimensional?: boolean;
   useNonTextNodes?: boolean;
   onNodeHover?: (node: GraphNode) => void;
-  nodeLabel?: (node: GraphNode) => JSX.Element | string;
+  nodeLabel?: (node: GraphNode) => string;
 }
 
 const ForceGraphDynamicLoad = dynamic(() => import('./ForceGraphDynamicLoad'), {
