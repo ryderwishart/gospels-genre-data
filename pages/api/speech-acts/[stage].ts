@@ -1,0 +1,19 @@
+import speechActs from '../../../public/data/stages/stage-speech-acts/speechActs.json';
+import jsonPath from 'jsonpath';
+import { SpeechActsJson } from '../../../types';
+
+const speechActsJson: SpeechActsJson = speechActs;
+
+const handler = (req, res) => {
+  console.log(speechActsJson);
+  const stageIDFormatted = req.query.stage.replace('$', '-');
+  const stageJSONPathExpression = `$..stage[?(@.key === '${stageIDFormatted}')]`;
+  const selectedData = jsonPath.query(speechActsJson, stageJSONPathExpression);
+  if (req.query.stage) {
+    res.status(200).send(selectedData);
+  } else {
+    res.status(404).send('Not found');
+  }
+};
+
+export default handler;

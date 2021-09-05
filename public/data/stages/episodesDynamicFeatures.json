@@ -1,12 +1,12 @@
 [
   {
-    "episode": "01§01",
+    "episode": "01-01",
     "title": "The Genealogy of Christ",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "01§02",
+    "episode": "01-02",
     "title": "The Annunciation to Joseph and the Birth of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "episode": "01§03",
+    "episode": "01-03",
     "title": "The Wise Men from the East",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "episode": "01§04",
+    "episode": "01-04",
     "title": "The Flight into Egypt and the Return to Nazareth",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "episode": "01§05",
+    "episode": "01-05",
     "title": "The Ministry of John the Baptist",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "episode": "01§06",
+    "episode": "01-06",
     "title": "The Baptism of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -166,7 +166,7 @@
     ]
   },
   {
-    "episode": "01§07",
+    "episode": "01-07",
     "title": "The Temptation in the Wilderness",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "episode": "01§08a",
+    "episode": "01-08a",
     "title": "The Beginning of the Galilean Ministry",
     "preTextFeatures": [
       "spoken",
@@ -230,7 +230,7 @@
     ]
   },
   {
-    "episode": "01§08b",
+    "episode": "01-08b",
     "title": "The Call of the Four",
     "preTextFeatures": [
       "spoken",
@@ -262,7 +262,7 @@
     ]
   },
   {
-    "episode": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16",
+    "episode": "01-09 01-10 01-11 01-12 01-13 01-14 01-15 01-16",
     "title": "The Beatitudes, The Chief Functions of the Disciples in the World, Christ Confirms and Expounds the Law of Moses, The Law of Love toward the Enemy, On Giving of Alms, Praying, and Fasting, Warning against Covetousness and Care, Warning against Unauthorized Judging and Admonition to Persevere in Prayer, The Conclusion of the Sermon",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -294,7 +294,7 @@
     ]
   },
   {
-    "episode": "01§17",
+    "episode": "01-17",
     "title": "The Healing of the Leper",
     "preTextFeatures": [
       "spoken",
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "episode": "01§18",
+    "episode": "01-18",
     "title": "The Centurion of Capernaum",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -358,13 +358,13 @@
     ]
   },
   {
-    "episode": "01§19",
+    "episode": "01-19",
     "title": "Various Miracles of Healing",
     "preTextFeatures": "excluded discourse only",
     "viaTextFeatures": "excluded discourse only"
   },
   {
-    "episode": "01§20",
+    "episode": "01-20",
     "title": "The Discipleship of Christ",
     "preTextFeatures": [
       "action",
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "episode": "01§21",
+    "episode": "01-21",
     "title": "The Storm on the Lake",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -428,7 +428,7 @@
     ]
   },
   {
-    "episode": "01§22",
+    "episode": "01-22",
     "title": "Jesus and the Gadarenes",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -460,7 +460,7 @@
     ]
   },
   {
-    "episode": "01§23",
+    "episode": "01-23",
     "title": "The Healing of the Palsied Man",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -492,7 +492,7 @@
     ]
   },
   {
-    "episode": "01§24",
+    "episode": "01-24",
     "title": "The Call of Matthew and His Feast",
     "preTextFeatures": [
       "phonic",
@@ -524,7 +524,7 @@
     ]
   },
   {
-    "episode": "01§25",
+    "episode": "01-25",
     "title": "The Daughter of Jairus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -556,7 +556,7 @@
     ]
   },
   {
-    "episode": "01§26",
+    "episode": "01-26",
     "title": "Further Miracles of That Day",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -588,7 +588,7 @@
     ]
   },
   {
-    "episode": "01§27",
+    "episode": "01-27",
     "title": "Continuation of Christ's Teaching and Healing Ministry",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "episode": "01§28 01§29 01§30 01§31",
+    "episode": "01-28 01-29 01-30 01-31",
     "title": "The Commission to the Twelve, The Perils of Apostleship, Fearless Confession of Christ Demanded, Perfect Consecration to Christ",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -652,7 +652,7 @@
     ]
   },
   {
-    "episode": "01§32",
+    "episode": "01-32",
     "title": "John the Baptist's Disciples Come to Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -684,7 +684,7 @@
     ]
   },
   {
-    "episode": "01§33",
+    "episode": "01-33",
     "title": "Christ's Testimony Concerning John",
     "preTextFeatures": [
       "spoken",
@@ -716,7 +716,7 @@
     ]
   },
   {
-    "episode": "01§34",
+    "episode": "01-34",
     "title": "The Woe upon the Galilean Cities",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -748,7 +748,7 @@
     ]
   },
   {
-    "episode": "01§35",
+    "episode": "01-35",
     "title": "The Gospel Call",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -780,7 +780,7 @@
     ]
   },
   {
-    "episode": "01§36a",
+    "episode": "01-36a",
     "title": "The Lord of Food on the Sabbath",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -812,7 +812,7 @@
     ]
   },
   {
-    "episode": "01§36b",
+    "episode": "01-36b",
     "title": "The Lord of Healing on the Sabbath",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -844,7 +844,7 @@
     ]
   },
   {
-    "episode": "01§37 01§38",
+    "episode": "01-37 01-38",
     "title": "The Enmity of the Pharisees and Christ's Answer, The Sin against the Holy Spirit",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -876,7 +876,7 @@
     ]
   },
   {
-    "episode": "01§39",
+    "episode": "01-39",
     "title": "The Sign from Heaven and a Warning",
     "preTextFeatures": [
       "phonic",
@@ -908,7 +908,7 @@
     ]
   },
   {
-    "episode": "01§40",
+    "episode": "01-40",
     "title": "Christ's Relatives",
     "preTextFeatures": [
       "phonic",
@@ -940,7 +940,7 @@
     ]
   },
   {
-    "episode": "01§41a",
+    "episode": "01-41a",
     "title": "The Parable of the Sower",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -972,7 +972,7 @@
     ]
   },
   {
-    "episode": "01§41b",
+    "episode": "01-41b",
     "title": "The Parable of the Sower Explained",
     "preTextFeatures": [
       "phonic",
@@ -1004,7 +1004,7 @@
     ]
   },
   {
-    "episode": "01§42a",
+    "episode": "01-42a",
     "title": "The Parable of the Tares, and Others",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1036,7 +1036,7 @@
     ]
   },
   {
-    "episode": "01§42b",
+    "episode": "01-42b",
     "title": "The Parable of the Tares, and Others Explained",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1068,7 +1068,7 @@
     ]
   },
   {
-    "episode": "01§43",
+    "episode": "01-43",
     "title": "A Visit to Nazareth",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1100,7 +1100,7 @@
     ]
   },
   {
-    "episode": "01§44",
+    "episode": "01-44",
     "title": "The Death of John the Baptist",
     "preTextFeatures": [
       "phonic",
@@ -1132,7 +1132,7 @@
     ]
   },
   {
-    "episode": "01§45",
+    "episode": "01-45",
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1164,7 +1164,7 @@
     ]
   },
   {
-    "episode": "01§46",
+    "episode": "01-46",
     "title": "Christ Walks on the Sea",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1196,7 +1196,7 @@
     ]
   },
   {
-    "episode": "01§47",
+    "episode": "01-47",
     "title": "A Lesson Concerning Defilement",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1228,7 +1228,7 @@
     ]
   },
   {
-    "episode": "01§48",
+    "episode": "01-48",
     "title": "The Syrophoenician Woman",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1260,7 +1260,7 @@
     ]
   },
   {
-    "episode": "01§49",
+    "episode": "01-49",
     "title": "Christ Teaches and Feeds Four Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1292,7 +1292,7 @@
     ]
   },
   {
-    "episode": "01§50",
+    "episode": "01-50",
     "title": "The Demand for a Sign",
     "preTextFeatures": [
       "phonic",
@@ -1324,7 +1324,7 @@
     ]
   },
   {
-    "episode": "01§51",
+    "episode": "01-51",
     "title": "The Leaven of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1356,7 +1356,7 @@
     ]
   },
   {
-    "episode": "01§52",
+    "episode": "01-52",
     "title": "Christ the Son of the Living God",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1388,7 +1388,7 @@
     ]
   },
   {
-    "episode": "01§53",
+    "episode": "01-53",
     "title": "Christ's First Prophecy Concerning His Passion",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1420,7 +1420,7 @@
     ]
   },
   {
-    "episode": "01§54",
+    "episode": "01-54",
     "title": "The Transfiguration of Christ",
     "preTextFeatures": [
       "relation",
@@ -1452,7 +1452,7 @@
     ]
   },
   {
-    "episode": "01§55",
+    "episode": "01-55",
     "title": "The Healing of a Boy with a Demon",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1484,7 +1484,7 @@
     ]
   },
   {
-    "episode": "01§56a",
+    "episode": "01-56a",
     "title": "Christ Foretells His Passion",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1516,7 +1516,7 @@
     ]
   },
   {
-    "episode": "01§56b",
+    "episode": "01-56b",
     "title": "Christ Pays the Temple-Tax",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1548,7 +1548,7 @@
     ]
   },
   {
-    "episode": "01§57 01§58 01§59",
+    "episode": "01-57 01-58 01-59",
     "title": "The Greatest in the Kingdom of Heaven, How to Deal with an Erring Brother, Parable of the Unmerciful Servant",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1580,7 +1580,7 @@
     ]
   },
   {
-    "episode": "01§60",
+    "episode": "01-60",
     "title": "On Marriage and Divorce",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1612,7 +1612,7 @@
     ]
   },
   {
-    "episode": "01§61",
+    "episode": "01-61",
     "title": "Christ Blessing Little Children",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1644,7 +1644,7 @@
     ]
   },
   {
-    "episode": "01§62",
+    "episode": "01-62",
     "title": "The Dangers of Riches",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1676,7 +1676,7 @@
     ]
   },
   {
-    "episode": "01§63 01§64",
+    "episode": "01-63 01-64",
     "title": "The Reward of the Apostles, Parable of the Laborers in the Vineyard",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1708,7 +1708,7 @@
     ]
   },
   {
-    "episode": "01§65",
+    "episode": "01-65",
     "title": "Christ Again Foretells His Passion",
     "preTextFeatures": [
       "phonic",
@@ -1740,7 +1740,7 @@
     ]
   },
   {
-    "episode": "01§66",
+    "episode": "01-66",
     "title": "The Requests of the Sons of Zebedee",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1772,7 +1772,7 @@
     ]
   },
   {
-    "episode": "01§67",
+    "episode": "01-67",
     "title": "Healing of Two Blind Men",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1804,7 +1804,7 @@
     ]
   },
   {
-    "episode": "01§68",
+    "episode": "01-68",
     "title": "Christ's Entry into Jerusalem",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1836,7 +1836,7 @@
     ]
   },
   {
-    "episode": "01§69",
+    "episode": "01-69",
     "title": "Christ Visits the Temple",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -1868,7 +1868,7 @@
     ]
   },
   {
-    "episode": "01§70",
+    "episode": "01-70",
     "title": "The Cursing of the Fig-Tree",
     "preTextFeatures": [
       "action",
@@ -1900,7 +1900,7 @@
     ]
   },
   {
-    "episode": "01§71 01§72 01§73",
+    "episode": "01-71 01-72 01-73",
     "title": "The Authority of Christ, The Parable of the Two Sons, The Parable of the Wicked Husbandmen",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1932,7 +1932,7 @@
     ]
   },
   {
-    "episode": "01§74",
+    "episode": "01-74",
     "title": "The Parable of the Marriage Feast",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1964,7 +1964,7 @@
     ]
   },
   {
-    "episode": "01§75",
+    "episode": "01-75",
     "title": "The Question Concerning Tribute",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -1996,7 +1996,7 @@
     ]
   },
   {
-    "episode": "01§76",
+    "episode": "01-76",
     "title": "The Question of the Sadducees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2028,7 +2028,7 @@
     ]
   },
   {
-    "episode": "01§77",
+    "episode": "01-77",
     "title": "The Silencing of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2060,7 +2060,7 @@
     ]
   },
   {
-    "episode": "01§78 01§79 01§80",
+    "episode": "01-78 01-79 01-80",
     "title": "The Inordinate Ambition of the Pharisees, The Woes upon the Hypocrisy of the Pharisees, The Peroration and the Lament over Jerusalem",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2092,7 +2092,7 @@
     ]
   },
   {
-    "episode": "01§81 01§82 01§83 01§84 01§85",
+    "episode": "01-81 01-82 01-83 01-84 01-85",
     "title": "The Judgment of God upon Jerusalem and upon the World, The Need of Watchfulness, The Parable of the Ten Virgins, The Parable of the Talents, The Last Judgment",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2124,7 +2124,7 @@
     ]
   },
   {
-    "episode": "01§86a",
+    "episode": "01-86a",
     "title": "Jesus Predicts Crucifixion",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2156,7 +2156,7 @@
     ]
   },
   {
-    "episode": "01§86b",
+    "episode": "01-86b",
     "title": "Leaders Conspire",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2188,7 +2188,7 @@
     ]
   },
   {
-    "episode": "01§86c",
+    "episode": "01-86c",
     "title": "A Woman Anoints Jesus",
     "preTextFeatures": [
       "relation",
@@ -2220,7 +2220,7 @@
     ]
   },
   {
-    "episode": "01§86d",
+    "episode": "01-86d",
     "title": "Judas Bargains for Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2252,7 +2252,7 @@
     ]
   },
   {
-    "episode": "01§86e",
+    "episode": "01-86e",
     "title": "Jesus Gives Instructions for Supper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2284,7 +2284,7 @@
     ]
   },
   {
-    "episode": "01§87a",
+    "episode": "01-87a",
     "title": "The Passover Meal",
     "preTextFeatures": [
       "relation",
@@ -2316,7 +2316,7 @@
     ]
   },
   {
-    "episode": "01§87b",
+    "episode": "01-87b",
     "title": "The Institution of the Lord's Supper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2348,7 +2348,7 @@
     ]
   },
   {
-    "episode": "01§88a",
+    "episode": "01-88a",
     "title": "On the Way to Gethsemane",
     "preTextFeatures": [
       "phonic",
@@ -2380,7 +2380,7 @@
     ]
   },
   {
-    "episode": "01§88b",
+    "episode": "01-88b",
     "title": "Events at Gethsemane",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2412,7 +2412,7 @@
     ]
   },
   {
-    "episode": "01§89",
+    "episode": "01-89",
     "title": "The Betrayal and Arrest",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2444,7 +2444,7 @@
     ]
   },
   {
-    "episode": "01§90a",
+    "episode": "01-90a",
     "title": "The Trial Before Caiaphas",
     "preTextFeatures": [
       "phonic",
@@ -2476,7 +2476,7 @@
     ]
   },
   {
-    "episode": "01§90b",
+    "episode": "01-90b",
     "title": "The Denial of Peter",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2508,7 +2508,7 @@
     ]
   },
   {
-    "episode": "01§91",
+    "episode": "01-91",
     "title": "The End of Judas",
     "preTextFeatures": [
       "phonic",
@@ -2540,7 +2540,7 @@
     ]
   },
   {
-    "episode": "01§92",
+    "episode": "01-92",
     "title": "The Trial Before Pilate",
     "preTextFeatures": [
       "phonic",
@@ -2572,7 +2572,7 @@
     ]
   },
   {
-    "episode": "01§93",
+    "episode": "01-93",
     "title": "The Crucifixion and Death of Christ",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2604,7 +2604,7 @@
     ]
   },
   {
-    "episode": "01§94",
+    "episode": "01-94",
     "title": "The Burial of Christ",
     "preTextFeatures": [
       "phonic",
@@ -2636,7 +2636,7 @@
     ]
   },
   {
-    "episode": "01§95a",
+    "episode": "01-95a",
     "title": "The Resurrection of Christ",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2668,7 +2668,7 @@
     ]
   },
   {
-    "episode": "01§95b",
+    "episode": "01-95b",
     "title": "The Soldiers Bribed to Silence",
     "preTextFeatures": [
       "phonic",
@@ -2700,7 +2700,7 @@
     ]
   },
   {
-    "episode": "01§96",
+    "episode": "01-96",
     "title": "The Great Missionary Command",
     "preTextFeatures": [
       "phonic",
@@ -2732,7 +2732,7 @@
     ]
   },
   {
-    "episode": "02§01",
+    "episode": "02-01",
     "title": "The Ministry of John the Baptist",
     "preTextFeatures": [
       "phonic",
@@ -2764,7 +2764,7 @@
     ]
   },
   {
-    "episode": "02§02a",
+    "episode": "02-02a",
     "title": "The Baptism and Temptation of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -2796,7 +2796,7 @@
     ]
   },
   {
-    "episode": "02§02b",
+    "episode": "02-02b",
     "title": "The Beginning of His Ministry",
     "preTextFeatures": [
       "phonic",
@@ -2828,7 +2828,7 @@
     ]
   },
   {
-    "episode": "02§03a",
+    "episode": "02-03a",
     "title": "Ministry in Capernaum",
     "preTextFeatures": [
       "phonic",
@@ -2860,7 +2860,7 @@
     ]
   },
   {
-    "episode": "02§03b",
+    "episode": "02-03b",
     "title": "Jesus Prays in a Solitary Place",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2892,7 +2892,7 @@
     ]
   },
   {
-    "episode": "02§04",
+    "episode": "02-04",
     "title": "The Healing of a Leper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2924,7 +2924,7 @@
     ]
   },
   {
-    "episode": "02§05",
+    "episode": "02-05",
     "title": "Healing the Palsied Man",
     "preTextFeatures": [
       "relation",
@@ -2956,7 +2956,7 @@
     ]
   },
   {
-    "episode": "02§06",
+    "episode": "02-06",
     "title": "The Calling of Levi and the Dinner at His House",
     "preTextFeatures": [
       "phonic",
@@ -2988,7 +2988,7 @@
     ]
   },
   {
-    "episode": "02§07a",
+    "episode": "02-07a",
     "title": "New Wine into Old Wineskins",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3020,7 +3020,7 @@
     ]
   },
   {
-    "episode": "02§07b",
+    "episode": "02-07b",
     "title": "The Lord of the Sabbath",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3052,7 +3052,7 @@
     ]
   },
   {
-    "episode": "02§08",
+    "episode": "02-08",
     "title": "Healing the Withered Hand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3084,7 +3084,7 @@
     ]
   },
   {
-    "episode": "02§09",
+    "episode": "02-09",
     "title": "Miracles by the Seaside",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3116,13 +3116,13 @@
     ]
   },
   {
-    "episode": "02§10a",
+    "episode": "02-10a",
     "title": "Jesus Appoints the Twelve",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "02§10b",
+    "episode": "02-10b",
     "title": "Discourse on the Casting Out of Demons",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3154,7 +3154,7 @@
     ]
   },
   {
-    "episode": "02§11a",
+    "episode": "02-11a",
     "title": "The Parable of the Sower",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3186,7 +3186,7 @@
     ]
   },
   {
-    "episode": "02§11b",
+    "episode": "02-11b",
     "title": "Teaching the Disciples by Means of Parables",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3218,7 +3218,7 @@
     ]
   },
   {
-    "episode": "02§12",
+    "episode": "02-12",
     "title": "Christ Stilling the Tempest",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3250,7 +3250,7 @@
     ]
   },
   {
-    "episode": "02§13",
+    "episode": "02-13",
     "title": "The Healing of a Demon-Possessed Man",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3282,7 +3282,7 @@
     ]
   },
   {
-    "episode": "02§14",
+    "episode": "02-14",
     "title": "Raising of the Daughter of Jairus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3314,7 +3314,7 @@
     ]
   },
   {
-    "episode": "02§15",
+    "episode": "02-15",
     "title": "Jesus at Nazareth",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3346,7 +3346,7 @@
     ]
   },
   {
-    "episode": "02§16",
+    "episode": "02-16",
     "title": "The Mission of the Twelve",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3378,7 +3378,7 @@
     ]
   },
   {
-    "episode": "02§17",
+    "episode": "02-17",
     "title": "Death of John the Baptist",
     "preTextFeatures": [
       "phonic",
@@ -3410,7 +3410,7 @@
     ]
   },
   {
-    "episode": "02§18",
+    "episode": "02-18",
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3442,7 +3442,7 @@
     ]
   },
   {
-    "episode": "02§19",
+    "episode": "02-19",
     "title": "Christ Walking on the Sea and His Return to Galilee",
     "preTextFeatures": [
       "phonic",
@@ -3474,7 +3474,7 @@
     ]
   },
   {
-    "episode": "02§20 02§21",
+    "episode": "02-20 02-21",
     "title": "Concerning Ceremonial Washings, Christ's Denunciation of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3506,7 +3506,7 @@
     ]
   },
   {
-    "episode": "02§22",
+    "episode": "02-22",
     "title": "The Syrophoenician Woman",
     "preTextFeatures": [
       "relation",
@@ -3538,7 +3538,7 @@
     ]
   },
   {
-    "episode": "02§23",
+    "episode": "02-23",
     "title": "Healing of the Deaf Man",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3570,7 +3570,7 @@
     ]
   },
   {
-    "episode": "02§24",
+    "episode": "02-24",
     "title": "The Feeding of the Four Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3602,7 +3602,7 @@
     ]
   },
   {
-    "episode": "02§25",
+    "episode": "02-25",
     "title": "The Pharisees Ask for a Sign",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3634,7 +3634,7 @@
     ]
   },
   {
-    "episode": "02§25",
+    "episode": "02-25",
     "title": "The Leaven of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3666,7 +3666,7 @@
     ]
   },
   {
-    "episode": "02§26",
+    "episode": "02-26",
     "title": "The Blind Man of Bethsaida",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3698,7 +3698,7 @@
     ]
   },
   {
-    "episode": "02§27a",
+    "episode": "02-27a",
     "title": "The Identity of the Son of Man",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3730,7 +3730,7 @@
     ]
   },
   {
-    "episode": "02§27b",
+    "episode": "02-27b",
     "title": "Jesus the Christ and His Service",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3762,7 +3762,7 @@
     ]
   },
   {
-    "episode": "02§28",
+    "episode": "02-28",
     "title": "The Transfiguration of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3794,7 +3794,7 @@
     ]
   },
   {
-    "episode": "02§29",
+    "episode": "02-29",
     "title": "Casting Out an Unclean Spirit",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3826,7 +3826,7 @@
     ]
   },
   {
-    "episode": "02§30",
+    "episode": "02-30",
     "title": "The Last Discourses of Christ in Galilee",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3858,7 +3858,7 @@
     ]
   },
   {
-    "episode": "02§31",
+    "episode": "02-31",
     "title": "A Question concerning Divorce",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3890,7 +3890,7 @@
     ]
   },
   {
-    "episode": "02§32",
+    "episode": "02-32",
     "title": "Jesus Blesses Little Children",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3922,7 +3922,7 @@
     ]
   },
   {
-    "episode": "02§33",
+    "episode": "02-33",
     "title": "The Rich Young Man",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3954,7 +3954,7 @@
     ]
   },
   {
-    "episode": "02§34a",
+    "episode": "02-34a",
     "title": "Jesus Turns Toward Jerusalem",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3986,7 +3986,7 @@
     ]
   },
   {
-    "episode": "02§34b",
+    "episode": "02-34b",
     "title": "Priority in Christ's Kingdom",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4018,7 +4018,7 @@
     ]
   },
   {
-    "episode": "02§35",
+    "episode": "02-35",
     "title": "The Healing of Bartimaeus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4050,7 +4050,7 @@
     ]
   },
   {
-    "episode": "02§36",
+    "episode": "02-36",
     "title": "Christ's Entry into Jerusalem",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4082,7 +4082,7 @@
     ]
   },
   {
-    "episode": "02§37",
+    "episode": "02-37",
     "title": "The Miracle of the Fig-Tree",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4114,7 +4114,7 @@
     ]
   },
   {
-    "episode": "02§38",
+    "episode": "02-38",
     "title": "The Question concerning Christ's Authority",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4146,7 +4146,7 @@
     ]
   },
   {
-    "episode": "02§39",
+    "episode": "02-39",
     "title": "The Parable of the Vineyard",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4178,7 +4178,7 @@
     ]
   },
   {
-    "episode": "02§40a",
+    "episode": "02-40a",
     "title": "The Pharisees and Herodians Ask About Paying Taxes to Caesar",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4210,7 +4210,7 @@
     ]
   },
   {
-    "episode": "02§40b",
+    "episode": "02-40b",
     "title": "The Sadducees Question Jesus About the Resurrection",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4242,7 +4242,7 @@
     ]
   },
   {
-    "episode": "02§40c",
+    "episode": "02-40c",
     "title": "The Greatest Commandment",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4274,7 +4274,7 @@
     ]
   },
   {
-    "episode": "02§41",
+    "episode": "02-41",
     "title": "Jesus Condemns the Teachers of the Law",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4306,7 +4306,7 @@
     ]
   },
   {
-    "episode": "02§42",
+    "episode": "02-42",
     "title": "Christ Foretells the Destruction of Jerusalem and the End of the World",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4338,7 +4338,7 @@
     ]
   },
   {
-    "episode": "02§43a",
+    "episode": "02-43a",
     "title": "The Teachers of the Law Scheme",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4370,7 +4370,7 @@
     ]
   },
   {
-    "episode": "02§43b",
+    "episode": "02-43b",
     "title": "The Anointing of Jesus",
     "preTextFeatures": [
       "relation",
@@ -4402,13 +4402,13 @@
     ]
   },
   {
-    "episode": "02§43c",
+    "episode": "02-43c",
     "title": "Judas Promises to Betray Jesus",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "02§44a",
+    "episode": "02-44a",
     "title": "The Preparation for the Passover",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4440,7 +4440,7 @@
     ]
   },
   {
-    "episode": "02§44b",
+    "episode": "02-44b",
     "title": "The Celebration of the Passover",
     "preTextFeatures": [
       "action",
@@ -4472,7 +4472,7 @@
     ]
   },
   {
-    "episode": "02§45a",
+    "episode": "02-45a",
     "title": "Jesus Predicts Peter's Denials",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4504,7 +4504,7 @@
     ]
   },
   {
-    "episode": "02§45b",
+    "episode": "02-45b",
     "title": "Jesus Prays in Gethsemane",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4536,7 +4536,7 @@
     ]
   },
   {
-    "episode": "02§46",
+    "episode": "02-46",
     "title": "The Capture of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4568,7 +4568,7 @@
     ]
   },
   {
-    "episode": "02§47",
+    "episode": "02-47",
     "title": "The Trial Before the High Priest",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4600,7 +4600,7 @@
     ]
   },
   {
-    "episode": "02§48",
+    "episode": "02-48",
     "title": "The Denial of Peter",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4632,7 +4632,7 @@
     ]
   },
   {
-    "episode": "02§49a",
+    "episode": "02-49a",
     "title": "Jesus before Pilate",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4664,7 +4664,7 @@
     ]
   },
   {
-    "episode": "02§49b",
+    "episode": "02-49b",
     "title": "Pilate before the Crowd",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4696,7 +4696,7 @@
     ]
   },
   {
-    "episode": "02§50",
+    "episode": "02-50",
     "title": "Jesus before the Soldiers",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4728,7 +4728,7 @@
     ]
   },
   {
-    "episode": "02§50",
+    "episode": "02-50",
     "title": "The Crucifixion and Death of Christ",
     "preTextFeatures": [
       "relation",
@@ -4760,13 +4760,13 @@
     ]
   },
   {
-    "episode": "02§51",
+    "episode": "02-51",
     "title": "The Burial of Jesus",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "02§52",
+    "episode": "02-52",
     "title": "The Resurrection of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4798,7 +4798,7 @@
     ]
   },
   {
-    "episode": "02§53",
+    "episode": "02-53",
     "title": "The Appearances and the Ascension of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -4830,13 +4830,13 @@
     ]
   },
   {
-    "episode": "03§01",
+    "episode": "03-01",
     "title": "The Preface to the Gospel",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "03§02a",
+    "episode": "03-02a",
     "title": "The Announcement of John the Baptist's Birth",
     "preTextFeatures": [
       "phonic",
@@ -4868,7 +4868,7 @@
     ]
   },
   {
-    "episode": "03§02b",
+    "episode": "03-02b",
     "title": "Elizabeth Conceives",
     "preTextFeatures": [
       "relation",
@@ -4900,7 +4900,7 @@
     ]
   },
   {
-    "episode": "03§03",
+    "episode": "03-03",
     "title": "The Annunciation to Mary",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4932,7 +4932,7 @@
     ]
   },
   {
-    "episode": "03§04",
+    "episode": "03-04",
     "title": "Mary's Visit to Elizabeth",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4964,7 +4964,7 @@
     ]
   },
   {
-    "episode": "03§05",
+    "episode": "03-05",
     "title": "The Birth of John the Baptist and Zechariah's Song",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4996,13 +4996,13 @@
     ]
   },
   {
-    "episode": "03§06a",
+    "episode": "03-06a",
     "title": "The Birth of Jesus",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "03§06b",
+    "episode": "03-06b",
     "title": "The Adoration of the Shepherds",
     "preTextFeatures": [
       "phonic",
@@ -5034,7 +5034,7 @@
     ]
   },
   {
-    "episode": "03§07",
+    "episode": "03-07",
     "title": "The Circumcision and Presentation of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5066,7 +5066,7 @@
     ]
   },
   {
-    "episode": "03§08",
+    "episode": "03-08",
     "title": "The Christ-Child in the Temple",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5098,7 +5098,7 @@
     ]
   },
   {
-    "episode": "03§09",
+    "episode": "03-09",
     "title": "The Ministry of John the Baptist",
     "preTextFeatures": [
       "phonic",
@@ -5130,7 +5130,7 @@
     ]
   },
   {
-    "episode": "03§10a",
+    "episode": "03-10a",
     "title": "The Baptism of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5162,13 +5162,13 @@
     ]
   },
   {
-    "episode": "03§10b",
+    "episode": "03-10b",
     "title": "The Genealogy of Christ",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "03§11",
+    "episode": "03-11",
     "title": "The Temptation of Christ",
     "preTextFeatures": [
       "relation",
@@ -5200,7 +5200,7 @@
     ]
   },
   {
-    "episode": "03§12",
+    "episode": "03-12",
     "title": "The Beginning of Christ's Ministry and His Teaching in Nazareth",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5232,7 +5232,7 @@
     ]
   },
   {
-    "episode": "03§13a",
+    "episode": "03-13a",
     "title": "Healing of a Demoniac",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5264,7 +5264,7 @@
     ]
   },
   {
-    "episode": "03§13b",
+    "episode": "03-13b",
     "title": "Jesus Heals Many",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5296,7 +5296,7 @@
     ]
   },
   {
-    "episode": "03§14",
+    "episode": "03-14",
     "title": "The Miraculous Draught of Fishes and the Call of the First Disciples",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5328,7 +5328,7 @@
     ]
   },
   {
-    "episode": "03§15",
+    "episode": "03-15",
     "title": "The Healing of a Leper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5360,7 +5360,7 @@
     ]
   },
   {
-    "episode": "03§15",
+    "episode": "03-15",
     "title": "The Healing of a Paralytic",
     "preTextFeatures": [
       "relation",
@@ -5392,7 +5392,7 @@
     ]
   },
   {
-    "episode": "03§16",
+    "episode": "03-16",
     "title": "The Call of Levi and the Discourse Concerning Christ's Ministry",
     "preTextFeatures": [
       "phonic",
@@ -5424,7 +5424,7 @@
     ]
   },
   {
-    "episode": "03§17",
+    "episode": "03-17",
     "title": "Disputes Concerning Sabbath Observance",
     "preTextFeatures": [
       "relation",
@@ -5456,13 +5456,13 @@
     ]
   },
   {
-    "episode": "03§18",
+    "episode": "03-18",
     "title": "The Twelve Apostles",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "03§19",
+    "episode": "03-19",
     "title": "Miracles of Healing and Preaching",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5494,7 +5494,7 @@
     ]
   },
   {
-    "episode": "03§20",
+    "episode": "03-20",
     "title": "The Centurion of Capernaum",
     "preTextFeatures": [
       "relation",
@@ -5526,7 +5526,7 @@
     ]
   },
   {
-    "episode": "03§21",
+    "episode": "03-21",
     "title": "Raising of the Widow's Son",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5558,7 +5558,7 @@
     ]
   },
   {
-    "episode": "03§22",
+    "episode": "03-22",
     "title": "The Embassy of John the Baptist",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5590,7 +5590,7 @@
     ]
   },
   {
-    "episode": "03§23",
+    "episode": "03-23",
     "title": "The First Anointing of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5622,7 +5622,7 @@
     ]
   },
   {
-    "episode": "03§24a",
+    "episode": "03-24a",
     "title": "Teaching in Parables",
     "preTextFeatures": [
       "relation",
@@ -5654,7 +5654,7 @@
     ]
   },
   {
-    "episode": "03§24b",
+    "episode": "03-24b",
     "title": "Jesus' Mother and Brothers",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5686,7 +5686,7 @@
     ]
   },
   {
-    "episode": "03§25",
+    "episode": "03-25",
     "title": "The Storm on the Sea",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5718,7 +5718,7 @@
     ]
   },
   {
-    "episode": "03§26",
+    "episode": "03-26",
     "title": "In the Country of the Gadarenes",
     "preTextFeatures": [
       "action",
@@ -5750,7 +5750,7 @@
     ]
   },
   {
-    "episode": "03§27",
+    "episode": "03-27",
     "title": "The Woman with an Issue and the Daughter of Jairus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5782,7 +5782,7 @@
     ]
   },
   {
-    "episode": "03§28a",
+    "episode": "03-28a",
     "title": "The Mission of the Twelve",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5814,7 +5814,7 @@
     ]
   },
   {
-    "episode": "03§28b",
+    "episode": "03-28b",
     "title": "Herod Hears about Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5846,7 +5846,7 @@
     ]
   },
   {
-    "episode": "03§29",
+    "episode": "03-29",
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5878,7 +5878,7 @@
     ]
   },
   {
-    "episode": "03§30",
+    "episode": "03-30",
     "title": "Peter's Confession and Christ's Answer",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5910,7 +5910,7 @@
     ]
   },
   {
-    "episode": "03§31",
+    "episode": "03-31",
     "title": "The Transfiguration",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -5942,7 +5942,7 @@
     ]
   },
   {
-    "episode": "03§32",
+    "episode": "03-32",
     "title": "The Healing of the Epileptic Boy",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -5974,7 +5974,7 @@
     ]
   },
   {
-    "episode": "03§33",
+    "episode": "03-33",
     "title": "Lessons in Humility",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6006,7 +6006,7 @@
     ]
   },
   {
-    "episode": "03§34a",
+    "episode": "03-34a",
     "title": "Opposition in Samaria",
     "preTextFeatures": [
       "action",
@@ -6038,7 +6038,7 @@
     ]
   },
   {
-    "episode": "03§34b",
+    "episode": "03-34b",
     "title": "True Discipleship of Christ",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6070,7 +6070,7 @@
     ]
   },
   {
-    "episode": "03§35",
+    "episode": "03-35",
     "title": "The Mission of the Seventy",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6102,7 +6102,7 @@
     ]
   },
   {
-    "episode": "03§36",
+    "episode": "03-36",
     "title": "The Good Samaritan",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6134,7 +6134,7 @@
     ]
   },
   {
-    "episode": "03§37",
+    "episode": "03-37",
     "title": "Mary and Martha",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6166,7 +6166,7 @@
     ]
   },
   {
-    "episode": "03§38",
+    "episode": "03-38",
     "title": "A Lesson in Prayer",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6198,7 +6198,7 @@
     ]
   },
   {
-    "episode": "03§39 03§40",
+    "episode": "03-39 03-40",
     "title": "Christ Casts Out a Demon and Rebukes The Generation",
     "preTextFeatures": [
       "phonic",
@@ -6230,7 +6230,7 @@
     ]
   },
   {
-    "episode": "03§41",
+    "episode": "03-41",
     "title": "Woes upon the Pharisees and Lawyers",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6262,7 +6262,7 @@
     ]
   },
   {
-    "episode": "03§42 03§43 03§44",
+    "episode": "03-42 03-43 03-44",
     "title": "The Teaching of the Kingdom",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6294,7 +6294,7 @@
     ]
   },
   {
-    "episode": "03§45",
+    "episode": "03-45",
     "title": "The Crippled Woman Healed",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6326,7 +6326,7 @@
     ]
   },
   {
-    "episode": "03§46a",
+    "episode": "03-46a",
     "title": "Few Are Saved",
     "preTextFeatures": [
       "phonic",
@@ -6358,7 +6358,7 @@
     ]
   },
   {
-    "episode": "03§46b",
+    "episode": "03-46b",
     "title": "Some Pharisees Warn Jesus",
     "preTextFeatures": [
       "action",
@@ -6390,7 +6390,7 @@
     ]
   },
   {
-    "episode": "03§47 03§48",
+    "episode": "03-47 03-48",
     "title": "Christ the Guest of a Pharisee",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6422,7 +6422,7 @@
     ]
   },
   {
-    "episode": "03§49",
+    "episode": "03-49",
     "title": "The Obligations of Christ's Discipleship",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6454,7 +6454,7 @@
     ]
   },
   {
-    "episode": "03§50 03§51 03§52 03§53 03§54",
+    "episode": "03-50 03-51 03-52 03-53 03-54",
     "title": "Parables and Teaching",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6486,7 +6486,7 @@
     ]
   },
   {
-    "episode": "03§55",
+    "episode": "03-55",
     "title": "The Ten Lepers",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6518,7 +6518,7 @@
     ]
   },
   {
-    "episode": "03§56",
+    "episode": "03-56",
     "title": "Concerning the Kingdom of God and the Coming of Christ",
     "preTextFeatures": [
       "phonic",
@@ -6550,7 +6550,7 @@
     ]
   },
   {
-    "episode": "03§57",
+    "episode": "03-57",
     "title": "The Unjust Judge",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6582,7 +6582,7 @@
     ]
   },
   {
-    "episode": "03§58",
+    "episode": "03-58",
     "title": "The Pharisee and the Publican",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6614,7 +6614,7 @@
     ]
   },
   {
-    "episode": "03§59",
+    "episode": "03-59",
     "title": "Christ Blesses Little Children",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6646,7 +6646,7 @@
     ]
   },
   {
-    "episode": "03§60",
+    "episode": "03-60",
     "title": "Denying All for Christ's Sake",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6678,7 +6678,7 @@
     ]
   },
   {
-    "episode": "03§61",
+    "episode": "03-61",
     "title": "The Lord's Third Prediction of His Passion",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6710,7 +6710,7 @@
     ]
   },
   {
-    "episode": "03§62",
+    "episode": "03-62",
     "title": "The Blind Man of Jericho",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6742,7 +6742,7 @@
     ]
   },
   {
-    "episode": "03§63",
+    "episode": "03-63",
     "title": "Zacchaeus the Publican",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6774,7 +6774,7 @@
     ]
   },
   {
-    "episode": "03§64",
+    "episode": "03-64",
     "title": "The Parable of the Talents",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6806,7 +6806,7 @@
     ]
   },
   {
-    "episode": "03§65a",
+    "episode": "03-65a",
     "title": "Jesus Procures a Donkey",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6838,7 +6838,7 @@
     ]
   },
   {
-    "episode": "03§65b",
+    "episode": "03-65b",
     "title": "Christ's Entry into Jerusalem",
     "preTextFeatures": [
       "relation",
@@ -6870,7 +6870,7 @@
     ]
   },
   {
-    "episode": "03§65c",
+    "episode": "03-65c",
     "title": "Cleansing the Temple",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -6902,7 +6902,7 @@
     ]
   },
   {
-    "episode": "03§66a",
+    "episode": "03-66a",
     "title": "The Authority of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6934,7 +6934,7 @@
     ]
   },
   {
-    "episode": "03§66b",
+    "episode": "03-66b",
     "title": "Parable of the Wicked Tenants",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6966,7 +6966,7 @@
     ]
   },
   {
-    "episode": "03§67",
+    "episode": "03-67",
     "title": "The Pharisees Confounded",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6998,7 +6998,7 @@
     ]
   },
   {
-    "episode": "03§67",
+    "episode": "03-67",
     "title": "The Sadducees Confounded",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7030,7 +7030,7 @@
     ]
   },
   {
-    "episode": "03§68",
+    "episode": "03-68",
     "title": "Devouring Widows Houses",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7062,7 +7062,7 @@
     ]
   },
   {
-    "episode": "03§69",
+    "episode": "03-69",
     "title": "The Destruction of Jerusalem and the End of the World",
     "preTextFeatures": [
       "phonic",
@@ -7094,13 +7094,13 @@
     ]
   },
   {
-    "episode": "03§70a",
+    "episode": "03-70a",
     "title": "Judas Agrees to Betray Jesus",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "03§71",
+    "episode": "03-71",
     "title": "The Preparation for, and the Celebration of, the Passover",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7132,7 +7132,7 @@
     ]
   },
   {
-    "episode": "03§72a",
+    "episode": "03-72a",
     "title": "The Walk to Gethsemane and the Agony",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7164,7 +7164,7 @@
     ]
   },
   {
-    "episode": "03§72b",
+    "episode": "03-72b",
     "title": "Jesus Arrested",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7196,7 +7196,7 @@
     ]
   },
   {
-    "episode": "03§73a",
+    "episode": "03-73a",
     "title": "The Denial of Peter",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7228,7 +7228,7 @@
     ]
   },
   {
-    "episode": "03§73b",
+    "episode": "03-73b",
     "title": "The Guards Mistreat Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7260,7 +7260,7 @@
     ]
   },
   {
-    "episode": "03§73c",
+    "episode": "03-73c",
     "title": "Christ before the Council of the Elders",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7292,7 +7292,7 @@
     ]
   },
   {
-    "episode": "03§74",
+    "episode": "03-74",
     "title": "The Trial Before Pilate",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7324,7 +7324,7 @@
     ]
   },
   {
-    "episode": "03§75a",
+    "episode": "03-75a",
     "title": "The Crucifixion and Death of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7356,13 +7356,13 @@
     ]
   },
   {
-    "episode": "03§75b",
+    "episode": "03-75b",
     "title": "Jesus Buried",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "03§76",
+    "episode": "03-76",
     "title": "The Resurrection of Christ",
     "preTextFeatures": [
       "phonic",
@@ -7394,7 +7394,7 @@
     ]
   },
   {
-    "episode": "03§77 03§78",
+    "episode": "03-77 03-78",
     "title": "The Emmaus Disciples and the Last Appearances of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7426,7 +7426,7 @@
     ]
   },
   {
-    "episode": "04§01",
+    "episode": "04-01",
     "title": "The Word Became Flesh",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7458,7 +7458,7 @@
     ]
   },
   {
-    "episode": "04§02",
+    "episode": "04-02",
     "title": "The Pharisees Question John the Baptist",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7490,7 +7490,7 @@
     ]
   },
   {
-    "episode": "04§03",
+    "episode": "04-03",
     "title": "John Meets Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7522,7 +7522,7 @@
     ]
   },
   {
-    "episode": "04§04a",
+    "episode": "04-04a",
     "title": "The First Disciples of Jesus",
     "preTextFeatures": [
       "asserting",
@@ -7554,7 +7554,7 @@
     ]
   },
   {
-    "episode": "04§04b",
+    "episode": "04-04b",
     "title": "Jesus Calls Philip and Nathaniel",
     "preTextFeatures": [
       "phonic",
@@ -7586,7 +7586,7 @@
     ]
   },
   {
-    "episode": "04§05",
+    "episode": "04-05",
     "title": "The Marriage at Cana",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7618,7 +7618,7 @@
     ]
   },
   {
-    "episode": "04§06",
+    "episode": "04-06",
     "title": "The Purging of the Temple and Its Results",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7650,7 +7650,7 @@
     ]
   },
   {
-    "episode": "04§07",
+    "episode": "04-07",
     "title": "The Visit of Nicodemus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7682,7 +7682,7 @@
     ]
   },
   {
-    "episode": "04§08",
+    "episode": "04-08",
     "title": "John's Second Testimony of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7714,7 +7714,7 @@
     ]
   },
   {
-    "episode": "04§09a",
+    "episode": "04-09a",
     "title": "Christ and the Woman of Samaria",
     "preTextFeatures": [
       "phonic",
@@ -7746,7 +7746,7 @@
     ]
   },
   {
-    "episode": "04§09b",
+    "episode": "04-09b",
     "title": "The Samaritans Believe",
     "preTextFeatures": [
       "phonic",
@@ -7778,7 +7778,7 @@
     ]
   },
   {
-    "episode": "04§10",
+    "episode": "04-10",
     "title": "The Healing of the Nobleman's Son",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7810,7 +7810,7 @@
     ]
   },
   {
-    "episode": "04§11",
+    "episode": "04-11",
     "title": "The Sick Man of Bethesda",
     "preTextFeatures": [
       "action",
@@ -7842,7 +7842,7 @@
     ]
   },
   {
-    "episode": "04§12 04§13",
+    "episode": "04-12 04-13",
     "title": "Jesus Defends Himself Against Jews Persecuting Him",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -7874,7 +7874,7 @@
     ]
   },
   {
-    "episode": "04§14",
+    "episode": "04-14",
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7906,7 +7906,7 @@
     ]
   },
   {
-    "episode": "04§15",
+    "episode": "04-15",
     "title": "Christ Walks on the Sea",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -7938,7 +7938,7 @@
     ]
   },
   {
-    "episode": "04§16 04§17",
+    "episode": "04-16 04-17",
     "title": "Christ the Bread of Life",
     "preTextFeatures": [
       "phonic",
@@ -7970,7 +7970,7 @@
     ]
   },
   {
-    "episode": "04§18a",
+    "episode": "04-18a",
     "title": "The Unbelief of Christ's Brothers",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8002,7 +8002,7 @@
     ]
   },
   {
-    "episode": "04§18b",
+    "episode": "04-18b",
     "title": "Jesus Is Sought at the Festival",
     "preTextFeatures": [
       "phonic",
@@ -8034,7 +8034,7 @@
     ]
   },
   {
-    "episode": "04§18c",
+    "episode": "04-18c",
     "title": "Jesus at the Festival",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8066,7 +8066,7 @@
     ]
   },
   {
-    "episode": "04§18d",
+    "episode": "04-18d",
     "title": "The Jewish Elites Disbelieve",
     "preTextFeatures": [
       "relation",
@@ -8098,7 +8098,7 @@
     ]
   },
   {
-    "episode": "04§19",
+    "episode": "04-19",
     "title": "The Woman Taken in Adultery",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8130,7 +8130,7 @@
     ]
   },
   {
-    "episode": "04§20 04§21",
+    "episode": "04-20 04-21",
     "title": "Jesus the Light of the World",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8162,7 +8162,7 @@
     ]
   },
   {
-    "episode": "04§22",
+    "episode": "04-22",
     "title": "Healing of the Man That was Born Blind",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8194,7 +8194,7 @@
     ]
   },
   {
-    "episode": "04§23",
+    "episode": "04-23",
     "title": "Jesus the Good Shepherd",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8226,7 +8226,7 @@
     ]
   },
   {
-    "episode": "04§24a",
+    "episode": "04-24a",
     "title": "Christ's Sermon at the Feast of Dedication",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8258,7 +8258,7 @@
     ]
   },
   {
-    "episode": "04§24b",
+    "episode": "04-24b",
     "title": "Jesus Returns to the Other Side of the Jordan",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8290,7 +8290,7 @@
     ]
   },
   {
-    "episode": "04§25a",
+    "episode": "04-25a",
     "title": "Jesus Hears of Lazarus",
     "preTextFeatures": [
       "action",
@@ -8322,7 +8322,7 @@
     ]
   },
   {
-    "episode": "04§25b",
+    "episode": "04-25b",
     "title": "Martha Confronts Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8354,7 +8354,7 @@
     ]
   },
   {
-    "episode": "04§25c",
+    "episode": "04-25c",
     "title": "Jesus at the Tomb of Lazarus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8386,7 +8386,7 @@
     ]
   },
   {
-    "episode": "04§26",
+    "episode": "04-26",
     "title": "The Council concerning Christ's Removal",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8418,7 +8418,7 @@
     ]
   },
   {
-    "episode": "04§26",
+    "episode": "04-26",
     "title": "Many Seek Jesus at the Festival",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8450,7 +8450,7 @@
     ]
   },
   {
-    "episode": "04§27",
+    "episode": "04-27",
     "title": "The Anointing of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8482,7 +8482,7 @@
     ]
   },
   {
-    "episode": "04§28",
+    "episode": "04-28",
     "title": "Christ's Entry into Jerusalem",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8514,7 +8514,7 @@
     ]
   },
   {
-    "episode": "04§29 04§30 04§31",
+    "episode": "04-29 04-30 04-31",
     "title": "Some Greeks Seek Jesus but Many Disbelieve",
     "preTextFeatures": [
       "action",
@@ -8546,7 +8546,7 @@
     ]
   },
   {
-    "episode": "04§32",
+    "episode": "04-32",
     "title": "Jesus Washes the Disciples' Feet",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8578,7 +8578,7 @@
     ]
   },
   {
-    "episode": "04§33",
+    "episode": "04-33",
     "title": "Jesus Reveals His Betrayor",
     "preTextFeatures": [
       "phonic",
@@ -8610,7 +8610,7 @@
     ]
   },
   {
-    "episode": "04§34 04§35 04§36 04§37 04§38 04§39 04§40 04§41",
+    "episode": "04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41",
     "title": "Jesus Teaches at the Last Supper",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8642,7 +8642,7 @@
     ]
   },
   {
-    "episode": "04§42",
+    "episode": "04-42",
     "title": "Christ's Great Sacerdotal Prayer",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8674,7 +8674,7 @@
     ]
   },
   {
-    "episode": "04§43",
+    "episode": "04-43",
     "title": "The Arrest of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8706,7 +8706,7 @@
     ]
   },
   {
-    "episode": "04§44a",
+    "episode": "04-44a",
     "title": "Peter's First Denial",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8738,7 +8738,7 @@
     ]
   },
   {
-    "episode": "04§44b",
+    "episode": "04-44b",
     "title": "The High Priest Questions Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8770,7 +8770,7 @@
     ]
   },
   {
-    "episode": "04§44c",
+    "episode": "04-44c",
     "title": "Peter's Second and Third Denials",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8802,7 +8802,7 @@
     ]
   },
   {
-    "episode": "04§45 04§46",
+    "episode": "04-45 04-46",
     "title": "The Trial Before Pilate",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8834,7 +8834,7 @@
     ]
   },
   {
-    "episode": "04§47a",
+    "episode": "04-47a",
     "title": "The Jews Protest Pilate's Sign",
     "preTextFeatures": [
       "relation",
@@ -8866,7 +8866,7 @@
     ]
   },
   {
-    "episode": "04§47b",
+    "episode": "04-47b",
     "title": "The Soldiers Divide Jesus's Clothes",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8898,7 +8898,7 @@
     ]
   },
   {
-    "episode": "04§47c",
+    "episode": "04-47c",
     "title": "Jesus Entrusts His Mother and Dies",
     "preTextFeatures": [
       "institutional",
@@ -8930,13 +8930,13 @@
     ]
   },
   {
-    "episode": "04§48",
+    "episode": "04-48",
     "title": "The Burial of Jesus",
     "preTextFeatures": "no embedded discourse",
     "viaTextFeatures": "no embedded discourse"
   },
   {
-    "episode": "04§49",
+    "episode": "04-49",
     "title": "Easter Morning",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -8968,7 +8968,7 @@
     ]
   },
   {
-    "episode": "04§50",
+    "episode": "04-50",
     "title": "The Appearance to the Hidden Disciples",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -9000,7 +9000,7 @@
     ]
   },
   {
-    "episode": "04§50",
+    "episode": "04-50",
     "title": "The Appearance to Thomas",
     "preTextFeatures": [
       "phonic",
@@ -9032,7 +9032,7 @@
     ]
   },
   {
-    "episode": "04§51",
+    "episode": "04-51",
     "title": "The Appearance of Christ at the Sea of Tiberias",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -9064,7 +9064,7 @@
     ]
   },
   {
-    "episode": "04§52",
+    "episode": "04-52",
     "title": "The Test of Peter's Love",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",

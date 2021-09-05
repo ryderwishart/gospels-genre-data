@@ -1,64 +1,64 @@
-import { number } from 'yargs';
+// DEPRECATED:
 
-export interface TextContainer {
-  text: Text;
-}
-export interface Text {
-  key: string;
-  content: TurnContainer;
-}
+// export interface TextContainer {
+//   text: Text;
+// }
+// export interface Text {
+//   key: string;
+//   content: TurnContainer;
+// }
 
-export interface TurnContainer {
-  turn: Turn;
-}
-export interface Turn {
-  key: string;
-  content: StageContainer[];
-}
+// export interface TurnContainer {
+//   turn: Turn;
+// }
+// export interface Turn {
+//   key: string;
+//   content: StageContainer[];
+// }
 
-export interface StageContainer {
-  stage: Stage;
-}
-export interface Stage {
-  key: string;
-  content: MoveContainer[];
-}
+// export interface StageContainer {
+//   stage: Stage;
+// }
+// export interface Stage {
+//   key: string;
+//   content: MoveContainer[];
+// }
 
-export interface MoveContainer {
-  move: Move;
-}
-export interface Move {
-  key: string;
-  expressions: WordContainer[];
-  meanings: SystemContainer[];
-}
+// export interface MoveContainer {
+//   move: Move;
+// }
+// export interface Move {
+//   key: string;
+//   expressions: WordContainer[];
+//   meanings: SystemContainer[];
+// }
 
-export interface WordContainer {
-  word: Word;
-}
-export interface Word {
-  key: string;
-  lemma: string;
-  norm: string;
-  string: string;
-}
+// export interface WordContainer {
+//   word: Word;
+// }
+// export interface Word {
+//   key: string;
+//   lemma: string;
+//   norm: string;
+//   string: string;
+// }
 
-export interface SystemContainer {
-  system: System;
-}
+// export interface SystemContainer {
+//   system: System;
+// }
 
-export interface System {
-  key: string;
-  instances: ChoiceContainer[];
-}
+// export interface System {
+//   key: string;
+//   instances: ChoiceContainer[];
+// }
 
-export interface ChoiceContainer {
-  choice: Choice;
-}
-export interface Choice {
-  key: string;
-  realization: string; // NOTE: This string is like a stringified array ("N1904.John.9.1.2' 'N1904.John.9.1.3") Basically it should be split on `' '`
-}
+// export interface ChoiceContainer {
+//   choice: Choice;
+// }
+// export interface Choice {
+//   key: string;
+//   realization: string; // NOTE: This string is like a stringified array ("N1904.John.9.1.2' 'N1904.John.9.1.3") Basically it should be split on `' '`
+// }
 
 // SITUATION FEATURES
 
@@ -172,3 +172,181 @@ export const DimensionLabels = {
     negative: 'influencing',
   },
 };
+
+// NOTE: XML loader uses $ property to store attributes of any node
+
+// export type XMLNode = {
+//   $?: {
+//     [key: string]: unknown;
+//   };
+// };
+// export interface OpenTextXMLData extends XMLNode {
+//   header: {
+//     fileDesc: any;
+//     encodingDesc: any;
+//     text: Text[] /* | Token | Word | PunctuationCharacter; */;
+//   };
+// }
+
+// export interface Text extends XMLNode {
+//   e: MeaningContainer | Meaning;
+
+// }
+
+// export interface MeaningContainer extends XMLNode {
+//   m: Meaning[];
+// }
+
+// export interface Meaning extends XMLNode {
+//   w?: WordContainer[];
+//   m?: MeaningContainer[];
+// }
+
+// export interface WordContainer extends XMLNode {
+//   w: Word[];
+
+// FULL XML DATA TYPES
+export interface OpenTextJsonDataType {
+  OpenText: OpenTextData;
+}
+
+export interface OpenTextData {
+  header: {
+    fileDesc: any;
+    encodingDesc: any;
+  };
+  text: TextJSON;
+  'xmlns:xs': string;
+  'xmlns:fn': string;
+  'xmlns:cblte': string;
+}
+
+export interface NodeContainer {
+  w?: WordingJSON | WordingJSON[];
+  m?: MeaningJSON | MeaningJSON[];
+  e?: ExpressionJSON | ExpressionJSON[];
+}
+
+export interface TextJSON extends NodeContainer {
+  'xml:id': string;
+}
+
+export interface EnumerableElement extends NodeContainer {
+  n?: number;
+  type?: string;
+  content?: string;
+}
+export interface ExpressionJSON extends EnumerableElement {
+  'xml:id'?: string;
+  pos?: string;
+  formal?: string;
+  functional?: string;
+  gloss?: string;
+  case?: string;
+  gender?: string;
+  mood?: string;
+  norm?: string;
+  number?: string;
+  person?: string;
+  strong?: number;
+  tense?: string;
+  lemma?: string;
+  voice?: string;
+  proj_end?: string;
+  posClass?: string;
+}
+
+export interface MeaningJSON extends NodeContainer {
+  feat?: string;
+  lemma?: string;
+  sys?: string;
+}
+
+export interface WordingJSON extends EnumerableElement {
+  status?: string;
+  pos?: string;
+  class?: string;
+}
+
+// SPEECH ACTS JSON TYPES
+export interface SpeechActsJson {
+  stage: SpeechActStage | SpeechActStage[];
+}
+
+export type SpeechActJsonChild = {
+  move?: SpeechActMove | SpeechActMove[];
+  speechAct?: SpeechActData | SpeechActData[];
+  directDiscourse?: SpeechActDirectDiscourse | SpeechActDirectDiscourse[];
+};
+
+export interface SpeechActStage extends SpeechActJsonChild {
+  key: string;
+  title: string;
+  move: SpeechActMove[];
+}
+
+export interface SpeechActMove extends SpeechActJsonChild {
+  chStart: string;
+  chEnd: string;
+  vStart: string;
+  vEnd: string;
+  speechAct: SpeechActData | SpeechActData[];
+}
+
+export interface SpeechActData extends SpeechActJsonChild {
+  direction: string;
+  orientation: string;
+  contemplation: string;
+  tentativeness: string;
+  w: SpeechActWording | SpeechActWording[];
+}
+
+export interface SpeechActWording {
+  pos: string;
+  lemma: string;
+  content: string;
+}
+
+export interface SpeechActDirectDiscourse extends SpeechActJsonChild {
+  ostentatious: string;
+}
+
+// SPEECH ACT CLASSIFICATIONS
+export enum InitiatingSpeechActClassification {
+  closedDirecting = 'command',
+  closedDiscussing = 'statement',
+  openDirecting = 'request',
+  openDiscussing = 'question',
+}
+
+export enum RespondingSpeechActClassification { // THESE VALUES ARE NOT CORRECT
+  closedDirectingExpected = 'command',
+  closedDirectingDiscretionary = 'command',
+  closedDiscussingExpected = 'affirm (state?)',
+  closedDiscussingDiscretionary = 'contradict (state?)',
+  openDirectingExpected = 'request',
+  openDirectingDiscretionary = 'request',
+  openDiscussingExpected = 'question',
+  openDiscussingDiscretionary = 'question',
+}
+export enum Direction {
+  directive = 'directive',
+  not_directive = '!directive',
+  direction_tbd = 'direction_tbd',
+}
+
+export enum Orientation {
+  internal_orientation = 'internal_orientation',
+  orientation_tbd = 'orientation_tbd',
+}
+
+export enum Contemplation {
+  contemplative = 'contemplative',
+  assertive = 'assertive',
+}
+
+export enum Tentativeness {
+  tentative = 'tentative',
+  not_tentative = '!tentative',
+  tentative_tbd = 'tentative_tbd',
+}

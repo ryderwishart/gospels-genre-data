@@ -1,11 +1,11 @@
 [
   {
-    "id": "01§01",
+    "id": "01-01",
     "title": "The Genealogy of Christ",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "01§02",
+    "id": "01-02",
     "title": "The Annunciation to Joseph and the Birth of Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "id": "01§03",
+    "id": "01-03",
     "title": "The Wise Men from the East",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "01§04",
+    "id": "01-04",
     "title": "The Flight into Egypt and the Return to Nazareth",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "id": "01§05",
+    "id": "01-05",
     "title": "The Ministry of John the Baptist",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "id": "01§06",
+    "id": "01-06",
     "title": "The Baptism of Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "id": "01§07",
+    "id": "01-07",
     "title": "The Temptation in the Wilderness",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -113,7 +113,7 @@
     ]
   },
   {
-    "id": "01§08a",
+    "id": "01-08a",
     "title": "The Beginning of the Galilean Ministry",
     "features": [
       "spoken",
@@ -131,7 +131,7 @@
     ]
   },
   {
-    "id": "01§08b",
+    "id": "01-08b",
     "title": "The Call of the Four",
     "features": [
       "spoken",
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "id": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16",
+    "id": "01-09 01-10 01-11 01-12 01-13 01-14 01-15 01-16",
     "title": "The Beatitudes; The Chief Functions of the Disciples in the World; Christ Confirms and Expounds the Law of Moses; The Law of Love toward the Enemy; On Giving of Alms; Praying; and Fasting; Warning against Covetousness and Care; Warning against Unauthorized Judging and Admonition to Persevere in Prayer; The Conclusion of the Sermon",
     "features": [
       "written",
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "id": "01§17",
+    "id": "01-17",
     "title": "The Healing of the Leper",
     "features": [
       "spoken",
@@ -185,7 +185,7 @@
     ]
   },
   {
-    "id": "01§18",
+    "id": "01-18",
     "title": "The Centurion of Capernaum",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "id": "01§19",
+    "id": "01-19",
     "title": "Various Miracles of Healing",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -221,7 +221,7 @@
     ]
   },
   {
-    "id": "01§20",
+    "id": "01-20",
     "title": "The Discipleship of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -239,7 +239,7 @@
     ]
   },
   {
-    "id": "01§21",
+    "id": "01-21",
     "title": "The Storm on the Lake",
     "features": [
       "spoken",
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "id": "01§22",
+    "id": "01-22",
     "title": "Jesus and the Gadarenes",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -275,7 +275,7 @@
     ]
   },
   {
-    "id": "01§23",
+    "id": "01-23",
     "title": "The Healing of the Palsied Man",
     "features": [
       "spoken",
@@ -293,7 +293,7 @@
     ]
   },
   {
-    "id": "01§24",
+    "id": "01-24",
     "title": "The Call of Matthew and His Feast",
     "features": [
       "spoken",
@@ -311,7 +311,7 @@
     ]
   },
   {
-    "id": "01§25",
+    "id": "01-25",
     "title": "The Daughter of Jairus",
     "features": [
       "spoken",
@@ -329,7 +329,7 @@
     ]
   },
   {
-    "id": "01§26",
+    "id": "01-26",
     "title": "Further Miracles of That Day",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -347,7 +347,7 @@
     ]
   },
   {
-    "id": "01§27",
+    "id": "01-27",
     "title": "Continuation of Christ's Teaching and Healing Ministry",
     "features": [
       "private",
@@ -365,7 +365,7 @@
     ]
   },
   {
-    "id": "01§28 01§29 01§30 01§31",
+    "id": "01-28 01-29 01-30 01-31",
     "title": "The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -383,7 +383,7 @@
     ]
   },
   {
-    "id": "01§32",
+    "id": "01-32",
     "title": "John the Baptist's Disciples Come to Jesus",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -401,7 +401,7 @@
     ]
   },
   {
-    "id": "01§33",
+    "id": "01-33",
     "title": "Christ's Testimony Concerning John",
     "features": [
       "spoken",
@@ -419,7 +419,7 @@
     ]
   },
   {
-    "id": "01§34",
+    "id": "01-34",
     "title": "The Woe upon the Galilean Cities",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -437,7 +437,7 @@
     ]
   },
   {
-    "id": "01§35",
+    "id": "01-35",
     "title": "The Gospel Call",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -455,7 +455,7 @@
     ]
   },
   {
-    "id": "01§36a",
+    "id": "01-36a",
     "title": "The Lord of Food on the Sabbath",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -473,7 +473,7 @@
     ]
   },
   {
-    "id": "01§36b",
+    "id": "01-36b",
     "title": "The Lord of Healing on the Sabbath",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -491,7 +491,7 @@
     ]
   },
   {
-    "id": "01§37 01§38",
+    "id": "01-37 01-38",
     "title": "The Enmity of the Pharisees and Christ's Answer; The Sin against the Holy Spirit",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -509,7 +509,7 @@
     ]
   },
   {
-    "id": "01§39",
+    "id": "01-39",
     "title": "The Sign from Heaven and a Warning",
     "features": [
       "spoken",
@@ -527,7 +527,7 @@
     ]
   },
   {
-    "id": "01§40",
+    "id": "01-40",
     "title": "Christ's Relatives",
     "features": [
       "relation",
@@ -545,7 +545,7 @@
     ]
   },
   {
-    "id": "01§41a",
+    "id": "01-41a",
     "title": "The Parable of the Sower",
     "features": [
       "phonic",
@@ -563,7 +563,7 @@
     ]
   },
   {
-    "id": "01§41b",
+    "id": "01-41b",
     "title": "The Parable of the Sower Explained",
     "features": [
       "phonic",
@@ -581,7 +581,7 @@
     ]
   },
   {
-    "id": "01§42a",
+    "id": "01-42a",
     "title": "The Parable of the Tares and Others",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -599,7 +599,7 @@
     ]
   },
   {
-    "id": "01§42b",
+    "id": "01-42b",
     "title": "The Parable of the Tares and Others Explained",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -617,7 +617,7 @@
     ]
   },
   {
-    "id": "01§43",
+    "id": "01-43",
     "title": "A Visit to Nazareth",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -635,7 +635,7 @@
     ]
   },
   {
-    "id": "01§44",
+    "id": "01-44",
     "title": "The Death of John the Baptist",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -653,7 +653,7 @@
     ]
   },
   {
-    "id": "01§45",
+    "id": "01-45",
     "title": "The Feeding of the Five Thousand",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -671,7 +671,7 @@
     ]
   },
   {
-    "id": "01§46",
+    "id": "01-46",
     "title": "Christ Walks on the Sea",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -689,7 +689,7 @@
     ]
   },
   {
-    "id": "01§47",
+    "id": "01-47",
     "title": "A Lesson Concerning Defilement",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -707,7 +707,7 @@
     ]
   },
   {
-    "id": "01§48",
+    "id": "01-48",
     "title": "The Syrophoenician Woman",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -725,7 +725,7 @@
     ]
   },
   {
-    "id": "01§49",
+    "id": "01-49",
     "title": "Christ Teaches and Feeds Four Thousand",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -743,7 +743,7 @@
     ]
   },
   {
-    "id": "01§50",
+    "id": "01-50",
     "title": "The Demand for a Sign",
     "features": [
       "opposing",
@@ -761,7 +761,7 @@
     ]
   },
   {
-    "id": "01§51",
+    "id": "01-51",
     "title": "The Leaven of the Pharisees",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -779,7 +779,7 @@
     ]
   },
   {
-    "id": "01§52",
+    "id": "01-52",
     "title": "Christ the Son of the Living God",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -797,7 +797,7 @@
     ]
   },
   {
-    "id": "01§53",
+    "id": "01-53",
     "title": "Christ's First Prophecy Concerning His Passion",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -815,7 +815,7 @@
     ]
   },
   {
-    "id": "01§54",
+    "id": "01-54",
     "title": "The Transfiguration of Christ",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -833,7 +833,7 @@
     ]
   },
   {
-    "id": "01§55",
+    "id": "01-55",
     "title": "The Healing of a Boy with a Demon",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -851,7 +851,7 @@
     ]
   },
   {
-    "id": "01§56a",
+    "id": "01-56a",
     "title": "Christ Foretells His Passion",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -869,7 +869,7 @@
     ]
   },
   {
-    "id": "01§56b",
+    "id": "01-56b",
     "title": "Christ Pays the Temple-Tax",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -887,7 +887,7 @@
     ]
   },
   {
-    "id": "01§57 01§58 01§59",
+    "id": "01-57 01-58 01-59",
     "title": "The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -905,7 +905,7 @@
     ]
   },
   {
-    "id": "01§60",
+    "id": "01-60",
     "title": "On Marriage and Divorce",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -923,7 +923,7 @@
     ]
   },
   {
-    "id": "01§61",
+    "id": "01-61",
     "title": "Christ Blessing Little Children",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -941,7 +941,7 @@
     ]
   },
   {
-    "id": "01§62",
+    "id": "01-62",
     "title": "The Dangers of Riches",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -959,7 +959,7 @@
     ]
   },
   {
-    "id": "01§63 01§64",
+    "id": "01-63 01-64",
     "title": "The Reward of the Apostles; Parable of the Laborers in the Vineyard",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -977,7 +977,7 @@
     ]
   },
   {
-    "id": "01§65",
+    "id": "01-65",
     "title": "Christ Again Foretells His Passion",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -995,7 +995,7 @@
     ]
   },
   {
-    "id": "01§66",
+    "id": "01-66",
     "title": "The Requests of the Sons of Zebedee",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1013,7 +1013,7 @@
     ]
   },
   {
-    "id": "01§67",
+    "id": "01-67",
     "title": "Healing of Two Blind Men",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1031,7 +1031,7 @@
     ]
   },
   {
-    "id": "01§68",
+    "id": "01-68",
     "title": "Christ's Entry into Jerusalem",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1049,7 +1049,7 @@
     ]
   },
   {
-    "id": "01§69",
+    "id": "01-69",
     "title": "Christ Visits the Temple",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1067,7 +1067,7 @@
     ]
   },
   {
-    "id": "01§70",
+    "id": "01-70",
     "title": "The Cursing of the Fig-Tree",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1085,7 +1085,7 @@
     ]
   },
   {
-    "id": "01§71 01§72 01§73",
+    "id": "01-71 01-72 01-73",
     "title": "The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1103,7 +1103,7 @@
     ]
   },
   {
-    "id": "01§74",
+    "id": "01-74",
     "title": "The Parable of the Marriage Feast",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1121,7 +1121,7 @@
     ]
   },
   {
-    "id": "01§75",
+    "id": "01-75",
     "title": "The Question Concerning Tribute",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1139,7 +1139,7 @@
     ]
   },
   {
-    "id": "01§76",
+    "id": "01-76",
     "title": "The Question of the Sadducees",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1157,7 +1157,7 @@
     ]
   },
   {
-    "id": "01§77",
+    "id": "01-77",
     "title": "The Silencing of the Pharisees",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1175,7 +1175,7 @@
     ]
   },
   {
-    "id": "01§78 01§79 01§80",
+    "id": "01-78 01-79 01-80",
     "title": "The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1193,7 +1193,7 @@
     ]
   },
   {
-    "id": "01§81 01§82 01§83 01§84 01§85",
+    "id": "01-81 01-82 01-83 01-84 01-85",
     "title": "The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1211,7 +1211,7 @@
     ]
   },
   {
-    "id": "01§86a",
+    "id": "01-86a",
     "title": "Jesus Predicts Crucifixion",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1229,7 +1229,7 @@
     ]
   },
   {
-    "id": "01§86b",
+    "id": "01-86b",
     "title": "Leaders Conspire",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1247,7 +1247,7 @@
     ]
   },
   {
-    "id": "01§86c",
+    "id": "01-86c",
     "title": "A Woman Anoints Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1265,7 +1265,7 @@
     ]
   },
   {
-    "id": "01§86d",
+    "id": "01-86d",
     "title": "Judas Bargains for Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1283,7 +1283,7 @@
     ]
   },
   {
-    "id": "01§86e",
+    "id": "01-86e",
     "title": "Jesus Gives Instructions for Supper",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1301,7 +1301,7 @@
     ]
   },
   {
-    "id": "01§87a",
+    "id": "01-87a",
     "title": "The Passover Meal",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1319,7 +1319,7 @@
     ]
   },
   {
-    "id": "01§87b",
+    "id": "01-87b",
     "title": "The Institution of the Lord's Supper",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1337,7 +1337,7 @@
     ]
   },
   {
-    "id": "01§88a",
+    "id": "01-88a",
     "title": "On the Way to Gethsemane",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1355,7 +1355,7 @@
     ]
   },
   {
-    "id": "01§88b",
+    "id": "01-88b",
     "title": "Events at Gethsemane",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1373,7 +1373,7 @@
     ]
   },
   {
-    "id": "01§89",
+    "id": "01-89",
     "title": "The Betrayal and Arrest",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1391,7 +1391,7 @@
     ]
   },
   {
-    "id": "01§90a",
+    "id": "01-90a",
     "title": "The Trial Before Caiaphas",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1409,7 +1409,7 @@
     ]
   },
   {
-    "id": "01§90b",
+    "id": "01-90b",
     "title": "The Denial of Peter",
     "features": [
       "relation",
@@ -1427,7 +1427,7 @@
     ]
   },
   {
-    "id": "01§91",
+    "id": "01-91",
     "title": "The End of Judas",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1445,7 +1445,7 @@
     ]
   },
   {
-    "id": "01§92",
+    "id": "01-92",
     "title": "The Trial Before Pilate",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1463,7 +1463,7 @@
     ]
   },
   {
-    "id": "01§93",
+    "id": "01-93",
     "title": "The Crucifixion and Death of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1481,7 +1481,7 @@
     ]
   },
   {
-    "id": "01§94",
+    "id": "01-94",
     "title": "The Burial of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1499,7 +1499,7 @@
     ]
   },
   {
-    "id": "01§95a",
+    "id": "01-95a",
     "title": "The Resurrection of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1517,7 +1517,7 @@
     ]
   },
   {
-    "id": "01§95b",
+    "id": "01-95b",
     "title": "The Soldiers Bribed to Silence",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1535,7 +1535,7 @@
     ]
   },
   {
-    "id": "01§96",
+    "id": "01-96",
     "title": "The Great Missionary Command",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1553,7 +1553,7 @@
     ]
   },
   {
-    "id": "02§01",
+    "id": "02-01",
     "title": "The Ministry of John the Baptist",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -1571,7 +1571,7 @@
     ]
   },
   {
-    "id": "02§02a",
+    "id": "02-02a",
     "title": "The Baptism and Temptation of Christ",
     "features": [
       "relation",
@@ -1589,7 +1589,7 @@
     ]
   },
   {
-    "id": "02§02b",
+    "id": "02-02b",
     "title": "The Beginning of His Ministry",
     "features": [
       "allying",
@@ -1607,7 +1607,7 @@
     ]
   },
   {
-    "id": "02§03a",
+    "id": "02-03a",
     "title": "Ministry in Capernaum",
     "features": [
       "phonic",
@@ -1625,7 +1625,7 @@
     ]
   },
   {
-    "id": "02§03b",
+    "id": "02-03b",
     "title": "Jesus Prays in a Solitary Place",
     "features": [
       "phonic",
@@ -1643,7 +1643,7 @@
     ]
   },
   {
-    "id": "02§04",
+    "id": "02-04",
     "title": "The Healing of a Leper",
     "features": [
       "phonic",
@@ -1661,7 +1661,7 @@
     ]
   },
   {
-    "id": "02§05",
+    "id": "02-05",
     "title": "Healing the Palsied Man",
     "features": [
       "phonic",
@@ -1679,7 +1679,7 @@
     ]
   },
   {
-    "id": "02§06",
+    "id": "02-06",
     "title": "The Calling of Levi and the Dinner at His House",
     "features": [
       "relation",
@@ -1697,7 +1697,7 @@
     ]
   },
   {
-    "id": "02§07a",
+    "id": "02-07a",
     "title": "New Wine into Old Wineskins",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -1715,7 +1715,7 @@
     ]
   },
   {
-    "id": "02§07b",
+    "id": "02-07b",
     "title": "The Lord of the Sabbath",
     "features": [
       "asserting",
@@ -1733,7 +1733,7 @@
     ]
   },
   {
-    "id": "02§08",
+    "id": "02-08",
     "title": "Healing the Withered Hand",
     "features": [
       "on-someones-side",
@@ -1751,7 +1751,7 @@
     ]
   },
   {
-    "id": "02§09",
+    "id": "02-09",
     "title": "Miracles by the Seaside",
     "features": [
       "on-someones-side",
@@ -1769,12 +1769,12 @@
     ]
   },
   {
-    "id": "02§10a",
+    "id": "02-10a",
     "title": "Jesus Appoints the Twelve",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "02§10b",
+    "id": "02-10b",
     "title": "Discourse on the Casting Out of Demons",
     "features": [
       "on-someones-side",
@@ -1792,7 +1792,7 @@
     ]
   },
   {
-    "id": "02§11a",
+    "id": "02-11a",
     "title": "The Parable of the Sower",
     "features": [
       "action",
@@ -1810,7 +1810,7 @@
     ]
   },
   {
-    "id": "02§11b",
+    "id": "02-11b",
     "title": "Teaching the Disciples by Means of Parables",
     "features": [
       "allying",
@@ -1828,7 +1828,7 @@
     ]
   },
   {
-    "id": "02§12",
+    "id": "02-12",
     "title": "Christ Stilling the Tempest",
     "features": [
       "phonic",
@@ -1846,7 +1846,7 @@
     ]
   },
   {
-    "id": "02§13",
+    "id": "02-13",
     "title": "The Healing of a Demon-Possessed Man",
     "features": [
       "phonic",
@@ -1864,7 +1864,7 @@
     ]
   },
   {
-    "id": "02§14",
+    "id": "02-14",
     "title": "Raising of the Daughter of Jairus",
     "features": [
       "phonic",
@@ -1882,7 +1882,7 @@
     ]
   },
   {
-    "id": "02§15",
+    "id": "02-15",
     "title": "Jesus at Nazareth",
     "features": [
       "phonic",
@@ -1900,7 +1900,7 @@
     ]
   },
   {
-    "id": "02§16",
+    "id": "02-16",
     "title": "The Mission of the Twelve",
     "features": [
       "phonic",
@@ -1918,7 +1918,7 @@
     ]
   },
   {
-    "id": "02§17",
+    "id": "02-17",
     "title": "Death of John the Baptist",
     "features": [
       "phonic",
@@ -1936,7 +1936,7 @@
     ]
   },
   {
-    "id": "02§18",
+    "id": "02-18",
     "title": "The Feeding of the Five Thousand",
     "features": [
       "phonic",
@@ -1954,7 +1954,7 @@
     ]
   },
   {
-    "id": "02§19",
+    "id": "02-19",
     "title": "Christ Walking on the Sea and His Return to Galilee",
     "features": [
       "phonic",
@@ -1972,7 +1972,7 @@
     ]
   },
   {
-    "id": "02§20 02§21",
+    "id": "02-20 02-21",
     "title": "Concerning Ceremonial Washings; Christ's Denunciation of the Pharisees",
     "features": [
       "phonic",
@@ -1990,7 +1990,7 @@
     ]
   },
   {
-    "id": "02§22",
+    "id": "02-22",
     "title": "The Syrophoenician Woman",
     "features": [
       "phonic",
@@ -2008,7 +2008,7 @@
     ]
   },
   {
-    "id": "02§23",
+    "id": "02-23",
     "title": "Healing of the Deaf Man",
     "features": [
       "phonic",
@@ -2026,7 +2026,7 @@
     ]
   },
   {
-    "id": "02§24",
+    "id": "02-24",
     "title": "The Feeding of the Four Thousand",
     "features": [
       "phonic",
@@ -2044,7 +2044,7 @@
     ]
   },
   {
-    "id": "02§25a",
+    "id": "02-25a",
     "title": "The Pharisees Ask for a Sign",
     "features": [
       "phonic",
@@ -2062,7 +2062,7 @@
     ]
   },
   {
-    "id": "02§25b",
+    "id": "02-25b",
     "title": "The Leaven of the Pharisees",
     "features": [
       "phonic",
@@ -2080,7 +2080,7 @@
     ]
   },
   {
-    "id": "02§26",
+    "id": "02-26",
     "title": "The Blind Man of Bethsaida",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -2098,7 +2098,7 @@
     ]
   },
   {
-    "id": "02§27a",
+    "id": "02-27a",
     "title": "The Identity of the Son of Man",
     "features": [
       "asserting",
@@ -2116,7 +2116,7 @@
     ]
   },
   {
-    "id": "02§27b",
+    "id": "02-27b",
     "title": "Jesus the Christ and His Service",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -2134,7 +2134,7 @@
     ]
   },
   {
-    "id": "02§28",
+    "id": "02-28",
     "title": "The Transfiguration of Jesus",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -2152,7 +2152,7 @@
     ]
   },
   {
-    "id": "02§29",
+    "id": "02-29",
     "title": "Casting Out an Unclean Spirit",
     "features": [
       "phonic",
@@ -2170,7 +2170,7 @@
     ]
   },
   {
-    "id": "02§30",
+    "id": "02-30",
     "title": "The Last Discourses of Christ in Galilee",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -2188,7 +2188,7 @@
     ]
   },
   {
-    "id": "02§31",
+    "id": "02-31",
     "title": "A Question concerning Divorce",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -2206,7 +2206,7 @@
     ]
   },
   {
-    "id": "02§32",
+    "id": "02-32",
     "title": "Jesus Blesses Little Children",
     "features": [
       "opposing",
@@ -2224,7 +2224,7 @@
     ]
   },
   {
-    "id": "02§33",
+    "id": "02-33",
     "title": "The Rich Young Man",
     "features": [
       "institutional",
@@ -2242,7 +2242,7 @@
     ]
   },
   {
-    "id": "02§34a",
+    "id": "02-34a",
     "title": "Jesus Turns Toward Jerusalem",
     "features": [
       "institutional",
@@ -2260,7 +2260,7 @@
     ]
   },
   {
-    "id": "02§34b",
+    "id": "02-34b",
     "title": "Priority in Christ's Kingdom",
     "features": [
       "institutional",
@@ -2278,7 +2278,7 @@
     ]
   },
   {
-    "id": "02§35",
+    "id": "02-35",
     "title": "The Healing of Bartimaeus",
     "features": [
       "institutional",
@@ -2296,7 +2296,7 @@
     ]
   },
   {
-    "id": "02§36",
+    "id": "02-36",
     "title": "Christ's Entry into Jerusalem",
     "features": [
       "spoken",
@@ -2314,7 +2314,7 @@
     ]
   },
   {
-    "id": "02§37",
+    "id": "02-37",
     "title": "The Miracle of the Fig-Tree",
     "features": [
       "spoken",
@@ -2332,7 +2332,7 @@
     ]
   },
   {
-    "id": "02§38",
+    "id": "02-38",
     "title": "The Question concerning Christ's Authority",
     "features": [
       "spoken",
@@ -2350,7 +2350,7 @@
     ]
   },
   {
-    "id": "02§39",
+    "id": "02-39",
     "title": "The Parable of the Vineyard",
     "features": [
       "on-someones-side",
@@ -2368,7 +2368,7 @@
     ]
   },
   {
-    "id": "02§40a",
+    "id": "02-40a",
     "title": "The Pharisees and Herodians Ask About Paying Taxes to Caesar",
     "features": [
       "on-someones-side",
@@ -2386,7 +2386,7 @@
     ]
   },
   {
-    "id": "02§40b",
+    "id": "02-40b",
     "title": "The Sadducees Question Jesus About the Resurrection",
     "features": [
       "on-someones-side",
@@ -2404,7 +2404,7 @@
     ]
   },
   {
-    "id": "02§40c",
+    "id": "02-40c",
     "title": "The Greatest Commandment",
     "features": [
       "on-someones-side",
@@ -2422,7 +2422,7 @@
     ]
   },
   {
-    "id": "02§41",
+    "id": "02-41",
     "title": "Jesus Condemns the Teachers of the Law",
     "features": [
       "on-someones-side",
@@ -2440,7 +2440,7 @@
     ]
   },
   {
-    "id": "02§42",
+    "id": "02-42",
     "title": "Christ Foretells the Destruction of Jerusalem and the End of the World",
     "features": [
       "constitutive",
@@ -2458,7 +2458,7 @@
     ]
   },
   {
-    "id": "02§43a",
+    "id": "02-43a",
     "title": "The Teachers of the Law Scheme",
     "features": [
       "constitutive",
@@ -2476,7 +2476,7 @@
     ]
   },
   {
-    "id": "02§43b",
+    "id": "02-43b",
     "title": "The Anointing of Jesus",
     "features": [
       "phonic",
@@ -2494,12 +2494,12 @@
     ]
   },
   {
-    "id": "02§43c",
+    "id": "02-43c",
     "title": "Judas Promises to Betray Jesus",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "02§44a",
+    "id": "02-44a",
     "title": "The Preparation for the Passover",
     "features": [
       "phonic",
@@ -2517,7 +2517,7 @@
     ]
   },
   {
-    "id": "02§44b",
+    "id": "02-44b",
     "title": "The Celebration of the Passover",
     "features": [
       "phonic",
@@ -2535,7 +2535,7 @@
     ]
   },
   {
-    "id": "02§45a",
+    "id": "02-45a",
     "title": "Jesus Predicts Peter's Denials",
     "features": [
       "phonic",
@@ -2553,7 +2553,7 @@
     ]
   },
   {
-    "id": "02§45b",
+    "id": "02-45b",
     "title": "Jesus Prays in Gethsemane",
     "features": [
       "phonic",
@@ -2571,7 +2571,7 @@
     ]
   },
   {
-    "id": "02§46",
+    "id": "02-46",
     "title": "The Capture of Jesus",
     "features": [
       "phonic",
@@ -2589,7 +2589,7 @@
     ]
   },
   {
-    "id": "02§47",
+    "id": "02-47",
     "title": "The Trial Before the High Priest",
     "features": [
       "phonic",
@@ -2607,7 +2607,7 @@
     ]
   },
   {
-    "id": "02§48",
+    "id": "02-48",
     "title": "The Denial of Peter",
     "features": [
       "phonic",
@@ -2625,7 +2625,7 @@
     ]
   },
   {
-    "id": "02§49a",
+    "id": "02-49a",
     "title": "Jesus before Pilate",
     "features": [
       "phonic",
@@ -2643,7 +2643,7 @@
     ]
   },
   {
-    "id": "02§49b",
+    "id": "02-49b",
     "title": "Pilate before the Crowd",
     "features": [
       "phonic",
@@ -2661,7 +2661,7 @@
     ]
   },
   {
-    "id": "02§50a",
+    "id": "02-50a",
     "title": "Jesus before the Soldiers",
     "features": [
       "phonic",
@@ -2679,7 +2679,7 @@
     ]
   },
   {
-    "id": "02§50b",
+    "id": "02-50b",
     "title": "The Crucifixion and Death of Christ",
     "features": [
       "phonic",
@@ -2697,12 +2697,12 @@
     ]
   },
   {
-    "id": "02§51",
+    "id": "02-51",
     "title": "The Burial of Jesus",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "02§52",
+    "id": "02-52",
     "title": "The Resurrection of Jesus",
     "features": [
       "phonic",
@@ -2720,7 +2720,7 @@
     ]
   },
   {
-    "id": "02§53",
+    "id": "02-53",
     "title": "The Appearances and the Ascension of Jesus",
     "features": [
       "phonic",
@@ -2738,12 +2738,12 @@
     ]
   },
   {
-    "id": "03§01",
+    "id": "03-01",
     "title": "The Preface to the Gospel",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "03§02a",
+    "id": "03-02a",
     "title": "The Announcement of John the Baptist's Birth",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -2761,7 +2761,7 @@
     ]
   },
   {
-    "id": "03§02b",
+    "id": "03-02b",
     "title": "Elizabeth Conceives",
     "features": [
       "phonic",
@@ -2779,7 +2779,7 @@
     ]
   },
   {
-    "id": "03§03",
+    "id": "03-03",
     "title": "The Annunciation to Mary",
     "features": [
       "phonic",
@@ -2797,7 +2797,7 @@
     ]
   },
   {
-    "id": "03§04",
+    "id": "03-04",
     "title": "Mary's Visit to Elizabeth",
     "features": [
       "phonic",
@@ -2815,7 +2815,7 @@
     ]
   },
   {
-    "id": "03§05",
+    "id": "03-05",
     "title": "The Birth of John the Baptist and Zechariah's Song",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -2833,7 +2833,7 @@
     ]
   },
   {
-    "id": "03§06a",
+    "id": "03-06a",
     "title": "The Birth of Jesus",
     "features": [
       "constitutive",
@@ -2851,7 +2851,7 @@
     ]
   },
   {
-    "id": "03§06b",
+    "id": "03-06b",
     "title": "The Adoration of the Shepherds",
     "features": [
       "spoken",
@@ -2869,7 +2869,7 @@
     ]
   },
   {
-    "id": "03§07",
+    "id": "03-07",
     "title": "The Circumcision and Presentation of Christ",
     "features": [
       "phonic",
@@ -2887,7 +2887,7 @@
     ]
   },
   {
-    "id": "03§08",
+    "id": "03-08",
     "title": "The Christ-Child in the Temple",
     "features": [
       "phonic",
@@ -2905,7 +2905,7 @@
     ]
   },
   {
-    "id": "03§09",
+    "id": "03-09",
     "title": "The Ministry of John the Baptist",
     "features": [
       "constitutive",
@@ -2923,7 +2923,7 @@
     ]
   },
   {
-    "id": "03§10a",
+    "id": "03-10a",
     "title": "The Baptism of Christ",
     "features": [
       "phonic",
@@ -2941,12 +2941,12 @@
     ]
   },
   {
-    "id": "03§10b",
+    "id": "03-10b",
     "title": "The Genealogy of Christ",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "03§11",
+    "id": "03-11",
     "title": "The Temptation of Christ",
     "features": [
       "phonic",
@@ -2964,7 +2964,7 @@
     ]
   },
   {
-    "id": "03§12",
+    "id": "03-12",
     "title": "The Beginning of Christ's Ministry and His Teaching in Nazareth",
     "features": [
       "phonic",
@@ -2982,7 +2982,7 @@
     ]
   },
   {
-    "id": "03§13a",
+    "id": "03-13a",
     "title": "Healing of a Demoniac",
     "features": [
       "phonic",
@@ -3000,7 +3000,7 @@
     ]
   },
   {
-    "id": "03§13b",
+    "id": "03-13b",
     "title": "Jesus Heals Many",
     "features": [
       "phonic",
@@ -3018,7 +3018,7 @@
     ]
   },
   {
-    "id": "03§14",
+    "id": "03-14",
     "title": "The Miraculous Draught of Fishes and the Call of the First Disciples",
     "features": [
       "phonic",
@@ -3036,7 +3036,7 @@
     ]
   },
   {
-    "id": "03§15a",
+    "id": "03-15a",
     "title": "The Healing of a Leper",
     "features": [
       "phonic",
@@ -3054,7 +3054,7 @@
     ]
   },
   {
-    "id": "03§15b",
+    "id": "03-15b",
     "title": "The Healing of a Paralytic",
     "features": [
       "phonic",
@@ -3072,7 +3072,7 @@
     ]
   },
   {
-    "id": "03§16",
+    "id": "03-16",
     "title": "The Call of Levi and the Discourse Concerning Christ's Ministry",
     "features": [
       "phonic",
@@ -3090,7 +3090,7 @@
     ]
   },
   {
-    "id": "03§17",
+    "id": "03-17",
     "title": "Disputes Concerning Sabbath Observance",
     "features": [
       "phonic",
@@ -3108,12 +3108,12 @@
     ]
   },
   {
-    "id": "03§18",
+    "id": "03-18",
     "title": "The Twelve Apostles",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "03§19",
+    "id": "03-19",
     "title": "Miracles of Healing and Preaching",
     "features": [
       "phonic",
@@ -3131,7 +3131,7 @@
     ]
   },
   {
-    "id": "03§20",
+    "id": "03-20",
     "title": "The Centurion of Capernaum",
     "features": [
       "phonic",
@@ -3149,7 +3149,7 @@
     ]
   },
   {
-    "id": "03§21",
+    "id": "03-21",
     "title": "Raising of the Widow's Son",
     "features": [
       "phonic",
@@ -3167,7 +3167,7 @@
     ]
   },
   {
-    "id": "03§22",
+    "id": "03-22",
     "title": "The Embassy of John the Baptist",
     "features": [
       "phonic",
@@ -3185,7 +3185,7 @@
     ]
   },
   {
-    "id": "03§23",
+    "id": "03-23",
     "title": "The First Anointing of Jesus",
     "features": [
       "phonic",
@@ -3203,7 +3203,7 @@
     ]
   },
   {
-    "id": "03§24a",
+    "id": "03-24a",
     "title": "Teaching in Parables",
     "features": [
       "phonic",
@@ -3221,7 +3221,7 @@
     ]
   },
   {
-    "id": "03§24b",
+    "id": "03-24b",
     "title": "Jesus' Mother and Brothers",
     "features": [
       "phonic",
@@ -3239,7 +3239,7 @@
     ]
   },
   {
-    "id": "03§25",
+    "id": "03-25",
     "title": "The Storm on the Sea",
     "features": [
       "phonic",
@@ -3257,7 +3257,7 @@
     ]
   },
   {
-    "id": "03§26",
+    "id": "03-26",
     "title": "In the Country of the Gadarenes",
     "features": [
       "phonic",
@@ -3275,7 +3275,7 @@
     ]
   },
   {
-    "id": "03§27",
+    "id": "03-27",
     "title": "The Woman with an Issue and the Daughter of Jairus",
     "features": [
       "phonic",
@@ -3293,7 +3293,7 @@
     ]
   },
   {
-    "id": "03§28a",
+    "id": "03-28a",
     "title": "The Mission of the Twelve",
     "features": [
       "phonic",
@@ -3311,7 +3311,7 @@
     ]
   },
   {
-    "id": "03§28b",
+    "id": "03-28b",
     "title": "Herod Hears about Jesus",
     "features": [
       "phonic",
@@ -3329,7 +3329,7 @@
     ]
   },
   {
-    "id": "03§29",
+    "id": "03-29",
     "title": "The Feeding of the Five Thousand",
     "features": [
       "phonic",
@@ -3347,7 +3347,7 @@
     ]
   },
   {
-    "id": "03§30",
+    "id": "03-30",
     "title": "Peter's Confession and Christ's Answer",
     "features": [
       "phonic",
@@ -3365,7 +3365,7 @@
     ]
   },
   {
-    "id": "03§31",
+    "id": "03-31",
     "title": "The Transfiguration",
     "features": [
       "phonic",
@@ -3383,7 +3383,7 @@
     ]
   },
   {
-    "id": "03§32",
+    "id": "03-32",
     "title": "The Healing of the Epileptic Boy",
     "features": [
       "phonic",
@@ -3401,7 +3401,7 @@
     ]
   },
   {
-    "id": "03§33",
+    "id": "03-33",
     "title": "Lessons in Humility",
     "features": [
       "phonic",
@@ -3419,7 +3419,7 @@
     ]
   },
   {
-    "id": "03§34a",
+    "id": "03-34a",
     "title": "Opposition in Samaria",
     "features": [
       "phonic",
@@ -3437,7 +3437,7 @@
     ]
   },
   {
-    "id": "03§34b",
+    "id": "03-34b",
     "title": "True Discipleship of Christ",
     "features": [
       "phonic",
@@ -3455,7 +3455,7 @@
     ]
   },
   {
-    "id": "03§35",
+    "id": "03-35",
     "title": "The Mission of the Seventy",
     "features": [
       "phonic",
@@ -3473,7 +3473,7 @@
     ]
   },
   {
-    "id": "03§36",
+    "id": "03-36",
     "title": "The Good Samaritan",
     "features": [
       "phonic",
@@ -3491,7 +3491,7 @@
     ]
   },
   {
-    "id": "03§37",
+    "id": "03-37",
     "title": "Mary and Martha",
     "features": [
       "phonic",
@@ -3509,7 +3509,7 @@
     ]
   },
   {
-    "id": "03§38",
+    "id": "03-38",
     "title": "A Lesson in Prayer",
     "features": [
       "phonic",
@@ -3527,7 +3527,7 @@
     ]
   },
   {
-    "id": "03§39 03§40",
+    "id": "03-39 03-40",
     "title": "Christ Casts Out a Demon and Rebukes The Generation",
     "features": [
       "phonic",
@@ -3545,7 +3545,7 @@
     ]
   },
   {
-    "id": "03§41",
+    "id": "03-41",
     "title": "Woes upon the Pharisees and Lawyers",
     "features": [
       "phonic",
@@ -3563,7 +3563,7 @@
     ]
   },
   {
-    "id": "03§42 03§43 03§44",
+    "id": "03-42 03-43 03-44",
     "title": "The Teaching of the Kingdom",
     "features": [
       "phonic",
@@ -3581,7 +3581,7 @@
     ]
   },
   {
-    "id": "03§45",
+    "id": "03-45",
     "title": "The Crippled Woman Healed",
     "features": [
       "phonic",
@@ -3599,7 +3599,7 @@
     ]
   },
   {
-    "id": "03§46a",
+    "id": "03-46a",
     "title": "Few Are Saved",
     "features": [
       "phonic",
@@ -3617,7 +3617,7 @@
     ]
   },
   {
-    "id": "03§46b",
+    "id": "03-46b",
     "title": "Some Pharisees Warn Jesus",
     "features": [
       "phonic",
@@ -3635,7 +3635,7 @@
     ]
   },
   {
-    "id": "03§47 03§48",
+    "id": "03-47 03-48",
     "title": "Christ the Guest of a Pharisee",
     "features": [
       "phonic",
@@ -3653,7 +3653,7 @@
     ]
   },
   {
-    "id": "03§49",
+    "id": "03-49",
     "title": "The Obligations of Christ's Discipleship",
     "features": [
       "phonic",
@@ -3671,7 +3671,7 @@
     ]
   },
   {
-    "id": "03§50 03§51 03§52 03§53 03§54",
+    "id": "03-50 03-51 03-52 03-53 03-54",
     "title": "Parables and Teaching",
     "features": [
       "phonic",
@@ -3689,7 +3689,7 @@
     ]
   },
   {
-    "id": "03§55",
+    "id": "03-55",
     "title": "The Ten Lepers",
     "features": [
       "phonic",
@@ -3707,7 +3707,7 @@
     ]
   },
   {
-    "id": "03§56",
+    "id": "03-56",
     "title": "Concerning the Kingdom of God and the Coming of Christ",
     "features": [
       "phonic",
@@ -3725,7 +3725,7 @@
     ]
   },
   {
-    "id": "03§57",
+    "id": "03-57",
     "title": "The Unjust Judge",
     "features": [
       "phonic",
@@ -3743,7 +3743,7 @@
     ]
   },
   {
-    "id": "03§58",
+    "id": "03-58",
     "title": "The Pharisee and the Publican",
     "features": [
       "phonic",
@@ -3761,7 +3761,7 @@
     ]
   },
   {
-    "id": "03§59",
+    "id": "03-59",
     "title": "Christ Blesses Little Children",
     "features": [
       "phonic",
@@ -3779,7 +3779,7 @@
     ]
   },
   {
-    "id": "03§60",
+    "id": "03-60",
     "title": "Denying All for Christ's Sake",
     "features": [
       "phonic",
@@ -3797,7 +3797,7 @@
     ]
   },
   {
-    "id": "03§61",
+    "id": "03-61",
     "title": "The Lord's Third Prediction of His Passion",
     "features": [
       "phonic",
@@ -3815,7 +3815,7 @@
     ]
   },
   {
-    "id": "03§62",
+    "id": "03-62",
     "title": "The Blind Man of Jericho",
     "features": [
       "phonic",
@@ -3833,7 +3833,7 @@
     ]
   },
   {
-    "id": "03§63",
+    "id": "03-63",
     "title": "Zacchaeus the Publican",
     "features": [
       "phonic",
@@ -3851,7 +3851,7 @@
     ]
   },
   {
-    "id": "03§64",
+    "id": "03-64",
     "title": "The Parable of the Talents",
     "features": [
       "phonic",
@@ -3869,7 +3869,7 @@
     ]
   },
   {
-    "id": "03§65a",
+    "id": "03-65a",
     "title": "Jesus Procures a Donkey",
     "features": [
       "phonic",
@@ -3887,7 +3887,7 @@
     ]
   },
   {
-    "id": "03§65b",
+    "id": "03-65b",
     "title": "Christ's Entry into Jerusalem",
     "features": [
       "phonic",
@@ -3905,7 +3905,7 @@
     ]
   },
   {
-    "id": "03§65c",
+    "id": "03-65c",
     "title": "Cleansing the Temple",
     "features": [
       "phonic",
@@ -3923,7 +3923,7 @@
     ]
   },
   {
-    "id": "03§66a",
+    "id": "03-66a",
     "title": "The Authority of Jesus",
     "features": [
       "phonic",
@@ -3941,7 +3941,7 @@
     ]
   },
   {
-    "id": "03§66b",
+    "id": "03-66b",
     "title": "Parable of the Wicked Tenants",
     "features": [
       "phonic",
@@ -3959,7 +3959,7 @@
     ]
   },
   {
-    "id": "03§67a",
+    "id": "03-67a",
     "title": "The Pharisees Confounded",
     "features": [
       "phonic",
@@ -3977,7 +3977,7 @@
     ]
   },
   {
-    "id": "03§67b",
+    "id": "03-67b",
     "title": "The Sadducees Confounded",
     "features": [
       "phonic",
@@ -3995,7 +3995,7 @@
     ]
   },
   {
-    "id": "03§68",
+    "id": "03-68",
     "title": "Devouring Widows Houses",
     "features": [
       "phonic",
@@ -4013,7 +4013,7 @@
     ]
   },
   {
-    "id": "03§69",
+    "id": "03-69",
     "title": "The Destruction of Jerusalem and the End of the World",
     "features": [
       "phonic",
@@ -4031,12 +4031,12 @@
     ]
   },
   {
-    "id": "03§70a",
+    "id": "03-70a",
     "title": "Judas Agrees to Betray Jesus",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "03§71",
+    "id": "03-71",
     "title": "The Preparation for; and the Celebration of; the Passover",
     "features": [
       "phonic",
@@ -4054,7 +4054,7 @@
     ]
   },
   {
-    "id": "03§72a",
+    "id": "03-72a",
     "title": "The Walk to Gethsemane and the Agony",
     "features": [
       "phonic",
@@ -4072,7 +4072,7 @@
     ]
   },
   {
-    "id": "03§72b",
+    "id": "03-72b",
     "title": "Jesus Arrested",
     "features": [
       "phonic",
@@ -4090,7 +4090,7 @@
     ]
   },
   {
-    "id": "03§73a",
+    "id": "03-73a",
     "title": "The Denial of Peter",
     "features": [
       "phonic",
@@ -4108,7 +4108,7 @@
     ]
   },
   {
-    "id": "03§73b",
+    "id": "03-73b",
     "title": "The Guards Mistreat Jesus",
     "features": [
       "phonic",
@@ -4126,7 +4126,7 @@
     ]
   },
   {
-    "id": "03§73c",
+    "id": "03-73c",
     "title": "Christ before the Council of the Elders",
     "features": [
       "phonic",
@@ -4144,7 +4144,7 @@
     ]
   },
   {
-    "id": "03§74",
+    "id": "03-74",
     "title": "The Trial Before Pilate",
     "features": [
       "phonic",
@@ -4162,7 +4162,7 @@
     ]
   },
   {
-    "id": "03§75a",
+    "id": "03-75a",
     "title": "The Crucifixion and Death of Christ",
     "features": [
       "phonic",
@@ -4179,9 +4179,9 @@
       "non-institutional-or-neutralized"
     ]
   },
-  { "id": "03§75b", "title": "Jesus Buried", "features": ["no embedded discourse"]},
+  { "id": "03-75b", "title": "Jesus Buried", "features": ["no embedded discourse"]},
   {
-    "id": "03§76",
+    "id": "03-76",
     "title": "The Resurrection of Christ",
     "features": [
       "phonic",
@@ -4199,7 +4199,7 @@
     ]
   },
   {
-    "id": "03§77 03§78",
+    "id": "03-77 03-78",
     "title": "The Emmaus Disciples and the Last Appearances of Christ",
     "features": [
       "phonic",
@@ -4217,7 +4217,7 @@
     ]
   },
   {
-    "id": "04§01",
+    "id": "04-01",
     "title": "The Word Became Flesh",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -4235,7 +4235,7 @@
     ]
   },
   {
-    "id": "04§02",
+    "id": "04-02",
     "title": "The Pharisees Question John the Baptist",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -4253,7 +4253,7 @@
     ]
   },
   {
-    "id": "04§03",
+    "id": "04-03",
     "title": "John Meets Jesus",
     "features": [
       "conceptual-ie-internally-oriented",
@@ -4271,7 +4271,7 @@
     ]
   },
   {
-    "id": "04§04a",
+    "id": "04-04a",
     "title": "The First Disciples of Jesus",
     "features": [
       "asserting",
@@ -4289,7 +4289,7 @@
     ]
   },
   {
-    "id": "04§04b",
+    "id": "04-04b",
     "title": "Jesus Calls Philip and Nathaniel",
     "features": [
       "asserting",
@@ -4307,7 +4307,7 @@
     ]
   },
   {
-    "id": "04§05",
+    "id": "04-05",
     "title": "The Marriage at Cana",
     "features": [
       "phonic",
@@ -4325,7 +4325,7 @@
     ]
   },
   {
-    "id": "04§06",
+    "id": "04-06",
     "title": "The Purging of the Temple and Its Results",
     "features": [
       "phonic",
@@ -4343,7 +4343,7 @@
     ]
   },
   {
-    "id": "04§07",
+    "id": "04-07",
     "title": "The Visit of Nicodemus",
     "features": [
       "phonic",
@@ -4361,7 +4361,7 @@
     ]
   },
   {
-    "id": "04§08",
+    "id": "04-08",
     "title": "John's Second Testimony of Christ",
     "features": [
       "phonic",
@@ -4379,7 +4379,7 @@
     ]
   },
   {
-    "id": "04§09a",
+    "id": "04-09a",
     "title": "Christ and the Woman of Samaria",
     "features": [
       "phonic",
@@ -4397,7 +4397,7 @@
     ]
   },
   {
-    "id": "04§09b",
+    "id": "04-09b",
     "title": "The Samaritans Believe",
     "features": [
       "phonic",
@@ -4415,7 +4415,7 @@
     ]
   },
   {
-    "id": "04§10",
+    "id": "04-10",
     "title": "The Healing of the Nobleman's Son",
     "features": [
       "phonic",
@@ -4433,7 +4433,7 @@
     ]
   },
   {
-    "id": "04§11",
+    "id": "04-11",
     "title": "The Sick Man of Bethesda",
     "features": [
       "phonic",
@@ -4451,7 +4451,7 @@
     ]
   },
   {
-    "id": "04§12 04§13",
+    "id": "04-12 04-13",
     "title": "Jesus Defends Himself Against Jews Persecuting Him",
     "features": [
       "phonic",
@@ -4469,7 +4469,7 @@
     ]
   },
   {
-    "id": "04§14",
+    "id": "04-14",
     "title": "The Feeding of the Five Thousand",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -4487,7 +4487,7 @@
     ]
   },
   {
-    "id": "04§15",
+    "id": "04-15",
     "title": "Christ Walks on the Sea",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -4505,7 +4505,7 @@
     ]
   },
   {
-    "id": "04§16 04§17",
+    "id": "04-16 04-17",
     "title": "Christ the Bread of Life",
     "features": [
       "phonic",
@@ -4523,7 +4523,7 @@
     ]
   },
   {
-    "id": "04§18a",
+    "id": "04-18a",
     "title": "The Unbelief of Christ's Brothers",
     "features": [
       "phonic",
@@ -4541,7 +4541,7 @@
     ]
   },
   {
-    "id": "04§18b",
+    "id": "04-18b",
     "title": "Jesus Is Sought at the Festival",
     "features": [
       "phonic",
@@ -4559,7 +4559,7 @@
     ]
   },
   {
-    "id": "04§18c",
+    "id": "04-18c",
     "title": "Jesus at the Festival",
     "features": [
       "phonic",
@@ -4577,7 +4577,7 @@
     ]
   },
   {
-    "id": "04§18d",
+    "id": "04-18d",
     "title": "The Jewish Elites Disbelieve",
     "features": [
       "phonic",
@@ -4595,7 +4595,7 @@
     ]
   },
   {
-    "id": "04§19",
+    "id": "04-19",
     "title": "The Woman Taken in Adultery",
     "features": [
       "phonic",
@@ -4613,7 +4613,7 @@
     ]
   },
   {
-    "id": "04§20 04§21",
+    "id": "04-20 04-21",
     "title": "Jesus the Light of the World",
     "features": [
       "phonic",
@@ -4631,7 +4631,7 @@
     ]
   },
   {
-    "id": "04§22",
+    "id": "04-22",
     "title": "Healing of the Man That was Born Blind",
     "features": [
       "practical-ie-outwardly-oriented",
@@ -4649,7 +4649,7 @@
     ]
   },
   {
-    "id": "04§23",
+    "id": "04-23",
     "title": "Jesus the Good Shepherd",
     "features": [
       "phonic",
@@ -4667,7 +4667,7 @@
     ]
   },
   {
-    "id": "04§24a",
+    "id": "04-24a",
     "title": "Christ's Sermon at the Feast of Dedication",
     "features": [
       "phonic",
@@ -4685,7 +4685,7 @@
     ]
   },
   {
-    "id": "04§24b",
+    "id": "04-24b",
     "title": "Jesus Returns to the Other Side of the Jordan",
     "features": [
       "phonic",
@@ -4703,7 +4703,7 @@
     ]
   },
   {
-    "id": "04§25a",
+    "id": "04-25a",
     "title": "Jesus Hears of Lazarus",
     "features": [
       "phonic",
@@ -4721,7 +4721,7 @@
     ]
   },
   {
-    "id": "04§25b",
+    "id": "04-25b",
     "title": "Martha Confronts Jesus",
     "features": [
       "phonic",
@@ -4739,7 +4739,7 @@
     ]
   },
   {
-    "id": "04§25c",
+    "id": "04-25c",
     "title": "Jesus at the Tomb of Lazarus",
     "features": [
       "phonic",
@@ -4757,7 +4757,7 @@
     ]
   },
   {
-    "id": "04§26a",
+    "id": "04-26a",
     "title": "The Council concerning Christ's Removal",
     "features": [
       "phonic",
@@ -4775,7 +4775,7 @@
     ]
   },
   {
-    "id": "04§26b",
+    "id": "04-26b",
     "title": "Many Seek Jesus at the Festival",
     "features": [
       "phonic",
@@ -4793,7 +4793,7 @@
     ]
   },
   {
-    "id": "04§27",
+    "id": "04-27",
     "title": "The Anointing of Jesus",
     "features": [
       "phonic",
@@ -4811,7 +4811,7 @@
     ]
   },
   {
-    "id": "04§28",
+    "id": "04-28",
     "title": "Christ's Entry into Jerusalem",
     "features": [
       "phonic",
@@ -4829,7 +4829,7 @@
     ]
   },
   {
-    "id": "04§29 04§30 04§31",
+    "id": "04-29 04-30 04-31",
     "title": "Some Greeks Seek Jesus but Many Disbelieve",
     "features": [
       "phonic",
@@ -4847,7 +4847,7 @@
     ]
   },
   {
-    "id": "04§32",
+    "id": "04-32",
     "title": "Jesus Washes the Disciples' Feet",
     "features": [
       "phonic",
@@ -4865,7 +4865,7 @@
     ]
   },
   {
-    "id": "04§33",
+    "id": "04-33",
     "title": "Jesus Reveals His Betrayor",
     "features": [
       "phonic",
@@ -4883,7 +4883,7 @@
     ]
   },
   {
-    "id": "04§34 04§35 04§36 04§37 04§38 04§39 04§40 04§41",
+    "id": "04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41",
     "title": "Jesus Teaches at the Last Supper",
     "features": [
       "phonic",
@@ -4901,7 +4901,7 @@
     ]
   },
   {
-    "id": "04§42",
+    "id": "04-42",
     "title": "Christ's Great Sacerdotal Prayer",
     "features": [
       "phonic",
@@ -4919,7 +4919,7 @@
     ]
   },
   {
-    "id": "04§43",
+    "id": "04-43",
     "title": "The Arrest of Jesus",
     "features": [
       "phonic",
@@ -4937,7 +4937,7 @@
     ]
   },
   {
-    "id": "04§44a",
+    "id": "04-44a",
     "title": "Peter's First Denial",
     "features": [
       "phonic",
@@ -4955,7 +4955,7 @@
     ]
   },
   {
-    "id": "04§44b",
+    "id": "04-44b",
     "title": "The High Priest Questions Jesus",
     "features": [
       "phonic",
@@ -4973,7 +4973,7 @@
     ]
   },
   {
-    "id": "04§44c",
+    "id": "04-44c",
     "title": "Peter's Second and Third Denials",
     "features": [
       "phonic",
@@ -4991,7 +4991,7 @@
     ]
   },
   {
-    "id": "04§45 04§46",
+    "id": "04-45 04-46",
     "title": "The Trial Before Pilate",
     "features": [
       "phonic",
@@ -5009,7 +5009,7 @@
     ]
   },
   {
-    "id": "04§47a",
+    "id": "04-47a",
     "title": "The Jews Protest Pilate's Sign",
     "features": [
       "opposing",
@@ -5027,7 +5027,7 @@
     ]
   },
   {
-    "id": "04§47b",
+    "id": "04-47b",
     "title": "The Soldiers Divide Jesus's Clothes",
     "features": [
       "institutional",
@@ -5045,7 +5045,7 @@
     ]
   },
   {
-    "id": "04§47c",
+    "id": "04-47c",
     "title": "Jesus Entrusts His Mother and Dies",
     "features": [
       "institutional",
@@ -5063,12 +5063,12 @@
     ]
   },
   {
-    "id": "04§48",
+    "id": "04-48",
     "title": "The Burial of Jesus",
     "features": ["no embedded discourse"]
   },
   {
-    "id": "04§49",
+    "id": "04-49",
     "title": "Easter Morning",
     "features": [
       "phonic",
@@ -5086,7 +5086,7 @@
     ]
   },
   {
-    "id": "04§50a",
+    "id": "04-50a",
     "title": "The Appearance to the Hidden Disciples",
     "features": [
       "phonic",
@@ -5104,7 +5104,7 @@
     ]
   },
   {
-    "id": "04§50b",
+    "id": "04-50b",
     "title": "The Appearance to Thomas",
     "features": [
       "phonic",
@@ -5122,7 +5122,7 @@
     ]
   },
   {
-    "id": "04§51",
+    "id": "04-51",
     "title": "The Appearance of Christ at the Sea of Tiberias",
     "features": [
       "phonic",
@@ -5140,7 +5140,7 @@
     ]
   },
   {
-    "id": "04§52",
+    "id": "04-52",
     "title": "The Test of Peter's Love",
     "features": [
       "phonic",

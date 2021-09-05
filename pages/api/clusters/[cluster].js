@@ -29,7 +29,7 @@ const handler = (req, res) => {
   let selectedEpisodeFeatures = []
   try {
     const selectedDimensionValues = selectedEpisodes.map((episode) => {
-      const episodeID = episode.section.split('-').join('§').split(' ');
+      const episodeID = episode.section.split('-').join('-').split(' ');
       const dimensionValuesForEpisode = dimensionScoresByEpisode.find(
         (dimensions) => episodeID.some(id => dimensions.episodeId.split(' ').includes(id)),
       );

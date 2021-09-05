@@ -65,7 +65,7 @@ const Graph = (props: GraphProps) => {
         //   onNodeClick={(node: GraphNode) => {
         //     const nodeTitle = node.id
         //       .split(' ')
-        //       .filter((idSection) => !idSection.includes('§'))
+        //       .filter((idSection) => !idSection.includes('-'))
         //       .join(' ');
         //     const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
         //       { string: nodeTitle },
@@ -138,7 +138,7 @@ const Graph = (props: GraphProps) => {
         //   onNodeClick={(node: GraphNode) => {
         //     const nodeTitle = node.id
         //       .split(' ')
-        //       .filter((idSection) => !idSection.includes('§'))
+        //       .filter((idSection) => !idSection.includes('-'))
         //       .join(' ');
         //     const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
         //       { string: nodeTitle },

@@ -1,6 +1,6 @@
 [
   {
-    "episodeId": "04§44c Peter's Second and Third Denials",
+    "episodeId": "04-44c Peter's Second and Third Denials",
     "dim_1": 3.07,
     "dim_2": 2.43,
     "dim_3": -0.07,
@@ -22,7 +22,7 @@
     "dim_19": -0.4
   },
   {
-    "episodeId": "02§17 Death of John the Baptist",
+    "episodeId": "02-17 Death of John the Baptist",
     "dim_1": -2.36,
     "dim_2": 3.15,
     "dim_3": 0.86,
@@ -44,7 +44,7 @@
     "dim_19": 0.02
   },
   {
-    "episodeId": "04§18b Jesus Is Sought at the Festival",
+    "episodeId": "04-18b Jesus Is Sought at the Festival",
     "dim_1": 2.84,
     "dim_2": 2.61,
     "dim_3": -0.57,
@@ -66,7 +66,7 @@
     "dim_19": -0.17
   },
   {
-    "episodeId": "03§73a The Denial of Peter",
+    "episodeId": "03-73a The Denial of Peter",
     "dim_1": 3.06,
     "dim_2": 2.48,
     "dim_3": 0.13,
@@ -88,7 +88,7 @@
     "dim_19": 0.29
   },
   {
-    "episodeId": "01§86d Judas Bargains for Jesus",
+    "episodeId": "01-86d Judas Bargains for Jesus",
     "dim_1": -2.77,
     "dim_2": 0.07,
     "dim_3": 1.48,
@@ -110,7 +110,7 @@
     "dim_19": 1.43
   },
   {
-    "episodeId": "04§25a Jesus Hears of Lazarus",
+    "episodeId": "04-25a Jesus Hears of Lazarus",
     "dim_1": -1.45,
     "dim_2": 0.01,
     "dim_3": -1.62,
@@ -132,7 +132,7 @@
     "dim_19": 0.14
   },
   {
-    "episodeId": "02§48 The Denial of Peter",
+    "episodeId": "02-48 The Denial of Peter",
     "dim_1": 2.34,
     "dim_2": 0.84,
     "dim_3": 0.46,
@@ -154,7 +154,7 @@
     "dim_19": -0.68
   },
   {
-    "episodeId": "02§35 The Healing of Bartimaeus",
+    "episodeId": "02-35 The Healing of Bartimaeus",
     "dim_1": -2.16,
     "dim_2": 2.84,
     "dim_3": 3.09,
@@ -176,7 +176,7 @@
     "dim_19": 0.17
   },
   {
-    "episodeId": "02§47 The Trial Before the High Priest",
+    "episodeId": "02-47 The Trial Before the High Priest",
     "dim_1": -0.2,
     "dim_2": 2.17,
     "dim_3": 0.97,
@@ -198,7 +198,7 @@
     "dim_19": -0.72
   },
   {
-    "episodeId": "01§90b The Denial of Peter",
+    "episodeId": "01-90b The Denial of Peter",
     "dim_1": 2.71,
     "dim_2": 2.31,
     "dim_3": -0.49,
@@ -220,7 +220,7 @@
     "dim_19": -0.69
   },
   {
-    "episodeId": "01§90a The Trial Before Caiaphas",
+    "episodeId": "01-90a The Trial Before Caiaphas",
     "dim_1": -0.17,
     "dim_2": 1.23,
     "dim_3": 1.44,
@@ -242,7 +242,7 @@
     "dim_19": -1.65
   },
   {
-    "episodeId": "02§44b The Celebration of the Passover",
+    "episodeId": "02-44b The Celebration of the Passover",
     "dim_1": -1.03,
     "dim_2": 0.1,
     "dim_3": -2.38,
@@ -264,7 +264,7 @@
     "dim_19": -0.46
   },
   {
-    "episodeId": "01§03 The Wise Men from the East",
+    "episodeId": "01-03 The Wise Men from the East",
     "dim_1": -2.36,
     "dim_2": -0.07,
     "dim_3": 1.62,
@@ -286,7 +286,7 @@
     "dim_19": -0.73
   },
   {
-    "episodeId": "03§27 The Woman with an Issue and the Daughter of Jairus",
+    "episodeId": "03-27 The Woman with an Issue and the Daughter of Jairus",
     "dim_1": -1.58,
     "dim_2": 3.16,
     "dim_3": 3.16,
@@ -308,7 +308,7 @@
     "dim_19": 0.22
   },
   {
-    "episodeId": "04§22 Healing of the Man That was Born Blind",
+    "episodeId": "04-22 Healing of the Man That was Born Blind",
     "dim_1": -0.01,
     "dim_2": 2.69,
     "dim_3": 1.1,
@@ -330,7 +330,7 @@
     "dim_19": -0.76
   },
   {
-    "episodeId": "01§53 Christ's First Prophecy Concerning His Passion",
+    "episodeId": "01-53 Christ's First Prophecy Concerning His Passion",
     "dim_1": 0.28,
     "dim_2": -0.53,
     "dim_3": -3.16,
@@ -352,7 +352,7 @@
     "dim_19": 0.48
   },
   {
-    "episodeId": "01§08a The Beginning of the Galilean Ministry",
+    "episodeId": "01-08a The Beginning of the Galilean Ministry",
     "dim_1": 0.54,
     "dim_2": -1.38,
     "dim_3": 2.95,
@@ -374,7 +374,7 @@
     "dim_19": 0.08
   },
   {
-    "episodeId": "04§05 The Marriage at Cana",
+    "episodeId": "04-05 The Marriage at Cana",
     "dim_1": -2.44,
     "dim_2": 2.82,
     "dim_3": 1.42,
@@ -396,7 +396,7 @@
     "dim_19": -0.32
   },
   {
-    "episodeId": "01§56b Christ Pays the Temple-Tax",
+    "episodeId": "01-56b Christ Pays the Temple-Tax",
     "dim_1": -2.82,
     "dim_2": 1.9,
     "dim_3": 0.33,
@@ -418,7 +418,7 @@
     "dim_19": 0.45
   },
   {
-    "episodeId": "04§33 Jesus Reveals His Betrayor",
+    "episodeId": "04-33 Jesus Reveals His Betrayor",
     "dim_1": -2.13,
     "dim_2": -0.04,
     "dim_3": -2.16,
@@ -440,7 +440,7 @@
     "dim_19": -0.39
   },
   {
-    "episodeId": "04§11 The Sick Man of Bethesda",
+    "episodeId": "04-11 The Sick Man of Bethesda",
     "dim_1": -1.12,
     "dim_2": 2.78,
     "dim_3": 1.49,
@@ -462,7 +462,7 @@
     "dim_19": -0.46
   },
   {
-    "episodeId": "01§47 A Lesson Concerning Defilement",
+    "episodeId": "01-47 A Lesson Concerning Defilement",
     "dim_1": 1.8,
     "dim_2": 1.88,
     "dim_3": -1.94,
@@ -484,7 +484,7 @@
     "dim_19": -0.28
   },
   {
-    "episodeId": "02§43a The Teachers of the Law Scheme",
+    "episodeId": "02-43a The Teachers of the Law Scheme",
     "dim_1": -0.9,
     "dim_2": -0.56,
     "dim_3": -1.16,
@@ -506,7 +506,7 @@
     "dim_19": 1.29
   },
   {
-    "episodeId": "03§09 The Ministry of John the Baptist",
+    "episodeId": "03-09 The Ministry of John the Baptist",
     "dim_1": 1.23,
     "dim_2": 2.22,
     "dim_3": 1.86,
@@ -528,7 +528,7 @@
     "dim_19": 0.25
   },
   {
-    "episodeId": "03§67 The Sadducees Confounded",
+    "episodeId": "03-67 The Sadducees Confounded",
     "dim_1": 1.62,
     "dim_2": 1.16,
     "dim_3": -0.29,
@@ -550,7 +550,7 @@
     "dim_19": -0.8
   },
   {
-    "episodeId": "04§18d The Jewish Elites Disbelieve",
+    "episodeId": "04-18d The Jewish Elites Disbelieve",
     "dim_1": 0.85,
     "dim_2": 1.53,
     "dim_3": -2.95,
@@ -572,7 +572,7 @@
     "dim_19": 0.34
   },
   {
-    "episodeId": "04§34 04§35 04§36 04§37 04§38 04§39 04§40 04§41 Jesus Teaches at the Last Supper",
+    "episodeId": "04-34 04-35 04-36 04-37 04-38 04-39 04-40 04-41 Jesus Teaches at the Last Supper",
     "dim_1": -0.04,
     "dim_2": -0.58,
     "dim_3": -3.2,
@@ -594,7 +594,7 @@
     "dim_19": -0.28
   },
   {
-    "episodeId": "04§04a The First Disciples of Jesus",
+    "episodeId": "04-04a The First Disciples of Jesus",
     "dim_1": -1.8,
     "dim_2": 2.29,
     "dim_3": 1.66,
@@ -616,7 +616,7 @@
     "dim_19": -0.76
   },
   {
-    "episodeId": "04§29 04§30 04§31 Some Greeks Seek Jesus but Many Disbelieve",
+    "episodeId": "04-29 04-30 04-31 Some Greeks Seek Jesus but Many Disbelieve",
     "dim_1": 0.28,
     "dim_2": -0.82,
     "dim_3": 1.2,
@@ -638,7 +638,7 @@
     "dim_19": -0.22
   },
   {
-    "episodeId": "03§28b Herod Hears about Jesus",
+    "episodeId": "03-28b Herod Hears about Jesus",
     "dim_1": 2.77,
     "dim_2": -0.65,
     "dim_3": 0.6,
@@ -660,7 +660,7 @@
     "dim_19": -0.13
   },
   {
-    "episodeId": "03§06b The Adoration of the Shepherds",
+    "episodeId": "03-06b The Adoration of the Shepherds",
     "dim_1": -2.11,
     "dim_2": -1.8,
     "dim_3": 0.12,
@@ -682,7 +682,7 @@
     "dim_19": -0.88
   },
   {
-    "episodeId": "01§50 The Demand for a Sign",
+    "episodeId": "01-50 The Demand for a Sign",
     "dim_1": 0,
     "dim_2": 0,
     "dim_3": -0.67,
@@ -704,7 +704,7 @@
     "dim_19": 1.19
   },
   {
-    "episodeId": "01§46 Christ Walks on the Sea",
+    "episodeId": "01-46 Christ Walks on the Sea",
     "dim_1": -1.36,
     "dim_2": 2.02,
     "dim_3": -1.2,
@@ -726,7 +726,7 @@
     "dim_19": -0.17
   },
   {
-    "episodeId": "01§25 The Daughter of Jairus",
+    "episodeId": "01-25 The Daughter of Jairus",
     "dim_1": -3.24,
     "dim_2": 1.08,
     "dim_3": 3.04,
@@ -748,7 +748,7 @@
     "dim_19": 0.55
   },
   {
-    "episodeId": "01§52 Christ the Son of the Living God",
+    "episodeId": "01-52 Christ the Son of the Living God",
     "dim_1": 0.84,
     "dim_2": 0.15,
     "dim_3": -3.27,
@@ -770,7 +770,7 @@
     "dim_19": -0.31
   },
   {
-    "episodeId": "01§86a Jesus Predicts Crucifixion",
+    "episodeId": "01-86a Jesus Predicts Crucifixion",
     "dim_1": -0.69,
     "dim_2": -2.76,
     "dim_3": -3.51,
@@ -792,7 +792,7 @@
     "dim_19": 0.96
   },
   {
-    "episodeId": "02§34a Jesus Turns Toward Jerusalem",
+    "episodeId": "02-34a Jesus Turns Toward Jerusalem",
     "dim_1": -0.69,
     "dim_2": -2.76,
     "dim_3": -3.51,
@@ -814,7 +814,7 @@
     "dim_19": 0.96
   },
   {
-    "episodeId": "04§45 04§46 The Trial Before Pilate",
+    "episodeId": "04-45 04-46 The Trial Before Pilate",
     "dim_1": -0.67,
     "dim_2": 2.28,
     "dim_3": 0.91,
@@ -836,7 +836,7 @@
     "dim_19": -0.84
   },
   {
-    "episodeId": "03§74 The Trial Before Pilate",
+    "episodeId": "03-74 The Trial Before Pilate",
     "dim_1": 1.3,
     "dim_2": 2.43,
     "dim_3": 0.2,
@@ -858,7 +858,7 @@
     "dim_19": -1.41
   },
   {
-    "episodeId": "04§04b Jesus Calls Philip and Nathaniel",
+    "episodeId": "04-04b Jesus Calls Philip and Nathaniel",
     "dim_1": -1.08,
     "dim_2": 0.18,
     "dim_3": 1.77,
@@ -880,7 +880,7 @@
     "dim_19": 0.44
   },
   {
-    "episodeId": "03§23 The First Anointing of Jesus",
+    "episodeId": "03-23 The First Anointing of Jesus",
     "dim_1": 1.79,
     "dim_2": 1.64,
     "dim_3": 0.81,
@@ -902,7 +902,7 @@
     "dim_19": 0.3
   },
   {
-    "episodeId": "03§34a Opposition in Samaria",
+    "episodeId": "03-34a Opposition in Samaria",
     "dim_1": 1.42,
     "dim_2": 0.3,
     "dim_3": -1.36,
@@ -924,7 +924,7 @@
     "dim_19": 1.83
   },
   {
-    "episodeId": "01§44 The Death of John the Baptist",
+    "episodeId": "01-44 The Death of John the Baptist",
     "dim_1": -2.22,
     "dim_2": -0.06,
     "dim_3": -0.62,
@@ -946,7 +946,7 @@
     "dim_19": 0.59
   },
   {
-    "episodeId": "01§56a Christ Foretells His Passion",
+    "episodeId": "01-56a Christ Foretells His Passion",
     "dim_1": -2.5,
     "dim_2": -2.38,
     "dim_3": -2.86,
@@ -968,7 +968,7 @@
     "dim_19": 1.97
   },
   {
-    "episodeId": "03§61 The Lord's Third Prediction of His Passion",
+    "episodeId": "03-61 The Lord's Third Prediction of His Passion",
     "dim_1": -2.5,
     "dim_2": -2.38,
     "dim_3": -2.86,
@@ -990,7 +990,7 @@
     "dim_19": 1.97
   },
   {
-    "episodeId": "02§33 The Rich Young Man",
+    "episodeId": "02-33 The Rich Young Man",
     "dim_1": 0.98,
     "dim_2": 0.32,
     "dim_3": -1.41,
@@ -1012,7 +1012,7 @@
     "dim_19": -0.42
   },
   {
-    "episodeId": "02§10b Discourse on the Casting Out of Demons",
+    "episodeId": "02-10b Discourse on the Casting Out of Demons",
     "dim_1": 3.41,
     "dim_2": 2.31,
     "dim_3": 0.25,
@@ -1034,7 +1034,7 @@
     "dim_19": -0.03
   },
   {
-    "episodeId": "03§65b Christ's Entry into Jerusalem",
+    "episodeId": "03-65b Christ's Entry into Jerusalem",
     "dim_1": 1.15,
     "dim_2": 1.8,
     "dim_3": 0.61,
@@ -1056,7 +1056,7 @@
     "dim_19": -1.03
   },
   {
-    "episodeId": "02§53 The Appearances and the Ascension of Jesus",
+    "episodeId": "02-53 The Appearances and the Ascension of Jesus",
     "dim_1": -2.99,
     "dim_2": -3.56,
     "dim_3": -0.81,
@@ -1078,7 +1078,7 @@
     "dim_19": 0.26
   },
   {
-    "episodeId": "04§18c Jesus at the Festival",
+    "episodeId": "04-18c Jesus at the Festival",
     "dim_1": 2.61,
     "dim_2": 2.2,
     "dim_3": -0.23,
@@ -1100,7 +1100,7 @@
     "dim_19": -0.38
   },
   {
-    "episodeId": "04§44b The High Priest Questions Jesus",
+    "episodeId": "04-44b The High Priest Questions Jesus",
     "dim_1": 0.99,
     "dim_2": 2.71,
     "dim_3": 0.23,
@@ -1122,7 +1122,7 @@
     "dim_19": -1.79
   },
   {
-    "episodeId": "04§10 The Healing of the Nobleman's Son",
+    "episodeId": "04-10 The Healing of the Nobleman's Son",
     "dim_1": -2.17,
     "dim_2": 0.09,
     "dim_3": -0.96,
@@ -1144,7 +1144,7 @@
     "dim_19": -0.56
   },
   {
-    "episodeId": "03§58 The Pharisee and the Publican",
+    "episodeId": "03-58 The Pharisee and the Publican",
     "dim_1": 3.44,
     "dim_2": -4.55,
     "dim_3": 3.16,
@@ -1166,7 +1166,7 @@
     "dim_19": 0.08
   },
   {
-    "episodeId": "01§95b The Soldiers Bribed to Silence",
+    "episodeId": "01-95b The Soldiers Bribed to Silence",
     "dim_1": -2.7,
     "dim_2": -2.92,
     "dim_3": 1.44,
@@ -1188,7 +1188,7 @@
     "dim_19": -1.24
   },
   {
-    "episodeId": "02§11b Teaching the Disciples by Means of Parables",
+    "episodeId": "02-11b Teaching the Disciples by Means of Parables",
     "dim_1": 0.48,
     "dim_2": -2.61,
     "dim_3": -1.43,
@@ -1210,7 +1210,7 @@
     "dim_19": 1.51
   },
   {
-    "episodeId": "04§50 The Appearance to the Hidden Disciples",
+    "episodeId": "04-50 The Appearance to the Hidden Disciples",
     "dim_1": -1.73,
     "dim_2": -1.75,
     "dim_3": -2.08,
@@ -1232,7 +1232,7 @@
     "dim_19": 1.08
   },
   {
-    "episodeId": "03§05 The Birth of John the Baptist and Zechariah's Song",
+    "episodeId": "03-05 The Birth of John the Baptist and Zechariah's Song",
     "dim_1": 1.33,
     "dim_2": 1.24,
     "dim_3": 0.49,
@@ -1254,7 +1254,7 @@
     "dim_19": 0.49
   },
   {
-    "episodeId": "03§60 Denying All for Christ's Sake",
+    "episodeId": "03-60 Denying All for Christ's Sake",
     "dim_1": 0.23,
     "dim_2": -0.07,
     "dim_3": -0.25,
@@ -1276,7 +1276,7 @@
     "dim_19": -0.1
   },
   {
-    "episodeId": "01§02 The Annunciation to Joseph and the Birth of Jesus",
+    "episodeId": "01-02 The Annunciation to Joseph and the Birth of Jesus",
     "dim_1": -2.9,
     "dim_2": -2.66,
     "dim_3": 2.81,
@@ -1298,7 +1298,7 @@
     "dim_19": -0.53
   },
   {
-    "episodeId": "03§75a The Crucifixion and Death of Christ",
+    "episodeId": "03-75a The Crucifixion and Death of Christ",
     "dim_1": 0.62,
     "dim_2": 1.25,
     "dim_3": 1.18,
@@ -1320,7 +1320,7 @@
     "dim_19": -0.79
   },
   {
-    "episodeId": "04§49 Easter Morning",
+    "episodeId": "04-49 Easter Morning",
     "dim_1": -3.64,
     "dim_2": 0.52,
     "dim_3": 0.67,
@@ -1342,7 +1342,7 @@
     "dim_19": 0.37
   },
   {
-    "episodeId": "04§14 The Feeding of the Five Thousand",
+    "episodeId": "04-14 The Feeding of the Five Thousand",
     "dim_1": -1.47,
     "dim_2": 0.6,
     "dim_3": -1.28,
@@ -1364,7 +1364,7 @@
     "dim_19": 0.63
   },
   {
-    "episodeId": "01§87a The Passover Meal",
+    "episodeId": "01-87a The Passover Meal",
     "dim_1": 0.2,
     "dim_2": 0.91,
     "dim_3": -2.43,
@@ -1386,7 +1386,7 @@
     "dim_19": 0.12
   },
   {
-    "episodeId": "04§16 04§17 Christ the Bread of Life",
+    "episodeId": "04-16 04-17 Christ the Bread of Life",
     "dim_1": -0.45,
     "dim_2": 1.01,
     "dim_3": -0.37,
@@ -1408,7 +1408,7 @@
     "dim_19": 0.14
   },
   {
-    "episodeId": "04§24b Jesus Returns to the Other Side of the Jordan",
+    "episodeId": "04-24b Jesus Returns to the Other Side of the Jordan",
     "dim_1": 2.15,
     "dim_2": -3.26,
     "dim_3": 0.98,
@@ -1430,7 +1430,7 @@
     "dim_19": -0.65
   },
   {
-    "episodeId": "04§44a Peter's First Denial",
+    "episodeId": "04-44a Peter's First Denial",
     "dim_1": 3.25,
     "dim_2": 2.51,
     "dim_3": -0.69,
@@ -1452,7 +1452,7 @@
     "dim_19": -0.19
   },
   {
-    "episodeId": "01§65 Christ Again Foretells His Passion",
+    "episodeId": "01-65 Christ Again Foretells His Passion",
     "dim_1": -2.45,
     "dim_2": -4.26,
     "dim_3": -1.91,
@@ -1474,7 +1474,7 @@
     "dim_19": 0.11
   },
   {
-    "episodeId": "01§36a The Lord of Food on the Sabbath",
+    "episodeId": "01-36a The Lord of Food on the Sabbath",
     "dim_1": -0.57,
     "dim_2": 2.57,
     "dim_3": 0.41,
@@ -1496,7 +1496,7 @@
     "dim_19": 0.18
   },
   {
-    "episodeId": "02§29 Casting Out an Unclean Spirit",
+    "episodeId": "02-29 Casting Out an Unclean Spirit",
     "dim_1": -0.56,
     "dim_2": 1.31,
     "dim_3": 0.44,
@@ -1518,7 +1518,7 @@
     "dim_19": 1
   },
   {
-    "episodeId": "01§48 The Syrophoenician Woman",
+    "episodeId": "01-48 The Syrophoenician Woman",
     "dim_1": -0.42,
     "dim_2": 0.83,
     "dim_3": 2.23,
@@ -1540,7 +1540,7 @@
     "dim_19": 1.09
   },
   {
-    "episodeId": "03§41 Woes upon the Pharisees and Lawyers",
+    "episodeId": "03-41 Woes upon the Pharisees and Lawyers",
     "dim_1": 2.17,
     "dim_2": 2.26,
     "dim_3": -0.33,
@@ -1562,7 +1562,7 @@
     "dim_19": 0.57
   },
   {
-    "episodeId": "03§15 The Healing of a Paralytic",
+    "episodeId": "03-15 The Healing of a Paralytic",
     "dim_1": -0.01,
     "dim_2": 3.32,
     "dim_3": 0.52,
@@ -1584,7 +1584,7 @@
     "dim_19": -0.22
   },
   {
-    "episodeId": "01§42a The Parable of the Tares; and Others",
+    "episodeId": "01-42a The Parable of the Tares; and Others",
     "dim_1": 2.52,
     "dim_2": -5.74,
     "dim_3": 3.17,
@@ -1606,7 +1606,7 @@
     "dim_19": -0.07
   },
   {
-    "episodeId": "04§50 The Appearance to Thomas",
+    "episodeId": "04-50 The Appearance to Thomas",
     "dim_1": 0.93,
     "dim_2": 0.87,
     "dim_3": -1.61,
@@ -1628,7 +1628,7 @@
     "dim_19": -0.18
   },
   {
-    "episodeId": "01§66 The Requests of the Sons of Zebedee",
+    "episodeId": "01-66 The Requests of the Sons of Zebedee",
     "dim_1": -0.49,
     "dim_2": -0.84,
     "dim_3": -1.41,
@@ -1650,7 +1650,7 @@
     "dim_19": -0.47
   },
   {
-    "episodeId": "01§77 The Silencing of the Pharisees",
+    "episodeId": "01-77 The Silencing of the Pharisees",
     "dim_1": 2.8,
     "dim_2": 2.32,
     "dim_3": -0.45,
@@ -1672,7 +1672,7 @@
     "dim_19": -0.5
   },
   {
-    "episodeId": "03§59 Christ Blesses Little Children",
+    "episodeId": "03-59 Christ Blesses Little Children",
     "dim_1": 0.17,
     "dim_2": -0.2,
     "dim_3": -1.24,
@@ -1694,7 +1694,7 @@
     "dim_19": 2.63
   },
   {
-    "episodeId": "03§65a Jesus Procures a Donkey",
+    "episodeId": "03-65a Jesus Procures a Donkey",
     "dim_1": -1.54,
     "dim_2": 0.74,
     "dim_3": 0.3,
@@ -1716,7 +1716,7 @@
     "dim_19": 0.28
   },
   {
-    "episodeId": "02§25 The Leaven of the Pharisees",
+    "episodeId": "02-25 The Leaven of the Pharisees",
     "dim_1": 0.32,
     "dim_2": -0.18,
     "dim_3": -3.12,
@@ -1738,7 +1738,7 @@
     "dim_19": 0.71
   },
   {
-    "episodeId": "04§51 The Appearance of Christ at the Sea of Tiberias",
+    "episodeId": "04-51 The Appearance of Christ at the Sea of Tiberias",
     "dim_1": -3.87,
     "dim_2": 0.86,
     "dim_3": -1.04,
@@ -1760,7 +1760,7 @@
     "dim_19": -0.5
   },
   {
-    "episodeId": "04§25c Jesus at the Tomb of Lazarus",
+    "episodeId": "04-25c Jesus at the Tomb of Lazarus",
     "dim_1": -4.13,
     "dim_2": 0.12,
     "dim_3": 0.83,
@@ -1782,7 +1782,7 @@
     "dim_19": 0.97
   },
   {
-    "episodeId": "03§34b True Discipleship of Christ",
+    "episodeId": "03-34b True Discipleship of Christ",
     "dim_1": 0.13,
     "dim_2": 2.55,
     "dim_3": 0.66,
@@ -1804,7 +1804,7 @@
     "dim_19": -1.01
   },
   {
-    "episodeId": "03§42 03§43 03§44 The Teaching of the Kingdom",
+    "episodeId": "03-42 03-43 03-44 The Teaching of the Kingdom",
     "dim_1": 2.82,
     "dim_2": -2.33,
     "dim_3": 2.73,
@@ -1826,7 +1826,7 @@
     "dim_19": -0.72
   },
   {
-    "episodeId": "02§45a Jesus Predicts Peter's Denials",
+    "episodeId": "02-45a Jesus Predicts Peter's Denials",
     "dim_1": 0.91,
     "dim_2": 0.16,
     "dim_3": -3.86,
@@ -1848,7 +1848,7 @@
     "dim_19": -0.06
   },
   {
-    "episodeId": "01§20 The Discipleship of Christ",
+    "episodeId": "01-20 The Discipleship of Christ",
     "dim_1": -0.41,
     "dim_2": 1.32,
     "dim_3": 2.04,
@@ -1870,7 +1870,7 @@
     "dim_19": 0.07
   },
   {
-    "episodeId": "03§02a The Announcement of John the Baptist's Birth",
+    "episodeId": "03-02a The Announcement of John the Baptist's Birth",
     "dim_1": 0.16,
     "dim_2": -1.63,
     "dim_3": -1.72,
@@ -1892,7 +1892,7 @@
     "dim_19": -0.61
   },
   {
-    "episodeId": "03§46b Some Pharisees Warn Jesus",
+    "episodeId": "03-46b Some Pharisees Warn Jesus",
     "dim_1": 0.01,
     "dim_2": -1.04,
     "dim_3": 0.52,
@@ -1914,7 +1914,7 @@
     "dim_19": -0.33
   },
   {
-    "episodeId": "03§57 The Unjust Judge",
+    "episodeId": "03-57 The Unjust Judge",
     "dim_1": 0.4,
     "dim_2": -4.68,
     "dim_3": 0.04,
@@ -1936,7 +1936,7 @@
     "dim_19": -0.06
   },
   {
-    "episodeId": "03§12 The Beginning of Christ's Ministry and His Teaching in Nazareth",
+    "episodeId": "03-12 The Beginning of Christ's Ministry and His Teaching in Nazareth",
     "dim_1": 3.36,
     "dim_2": -2.32,
     "dim_3": 1.6,
@@ -1958,7 +1958,7 @@
     "dim_19": 1.26
   },
   {
-    "episodeId": "02§42 Christ Foretells the Destruction of Jerusalem and the End of the World",
+    "episodeId": "02-42 Christ Foretells the Destruction of Jerusalem and the End of the World",
     "dim_1": -0.62,
     "dim_2": -1.95,
     "dim_3": -2.74,
@@ -1980,7 +1980,7 @@
     "dim_19": -0.64
   },
   {
-    "episodeId": "02§02b The Beginning of His Ministry",
+    "episodeId": "02-02b The Beginning of His Ministry",
     "dim_1": -1.67,
     "dim_2": -0.97,
     "dim_3": 2.35,
@@ -2002,7 +2002,7 @@
     "dim_19": 0.58
   },
   {
-    "episodeId": "01§87b The Institution of the Lord's Supper",
+    "episodeId": "01-87b The Institution of the Lord's Supper",
     "dim_1": -4.29,
     "dim_2": -2.78,
     "dim_3": 0.05,
@@ -2024,7 +2024,7 @@
     "dim_19": -0.45
   },
   {
-    "episodeId": "02§40b The Sadducees Question Jesus About the Resurrection",
+    "episodeId": "02-40b The Sadducees Question Jesus About the Resurrection",
     "dim_1": 2.11,
     "dim_2": 1.71,
     "dim_3": -0.6,
@@ -2046,7 +2046,7 @@
     "dim_19": -0.58
   },
   {
-    "episodeId": "02§27b Jesus the Christ and His Service",
+    "episodeId": "02-27b Jesus the Christ and His Service",
     "dim_1": 0.39,
     "dim_2": -3.06,
     "dim_3": 1,
@@ -2068,7 +2068,7 @@
     "dim_19": -1.06
   },
   {
-    "episodeId": "02§32 Jesus Blesses Little Children",
+    "episodeId": "02-32 Jesus Blesses Little Children",
     "dim_1": -1.83,
     "dim_2": -0.52,
     "dim_3": 2.89,
@@ -2090,7 +2090,7 @@
     "dim_19": -0.52
   },
   {
-    "episodeId": "02§28 The Transfiguration of Jesus",
+    "episodeId": "02-28 The Transfiguration of Jesus",
     "dim_1": -0.42,
     "dim_2": -0.18,
     "dim_3": -2.62,
@@ -2112,7 +2112,7 @@
     "dim_19": -0.47
   },
   {
-    "episodeId": "03§72a The Walk to Gethsemane and the Agony",
+    "episodeId": "03-72a The Walk to Gethsemane and the Agony",
     "dim_1": -3.03,
     "dim_2": -0.97,
     "dim_3": -1.22,
@@ -2134,7 +2134,7 @@
     "dim_19": 0.37
   },
   {
-    "episodeId": "01§69 Christ Visits the Temple",
+    "episodeId": "01-69 Christ Visits the Temple",
     "dim_1": -0.38,
     "dim_2": 1.89,
     "dim_3": 1.95,
@@ -2156,7 +2156,7 @@
     "dim_19": -0.32
   },
   {
-    "episodeId": "02§25 The Pharisees Ask for a Sign",
+    "episodeId": "02-25 The Pharisees Ask for a Sign",
     "dim_1": -0.56,
     "dim_2": 1.29,
     "dim_3": 1.62,
@@ -2178,7 +2178,7 @@
     "dim_19": 0.3
   },
   {
-    "episodeId": "01§24 The Call of Matthew and His Feast",
+    "episodeId": "01-24 The Call of Matthew and His Feast",
     "dim_1": -0.97,
     "dim_2": 1.51,
     "dim_3": 1.47,
@@ -2200,7 +2200,7 @@
     "dim_19": 0.09
   },
   {
-    "episodeId": "01§41a The Parable of the Sower",
+    "episodeId": "01-41a The Parable of the Sower",
     "dim_1": 1.3,
     "dim_2": -4.25,
     "dim_3": 3.13,
@@ -2222,7 +2222,7 @@
     "dim_19": -0.18
   },
   {
-    "episodeId": "01§63 01§64 The Reward of the Apostles; Parable of the Laborers in the Vineyard",
+    "episodeId": "01-63 01-64 The Reward of the Apostles; Parable of the Laborers in the Vineyard",
     "dim_1": 0.33,
     "dim_2": -3.52,
     "dim_3": -2.57,
@@ -2244,7 +2244,7 @@
     "dim_19": -0.64
   },
   {
-    "episodeId": "01§88a On the Way to Gethsemane",
+    "episodeId": "01-88a On the Way to Gethsemane",
     "dim_1": 0.43,
     "dim_2": -0.28,
     "dim_3": -4.34,
@@ -2266,7 +2266,7 @@
     "dim_19": -0.5
   },
   {
-    "episodeId": "01§92 The Trial Before Pilate",
+    "episodeId": "01-92 The Trial Before Pilate",
     "dim_1": 0.86,
     "dim_2": 2.39,
     "dim_3": 0.64,
@@ -2288,7 +2288,7 @@
     "dim_19": -1.16
   },
   {
-    "episodeId": "03§76 The Resurrection of Christ",
+    "episodeId": "03-76 The Resurrection of Christ",
     "dim_1": 0.59,
     "dim_2": -1.29,
     "dim_3": -0.17,
@@ -2310,7 +2310,7 @@
     "dim_19": 0.78
   },
   {
-    "episodeId": "01§57 01§58 01§59 The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
+    "episodeId": "01-57 01-58 01-59 The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
     "dim_1": 1.3,
     "dim_2": -2.68,
     "dim_3": -2.47,
@@ -2332,7 +2332,7 @@
     "dim_19": -0.21
   },
   {
-    "episodeId": "02§01 The Ministry of John the Baptist",
+    "episodeId": "02-01 The Ministry of John the Baptist",
     "dim_1": 1.12,
     "dim_2": -3.77,
     "dim_3": 1.66,
@@ -2354,7 +2354,7 @@
     "dim_19": -0.4
   },
   {
-    "episodeId": "03§65c Cleansing the Temple",
+    "episodeId": "03-65c Cleansing the Temple",
     "dim_1": -0.95,
     "dim_2": 0.21,
     "dim_3": 2.82,
@@ -2376,7 +2376,7 @@
     "dim_19": -0.56
   },
   {
-    "episodeId": "02§20 02§21 Concerning Ceremonial Washings; Christ's Denunciation of the Pharisees",
+    "episodeId": "02-20 02-21 Concerning Ceremonial Washings; Christ's Denunciation of the Pharisees",
     "dim_1": 1.54,
     "dim_2": 1.69,
     "dim_3": -1.9,
@@ -2398,7 +2398,7 @@
     "dim_19": -0.5
   },
   {
-    "episodeId": "03§45 The Crippled Woman Healed",
+    "episodeId": "03-45 The Crippled Woman Healed",
     "dim_1": 0.13,
     "dim_2": 0,
     "dim_3": 1.73,
@@ -2420,7 +2420,7 @@
     "dim_19": -0.27
   },
   {
-    "episodeId": "01§08b The Call of the Four",
+    "episodeId": "01-08b The Call of the Four",
     "dim_1": -3.26,
     "dim_2": 0.46,
     "dim_3": 3.58,
@@ -2442,7 +2442,7 @@
     "dim_19": 1.94
   },
   {
-    "episodeId": "01§34 The Woe upon the Galilean Cities",
+    "episodeId": "01-34 The Woe upon the Galilean Cities",
     "dim_1": 3.05,
     "dim_2": -2.1,
     "dim_3": 1.85,
@@ -2464,7 +2464,7 @@
     "dim_19": 0.45
   },
   {
-    "episodeId": "03§77 03§78 The Emmaus Disciples and the Last Appearances of Christ",
+    "episodeId": "03-77 03-78 The Emmaus Disciples and the Last Appearances of Christ",
     "dim_1": -0.95,
     "dim_2": 0.37,
     "dim_3": -0.23,
@@ -2486,7 +2486,7 @@
     "dim_19": -0.8
   },
   {
-    "episodeId": "01§41b The Parable of the Sower Explained",
+    "episodeId": "01-41b The Parable of the Sower Explained",
     "dim_1": 0.6,
     "dim_2": -2.91,
     "dim_3": -1.37,
@@ -2508,7 +2508,7 @@
     "dim_19": -0.22
   },
   {
-    "episodeId": "04§26 The Council concerning Christ's Removal",
+    "episodeId": "04-26 The Council concerning Christ's Removal",
     "dim_1": 1.11,
     "dim_2": 0.68,
     "dim_3": -3.73,
@@ -2530,7 +2530,7 @@
     "dim_19": -0.1
   },
   {
-    "episodeId": "04§07 The Visit of Nicodemus",
+    "episodeId": "04-07 The Visit of Nicodemus",
     "dim_1": 1.72,
     "dim_2": -0.14,
     "dim_3": -1.26,
@@ -2552,7 +2552,7 @@
     "dim_19": -0.27
   },
   {
-    "episodeId": "03§73b The Guards Mistreat Jesus",
+    "episodeId": "03-73b The Guards Mistreat Jesus",
     "dim_1": -2.37,
     "dim_2": 1.66,
     "dim_3": 2.27,
@@ -2574,7 +2574,7 @@
     "dim_19": 1.3
   },
   {
-    "episodeId": "03§64 The Parable of the Talents",
+    "episodeId": "03-64 The Parable of the Talents",
     "dim_1": 3.49,
     "dim_2": -4.95,
     "dim_3": 2.39,
@@ -2596,7 +2596,7 @@
     "dim_19": -0.1
   },
   {
-    "episodeId": "03§71 The Preparation for; and the Celebration of; the Passover",
+    "episodeId": "03-71 The Preparation for; and the Celebration of; the Passover",
     "dim_1": -3.48,
     "dim_2": -0.35,
     "dim_3": -2.62,
@@ -2618,7 +2618,7 @@
     "dim_19": -0.17
   },
   {
-    "episodeId": "01§74 The Parable of the Marriage Feast",
+    "episodeId": "01-74 The Parable of the Marriage Feast",
     "dim_1": 4.3,
     "dim_2": -4.25,
     "dim_3": 1.21,
@@ -2640,7 +2640,7 @@
     "dim_19": -0.12
   },
   {
-    "episodeId": "02§39 The Parable of the Vineyard",
+    "episodeId": "02-39 The Parable of the Vineyard",
     "dim_1": 4.3,
     "dim_2": -4.25,
     "dim_3": 1.21,
@@ -2662,7 +2662,7 @@
     "dim_19": -0.12
   },
   {
-    "episodeId": "03§07 The Circumcision and Presentation of Christ",
+    "episodeId": "03-07 The Circumcision and Presentation of Christ",
     "dim_1": 2.23,
     "dim_2": -1.52,
     "dim_3": 0.59,
@@ -2684,7 +2684,7 @@
     "dim_19": -0.22
   },
   {
-    "episodeId": "04§27 The Anointing of Jesus",
+    "episodeId": "04-27 The Anointing of Jesus",
     "dim_1": -0.06,
     "dim_2": 1.33,
     "dim_3": -1.57,
@@ -2706,7 +2706,7 @@
     "dim_19": -0.42
   },
   {
-    "episodeId": "01§86b Leaders Conspire",
+    "episodeId": "01-86b Leaders Conspire",
     "dim_1": -3.21,
     "dim_2": -3.84,
     "dim_3": -0.76,
@@ -2728,7 +2728,7 @@
     "dim_19": -0.18
   },
   {
-    "episodeId": "02§05 Healing the Palsied Man",
+    "episodeId": "02-05 Healing the Palsied Man",
     "dim_1": -0.54,
     "dim_2": 1.73,
     "dim_3": 2.04,
@@ -2750,7 +2750,7 @@
     "dim_19": 0.39
   },
   {
-    "episodeId": "01§96 The Great Missionary Command",
+    "episodeId": "01-96 The Great Missionary Command",
     "dim_1": -1.53,
     "dim_2": -3.9,
     "dim_3": -1.81,
@@ -2772,7 +2772,7 @@
     "dim_19": -0.07
   },
   {
-    "episodeId": "01§54 The Transfiguration of Christ",
+    "episodeId": "01-54 The Transfiguration of Christ",
     "dim_1": 0.12,
     "dim_2": -0.03,
     "dim_3": -2.34,
@@ -2794,7 +2794,7 @@
     "dim_19": 0.63
   },
   {
-    "episodeId": "02§52 The Resurrection of Jesus",
+    "episodeId": "02-52 The Resurrection of Jesus",
     "dim_1": -3.45,
     "dim_2": -0.26,
     "dim_3": -0.19,
@@ -2816,7 +2816,7 @@
     "dim_19": 0.44
   },
   {
-    "episodeId": "02§14 Raising of the Daughter of Jairus",
+    "episodeId": "02-14 Raising of the Daughter of Jairus",
     "dim_1": -3.39,
     "dim_2": -1.14,
     "dim_3": 3.93,
@@ -2838,7 +2838,7 @@
     "dim_19": -1.24
   },
   {
-    "episodeId": "01§70 The Cursing of the Fig-Tree",
+    "episodeId": "01-70 The Cursing of the Fig-Tree",
     "dim_1": -1.73,
     "dim_2": -1.16,
     "dim_3": -0.44,
@@ -2860,7 +2860,7 @@
     "dim_19": -0.55
   },
   {
-    "episodeId": "01§26 Further Miracles of That Day",
+    "episodeId": "01-26 Further Miracles of That Day",
     "dim_1": 0.21,
     "dim_2": 1.17,
     "dim_3": 0.76,
@@ -2882,7 +2882,7 @@
     "dim_19": 0.7
   },
   {
-    "episodeId": "01§06 The Baptism of Jesus",
+    "episodeId": "01-06 The Baptism of Jesus",
     "dim_1": -0.57,
     "dim_2": 1.26,
     "dim_3": 1.52,
@@ -2904,7 +2904,7 @@
     "dim_19": -0.09
   },
   {
-    "episodeId": "03§50 03§51 03§52 03§53 03§54 Parables and Teaching",
+    "episodeId": "03-50 03-51 03-52 03-53 03-54 Parables and Teaching",
     "dim_1": 3.07,
     "dim_2": -0.24,
     "dim_3": -1.35,
@@ -2926,7 +2926,7 @@
     "dim_19": 0.21
   },
   {
-    "episodeId": "02§02a The Baptism and Temptation of Christ",
+    "episodeId": "02-02a The Baptism and Temptation of Christ",
     "dim_1": 0.08,
     "dim_2": -1.9,
     "dim_3": 1.14,
@@ -2948,7 +2948,7 @@
     "dim_19": 0.57
   },
   {
-    "episodeId": "03§10a The Baptism of Christ",
+    "episodeId": "03-10a The Baptism of Christ",
     "dim_1": 0.08,
     "dim_2": -1.9,
     "dim_3": 1.14,
@@ -2970,7 +2970,7 @@
     "dim_19": 0.57
   },
   {
-    "episodeId": "01§55 The Healing of a Boy with a Demon",
+    "episodeId": "01-55 The Healing of a Boy with a Demon",
     "dim_1": 0.02,
     "dim_2": 1.4,
     "dim_3": -0.47,
@@ -2992,7 +2992,7 @@
     "dim_19": -0.43
   },
   {
-    "episodeId": "03§02b Elizabeth Conceives",
+    "episodeId": "03-02b Elizabeth Conceives",
     "dim_1": 2.07,
     "dim_2": -2.55,
     "dim_3": 0.41,
@@ -3014,7 +3014,7 @@
     "dim_19": -0.2
   },
   {
-    "episodeId": "02§45b Jesus Prays in Gethsemane",
+    "episodeId": "02-45b Jesus Prays in Gethsemane",
     "dim_1": -4.35,
     "dim_2": -0.2,
     "dim_3": -0.96,
@@ -3036,7 +3036,7 @@
     "dim_19": 1.37
   },
   {
-    "episodeId": "02§41 Jesus Condemns the Teachers of the Law",
+    "episodeId": "02-41 Jesus Condemns the Teachers of the Law",
     "dim_1": 2.8,
     "dim_2": -1.79,
     "dim_3": 0.44,
@@ -3058,7 +3058,7 @@
     "dim_19": 0.47
   },
   {
-    "episodeId": "01§42b The Parable of the Tares; and Others Explained",
+    "episodeId": "01-42b The Parable of the Tares; and Others Explained",
     "dim_1": -0.84,
     "dim_2": -0.25,
     "dim_3": -3.11,
@@ -3080,7 +3080,7 @@
     "dim_19": -0.53
   },
   {
-    "episodeId": "02§11a The Parable of the Sower",
+    "episodeId": "02-11a The Parable of the Sower",
     "dim_1": 1.33,
     "dim_2": -4.45,
     "dim_3": 2.74,
@@ -3102,7 +3102,7 @@
     "dim_19": -0.26
   },
   {
-    "episodeId": "03§66b Parable of the Wicked Tenants",
+    "episodeId": "03-66b Parable of the Wicked Tenants",
     "dim_1": 4.03,
     "dim_2": -2.2,
     "dim_3": 0.74,
@@ -3124,7 +3124,7 @@
     "dim_19": -0.29
   },
   {
-    "episodeId": "04§06 The Purging of the Temple and Its Results",
+    "episodeId": "04-06 The Purging of the Temple and Its Results",
     "dim_1": 0.31,
     "dim_2": 1.47,
     "dim_3": 0.49,
@@ -3146,7 +3146,7 @@
     "dim_19": 0.64
   },
   {
-    "episodeId": "01§88b Events at Gethsemane",
+    "episodeId": "01-88b Events at Gethsemane",
     "dim_1": -4.78,
     "dim_2": -2.48,
     "dim_3": 0.38,
@@ -3168,7 +3168,7 @@
     "dim_19": -0.48
   },
   {
-    "episodeId": "04§18a The Unbelief of Christ's Brothers",
+    "episodeId": "04-18a The Unbelief of Christ's Brothers",
     "dim_1": 0.36,
     "dim_2": 0.36,
     "dim_3": -3.39,
@@ -3190,7 +3190,7 @@
     "dim_19": -0.79
   },
   {
-    "episodeId": "02§37 The Miracle of the Fig-Tree",
+    "episodeId": "02-37 The Miracle of the Fig-Tree",
     "dim_1": -1.39,
     "dim_2": -0.25,
     "dim_3": 0.68,
@@ -3212,7 +3212,7 @@
     "dim_19": 0.23
   },
   {
-    "episodeId": "01§68 Christ's Entry into Jerusalem",
+    "episodeId": "01-68 Christ's Entry into Jerusalem",
     "dim_1": -1.61,
     "dim_2": -0.63,
     "dim_3": 0.96,
@@ -3234,7 +3234,7 @@
     "dim_19": -0.7
   },
   {
-    "episodeId": "04§26 Many Seek Jesus at the Festival",
+    "episodeId": "04-26 Many Seek Jesus at the Festival",
     "dim_1": 1.91,
     "dim_2": -2.6,
     "dim_3": 1.35,
@@ -3256,7 +3256,7 @@
     "dim_19": -0.29
   },
   {
-    "episodeId": "04§09b The Samaritans Believe",
+    "episodeId": "04-09b The Samaritans Believe",
     "dim_1": 0.15,
     "dim_2": -1.11,
     "dim_3": -0.91,
@@ -3278,7 +3278,7 @@
     "dim_19": 0.81
   },
   {
-    "episodeId": "03§63 Zacchaeus the Publican",
+    "episodeId": "03-63 Zacchaeus the Publican",
     "dim_1": -0.9,
     "dim_2": 1.03,
     "dim_3": 2.73,
@@ -3300,7 +3300,7 @@
     "dim_19": 0.68
   },
   {
-    "episodeId": "03§68 Devouring Widows Houses",
+    "episodeId": "03-68 Devouring Widows Houses",
     "dim_1": -0.3,
     "dim_2": -0.66,
     "dim_3": -1,
@@ -3322,7 +3322,7 @@
     "dim_19": 1.59
   },
   {
-    "episodeId": "03§56 Concerning the Kingdom of God and the Coming of Christ",
+    "episodeId": "03-56 Concerning the Kingdom of God and the Coming of Christ",
     "dim_1": 1.07,
     "dim_2": -2.01,
     "dim_3": -2.45,
@@ -3344,7 +3344,7 @@
     "dim_19": 0.13
   },
   {
-    "episodeId": "04§12 04§13 Jesus Defends Himself Against Jews Persecuting Him",
+    "episodeId": "04-12 04-13 Jesus Defends Himself Against Jews Persecuting Him",
     "dim_1": 3.85,
     "dim_2": -0.92,
     "dim_3": 1.54,
@@ -3366,7 +3366,7 @@
     "dim_19": 0.56
   },
   {
-    "episodeId": "04§23 Jesus the Good Shepherd",
+    "episodeId": "04-23 Jesus the Good Shepherd",
     "dim_1": 2.98,
     "dim_2": 1.67,
     "dim_3": -0.05,
@@ -3388,7 +3388,7 @@
     "dim_19": 0.05
   },
   {
-    "episodeId": "01§04 The Flight into Egypt and the Return to Nazareth",
+    "episodeId": "01-04 The Flight into Egypt and the Return to Nazareth",
     "dim_1": -3.89,
     "dim_2": -2.05,
     "dim_3": 3.47,
@@ -3410,7 +3410,7 @@
     "dim_19": -0.59
   },
   {
-    "episodeId": "03§25 The Storm on the Sea",
+    "episodeId": "03-25 The Storm on the Sea",
     "dim_1": -1.5,
     "dim_2": 0.32,
     "dim_3": -2.23,
@@ -3432,7 +3432,7 @@
     "dim_19": 0.76
   },
   {
-    "episodeId": "01§05 The Ministry of John the Baptist",
+    "episodeId": "01-05 The Ministry of John the Baptist",
     "dim_1": 2.01,
     "dim_2": -1.23,
     "dim_3": 1.64,
@@ -3454,7 +3454,7 @@
     "dim_19": -0.21
   },
   {
-    "episodeId": "01§67 Healing of Two Blind Men",
+    "episodeId": "01-67 Healing of Two Blind Men",
     "dim_1": -3.16,
     "dim_2": 1.1,
     "dim_3": 3.17,
@@ -3476,7 +3476,7 @@
     "dim_19": 1.13
   },
   {
-    "episodeId": "01§27 Continuation of Christ's Teaching and Healing Ministry",
+    "episodeId": "01-27 Continuation of Christ's Teaching and Healing Ministry",
     "dim_1": -3.43,
     "dim_2": -3.65,
     "dim_3": -1.25,
@@ -3498,7 +3498,7 @@
     "dim_19": 0.05
   },
   {
-    "episodeId": "03§49 The Obligations of Christ's Discipleship",
+    "episodeId": "03-49 The Obligations of Christ's Discipleship",
     "dim_1": 2.22,
     "dim_2": -0.58,
     "dim_3": 1.74,
@@ -3520,7 +3520,7 @@
     "dim_19": 0.96
   },
   {
-    "episodeId": "02§31 A Question concerning Divorce",
+    "episodeId": "02-31 A Question concerning Divorce",
     "dim_1": 2.39,
     "dim_2": 0.86,
     "dim_3": -1.2,
@@ -3542,7 +3542,7 @@
     "dim_19": 0.34
   },
   {
-    "episodeId": "02§08 Healing the Withered Hand",
+    "episodeId": "02-08 Healing the Withered Hand",
     "dim_1": -1.84,
     "dim_2": 1.71,
     "dim_3": 1.99,
@@ -3564,7 +3564,7 @@
     "dim_19": 1.57
   },
   {
-    "episodeId": "03§38 A Lesson in Prayer",
+    "episodeId": "03-38 A Lesson in Prayer",
     "dim_1": -0.09,
     "dim_2": -2.37,
     "dim_3": -2.26,
@@ -3586,7 +3586,7 @@
     "dim_19": -1.38
   },
   {
-    "episodeId": "02§50a Jesus before the Soldiers",
+    "episodeId": "02-50a Jesus before the Soldiers",
     "dim_1": -0.74,
     "dim_2": -0.14,
     "dim_3": 1.11,
@@ -3608,7 +3608,7 @@
     "dim_19": -0.64
   },
   {
-    "episodeId": "02§36 Christ's Entry into Jerusalem",
+    "episodeId": "02-36 Christ's Entry into Jerusalem",
     "dim_1": -1.72,
     "dim_2": -0.53,
     "dim_3": 0.71,
@@ -3630,7 +3630,7 @@
     "dim_19": -0.59
   },
   {
-    "episodeId": "01§23 The Healing of the Palsied Man",
+    "episodeId": "01-23 The Healing of the Palsied Man",
     "dim_1": -0.7,
     "dim_2": 0.84,
     "dim_3": 2.15,
@@ -3652,7 +3652,7 @@
     "dim_19": -0.28
   },
   {
-    "episodeId": "01§81 01§82 01§83 01§84 01§85 The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
+    "episodeId": "01-81 01-82 01-83 01-84 01-85 The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
     "dim_1": 0.18,
     "dim_2": -3.68,
     "dim_3": -2.65,
@@ -3674,7 +3674,7 @@
     "dim_19": -0.37
   },
   {
-    "episodeId": "01§91 The End of Judas",
+    "episodeId": "01-91 The End of Judas",
     "dim_1": -0.29,
     "dim_2": 1.96,
     "dim_3": -0.68,
@@ -3696,7 +3696,7 @@
     "dim_19": -0.44
   },
   {
-    "episodeId": "03§03 The Annunciation to Mary",
+    "episodeId": "03-03 The Annunciation to Mary",
     "dim_1": 1.42,
     "dim_2": -0.55,
     "dim_3": -1.05,
@@ -3718,7 +3718,7 @@
     "dim_19": -0.06
   },
   {
-    "episodeId": "02§12 Christ Stilling the Tempest",
+    "episodeId": "02-12 Christ Stilling the Tempest",
     "dim_1": -2.38,
     "dim_2": -0.43,
     "dim_3": -1.43,
@@ -3740,7 +3740,7 @@
     "dim_19": 0.33
   },
   {
-    "episodeId": "02§03a Ministry in Capernaum",
+    "episodeId": "02-03a Ministry in Capernaum",
     "dim_1": 0.34,
     "dim_2": 0.94,
     "dim_3": 2.36,
@@ -3762,7 +3762,7 @@
     "dim_19": -0.63
   },
   {
-    "episodeId": "03§16 The Call of Levi and the Discourse Concerning Christ's Ministry",
+    "episodeId": "03-16 The Call of Levi and the Discourse Concerning Christ's Ministry",
     "dim_1": 0.22,
     "dim_2": -0.14,
     "dim_3": 1.12,
@@ -3784,7 +3784,7 @@
     "dim_19": 0.6
   },
   {
-    "episodeId": "04§01 The Word Became Flesh",
+    "episodeId": "04-01 The Word Became Flesh",
     "dim_1": 2.93,
     "dim_2": -2.11,
     "dim_3": 1.55,
@@ -3806,7 +3806,7 @@
     "dim_19": 0.41
   },
   {
-    "episodeId": "04§19 The Woman Taken in Adultery",
+    "episodeId": "04-19 The Woman Taken in Adultery",
     "dim_1": 1.39,
     "dim_2": 1.64,
     "dim_3": 0.48,
@@ -3828,7 +3828,7 @@
     "dim_19": 0.55
   },
   {
-    "episodeId": "01§39 The Sign from Heaven and a Warning",
+    "episodeId": "01-39 The Sign from Heaven and a Warning",
     "dim_1": 0.6,
     "dim_2": 1.13,
     "dim_3": -0.36,
@@ -3850,7 +3850,7 @@
     "dim_19": 0.11
   },
   {
-    "episodeId": "01§37 01§38 The Enmity of the Pharisees and Christ's Answer; The Sin against the Holy Spirit",
+    "episodeId": "01-37 01-38 The Enmity of the Pharisees and Christ's Answer; The Sin against the Holy Spirit",
     "dim_1": 2.77,
     "dim_2": 0.57,
     "dim_3": 0.55,
@@ -3872,7 +3872,7 @@
     "dim_19": -0.08
   },
   {
-    "episodeId": "01§78 01§79 01§80 The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
+    "episodeId": "01-78 01-79 01-80 The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
     "dim_1": 3.51,
     "dim_2": -4.4,
     "dim_3": 2.82,
@@ -3894,7 +3894,7 @@
     "dim_19": 0.22
   },
   {
-    "episodeId": "03§20 The Centurion of Capernaum",
+    "episodeId": "03-20 The Centurion of Capernaum",
     "dim_1": 1.07,
     "dim_2": 0.02,
     "dim_3": 1.21,
@@ -3916,7 +3916,7 @@
     "dim_19": -0.57
   },
   {
-    "episodeId": "02§49a Jesus before Pilate",
+    "episodeId": "02-49a Jesus before Pilate",
     "dim_1": 2.52,
     "dim_2": 1.88,
     "dim_3": -2.18,
@@ -3938,7 +3938,7 @@
     "dim_19": -0.7
   },
   {
-    "episodeId": "03§72b Jesus Arrested",
+    "episodeId": "03-72b Jesus Arrested",
     "dim_1": -1.56,
     "dim_2": 1.9,
     "dim_3": -0.64,
@@ -3960,7 +3960,7 @@
     "dim_19": 1.24
   },
   {
-    "episodeId": "01§09 01§10 01§11 01§12 01§13 01§14 01§15 01§16 The Beatitudes; The Chief Functions of the Disciples in the World; Christ Confirms and Expounds the Law of Moses; The Law of Love toward the Enemy; On Giving of Alms; Praying; and Fasting; Warning against Covetousness and Care; Warning against Unauthorized Judging and Admonition to Persevere in Prayer; The Conclusion of the Sermon",
+    "episodeId": "01-09 01-10 01-11 01-12 01-13 01-14 01-15 01-16 The Beatitudes; The Chief Functions of the Disciples in the World; Christ Confirms and Expounds the Law of Moses; The Law of Love toward the Enemy; On Giving of Alms; Praying; and Fasting; Warning against Covetousness and Care; Warning against Unauthorized Judging and Admonition to Persevere in Prayer; The Conclusion of the Sermon",
     "dim_1": 3.44,
     "dim_2": -4.66,
     "dim_3": 3.14,
@@ -3982,7 +3982,7 @@
     "dim_19": 0.13
   },
   {
-    "episodeId": "03§33 Lessons in Humility",
+    "episodeId": "03-33 Lessons in Humility",
     "dim_1": 0.36,
     "dim_2": 2.63,
     "dim_3": -1.83,
@@ -4004,7 +4004,7 @@
     "dim_19": 0.17
   },
   {
-    "episodeId": "01§22 Jesus and the Gadarenes",
+    "episodeId": "01-22 Jesus and the Gadarenes",
     "dim_1": -1.21,
     "dim_2": 1.9,
     "dim_3": 1.27,
@@ -4026,7 +4026,7 @@
     "dim_19": 0.75
   },
   {
-    "episodeId": "03§36 The Good Samaritan",
+    "episodeId": "03-36 The Good Samaritan",
     "dim_1": 1.2,
     "dim_2": 0.02,
     "dim_3": 0.31,
@@ -4048,7 +4048,7 @@
     "dim_19": -0.6
   },
   {
-    "episodeId": "03§30 Peter's Confession and Christ's Answer",
+    "episodeId": "03-30 Peter's Confession and Christ's Answer",
     "dim_1": 0.24,
     "dim_2": -1.64,
     "dim_3": -3.64,
@@ -4070,7 +4070,7 @@
     "dim_19": -1.26
   },
   {
-    "episodeId": "04§47c Jesus Entrusts His Mother and Dies",
+    "episodeId": "04-47c Jesus Entrusts His Mother and Dies",
     "dim_1": 0.43,
     "dim_2": -3.13,
     "dim_3": -0.87,
@@ -4092,7 +4092,7 @@
     "dim_19": 0
   },
   {
-    "episodeId": "01§21 The Storm on the Lake",
+    "episodeId": "01-21 The Storm on the Lake",
     "dim_1": -2.84,
     "dim_2": -1.02,
     "dim_3": -1.43,
@@ -4114,7 +4114,7 @@
     "dim_19": 0.26
   },
   {
-    "episodeId": "03§69 The Destruction of Jerusalem and the End of the World",
+    "episodeId": "03-69 The Destruction of Jerusalem and the End of the World",
     "dim_1": -0.04,
     "dim_2": -1.44,
     "dim_3": -2.48,
@@ -4136,7 +4136,7 @@
     "dim_19": -0.87
   },
   {
-    "episodeId": "03§13a Healing of a Demoniac",
+    "episodeId": "03-13a Healing of a Demoniac",
     "dim_1": 1.5,
     "dim_2": 1.54,
     "dim_3": 1.17,
@@ -4158,7 +4158,7 @@
     "dim_19": 0.91
   },
   {
-    "episodeId": "02§30 The Last Discourses of Christ in Galilee",
+    "episodeId": "02-30 The Last Discourses of Christ in Galilee",
     "dim_1": 0.01,
     "dim_2": -1.26,
     "dim_3": -3.44,
@@ -4180,7 +4180,7 @@
     "dim_19": -1.18
   },
   {
-    "episodeId": "02§34b Priority in Christ's Kingdom",
+    "episodeId": "02-34b Priority in Christ's Kingdom",
     "dim_1": -0.04,
     "dim_2": -0.17,
     "dim_3": -2.72,
@@ -4202,7 +4202,7 @@
     "dim_19": -1.05
   },
   {
-    "episodeId": "01§71 01§72 01§73 The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
+    "episodeId": "01-71 01-72 01-73 The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
     "dim_1": 3.18,
     "dim_2": 1.8,
     "dim_3": -1.17,
@@ -4224,7 +4224,7 @@
     "dim_19": -0.06
   },
   {
-    "episodeId": "03§47 03§48 Christ the Guest of a Pharisee",
+    "episodeId": "03-47 03-48 Christ the Guest of a Pharisee",
     "dim_1": 2.79,
     "dim_2": -0.92,
     "dim_3": 1.11,
@@ -4246,7 +4246,7 @@
     "dim_19": -0.45
   },
   {
-    "episodeId": "03§22 The Embassy of John the Baptist",
+    "episodeId": "03-22 The Embassy of John the Baptist",
     "dim_1": 2.86,
     "dim_2": -0.59,
     "dim_3": 1.1,
@@ -4268,7 +4268,7 @@
     "dim_19": 0.46
   },
   {
-    "episodeId": "02§15 Jesus at Nazareth",
+    "episodeId": "02-15 Jesus at Nazareth",
     "dim_1": 2.92,
     "dim_2": 1.5,
     "dim_3": -2.26,
@@ -4290,7 +4290,7 @@
     "dim_19": 0.51
   },
   {
-    "episodeId": "02§27a The Identity of the Son of Man",
+    "episodeId": "02-27a The Identity of the Son of Man",
     "dim_1": 1.83,
     "dim_2": 1.24,
     "dim_3": -3.89,
@@ -4312,7 +4312,7 @@
     "dim_19": 0.13
   },
   {
-    "episodeId": "02§23 Healing of the Deaf Man",
+    "episodeId": "02-23 Healing of the Deaf Man",
     "dim_1": -0.69,
     "dim_2": -1.33,
     "dim_3": 3.23,
@@ -4334,7 +4334,7 @@
     "dim_19": -0.94
   },
   {
-    "episodeId": "03§55 The Ten Lepers",
+    "episodeId": "03-55 The Ten Lepers",
     "dim_1": -2.18,
     "dim_2": 0.54,
     "dim_3": 0.94,
@@ -4356,7 +4356,7 @@
     "dim_19": -0.49
   },
   {
-    "episodeId": "04§03 John Meets Jesus",
+    "episodeId": "04-03 John Meets Jesus",
     "dim_1": 2.52,
     "dim_2": -2.25,
     "dim_3": 2.11,
@@ -4378,7 +4378,7 @@
     "dim_19": 0.23
   },
   {
-    "episodeId": "02§49b Pilate before the Crowd",
+    "episodeId": "02-49b Pilate before the Crowd",
     "dim_1": -1.49,
     "dim_2": 3.17,
     "dim_3": 1.24,
@@ -4400,7 +4400,7 @@
     "dim_19": -0.31
   },
   {
-    "episodeId": "01§62 The Dangers of Riches",
+    "episodeId": "01-62 The Dangers of Riches",
     "dim_1": 1.29,
     "dim_2": 1.12,
     "dim_3": 0.04,
@@ -4422,7 +4422,7 @@
     "dim_19": -0.41
   },
   {
-    "episodeId": "03§39 03§40 Christ Casts Out a Demon and Rebukes The Generation",
+    "episodeId": "03-39 03-40 Christ Casts Out a Demon and Rebukes The Generation",
     "dim_1": 1.64,
     "dim_2": 0.66,
     "dim_3": 2.14,
@@ -4444,7 +4444,7 @@
     "dim_19": -0.11
   },
   {
-    "episodeId": "03§19 Miracles of Healing and Preaching",
+    "episodeId": "03-19 Miracles of Healing and Preaching",
     "dim_1": 2.2,
     "dim_2": -5.77,
     "dim_3": -0.16,
@@ -4466,7 +4466,7 @@
     "dim_19": 0.54
   },
   {
-    "episodeId": "02§43b The Anointing of Jesus",
+    "episodeId": "02-43b The Anointing of Jesus",
     "dim_1": 0.75,
     "dim_2": 1.22,
     "dim_3": -2.25,
@@ -4488,7 +4488,7 @@
     "dim_19": 0.96
   },
   {
-    "episodeId": "01§33 Christ's Testimony Concerning John",
+    "episodeId": "01-33 Christ's Testimony Concerning John",
     "dim_1": 2.63,
     "dim_2": -0.29,
     "dim_3": 0.66,
@@ -4510,7 +4510,7 @@
     "dim_19": 0.13
   },
   {
-    "episodeId": "01§76 The Question of the Sadducees",
+    "episodeId": "01-76 The Question of the Sadducees",
     "dim_1": 2.89,
     "dim_2": 1.35,
     "dim_3": 0.1,
@@ -4532,7 +4532,7 @@
     "dim_19": 0.31
   },
   {
-    "episodeId": "02§16 The Mission of the Twelve",
+    "episodeId": "02-16 The Mission of the Twelve",
     "dim_1": -4.73,
     "dim_2": -2.87,
     "dim_3": -0.39,
@@ -4554,7 +4554,7 @@
     "dim_19": -0.65
   },
   {
-    "episodeId": "03§28a The Mission of the Twelve",
+    "episodeId": "03-28a The Mission of the Twelve",
     "dim_1": -4.73,
     "dim_2": -2.87,
     "dim_3": -0.39,
@@ -4576,7 +4576,7 @@
     "dim_19": -0.65
   },
   {
-    "episodeId": "01§28 01§29 01§30 01§31 The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
+    "episodeId": "01-28 01-29 01-30 01-31 The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
     "dim_1": -0.53,
     "dim_2": -5.35,
     "dim_3": -0.51,
@@ -4598,7 +4598,7 @@
     "dim_19": -0.3
   },
   {
-    "episodeId": "03§04 Mary's Visit to Elizabeth",
+    "episodeId": "03-04 Mary's Visit to Elizabeth",
     "dim_1": 2.59,
     "dim_2": -2.49,
     "dim_3": -2.65,
@@ -4620,7 +4620,7 @@
     "dim_19": -0.09
   },
   {
-    "episodeId": "03§62 The Blind Man of Jericho",
+    "episodeId": "03-62 The Blind Man of Jericho",
     "dim_1": -3.06,
     "dim_2": 1.75,
     "dim_3": 2.76,
@@ -4642,7 +4642,7 @@
     "dim_19": 0.33
   },
   {
-    "episodeId": "03§32 The Healing of the Epileptic Boy",
+    "episodeId": "03-32 The Healing of the Epileptic Boy",
     "dim_1": 0.05,
     "dim_2": 0.99,
     "dim_3": -0.49,
@@ -4664,7 +4664,7 @@
     "dim_19": 0.51
   },
   {
-    "episodeId": "04§25b Martha Confronts Jesus",
+    "episodeId": "04-25b Martha Confronts Jesus",
     "dim_1": 0.93,
     "dim_2": -0.67,
     "dim_3": -2.63,
@@ -4686,7 +4686,7 @@
     "dim_19": 0.74
   },
   {
-    "episodeId": "02§07b The Lord of the Sabbath",
+    "episodeId": "02-07b The Lord of the Sabbath",
     "dim_1": 1.54,
     "dim_2": 3.05,
     "dim_3": 0.11,
@@ -4708,7 +4708,7 @@
     "dim_19": -1.06
   },
   {
-    "episodeId": "01§86c A Woman Anoints Jesus",
+    "episodeId": "01-86c A Woman Anoints Jesus",
     "dim_1": 1,
     "dim_2": 1.43,
     "dim_3": -2.14,
@@ -4730,7 +4730,7 @@
     "dim_19": 0.1
   },
   {
-    "episodeId": "02§22 The Syrophoenician Woman",
+    "episodeId": "02-22 The Syrophoenician Woman",
     "dim_1": -0.5,
     "dim_2": 1.4,
     "dim_3": 0.45,
@@ -4752,7 +4752,7 @@
     "dim_19": -0.16
   },
   {
-    "episodeId": "04§08 John's Second Testimony of Christ",
+    "episodeId": "04-08 John's Second Testimony of Christ",
     "dim_1": 0.91,
     "dim_2": 0.06,
     "dim_3": -3.88,
@@ -4774,7 +4774,7 @@
     "dim_19": -0.02
   },
   {
-    "episodeId": "02§09 Miracles by the Seaside",
+    "episodeId": "02-09 Miracles by the Seaside",
     "dim_1": 1.17,
     "dim_2": 0.41,
     "dim_3": 2.03,
@@ -4796,7 +4796,7 @@
     "dim_19": 1.38
   },
   {
-    "episodeId": "01§36b The Lord of Healing on the Sabbath",
+    "episodeId": "01-36b The Lord of Healing on the Sabbath",
     "dim_1": 0.6,
     "dim_2": 2.64,
     "dim_3": 0.2,
@@ -4818,7 +4818,7 @@
     "dim_19": -0.2
   },
   {
-    "episodeId": "03§24b Jesus' Mother and Brothers",
+    "episodeId": "03-24b Jesus' Mother and Brothers",
     "dim_1": 1.69,
     "dim_2": 1.66,
     "dim_3": 0.95,
@@ -4840,7 +4840,7 @@
     "dim_19": 0.8
   },
   {
-    "episodeId": "02§19 Christ Walking on the Sea and His Return to Galilee",
+    "episodeId": "02-19 Christ Walking on the Sea and His Return to Galilee",
     "dim_1": -1.9,
     "dim_2": -2.76,
     "dim_3": -0.84,
@@ -4862,7 +4862,7 @@
     "dim_19": -0.96
   },
   {
-    "episodeId": "01§35 The Gospel Call",
+    "episodeId": "01-35 The Gospel Call",
     "dim_1": 1.49,
     "dim_2": -2.78,
     "dim_3": 1.46,
@@ -4884,7 +4884,7 @@
     "dim_19": 0.65
   },
   {
-    "episodeId": "03§21 Raising of the Widow's Son",
+    "episodeId": "03-21 Raising of the Widow's Son",
     "dim_1": -0.31,
     "dim_2": 0.4,
     "dim_3": 1.99,
@@ -4906,7 +4906,7 @@
     "dim_19": -0.45
   },
   {
-    "episodeId": "02§38 The Question concerning Christ's Authority",
+    "episodeId": "02-38 The Question concerning Christ's Authority",
     "dim_1": 3.38,
     "dim_2": 2.32,
     "dim_3": -1.04,
@@ -4928,7 +4928,7 @@
     "dim_19": -0.09
   },
   {
-    "episodeId": "01§95a The Resurrection of Christ",
+    "episodeId": "01-95a The Resurrection of Christ",
     "dim_1": -3.83,
     "dim_2": -2.44,
     "dim_3": 2.7,
@@ -4950,7 +4950,7 @@
     "dim_19": -0.77
   },
   {
-    "episodeId": "03§73c Christ before the Council of the Elders",
+    "episodeId": "03-73c Christ before the Council of the Elders",
     "dim_1": 2.18,
     "dim_2": 1.86,
     "dim_3": -0.94,
@@ -4972,7 +4972,7 @@
     "dim_19": -0.44
   },
   {
-    "episodeId": "04§28 Christ's Entry into Jerusalem",
+    "episodeId": "04-28 Christ's Entry into Jerusalem",
     "dim_1": 0.8,
     "dim_2": -0.49,
     "dim_3": 1.31,
@@ -4994,7 +4994,7 @@
     "dim_19": -1.41
   },
   {
-    "episodeId": "01§61 Christ Blessing Little Children",
+    "episodeId": "01-61 Christ Blessing Little Children",
     "dim_1": -1.99,
     "dim_2": 1.12,
     "dim_3": -0.01,
@@ -5016,7 +5016,7 @@
     "dim_19": 2.66
   },
   {
-    "episodeId": "04§32 Jesus Washes the Disciples' Feet",
+    "episodeId": "04-32 Jesus Washes the Disciples' Feet",
     "dim_1": -2.5,
     "dim_2": 0.6,
     "dim_3": -1.64,
@@ -5038,7 +5038,7 @@
     "dim_19": -0.4
   },
   {
-    "episodeId": "02§04 The Healing of a Leper",
+    "episodeId": "02-04 The Healing of a Leper",
     "dim_1": -3.25,
     "dim_2": 0.78,
     "dim_3": 2.16,
@@ -5060,7 +5060,7 @@
     "dim_19": -1.2
   },
   {
-    "episodeId": "04§42 Christ's Great Sacerdotal Prayer",
+    "episodeId": "04-42 Christ's Great Sacerdotal Prayer",
     "dim_1": 1.38,
     "dim_2": -5.72,
     "dim_3": 1.84,
@@ -5082,7 +5082,7 @@
     "dim_19": 0.96
   },
   {
-    "episodeId": "03§24a Teaching in Parables",
+    "episodeId": "03-24a Teaching in Parables",
     "dim_1": 1.99,
     "dim_2": -2.79,
     "dim_3": 0.13,
@@ -5104,7 +5104,7 @@
     "dim_19": 0.53
   },
   {
-    "episodeId": "02§06 The Calling of Levi and the Dinner at His House",
+    "episodeId": "02-06 The Calling of Levi and the Dinner at His House",
     "dim_1": -0.4,
     "dim_2": 1.58,
     "dim_3": 2.43,
@@ -5126,7 +5126,7 @@
     "dim_19": 0.9
   },
   {
-    "episodeId": "02§03b Jesus Prays in a Solitary Place",
+    "episodeId": "02-03b Jesus Prays in a Solitary Place",
     "dim_1": -3.92,
     "dim_2": 0.71,
     "dim_3": -1.98,
@@ -5148,7 +5148,7 @@
     "dim_19": -0.32
   },
   {
-    "episodeId": "01§40 Christ's Relatives",
+    "episodeId": "01-40 Christ's Relatives",
     "dim_1": 2.12,
     "dim_2": 1.6,
     "dim_3": 0,
@@ -5170,7 +5170,7 @@
     "dim_19": 0.89
   },
   {
-    "episodeId": "02§40c The Greatest Commandment",
+    "episodeId": "02-40c The Greatest Commandment",
     "dim_1": 2.92,
     "dim_2": 1.72,
     "dim_3": -1.04,
@@ -5192,7 +5192,7 @@
     "dim_19": -0.16
   },
   {
-    "episodeId": "02§07a New Wine into Old Wineskins",
+    "episodeId": "02-07a New Wine into Old Wineskins",
     "dim_1": 3.08,
     "dim_2": 1.87,
     "dim_3": 0.23,
@@ -5214,7 +5214,7 @@
     "dim_19": 0.28
   },
   {
-    "episodeId": "02§44a The Preparation for the Passover",
+    "episodeId": "02-44a The Preparation for the Passover",
     "dim_1": -4.09,
     "dim_2": 0,
     "dim_3": -2.49,
@@ -5236,7 +5236,7 @@
     "dim_19": -0.38
   },
   {
-    "episodeId": "04§09a Christ and the Woman of Samaria",
+    "episodeId": "04-09a Christ and the Woman of Samaria",
     "dim_1": -0.16,
     "dim_2": 0.93,
     "dim_3": 0.03,
@@ -5258,7 +5258,7 @@
     "dim_19": 0.13
   },
   {
-    "episodeId": "04§15 Christ Walks on the Sea",
+    "episodeId": "04-15 Christ Walks on the Sea",
     "dim_1": -3.71,
     "dim_2": -2.38,
     "dim_3": -0.19,
@@ -5280,7 +5280,7 @@
     "dim_19": 0.04
   },
   {
-    "episodeId": "03§66a The Authority of Jesus",
+    "episodeId": "03-66a The Authority of Jesus",
     "dim_1": 2.69,
     "dim_2": 2.1,
     "dim_3": -0.84,
@@ -5302,7 +5302,7 @@
     "dim_19": -0.09
   },
   {
-    "episodeId": "01§51 The Leaven of the Pharisees",
+    "episodeId": "01-51 The Leaven of the Pharisees",
     "dim_1": 0,
     "dim_2": 0.23,
     "dim_3": -3.48,
@@ -5324,7 +5324,7 @@
     "dim_19": 0.07
   },
   {
-    "episodeId": "04§02 The Pharisees Question John the Baptist",
+    "episodeId": "04-02 The Pharisees Question John the Baptist",
     "dim_1": 3.53,
     "dim_2": 1.65,
     "dim_3": -0.23,
@@ -5346,7 +5346,7 @@
     "dim_19": 0.73
   },
   {
-    "episodeId": "03§08 The Christ-Child in the Temple",
+    "episodeId": "03-08 The Christ-Child in the Temple",
     "dim_1": 0.54,
     "dim_2": 2.03,
     "dim_3": -3.02,
@@ -5368,7 +5368,7 @@
     "dim_19": -0.57
   },
   {
-    "episodeId": "01§43 A Visit to Nazareth",
+    "episodeId": "01-43 A Visit to Nazareth",
     "dim_1": 3.31,
     "dim_2": 1.61,
     "dim_3": -1.94,
@@ -5390,7 +5390,7 @@
     "dim_19": 1.64
   },
   {
-    "episodeId": "03§37 Mary and Martha",
+    "episodeId": "03-37 Mary and Martha",
     "dim_1": -0.81,
     "dim_2": 1.26,
     "dim_3": -2.34,
@@ -5412,7 +5412,7 @@
     "dim_19": 0.3
   },
   {
-    "episodeId": "01§94 The Burial of Christ",
+    "episodeId": "01-94 The Burial of Christ",
     "dim_1": -2.51,
     "dim_2": 1.19,
     "dim_3": -0.29,
@@ -5434,7 +5434,7 @@
     "dim_19": -1.3
   },
   {
-    "episodeId": "03§46a Few Are Saved",
+    "episodeId": "03-46a Few Are Saved",
     "dim_1": 2.96,
     "dim_2": 0.06,
     "dim_3": 0.68,
@@ -5456,7 +5456,7 @@
     "dim_19": -0.34
   },
   {
-    "episodeId": "04§20 04§21 Jesus the Light of the World",
+    "episodeId": "04-20 04-21 Jesus the Light of the World",
     "dim_1": 2.73,
     "dim_2": 2.71,
     "dim_3": -0.61,
@@ -5478,7 +5478,7 @@
     "dim_19": -0.44
   },
   {
-    "episodeId": "01§60 On Marriage and Divorce",
+    "episodeId": "01-60 On Marriage and Divorce",
     "dim_1": 2.35,
     "dim_2": 1.79,
     "dim_3": -1.7,
@@ -5500,7 +5500,7 @@
     "dim_19": 0.33
   },
   {
-    "episodeId": "02§40a The Pharisees and Herodians Ask About Paying Taxes to Caesar",
+    "episodeId": "02-40a The Pharisees and Herodians Ask About Paying Taxes to Caesar",
     "dim_1": 1.53,
     "dim_2": 2.25,
     "dim_3": -0.51,
@@ -5522,7 +5522,7 @@
     "dim_19": -0.79
   },
   {
-    "episodeId": "02§26 The Blind Man of Bethsaida",
+    "episodeId": "02-26 The Blind Man of Bethsaida",
     "dim_1": -3.03,
     "dim_2": 1.14,
     "dim_3": 1.11,
@@ -5544,7 +5544,7 @@
     "dim_19": -0.43
   },
   {
-    "episodeId": "01§89 The Betrayal and Arrest",
+    "episodeId": "01-89 The Betrayal and Arrest",
     "dim_1": -1.26,
     "dim_2": 1.14,
     "dim_3": 0.14,
@@ -5566,7 +5566,7 @@
     "dim_19": 0.2
   },
   {
-    "episodeId": "02§24 The Feeding of the Four Thousand",
+    "episodeId": "02-24 The Feeding of the Four Thousand",
     "dim_1": -2.09,
     "dim_2": 1.24,
     "dim_3": -1.56,
@@ -5588,7 +5588,7 @@
     "dim_19": 0.3
   },
   {
-    "episodeId": "04§47b The Soldiers Divide Jesus's Clothes",
+    "episodeId": "04-47b The Soldiers Divide Jesus's Clothes",
     "dim_1": -3.87,
     "dim_2": -2.43,
     "dim_3": 0.75,
@@ -5610,7 +5610,7 @@
     "dim_19": -0.05
   },
   {
-    "episodeId": "03§14 The Miraculous Draught of Fishes and the Call of the First Disciples",
+    "episodeId": "03-14 The Miraculous Draught of Fishes and the Call of the First Disciples",
     "dim_1": -1.52,
     "dim_2": 1.97,
     "dim_3": 2.5,
@@ -5632,7 +5632,7 @@
     "dim_19": -0.16
   },
   {
-    "episodeId": "01§32 John the Baptist's Disciples Come to Jesus",
+    "episodeId": "01-32 John the Baptist's Disciples Come to Jesus",
     "dim_1": 1.13,
     "dim_2": 0.27,
     "dim_3": -0.59,
@@ -5654,7 +5654,7 @@
     "dim_19": -0.12
   },
   {
-    "episodeId": "03§15 The Healing of a Leper",
+    "episodeId": "03-15 The Healing of a Leper",
     "dim_1": -3.25,
     "dim_2": 1.52,
     "dim_3": 1.3,
@@ -5676,7 +5676,7 @@
     "dim_19": -0.36
   },
   {
-    "episodeId": "04§52 The Test of Peter's Love",
+    "episodeId": "04-52 The Test of Peter's Love",
     "dim_1": -0.46,
     "dim_2": -0.37,
     "dim_3": -3.48,
@@ -5698,7 +5698,7 @@
     "dim_19": -0.01
   },
   {
-    "episodeId": "02§13 The Healing of a Demon-Possessed Man",
+    "episodeId": "02-13 The Healing of a Demon-Possessed Man",
     "dim_1": -1.93,
     "dim_2": 1.81,
     "dim_3": 3.3,
@@ -5720,7 +5720,7 @@
     "dim_19": -0.52
   },
   {
-    "episodeId": "02§50b The Crucifixion and Death of Christ",
+    "episodeId": "02-50b The Crucifixion and Death of Christ",
     "dim_1": 3.28,
     "dim_2": -0.14,
     "dim_3": 2.79,
@@ -5742,7 +5742,7 @@
     "dim_19": -0.39
   },
   {
-    "episodeId": "04§24a Christ's Sermon at the Feast of Dedication",
+    "episodeId": "04-24a Christ's Sermon at the Feast of Dedication",
     "dim_1": 2.04,
     "dim_2": 2.5,
     "dim_3": -0.41,
@@ -5764,7 +5764,7 @@
     "dim_19": -0.44
   },
   {
-    "episodeId": "04§47a The Jews Protest Pilate's Sign",
+    "episodeId": "04-47a The Jews Protest Pilate's Sign",
     "dim_1": 2.34,
     "dim_2": -0.56,
     "dim_3": 2.89,
@@ -5786,7 +5786,7 @@
     "dim_19": 0.47
   },
   {
-    "episodeId": "04§43 The Arrest of Jesus",
+    "episodeId": "04-43 The Arrest of Jesus",
     "dim_1": -2.61,
     "dim_2": 2.16,
     "dim_3": 1.06,
@@ -5808,7 +5808,7 @@
     "dim_19": -0.47
   },
   {
-    "episodeId": "03§35 The Mission of the Seventy",
+    "episodeId": "03-35 The Mission of the Seventy",
     "dim_1": -1.55,
     "dim_2": -2,
     "dim_3": -1.63,
@@ -5830,7 +5830,7 @@
     "dim_19": -1.73
   },
   {
-    "episodeId": "03§11 The Temptation of Christ",
+    "episodeId": "03-11 The Temptation of Christ",
     "dim_1": 0.94,
     "dim_2": 0.78,
     "dim_3": 0.16,
@@ -5852,7 +5852,7 @@
     "dim_19": 0.44
   },
   {
-    "episodeId": "01§93 The Crucifixion and Death of Christ",
+    "episodeId": "01-93 The Crucifixion and Death of Christ",
     "dim_1": 2.37,
     "dim_2": 0.05,
     "dim_3": 3.12,
@@ -5874,7 +5874,7 @@
     "dim_19": 0.12
   },
   {
-    "episodeId": "01§17 The Healing of the Leper",
+    "episodeId": "01-17 The Healing of the Leper",
     "dim_1": -2.88,
     "dim_2": 1.56,
     "dim_3": 2.83,
@@ -5896,7 +5896,7 @@
     "dim_19": 0.26
   },
   {
-    "episodeId": "03§26 In the Country of the Gadarenes",
+    "episodeId": "03-26 In the Country of the Gadarenes",
     "dim_1": -1.03,
     "dim_2": 2.36,
     "dim_3": 2.11,
@@ -5918,7 +5918,7 @@
     "dim_19": -0.18
   },
   {
-    "episodeId": "01§75 The Question Concerning Tribute",
+    "episodeId": "01-75 The Question Concerning Tribute",
     "dim_1": 1.75,
     "dim_2": 2.04,
     "dim_3": 0.87,
@@ -5940,7 +5940,7 @@
     "dim_19": -0.07
   },
   {
-    "episodeId": "03§67 The Pharisees Confounded",
+    "episodeId": "03-67 The Pharisees Confounded",
     "dim_1": 1.47,
     "dim_2": 0.47,
     "dim_3": 0.44,
@@ -5962,7 +5962,7 @@
     "dim_19": 0.13
   },
   {
-    "episodeId": "01§07 The Temptation in the Wilderness",
+    "episodeId": "01-07 The Temptation in the Wilderness",
     "dim_1": -1.34,
     "dim_2": 2.54,
     "dim_3": 0.55,
@@ -5984,7 +5984,7 @@
     "dim_19": 0.51
   },
   {
-    "episodeId": "03§13b Jesus Heals Many",
+    "episodeId": "03-13b Jesus Heals Many",
     "dim_1": 0.84,
     "dim_2": 2.23,
     "dim_3": 1.19,
@@ -6006,7 +6006,7 @@
     "dim_19": 0.43
   },
   {
-    "episodeId": "01§86e Jesus Gives Instructions for Supper",
+    "episodeId": "01-86e Jesus Gives Instructions for Supper",
     "dim_1": -4.58,
     "dim_2": 0.3,
     "dim_3": -2.16,
@@ -6028,7 +6028,7 @@
     "dim_19": -0.41
   },
   {
-    "episodeId": "02§18 The Feeding of the Five Thousand",
+    "episodeId": "02-18 The Feeding of the Five Thousand",
     "dim_1": -3.26,
     "dim_2": 0.59,
     "dim_3": -0.17,
@@ -6050,7 +6050,7 @@
     "dim_19": -0.57
   },
   {
-    "episodeId": "01§49 Christ Teaches and Feeds Four Thousand",
+    "episodeId": "01-49 Christ Teaches and Feeds Four Thousand",
     "dim_1": -2.36,
     "dim_2": 1.16,
     "dim_3": -1.43,
@@ -6072,7 +6072,7 @@
     "dim_19": 0.19
   },
   {
-    "episodeId": "02§46 The Capture of Jesus",
+    "episodeId": "02-46 The Capture of Jesus",
     "dim_1": -0.42,
     "dim_2": 2.84,
     "dim_3": -1.24,
@@ -6094,7 +6094,7 @@
     "dim_19": 1.04
   },
   {
-    "episodeId": "03§17 Disputes Concerning Sabbath Observance",
+    "episodeId": "03-17 Disputes Concerning Sabbath Observance",
     "dim_1": -0.42,
     "dim_2": 3.26,
     "dim_3": 0.67,
@@ -6116,7 +6116,7 @@
     "dim_19": 0.21
   },
   {
-    "episodeId": "01§45 The Feeding of the Five Thousand",
+    "episodeId": "01-45 The Feeding of the Five Thousand",
     "dim_1": -3.27,
     "dim_2": 1.33,
     "dim_3": -1.03,
@@ -6138,7 +6138,7 @@
     "dim_19": 0.28
   },
   {
-    "episodeId": "03§29 The Feeding of the Five Thousand",
+    "episodeId": "03-29 The Feeding of the Five Thousand",
     "dim_1": -3.27,
     "dim_2": 1.33,
     "dim_3": -1.03,
@@ -6160,7 +6160,7 @@
     "dim_19": 0.28
   },
   {
-    "episodeId": "03§31 The Transfiguration",
+    "episodeId": "03-31 The Transfiguration",
     "dim_1": 0.53,
     "dim_2": -0.6,
     "dim_3": -0.93,
@@ -6182,7 +6182,7 @@
     "dim_19": -1.97
   },
   {
-    "episodeId": "01§18 The Centurion of Capernaum",
+    "episodeId": "01-18 The Centurion of Capernaum",
     "dim_1": -0.49,
     "dim_2": -0.07,
     "dim_3": 1.87,

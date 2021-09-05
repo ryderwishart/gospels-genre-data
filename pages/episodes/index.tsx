@@ -56,7 +56,7 @@ function AllEpisodes(props: EpisodeListProps) {
           { string: episode.title },
         );
         return (
-          <Link href={`/episodes/${titleStringForLink}`} key={episode.section}>
+          <Link href={`/episodes/${episode.section}`} key={episode.section}>
             <a className={styles.card}>
               <p>{episode.title}</p>
             </a>
