@@ -13,45 +13,48 @@ const MutationSet = ({
 }): JSX.Element => {
   //   const usesMultipleFeatureSets =
   //     preAndViaFeatureSets.preTextFeatures?.length > 0;
+  const hasMutations = [];
+  const mutationElements = Object.keys(
+    systemsDictionary[registerParameterSelection],
+  ).map((system) => {
+    const existingMutations = systemsDictionary[registerParameterSelection][
+      system
+    ]
+      .filter((feature) => mutations.includes(feature))
+      .filter((mutation) =>
+        preAndViaFeatureSets?.preTextFeatures?.includes(mutation),
+      )
+      .map((mutation) => (
+        <span key={mutation}>
+          {mutation} <span style={{ color: constants.color.blue }}>&rarr;</span>{' '}
+        </span>
+      ));
+
+    existingMutations.length > 0
+      ? hasMutations.push(true)
+      : hasMutations.push(false);
+
+    if (hasMutations) {
+      return (
+        <div key={system}>
+          {existingMutations.length > 0 && existingMutations}
+          {systemsDictionary[registerParameterSelection][system]
+            .filter((feature) => mutations.includes(feature))
+            .filter((mutation) =>
+              preAndViaFeatureSets?.viaTextFeatures?.includes(mutation),
+            )}
+        </div>
+      );
+    }
+    return '';
+  });
+
   return (
     <>
-      {Object.keys(systemsDictionary[registerParameterSelection]).map(
-        (system) => {
-          return (
-            <div key={system}>
-              {systemsDictionary[registerParameterSelection][system]
-                .filter((feature) => mutations.includes(feature))
-                .filter((mutation) =>
-                  /* 
-                  usesMultipleFeatureSets
-                    ? preAndViaFeatureSets.some((episodeFeatureSet) =>
-                        episodeFeatureSet.preTextFeatures.includes(mutation),
-                      )
-                    :  */ preAndViaFeatureSets?.preTextFeatures?.includes(
-                    mutation,
-                  ),
-                )
-                .map((mutation) => (
-                  <span key={mutation}>
-                    {mutation}{' '}
-                    <span style={{ color: constants.color.blue }}>&rarr;</span>{' '}
-                  </span>
-                ))}
-              {systemsDictionary[registerParameterSelection][system]
-                .filter((feature) => mutations.includes(feature))
-                .filter((mutation) =>
-                  /* 
-                  usesMultipleFeatureSets
-                    ? preAndViaFeatureSets.some((episodeFeatureSet) =>
-                        episodeFeatureSet.viaTextFeatures.includes(mutation),
-                      )
-                    : */ preAndViaFeatureSets?.viaTextFeatures?.includes(
-                    mutation,
-                  ),
-                )}
-            </div>
-          );
-        },
+      {hasMutations.includes(true) ? (
+        mutationElements
+      ) : (
+        <span style={{ color: constants.color.lightGrey }}>None</span>
       )}
     </>
   );

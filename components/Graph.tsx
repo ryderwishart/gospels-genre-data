@@ -33,7 +33,7 @@ const Graph = (props: GraphProps) => {
     ? window.innerWidth <= 350
       ? 200
       : window.innerWidth <= 400
-      ? 300
+      ? 270
       : window.innerWidth <= 800
       ? 400
       : 600

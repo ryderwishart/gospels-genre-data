@@ -270,13 +270,14 @@ export interface WordingJSON extends EnumerableElement {
 
 // SPEECH ACTS JSON TYPES
 export interface SpeechActsJson {
-  stage: SpeechActStage | SpeechActStage[];
+  root: { stage: SpeechActStage | SpeechActStage[] };
 }
 
 export type SpeechActJsonChild = {
   move?: SpeechActMove | SpeechActMove[];
   speechAct?: SpeechActData | SpeechActData[];
   directDiscourse?: SpeechActDirectDiscourse | SpeechActDirectDiscourse[];
+  w?: SpeechActWording | SpeechActWording[];
 };
 
 export interface SpeechActStage extends SpeechActJsonChild {
@@ -290,7 +291,6 @@ export interface SpeechActMove extends SpeechActJsonChild {
   chEnd: string;
   vStart: string;
   vEnd: string;
-  speechAct: SpeechActData | SpeechActData[];
 }
 
 export interface SpeechActData extends SpeechActJsonChild {
@@ -298,6 +298,7 @@ export interface SpeechActData extends SpeechActJsonChild {
   orientation: string;
   contemplation: string;
   tentativeness: string;
+  associated: boolean;
   w: SpeechActWording | SpeechActWording[];
 }
 
@@ -305,10 +306,11 @@ export interface SpeechActWording {
   pos: string;
   lemma: string;
   content: string;
+  gloss: string;
 }
 
 export interface SpeechActDirectDiscourse extends SpeechActJsonChild {
-  ostentatious: string;
+  ostentatious?: string;
 }
 
 // SPEECH ACT CLASSIFICATIONS

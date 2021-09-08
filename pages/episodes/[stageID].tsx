@@ -4,7 +4,15 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import Graph from '../../components/Graph';
 import styles from '../../styles/Home.module.css';
-import { Button, Drawer, InputNumber, Tag, Tooltip, Slider } from 'antd';
+import {
+  Button,
+  Drawer,
+  InputNumber,
+  Tag,
+  Tooltip,
+  Slider,
+  Collapse,
+} from 'antd';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import getSystemFromFeature from '../../functions/getSystemFromFeature';
@@ -13,7 +21,8 @@ import { useState } from 'react';
 import MutationSet from '../../components/MutationSet';
 import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
 import clusterLabels from '../../types/clusterLabels';
-import SpeechActContainer from '../../components/SpeechAct';
+import SpeechActContainer from '../../components/SpeechActContainer';
+import MoveContainer from '../../components/MoveContainer';
 
 interface EpisodeProps {
   response: {
@@ -39,6 +48,7 @@ interface EpisodeProps {
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
   console.log(props);
+  const [showWordings, setShowWordings] = useState(false);
   const [useGraphLabel, setUseGraphLabel] = useState(false);
   const [isResponsive, setIsResponsive] = useState(null);
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
@@ -110,179 +120,208 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             </p>
           </Link>
         )}
-        {(mutations.length > 0 && (
-          <div>
-            <h2>Situation Mutations</h2>
-            <div>
-              <div>
-                <p>Field</p>
-                <MutationSet
-                  preAndViaFeatureSets={currentEpisode}
-                  mutations={mutations}
-                  registerParameterSelection="field"
-                />
-              </div>
-              <div>
-                <p>Tenor</p>
-                <MutationSet
-                  preAndViaFeatureSets={currentEpisode}
-                  mutations={mutations}
-                  registerParameterSelection="tenor"
-                />
-              </div>
-              <div>
-                <h3>Mode</h3>
-                <MutationSet
-                  preAndViaFeatureSets={currentEpisode}
-                  mutations={mutations}
-                  registerParameterSelection="mode"
-                />
+        <Collapse defaultActiveKey={['moves-and-speech-acts']}>
+          <Collapse.Panel
+            header="Moves and Speech Acts"
+            key="moves-and-speech-acts"
+          >
+            <div
+              style={{
+                display: 'flex',
+                flexFlow: 'column',
+                marginTop: '1em',
+              }}
+            >
+              <h2>Speech Acts</h2>
+              <div
+                style={{
+                  maxWidth: '700px',
+                  // display: 'flex',
+                  // flexDirection: 'column',
+                  // gridTemplateColumns: 'auto auto auto',
+                }}
+              >
+                {Array.isArray(props.speechActsResponse[0]?.move)
+                  ? props.speechActsResponse[0]?.move.map((moveData) => {
+                      return <MoveContainer move={moveData} />;
+                    })
+                  : props.speechActsResponse[0]?.move && (
+                      <MoveContainer move={props.speechActsResponse[0]?.move} />
+                    )}
               </div>
             </div>
-          </div>
-        )) || <h2>Non-mutating situation</h2>}
-        <div
-          style={{ display: 'flex', maxWidth: '90vw', flexDirection: 'row' }}
-        >
-          <div
-            style={{ display: 'flex', flexFlow: 'column', maxWidth: '42vw' }}
+          </Collapse.Panel>
+          <Collapse.Panel
+            header="Situational Features"
+            key="situational-features"
           >
-            <h2>Pre-text Features</h2>
-            {Array.isArray(currentEpisode.preTextFeatures) ? ( // TODO: abstract this entire feature-map
-              currentEpisode.preTextFeatures.map((feature) => {
-                const featureTruncated =
-                  feature.length > 18
-                    ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
-                    : feature;
-                try {
-                  const system = getSystemFromFeature(feature);
-                  const registerParameter = getSystemFromFeature(feature, true);
+            <div
+              style={{
+                display: 'flex',
+                maxWidth: '90vw',
+                flexDirection: 'row',
+              }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  flexFlow: 'column',
+                  maxWidth: '42vw',
+                }}
+              >
+                <h2>Pre-text Features</h2>
+                {Array.isArray(currentEpisode.preTextFeatures) ? ( // TODO: abstract this entire feature-map
+                  currentEpisode.preTextFeatures.map((feature) => {
+                    const featureTruncated =
+                      feature.length > 18
+                        ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
+                        : feature;
+                    try {
+                      const system = getSystemFromFeature(feature);
+                      const registerParameter = getSystemFromFeature(
+                        feature,
+                        true,
+                      );
 
-                  const highlightColor =
-                    registerParameter === 'field'
-                      ? 'orange'
-                      : registerParameter === 'tenor'
-                      ? 'red'
-                      : registerParameter === 'mode'
-                      ? 'green'
-                      : 'grey';
-                  if (currentEpisode.viaTextFeatures.includes(feature)) {
-                    return (
-                      <Tooltip
-                        key={feature}
-                        title={getSentenceCaseString(system) + ': ' + feature}
-                      >
-                        <Tag>{featureTruncated}</Tag>
-                      </Tooltip>
-                    );
-                  } else {
-                    return (
-                      <Tooltip
-                        key={feature}
-                        title={getSentenceCaseString(system) + ': ' + feature}
-                      >
-                        <Tag color={highlightColor}>{featureTruncated}</Tag>
-                      </Tooltip>
-                    );
-                  }
-                } catch (error) {
-                  return <Tag>{featureTruncated}</Tag>;
-                }
-              })
-            ) : (
-              <Tag>{currentEpisode.preTextFeatures}</Tag>
-            )}
-          </div>
-          <div
-            style={{ display: 'flex', flexFlow: 'column', maxWidth: '42vw' }}
+                      const highlightColor =
+                        registerParameter === 'field'
+                          ? 'orange'
+                          : registerParameter === 'tenor'
+                          ? 'red'
+                          : registerParameter === 'mode'
+                          ? 'green'
+                          : 'grey';
+                      if (currentEpisode.viaTextFeatures.includes(feature)) {
+                        return (
+                          <Tooltip
+                            key={feature}
+                            title={
+                              getSentenceCaseString(system) + ': ' + feature
+                            }
+                          >
+                            <Tag>{featureTruncated}</Tag>
+                          </Tooltip>
+                        );
+                      } else {
+                        return (
+                          <Tooltip
+                            key={feature}
+                            title={
+                              getSentenceCaseString(system) + ': ' + feature
+                            }
+                          >
+                            <Tag color={highlightColor}>{featureTruncated}</Tag>
+                          </Tooltip>
+                        );
+                      }
+                    } catch (error) {
+                      return <Tag>{featureTruncated}</Tag>;
+                    }
+                  })
+                ) : (
+                  <Tag>{currentEpisode.preTextFeatures}</Tag>
+                )}
+              </div>
+              <div
+                style={{
+                  display: 'flex',
+                  flexFlow: 'column',
+                  maxWidth: '42vw',
+                }}
+              >
+                <h2>Via-text Features</h2>
+                {Array.isArray(currentEpisode.viaTextFeatures) ? (
+                  currentEpisode.viaTextFeatures.map((feature) => {
+                    const featureTruncated =
+                      feature.length > 18
+                        ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
+                        : feature;
+                    try {
+                      const system = getSystemFromFeature(feature);
+                      const registerParameter = getSystemFromFeature(
+                        feature,
+                        true,
+                      );
+                      const highlightColor = // TODO: abstract highlight colour getter
+                        registerParameter === 'field'
+                          ? 'orange'
+                          : registerParameter === 'tenor'
+                          ? 'red'
+                          : registerParameter === 'mode'
+                          ? 'green'
+                          : 'grey';
+                      if (currentEpisode.preTextFeatures.includes(feature)) {
+                        return (
+                          <Tooltip
+                            title={
+                              getSentenceCaseString(system) + ': ' + feature
+                            }
+                          >
+                            <Tag>{featureTruncated}</Tag>
+                          </Tooltip>
+                        );
+                      } else {
+                        return (
+                          <Tooltip
+                            title={
+                              getSentenceCaseString(system) + ': ' + feature
+                            }
+                          >
+                            <Tag color={highlightColor}>{featureTruncated}</Tag>
+                          </Tooltip>
+                        );
+                      }
+                    } catch (error) {
+                      return <Tag>{featureTruncated}</Tag>;
+                    }
+                  })
+                ) : (
+                  <Tag>{currentEpisode.viaTextFeatures}</Tag>
+                )}
+              </div>
+            </div>
+          </Collapse.Panel>
+          <Collapse.Panel
+            header="Situational Mutations"
+            key="situational-mutations"
           >
-            <h2>Via-text Features</h2>
-            {Array.isArray(currentEpisode.viaTextFeatures) ? (
-              currentEpisode.viaTextFeatures.map((feature) => {
-                const featureTruncated =
-                  feature.length > 18
-                    ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
-                    : feature;
-                try {
-                  const system = getSystemFromFeature(feature);
-                  const registerParameter = getSystemFromFeature(feature, true);
-                  const highlightColor = // TODO: abstract highlight colour getter
-                    registerParameter === 'field'
-                      ? 'orange'
-                      : registerParameter === 'tenor'
-                      ? 'red'
-                      : registerParameter === 'mode'
-                      ? 'green'
-                      : 'grey';
-                  if (currentEpisode.preTextFeatures.includes(feature)) {
-                    return (
-                      <Tooltip
-                        title={getSentenceCaseString(system) + ': ' + feature}
-                      >
-                        <Tag>{featureTruncated}</Tag>
-                      </Tooltip>
-                    );
-                  } else {
-                    return (
-                      <Tooltip
-                        title={getSentenceCaseString(system) + ': ' + feature}
-                      >
-                        <Tag color={highlightColor}>{featureTruncated}</Tag>
-                      </Tooltip>
-                    );
-                  }
-                } catch (error) {
-                  return <Tag>{featureTruncated}</Tag>;
-                }
-              })
-            ) : (
-              <Tag>{currentEpisode.viaTextFeatures}</Tag>
-            )}
-          </div>
-        </div>
-        <div
-          style={{
-            display: 'flex',
-            flexFlow: 'column',
-            marginTop: '1em',
-          }}
-        >
-          <h2>Speech Acts</h2>
-          <div
-            style={{
-              maxWidth: '95vw',
-              display: 'flex',
-              flexDirection: 'column',
-              // gridTemplateColumns: 'auto auto auto',
-            }}
-          >
-            <table>
-              <tr>
-                <th style={{ textAlign: 'right', width: '90px' }} />
-                <th style={{ textAlign: 'left' }} />
-                <th style={{ textAlign: 'left' }} />
-              </tr>
-              {props.speechActsResponse[0].move?.map((move, index) => (
-                <>
-                  {(Array.isArray(move.speechAct) &&
-                    move.speechAct.map((speechAct) => (
-                      <SpeechActContainer
-                        key={speechAct.key}
-                        speechAct={speechAct}
-                        move={move}
-                      />
-                    ))) || (
-                    <SpeechActContainer
-                      key={move.speechAct.key}
-                      speechAct={move.speechAct}
-                      move={move}
+            {(mutations.length > 0 && (
+              <div>
+                <h2>Situation Mutations</h2>
+                <div>
+                  <div>
+                    <h3>Field</h3>
+                    <hr />
+                    <MutationSet
+                      preAndViaFeatureSets={currentEpisode}
+                      mutations={mutations}
+                      registerParameterSelection="field"
                     />
-                  )}
-                </>
-              ))}
-            </table>
-          </div>
-        </div>
+                  </div>
+                  <div>
+                    <h3>Tenor</h3>
+                    <hr />
+                    <MutationSet
+                      preAndViaFeatureSets={currentEpisode}
+                      mutations={mutations}
+                      registerParameterSelection="tenor"
+                    />
+                  </div>
+                  <div>
+                    <h3>Mode</h3>
+                    <hr />
+                    <MutationSet
+                      preAndViaFeatureSets={currentEpisode}
+                      mutations={mutations}
+                      registerParameterSelection="mode"
+                    />
+                  </div>
+                </div>
+              </div>
+            )) || <h2>Non-mutating situation</h2>}
+          </Collapse.Panel>
+        </Collapse>
+
         <Button
           style={{ margin: '20px' }}
           onClick={() => setDrawerIsVisible(drawerIsVisible ? false : true)}
@@ -339,6 +378,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             }
           })}
         </ul>
+
         <div
           className={styles.grid}
           style={{
