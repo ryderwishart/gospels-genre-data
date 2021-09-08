@@ -1,8 +1,7 @@
 import speechActs from '../../../public/data/stages/stage-speech-acts/speechActs.json';
 import jsonPath from 'jsonpath';
-import { SpeechActsJson } from '../../../types';
 
-const speechActsJson: SpeechActsJson = speechActs['root'];
+const speechActsJson = speechActs['root'];
 
 const handler = (req, res) => {
   const stageIDFormatted = req.query.stage.replace('$', '-');
