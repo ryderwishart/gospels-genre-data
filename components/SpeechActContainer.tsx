@@ -106,6 +106,7 @@ const SpeechActContainer: React.FunctionComponent<ComponentProps> = (props) => {
   let embeddedContent = null;
   if (speechActHasEmbeddedDirectDiscourse) {
     const embeddedDirectDiscourse: SpeechActDirectDiscourse =
+      !Array.isArray(props.speechAct.directDiscourse) &&
       props.speechAct.directDiscourse;
     embeddedContent = (
       <DirectDiscourseContainer
@@ -115,7 +116,8 @@ const SpeechActContainer: React.FunctionComponent<ComponentProps> = (props) => {
     );
   }
   if (speechActHasEmbeddedSpeechAct) {
-    const embeddedSpeechAct: SpeechActData = props.speechAct.speechAct;
+    const embeddedSpeechAct: SpeechActData =
+      !Array.isArray(props.speechAct.speechAct) && props.speechAct.speechAct;
     embeddedContent = (
       <SpeechActContainer speechAct={embeddedSpeechAct} embedded={true} />
     );
