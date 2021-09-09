@@ -11,7 +11,7 @@
     "strict": false,
     "noImplicitAny": false,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": false,
+    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -19,7 +19,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "typeRoots": [
-      "./types",
       "./node_modules/@types",
       "./types/declarations.d.ts"
     ]
@@ -29,9 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.css",
-    "**.*.js", 
-    "pages/api/clusters/[cluster].ts"  
-  ],
+    "**.*.js"
+, "pages/api/clusters/[cluster].ts"  ],
   "exclude": [
     "node_modules"
   ]

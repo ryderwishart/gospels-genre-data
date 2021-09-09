@@ -12,9 +12,7 @@ const DirectDiscourseContainer: React.FunctionComponent<ComponentProps> = (
   props,
 ) => {
   const directDiscourseWords =
-    !Array.isArray(props.directDiscourse) &&
-    props.directDiscourse?.w &&
-    Array.isArray(props.directDiscourse.w) ? (
+    props.directDiscourse?.w && Array.isArray(props.directDiscourse.w) ? (
       props.directDiscourse.w.map((word, index) => (
         <WordContainer
           directDiscourse
@@ -25,37 +23,18 @@ const DirectDiscourseContainer: React.FunctionComponent<ComponentProps> = (
     ) : (
       <WordContainer
         directDiscourse
-        key={`${
-          !Array.isArray(props.directDiscourse) &&
-          props.directDiscourse?.w &&
-          !Array.isArray(props.directDiscourse.w) &&
-          props.directDiscourse.w?.content
-        }`}
-        word={
-          !Array.isArray(props.directDiscourse) &&
-          props.directDiscourse?.w &&
-          !Array.isArray(props.directDiscourse.w) &&
-          props.directDiscourse.w
-        }
+        key={`${props.directDiscourse.w?.content}`}
+        word={props.directDiscourse.w}
       />
     );
 
   let directDiscourseContent = null;
 
-  if (
-    !Array.isArray(props.directDiscourse) &&
-    props.directDiscourse?.w &&
-    !Array.isArray(props.directDiscourse.w) &&
-    props.directDiscourse.move &&
-    Array.isArray(props.directDiscourse.move)
-  ) {
+  if (props.directDiscourse.move && Array.isArray(props.directDiscourse.move)) {
     directDiscourseContent = props.directDiscourse.move.map((move, index) => (
       <MoveContainer key={'move' + index} move={move} embedded />
     ));
   } else if (
-    !Array.isArray(props.directDiscourse) &&
-    props.directDiscourse?.w &&
-    !Array.isArray(props.directDiscourse.w) &&
     props.directDiscourse.move &&
     !Array.isArray(props.directDiscourse.move)
   ) {
