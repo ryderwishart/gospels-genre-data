@@ -1,10 +1,11 @@
 import { Collapse } from 'antd';
-import { SpeechActDirectDiscourse } from '../types';
+// import { SpeechActDirectDiscourse } from '../types';
 import MoveContainer from './MoveContainer';
 import WordContainer from './WordContainer';
 
 interface ComponentProps {
-  directDiscourse: SpeechActDirectDiscourse | SpeechActDirectDiscourse[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  directDiscourse: any; // NOTE: forcing any type because explicitly checking for array types is super cumbersome here and resulted in no content for the direct discourse containers
   embedded?: boolean;
 }
 
