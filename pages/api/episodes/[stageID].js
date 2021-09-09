@@ -6,7 +6,6 @@ const { nodes, edges } = graphData;
 
 const handler = (req, res) => {
   const { stageID } = req.query;
-  console.log({stageID});
   let currentEpisode = null;
   let previousEpisode = null;
   let nextEpisode = null;
@@ -15,7 +14,6 @@ const handler = (req, res) => {
   let currentEpisodeMetaData = null;
   episodesMetaData.root.episode.find((episodeContainer) => {
     if (episodeContainer.$.section.includes(stageID)) {
-      console.log('MATCH', episodeContainer.$.section);
       // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
       currentEpisodeMetaData = episodeContainer.$;
       return;
@@ -26,9 +24,7 @@ const handler = (req, res) => {
 
   try {
     const selectedEpisode = episodesFeatures.find((episode, index) => {
-      console.log('STEP 1', episode)
       if (episode.episode.includes(stageID)) {
-        console.log('STEP 2')
         // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
         currentEpisode = episode;
         previousEpisode = episodesFeatures[index - 1];
@@ -39,7 +35,6 @@ const handler = (req, res) => {
       }
     });
 
-    console.log('STEP 3', {selectedEpisode})
     const selectedEpisodeIDAndTitle = `${selectedEpisode.episode} ${selectedEpisode.title}`
       .split(/[,'".;’“”]+/)
       .join('');
@@ -63,7 +58,6 @@ const handler = (req, res) => {
         edgeIDReferences.push(edge.target);
         return edge;
       });
-console.log('STEP 4')
     similarNodes = nodes.filter((node) => {
       if (edgeIDReferences.includes(node.id)) {
         return node;
@@ -71,7 +65,6 @@ console.log('STEP 4')
     });
 
     const allNodeIDs = similarNodes.map((node) => node.id);
-console.log('STEP 5')
     const remainingEdgesForSelectedNodes = edges
       .filter((edge) => {
         if (
@@ -83,7 +76,6 @@ console.log('STEP 5')
       })
       .sort((a, b) => (a.weight > b.weight ? -1 : 1)) // NOTE: sort remaining edges by weight descending
       .slice(0, 9); // NOTE: return only the top ten;
-
     similarEdges = [...adjacentEdges, ...remainingEdgesForSelectedNodes];
   } catch (error) {
     console.warn(

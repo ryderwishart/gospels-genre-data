@@ -96,9 +96,9 @@ const SpeechActContainer: React.FunctionComponent<ComponentProps> = (props) => {
       <WordContainer key={`${word.content}-${index}`} word={word} />
     ))
   ) : (
-    <WordContainer
-      key={`${props.speechAct.w.content}`}
-      word={props.speechAct.w}
+    <WordContainer // FIXME: The option chaining here should be unnecessary, but there are a few cases where there is missing wording in the underlying data.
+      key={`${props.speechAct?.w?.content}`}
+      word={props.speechAct?.w}
     />
   );
   const speechActHasEmbeddedDirectDiscourse = !!props.speechAct.directDiscourse;
