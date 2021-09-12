@@ -20,6 +20,11 @@ export default function Appendices() {
           <a>Graph of All Episode Situation Similarities</a>
         </Link>
       </div>
+      <div className={styles.card}>
+        <Link href="/appendix/feature-sets">
+          <a>Grammatical Features by Order of Text</a>
+        </Link>
+      </div>
     </Layout>
   );
 }

@@ -34,7 +34,6 @@ const stages: Stage[] = jsonpath.query(
     },
   };
 }); */
-console.log(stages);
 
 const handler = (req, res) => {
   res.status(200).send(stages);
