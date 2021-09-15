@@ -5,6 +5,8 @@ import jsonpath from 'jsonpath';
 import { EpisodeMetadata } from '../../types';
 import { useState } from 'react';
 import { UnorderedListOutlined } from '@ant-design/icons';
+import clusterLabels from '../../types/clusterLabels';
+import Link from 'next/link';
 
 interface AutoCompleteProps {
   options: { value: string }[];
@@ -120,9 +122,19 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                     const sectionID = metadata.$.section;
                     const title = metadata.$.title;
                     return (
-                      <span key={sectionID}>
+                      <div key={sectionID}>
+                        {metadata.$.cluster && (
+                          <>
+                            <Link
+                              href={`${server}clusters/${metadata.$.cluster}`}
+                            >
+                              <a>{clusterLabels[metadata.$.cluster]}</a>
+                            </Link>
+                            <br />
+                          </>
+                        )}
                         <b>{startReference}</b> {title} <br />
-                      </span>
+                      </div>
                     );
                   })}
                 </span>
@@ -146,12 +158,13 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
           ...allTableHeaders
             .filter((header) => selectedIDs.includes(header.value))
             .map((selectedID) => {
+              const titleString =
+                typeof selectedID.value === 'string'
+                  ? selectedID.value.slice(0, 1).toUpperCase() +
+                    selectedID.value.slice(1)
+                  : selectedID.value;
               return {
-                title:
-                  typeof selectedID.value === 'string'
-                    ? selectedID.value.slice(0, 1).toUpperCase() +
-                      selectedID.value.slice(1)
-                    : selectedID.value,
+                title: titleString,
                 dataIndex: selectedID.value,
                 key: selectedID.value,
                 sorter: (a, b) =>
