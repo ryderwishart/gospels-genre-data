@@ -107,7 +107,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
         pagination={false}
         columns={[
           {
-            title: 'Title',
+            title: 'Episode Start Reference and Title',
             dataIndex: 'metadata',
             key: 'metadata',
             render: (allMetadata, record) => {
@@ -154,6 +154,9 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                     : selectedID.value,
                 dataIndex: selectedID.value,
                 key: selectedID.value,
+                sorter: (a, b) =>
+                  parseFloat(a[selectedID.value]) -
+                  parseFloat(b[selectedID.value]),
                 render: (value, record) => {
                   return (
                     <Tooltip
