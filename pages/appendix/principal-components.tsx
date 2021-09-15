@@ -13,7 +13,7 @@ const PrincipalComponentsTable = (props) => {
     null,
   );
 
-  console.log({ props });
+  // NOTE: These values are manually identified. If the underlying data changes, the min and max values will need to be re-identified in order to ensure accurate color gradients for the heat map.
   const maxValue = 4.54;
   const minValue = -10.98;
 

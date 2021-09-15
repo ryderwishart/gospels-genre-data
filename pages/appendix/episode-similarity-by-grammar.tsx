@@ -55,12 +55,9 @@ interface ComponentProps {
 
 const CosineSimilaritiesTable = (props: ComponentProps) => {
   const [selectedIDs, setSelectedIDs] = useState([]);
-  console.log({ props });
-  console.log({ selectedIDs });
   const allTableHeaders = Object.keys(props.tableDataResponse[0])
     .slice(1)
     .map((header) => ({ value: header }));
-  console.log({ allTableHeaders });
   const tableDataWithMetadata = props.tableDataResponse.map((episode) => {
     return {
       ...episode,
