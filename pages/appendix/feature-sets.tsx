@@ -18,8 +18,6 @@ const FeatureSetsTable = (props) => {
     null,
   );
 
-  console.log({ props });
-
   const root = props.response.root;
 
   const moves = jsonpath.query(
@@ -154,12 +152,16 @@ const FeatureSetsTable = (props) => {
 export default FeatureSetsTable;
 
 export async function getStaticProps(context) {
-  const response = await (
-    await fetch(`${server}/api/features/ordered-features`)
-  ).json();
-  return {
-    props: {
-      response,
-    },
-  };
+  try {
+    const response = await (
+      await fetch(`${server}/api/features/ordered-features`)
+    ).json();
+    return {
+      props: {
+        response,
+      },
+    };
+  } catch (err) {
+    console.error(err);
+  }
 }
