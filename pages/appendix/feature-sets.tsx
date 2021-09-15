@@ -56,13 +56,13 @@ const FeatureSetsTable = (props) => {
           defaultValue={depthDefaultValue}
           tipFormatter={(value) => {
             if (value === 1) {
-              return 'Display grammatical tallies for second-order moves';
+              return 'Display grammatical tallies for second-order (one-depth) moves';
             } else if (value === 2) {
-              return 'Display grammatical tallies for third-order moves';
+              return 'Display grammatical tallies for third-order (two-depth) moves';
             } else if (value === 3) {
-              return 'Display grammatical tallies for fourth-order moves';
+              return 'Display grammatical tallies for fourth-order (three-depth) moves';
             }
-            return 'Display grammatical tallies for first-order moves';
+            return 'Display grammatical tallies for first-order (zero-depth) moves';
           }}
           onChange={(value) => setSelectedDepth(value)}
         />

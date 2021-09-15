@@ -25,6 +25,11 @@ export default function Appendices() {
           <a>Grammatical Features by Order of Text</a>
         </Link>
       </div>
+      <div className={styles.card}>
+        <Link href="/appendix/episode-similarity-by-grammar">
+          <a>Episode Cosine Similarity by Grammatical Features</a>
+        </Link>
+      </div>
     </Layout>
   );
 }
