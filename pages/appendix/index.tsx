@@ -53,7 +53,7 @@ export default function Appendices() {
           </div>
         </a>
       </Link>
-      <Link href="/appendix/feature-sets">
+      {/* <Link href="/appendix/feature-sets">
         <a>
           <div className={styles.card}>
             <Tooltip title="Grammatical Data Table">
@@ -67,8 +67,8 @@ export default function Appendices() {
             </span>
           </div>
         </a>
-      </Link>
-      <Link href="/appendix/episode-similarity-by-grammar">
+      </Link> */}
+      {/* <Link href="/appendix/episode-similarity-by-grammar">
         <a>
           <div className={styles.card}>
             <Tooltip title="Grammatical and Contextual Data Table">
@@ -83,7 +83,7 @@ export default function Appendices() {
             </span>
           </div>
         </a>
-      </Link>
+      </Link> */}
       <Link href="/appendix/cluster-to-episode-similarity">
         <a>
           <div className={styles.card}>
