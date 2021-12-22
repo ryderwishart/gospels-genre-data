@@ -66,7 +66,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
     }
   }
   return (
-    <Layout pageTitle="Features Table Appendix">
+    <Layout pageTitle="Cluster-to-Episode Similarity Appendix">
       <Complete options={allTableHeaders} onSelect={handleAutoCompleteChange} />
       <div
         style={{
@@ -103,7 +103,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
             key: 'cluster',
             render: (cluster) => (
               <>
-                <Link href={`${server}clusters/${cluster}`}>
+                <Link href={`${server}/clusters/${cluster}`}>
                   <a>{clusterLabels[cluster]}</a>
                 </Link>
                 <br />

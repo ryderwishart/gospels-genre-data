@@ -12,7 +12,7 @@ const handler = (req, res) => {
   let similarNodes = null;
   let similarEdges = null;
   let currentEpisodeMetaData = null;
-  episodesMetaData.root.episode.find((episodeContainer) => {
+  episodesMetaData.root?.episode?.find((episodeContainer) => {
     if (episodeContainer.$.section.includes(stageID)) {
       // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
       currentEpisodeMetaData = episodeContainer.$;
@@ -24,7 +24,7 @@ const handler = (req, res) => {
 
   try {
     const selectedEpisode = episodesFeatures.find((episode, index) => {
-      if (episode.episode.includes(stageID)) {
+      if (episode?.episode.includes(stageID)) {
         // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
         currentEpisode = episode;
         previousEpisode = episodesFeatures[index - 1];
@@ -35,7 +35,7 @@ const handler = (req, res) => {
       }
     });
 
-    const selectedEpisodeIDAndTitle = `${selectedEpisode.episode} ${selectedEpisode.title}`
+    const selectedEpisodeIDAndTitle = `${selectedEpisode?.episode} ${selectedEpisode.title}`
       .split(/[,'".;’“”]+/)
       .join('');
 

@@ -47,7 +47,6 @@ interface EpisodeProps {
 }
 
 const EpisodePage: React.FC<EpisodeProps> = (props) => {
-  console.log(props);
   const [showWordings, setShowWordings] = useState(false);
   const [useGraphLabel, setUseGraphLabel] = useState(false);
   const [isResponsive, setIsResponsive] = useState(null);
@@ -332,9 +331,19 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
           {typeof window !== 'undefined' && (
             <Graph graphData={graphData} cooldown={50} />
           )}
+          <p>
+            This graph shows the ten most similar episodes to the current
+            episodes, and the connections between them
+          </p>
+          <p>
+            Note: if you don&apos;t see anything in this box, try zooming out by
+            pinching or scrolling out. If this doesn&apos;t work, try opening
+            this page in a new tab.
+          </p>
         </div>
         <ul>
           {graphData.nodes.map((node) => {
+            // FIXME: I'm not sure if this string manipulation is still necessary
             const nodeID = node.id
               .split(' ')
               .filter((idSection) => idSection.includes('-'))
@@ -350,9 +359,10 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               .filter((idSection) => idSection.includes('-'))
               .join(' ');
             if (!currentEpisodeID.includes(nodeID)) {
-              const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
-                { string: nodeTitle },
-              );
+              // const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+              //   { string: nodeTitle },
+              // );
+              const nodeEpisodeLinkString = nodeID;
               const nodeSimilarityToCentralNode = graphData.links.find(
                 (edge) => {
                   const edgeIDs = edge.id
