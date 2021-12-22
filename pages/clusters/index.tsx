@@ -65,12 +65,9 @@ const AllClustersPage = (props) => {
           expandedRowRender: (cluster) => (
             <p style={{ margin: 0 }}>
               {props.response[cluster.originalClusterObject].map((episode) => {
-                const titleStringForLink = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
-                  { string: episode.title },
-                );
                 return (
                   <Link
-                    href={`/episodes/${titleStringForLink}`}
+                    href={`/episodes/${episode.section}`}
                     key={episode.section}
                   >
                     <a>

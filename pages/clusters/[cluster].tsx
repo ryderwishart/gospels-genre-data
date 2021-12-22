@@ -487,13 +487,11 @@ const ClusterPage = (props: ComponentProps) => {
                       !currentEpisode.preTextFeatures.includes(feature) &&
                       mutations.push(feature),
                   );
-
                 return (
                   <div key={episode.section} className={styles.card}>
                     <p>{episode.title}</p>
                     <Link
-                      href={`${server}/episodes/${getFirstTitleHyphenatedLowerCaseStringFromTitleString(
-                        { string: episode.title },
+                      href={`${server}/episodes/${episode.episode},
                       )}`}
                     >
                       <a>View Episode</a>

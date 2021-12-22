@@ -74,7 +74,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
     }
   }
   return (
-    <Layout pageTitle="Features Table Appendix">
+    <Layout pageTitle="Episode Similarity Appendix">
       <Complete options={allTableHeaders} onSelect={handleAutoCompleteChange} />
       <div
         style={{
