@@ -70,18 +70,18 @@ export type StageFeatureSet = {
   features: string[];
 };
 
-export type Episode = {
-  episode: string;
+export type Situation = {
+  situation: string;
   title: string;
   section?: string;
   preTextFeatures: string[];
   viaTextFeatures: string[];
 };
 
-export interface EpisodeMetadata {
+export interface SituationMetadata {
   title: string;
   start: string;
-  episodeSlug: string;
+  situationSlug: string;
   passage: Verse[] | Paragraph[];
   section: string;
   morphGntId: string;
@@ -122,7 +122,7 @@ export type GraphEdge = {
 // PRINCIPAL COMPONENT ANALYSIS DATA
 
 export interface Dimensions {
-  episodeId: string;
+  situationId: string;
   dim_1: number;
   dim_2: number;
   dim_3: number;

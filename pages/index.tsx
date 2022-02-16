@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <Layout>
       <div className={styles.card}>
-        <Link href="/episodes">
-          <a>Episodes</a>
+        <Link href="/situations">
+          <a>Situations</a>
         </Link>
       </div>
       <div className={styles.card}>

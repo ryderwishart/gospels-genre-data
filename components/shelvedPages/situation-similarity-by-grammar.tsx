@@ -1,8 +1,8 @@
 import { server } from '../../config';
-import Layout from '../../components/Layout';
+import Layout from '../Layout';
 import { AutoComplete, Input, Table, Tag, Tooltip } from 'antd';
 import jsonpath from 'jsonpath';
-import { EpisodeMetadata } from '../../types';
+import { SituationMetadata } from '../../types';
 import { useState } from 'react';
 import { UnorderedListOutlined } from '@ant-design/icons';
 import clusterLabels from '../../types/clusterLabels';
@@ -20,7 +20,7 @@ const Complete: React.FC<AutoCompleteProps> = (props) => {
   return (
     <>
       <p>
-        Select episodes using this search box in order to add comparison columns
+        Select situations using this search box in order to add comparison columns
         to the table
       </p>
       <AutoComplete
@@ -29,7 +29,7 @@ const Complete: React.FC<AutoCompleteProps> = (props) => {
         onSelect={(value) => handleSelect(value)}
       >
         <Input
-          placeholder="Select episode IDs to filter the table..."
+          placeholder="Select situation IDs to filter the table..."
           addonAfter={<UnorderedListOutlined />}
           width={300}
         />
@@ -40,14 +40,14 @@ const Complete: React.FC<AutoCompleteProps> = (props) => {
 };
 
 interface ComponentProps {
-  clusterToEpisodeSimilarities: {
+  tableDataResponse: {
     id: string;
     [key: string]: string;
   }[];
-  episodeMetadataResponse: {
-    episodes: {
+  situationMetadataResponse: {
+    situations: {
       root: {
-        episode: { $: EpisodeMetadata }[];
+        situation: { $: SituationMetadata }[];
       };
     };
   };
@@ -55,9 +55,17 @@ interface ComponentProps {
 
 const CosineSimilaritiesTable = (props: ComponentProps) => {
   const [selectedIDs, setSelectedIDs] = useState([]);
-  const allTableHeaders = Object.keys(props.clusterToEpisodeSimilarities[0])
+  const allTableHeaders = Object.keys(props.tableDataResponse[0])
     .slice(1)
     .map((header) => ({ value: header }));
+  const tableDataWithMetadata = props.tableDataResponse.map((situation) => {
+    return {
+      ...situation,
+      metadata: props.situationMetadataResponse.situations.root.situation.filter(
+        (metadata) => situation.id.includes(metadata.$.section),
+      ),
+    };
+  });
   function handleAutoCompleteChange(value) {
     if (selectedIDs.includes(value)) {
       setSelectedIDs(selectedIDs.filter((id) => id !== value));
@@ -66,7 +74,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
     }
   }
   return (
-    <Layout pageTitle="Cluster-to-Episode Similarity Appendix">
+    <Layout pageTitle="Features Table Appendix">
       <Complete options={allTableHeaders} onSelect={handleAutoCompleteChange} />
       <div
         style={{
@@ -94,21 +102,55 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
           })}
       </div>
       <Table
-        dataSource={props.clusterToEpisodeSimilarities}
+        dataSource={tableDataWithMetadata}
         pagination={false}
         columns={[
           {
-            title: 'Cluster',
-            dataIndex: 'cluster',
-            key: 'cluster',
-            render: (cluster) => (
-              <>
-                <Link href={`${server}/clusters/${cluster}`}>
-                  <a>{clusterLabels[cluster]}</a>
-                </Link>
-                <br />
-              </>
-            ),
+            title: 'Situation Start Reference and Title',
+            dataIndex: 'metadata',
+            key: 'metadata',
+            render: (allMetadata, record) => {
+              return (
+                <span>
+                  {allMetadata?.map((metadata) => {
+                    const startReference = metadata.$.start
+                      .replace('SBLGNT.', '')
+                      .replace('.w1', '');
+                    const sectionID = metadata.$.section;
+                    const title = metadata.$.title;
+                    return (
+                      <div key={sectionID}>
+                        {metadata.$.cluster && (
+                          <>
+                            <Link
+                              href={`${server}clusters/${metadata.$.cluster}`}
+                            >
+                              <a>{clusterLabels[metadata.$.cluster]}</a>
+                            </Link>
+                            <br />
+                          </>
+                        )}
+                        <b>{startReference}</b> {title} <br />
+                      </div>
+                    );
+                  })}
+                </span>
+              );
+            },
+          },
+          {
+            title: 'Situation ID',
+            dataIndex: 'id',
+            key: 'id',
+            render: (id, record) => {
+              return (
+                <span>
+                  {typeof id === 'string'
+                    ? id.slice(0, 1).toUpperCase() + id.slice(1)
+                    : id}
+                </span>
+              );
+            },
           },
           ...allTableHeaders
             .filter((header) => selectedIDs.includes(header.value))
@@ -139,12 +181,6 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                 },
               };
             }),
-          {
-            title:
-              selectedIDs.length > 0
-                ? null
-                : 'Use the search bar to add comparison episodes',
-          },
         ]}
       />
     </Layout>
@@ -154,16 +190,16 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
 export default CosineSimilaritiesTable;
 
 export async function getStaticProps(context) {
-  const clusterToEpisodeSimilarities = await (
-    await fetch(`${server}/api/data-tables/cluster-to-episode-similarity`)
+  const tableDataResponse = await (
+    await fetch(`${server}/api/data-tables/situation-similarity-by-grammar`)
   ).json();
-  const episodeMetadataResponse = await (
-    await fetch(`${server}/api/episodes`)
+  const situationMetadataResponse = await (
+    await fetch(`${server}/api/situations`)
   ).json();
   return {
     props: {
-      clusterToEpisodeSimilarities,
-      episodeMetadataResponse,
+      tableDataResponse,
+      situationMetadataResponse,
     },
   };
 }

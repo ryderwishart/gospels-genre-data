@@ -14,10 +14,10 @@ export default function Appendices() {
               <PictureOutlined />
             </Tooltip>
             {'  '}
-            Episode Principal Component Scores
+            Situation Principal Component Scores
             <br />
             <span style={{ color: 'black' }}>
-              All of the principal-component scores for each episode
+              All of the principal-component scores for each situation
             </span>
           </div>
         </a>
@@ -37,18 +37,18 @@ export default function Appendices() {
           </div>
         </a>
       </Link>
-      <Link href="/appendix/episodes-graph">
+      <Link href="/appendix/situations-graph">
         <a>
           <div className={styles.card}>
             <Tooltip title="Contextual Data Table">
               <PictureOutlined />
             </Tooltip>
             {'  '}
-            Graph of All Episode Situation Similarities
+            Graph of All Situation Similarities
             <br />
             <span style={{ color: 'black' }}>
-              A Graph of all episode clusters given a user-specified similarity
-              threshold
+              A Graph of all situation clusters given a user-specified
+              similarity threshold
             </span>
           </div>
         </a>
@@ -68,33 +68,33 @@ export default function Appendices() {
           </div>
         </a>
       </Link> */}
-      {/* <Link href="/appendix/episode-similarity-by-grammar">
+      {/* <Link href="/appendix/situation-similarity-by-grammar">
         <a>
           <div className={styles.card}>
             <Tooltip title="Grammatical and Contextual Data Table">
               <PictureOutlined /> <ApartmentOutlined rotate={270} />
             </Tooltip>
             {'  '}
-            Episode Cosine Similarity by Grammatical Features
+            Situation Cosine Similarity by Grammatical Features
             <br />
             <span style={{ color: 'black' }}>
-              Degree of similarity between every episode based on grammatical
+              Degree of similarity between every situation based on grammatical
               probabilities
             </span>
           </div>
         </a>
       </Link> */}
-      <Link href="/appendix/cluster-to-episode-similarity">
+      <Link href="/appendix/cluster-to-situation-similarity">
         <a>
           <div className={styles.card}>
             <Tooltip title="Grammatical and Contextual Data Table">
               <PictureOutlined /> <ApartmentOutlined rotate={270} />
             </Tooltip>
             {'  '}
-            Cluster-to-Episode Cosine Similarity by Grammatical Features
+            Cluster-to-Situation Cosine Similarity by Grammatical Features
             <br />
             <span style={{ color: 'black' }}>
-              Degree of similarity between clusters and episodes based on
+              Degree of similarity between clusters and situations based on
               grammatical probabilities
             </span>
           </div>

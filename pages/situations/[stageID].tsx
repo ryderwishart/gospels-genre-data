@@ -16,7 +16,7 @@ import {
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { getSentenceCaseString } from '../../functions/getSentenceCaseString';
 import getSystemFromFeature from '../../functions/getSystemFromFeature';
-import { Episode, GraphEdge, GraphNode } from '../../types';
+import { Situation, GraphEdge, GraphNode } from '../../types';
 import { useState } from 'react';
 import MutationSet from '../../components/MutationSet';
 import { getURLSlugFromClusterName } from '../../functions/getURLSlugFromClusterName';
@@ -24,14 +24,14 @@ import clusterLabels from '../../types/clusterLabels';
 import SpeechActContainer from '../../components/SpeechActContainer';
 import MoveContainer from '../../components/MoveContainer';
 
-interface EpisodeProps {
+interface SituationProps {
   response: {
-    currentEpisode: Episode;
-    previousEpisode?: Episode;
-    nextEpisode?: Episode;
+    currentSituation: Situation;
+    previousSituation?: Situation;
+    nextSituation?: Situation;
     similarNodes?: GraphNode[];
     similarEdges?: GraphEdge[];
-    currentEpisodeMetaData?: {
+    currentSituationMetaData?: {
       title: string;
       start: string;
       section: string;
@@ -46,7 +46,7 @@ interface EpisodeProps {
   };
 }
 
-const EpisodePage: React.FC<EpisodeProps> = (props) => {
+const SituationPage: React.FC<SituationProps> = (props) => {
   const [showWordings, setShowWordings] = useState(false);
   const [useGraphLabel, setUseGraphLabel] = useState(false);
   const [isResponsive, setIsResponsive] = useState(null);
@@ -54,8 +54,8 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
     0.8,
   );
   const [drawerIsVisible, setDrawerIsVisible] = useState(false);
-  const currentEpisode = props.response?.currentEpisode;
-  if (currentEpisode) {
+  const currentSituation = props.response?.currentSituation;
+  if (currentSituation) {
     const filteredEdges = props.response.similarEdges.filter((similarEdge) => {
       return similarEdge.weight >= edgeStrengthInputValue;
     });
@@ -67,55 +67,55 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
       nodes: props.response.similarNodes,
     };
 
-    const nextEpisode = props.response.nextEpisode?.episode;
-    const previousEpisode = props.response.previousEpisode?.episode;
+    const nextSituation = props.response.nextSituation?.situation;
+    const previousSituation = props.response.previousSituation?.situation;
     const sharedFeatures =
-      Array.isArray(currentEpisode.preTextFeatures) &&
-      currentEpisode.preTextFeatures?.filter((feature) =>
-        currentEpisode.viaTextFeatures.includes(feature),
+      Array.isArray(currentSituation.preTextFeatures) &&
+      currentSituation.preTextFeatures?.filter((feature) =>
+        currentSituation.viaTextFeatures.includes(feature),
       );
     const mutations = [];
-    Array.isArray(currentEpisode.preTextFeatures) &&
-      currentEpisode.preTextFeatures.forEach(
+    Array.isArray(currentSituation.preTextFeatures) &&
+      currentSituation.preTextFeatures.forEach(
         (feature) =>
-          !currentEpisode.viaTextFeatures.includes(feature) &&
+          !currentSituation.viaTextFeatures.includes(feature) &&
           mutations.push(feature),
       );
-    Array.isArray(currentEpisode.viaTextFeatures) &&
-      currentEpisode.viaTextFeatures.forEach(
+    Array.isArray(currentSituation.viaTextFeatures) &&
+      currentSituation.viaTextFeatures.forEach(
         (feature) =>
-          !currentEpisode.preTextFeatures.includes(feature) &&
+          !currentSituation.preTextFeatures.includes(feature) &&
           mutations.push(feature),
       );
 
-    const episodeStartReferenceArray = props.response.currentEpisodeMetaData?.start.split(
+    const situationStartReferenceArray = props.response.currentSituationMetaData?.start.split(
       '.',
     );
-    const episodeStartReference =
-      episodeStartReferenceArray &&
-      `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
+    const situationStartReference =
+      situationStartReferenceArray &&
+      `Starts at ${situationStartReferenceArray[1]} ${situationStartReferenceArray[2]}:${situationStartReferenceArray[3]}`;
 
-    const episodeCluster = clusterLabels[
-      props.response.currentEpisodeMetaData?.cluster
+    const situationCluster = clusterLabels[
+      props.response.currentSituationMetaData?.cluster
     ]
-      ? clusterLabels[props.response.currentEpisodeMetaData?.cluster]
-      : props.response.currentEpisodeMetaData?.cluster;
+      ? clusterLabels[props.response.currentSituationMetaData?.cluster]
+      : props.response.currentSituationMetaData?.cluster;
 
     return (
       <Layout
-        pageTitle={currentEpisode.title}
-        pageDescription={`Episode analysis for ${currentEpisode.title}`}
+        pageTitle={currentSituation.title}
+        pageDescription={`Situation analysis for ${currentSituation.title}`}
       >
-        {episodeStartReference && episodeStartReference}
+        {situationStartReference && situationStartReference}
         <br />
-        {episodeCluster && (
+        {situationCluster && (
           <Link
             href={`${server}/clusters/${getURLSlugFromClusterName({
-              string: props.response.currentEpisodeMetaData.cluster,
+              string: props.response.currentSituationMetaData.cluster,
             })}`}
           >
             <p>
-              Situation type: <a>{episodeCluster}</a>
+              Situation type: <a>{situationCluster}</a>
             </p>
           </Link>
         )}
@@ -169,8 +169,8 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                 }}
               >
                 <h2>Pre-text Features</h2>
-                {Array.isArray(currentEpisode.preTextFeatures) ? ( // TODO: abstract this entire feature-map
-                  currentEpisode.preTextFeatures.map((feature) => {
+                {Array.isArray(currentSituation.preTextFeatures) ? ( // TODO: abstract this entire feature-map
+                  currentSituation.preTextFeatures.map((feature) => {
                     const featureTruncated =
                       feature.length > 18
                         ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
@@ -190,7 +190,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                           : registerParameter === 'mode'
                           ? 'green'
                           : 'grey';
-                      if (currentEpisode.viaTextFeatures.includes(feature)) {
+                      if (currentSituation.viaTextFeatures.includes(feature)) {
                         return (
                           <Tooltip
                             key={feature}
@@ -218,7 +218,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                     }
                   })
                 ) : (
-                  <Tag>{currentEpisode.preTextFeatures}</Tag>
+                  <Tag>{currentSituation.preTextFeatures}</Tag>
                 )}
               </div>
               <div
@@ -229,8 +229,8 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                 }}
               >
                 <h2>Via-text Features</h2>
-                {Array.isArray(currentEpisode.viaTextFeatures) ? (
-                  currentEpisode.viaTextFeatures.map((feature) => {
+                {Array.isArray(currentSituation.viaTextFeatures) ? (
+                  currentSituation.viaTextFeatures.map((feature) => {
                     const featureTruncated =
                       feature.length > 18
                         ? `${feature.slice(0, 10)}...${feature.slice(-10)}`
@@ -249,7 +249,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                           : registerParameter === 'mode'
                           ? 'green'
                           : 'grey';
-                      if (currentEpisode.preTextFeatures.includes(feature)) {
+                      if (currentSituation.preTextFeatures.includes(feature)) {
                         return (
                           <Tooltip
                             title={
@@ -275,7 +275,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                     }
                   })
                 ) : (
-                  <Tag>{currentEpisode.viaTextFeatures}</Tag>
+                  <Tag>{currentSituation.viaTextFeatures}</Tag>
                 )}
               </div>
             </div>
@@ -292,7 +292,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                     <h3>Field</h3>
                     <hr />
                     <MutationSet
-                      preAndViaFeatureSets={currentEpisode}
+                      preAndViaFeatureSets={currentSituation}
                       mutations={mutations}
                       registerParameterSelection="field"
                     />
@@ -301,7 +301,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                     <h3>Tenor</h3>
                     <hr />
                     <MutationSet
-                      preAndViaFeatureSets={currentEpisode}
+                      preAndViaFeatureSets={currentSituation}
                       mutations={mutations}
                       registerParameterSelection="tenor"
                     />
@@ -310,7 +310,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
                     <h3>Mode</h3>
                     <hr />
                     <MutationSet
-                      preAndViaFeatureSets={currentEpisode}
+                      preAndViaFeatureSets={currentSituation}
                       mutations={mutations}
                       registerParameterSelection="mode"
                     />
@@ -332,8 +332,8 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             <Graph graphData={graphData} cooldown={50} />
           )}
           <p>
-            This graph shows the ten most similar episodes to the current
-            episodes, and the connections between them
+            This graph shows the ten most similar situations to the current
+            situations, and the connections between them
           </p>
           <p>
             Note: if you don&apos;t see anything in this box, try zooming out by
@@ -354,15 +354,15 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               .split(' ')
               .filter((idSection) => !idSection.includes('-'))
               .join(' ');
-            const currentEpisodeID = currentEpisode.episode
+            const currentSituationID = currentSituation.situation
               .split(' ')
               .filter((idSection) => idSection.includes('-'))
               .join(' ');
-            if (!currentEpisodeID.includes(nodeID)) {
-              // const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+            if (!currentSituationID.includes(nodeID)) {
+              // const nodeSituationLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
               //   { string: nodeTitle },
               // );
-              const nodeEpisodeLinkString = nodeID;
+              const nodeSituationLinkString = nodeID;
               const nodeSimilarityToCentralNode = graphData.links.find(
                 (edge) => {
                   const edgeIDs = edge.id
@@ -377,7 +377,7 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
               )?.size;
               return (
                 <li id={node.id}>
-                  <Link href={`/episodes/${nodeEpisodeLinkString}`}>
+                  <Link href={`/situations/${nodeSituationLinkString}`}>
                     <a>
                       {node.label}{' '}
                       <strong>{nodeSimilarityToCentralNode}</strong>
@@ -397,19 +397,19 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
             maxWidth: '90vw',
           }}
         >
-          {/* TODO: add keyframes and transition to previous or next episodes? */}
+          {/* TODO: add keyframes and transition to previous or next situations? */}
           {/* FIXME: previous and next buttons only increment single-digit changes? Go to index 0 and press 'previous' */}
-          {previousEpisode && (
-            <Link href={`/episodes/${previousEpisode}`}>
-              <a className={styles.card}>&larr; Previous Episode</a>
+          {previousSituation && (
+            <Link href={`/situations/${previousSituation}`}>
+              <a className={styles.card}>&larr; Previous Situation</a>
             </Link>
           )}
-          <Link href={`/episodes`}>
-            <a className={styles.card}>&darr; Back to all episodes</a>
+          <Link href={`/situations`}>
+            <a className={styles.card}>&darr; Back to all situations</a>
           </Link>
-          {nextEpisode && (
-            <Link href={`/episodes/${nextEpisode}`}>
-              <a className={styles.card}>Next Episode &rarr;</a>
+          {nextSituation && (
+            <Link href={`/situations/${nextSituation}`}>
+              <a className={styles.card}>Next Situation &rarr;</a>
             </Link>
           )}
         </div>
@@ -482,10 +482,10 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
   } else {
     return (
       <Layout>
-        <Link href="/episodes">
+        <Link href="/situations">
           <div className={styles.card}>
-            <h1>Episode data not found</h1>
-            <p>Back to all episodes</p>
+            <h1>Situation data not found</h1>
+            <p>Back to all situations</p>
           </div>
         </Link>
       </Layout>
@@ -493,13 +493,13 @@ const EpisodePage: React.FC<EpisodeProps> = (props) => {
   }
 };
 
-export default EpisodePage;
+export default SituationPage;
 
 export async function getStaticProps(context: { params: { stageID: string } }) {
   const hasContext = !!(Object.keys(context.params).length > 0);
   if (hasContext) {
     const response = await (
-      await fetch(`${server}/api/episodes/${context.params.stageID}`)
+      await fetch(`${server}/api/situations/${context.params.stageID}`)
     ).json();
     const speechActsResponse = await (
       await fetch(`${server}/api/speech-acts/${context.params.stageID}`)
@@ -518,11 +518,11 @@ export async function getStaticProps(context: { params: { stageID: string } }) {
 }
 
 export const getStaticPaths = async () => {
-  const episodesResponse = await (
-    await fetch(`${server}/api/episodes/`)
+  const situationsResponse = await (
+    await fetch(`${server}/api/situations/`)
   ).json();
-  const stageIDs = episodesResponse?.episodes.root.episode.map(
-    (episodeContainer) => episodeContainer.$.section,
+  const stageIDs = situationsResponse?.situations.root.situation.map(
+    (situationContainer) => situationContainer.$.section,
   );
   const paths = stageIDs?.map((stageID) => ({
     params: { stageID: stageID.toString() },

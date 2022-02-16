@@ -10,11 +10,11 @@ import { useEffect, useState } from 'react';
 // import Graph from '../../components/Graph';
 import { GraphEdge, GraphNode } from '../../types';
 
-interface EpisodeListProps {
+interface SituationListProps {
   response: {
-    episodes: {
+    situations: {
       root: {
-        episode: {
+        situation: {
           $: { section: string; title: string; start: string };
         }[];
       };
@@ -26,9 +26,9 @@ interface EpisodeListProps {
   };
 }
 
-function AllEpisodes(props: EpisodeListProps) {
+function AllSituations(props: SituationListProps) {
   const [collapseHasActiveKey, setCollapseHasActiveKey] = useState(null);
-  const episodes = props.response.episodes.root;
+  const situations = props.response.situations.root;
   const handleScroll = (): void => {
     if (window.scrollY > 100) {
       setCollapseHasActiveKey(true);
@@ -40,42 +40,45 @@ function AllEpisodes(props: EpisodeListProps) {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   });
-  const getEpisodesByBook = ({ episodes, book }): Element[] => {
-    const filteredEpisodeLinks = episodes
-      .filter((episodeContainer) => {
-        const episodeID = episodeContainer.$.section;
-        const bookID = parseInt(episodeID.split('-')[0]) - 1;
-        const episodeBook = NewTestamentBooks[bookID];
-        if (episodeBook === book) {
-          return episodeContainer.$;
+  const getSituationsByBook = ({ situations, book }): Element[] => {
+    const filteredSituationLinks = situations
+      .filter((situationContainer) => {
+        const situationID = situationContainer.$.section;
+        const bookID = parseInt(situationID.split('-')[0]) - 1;
+        const situationBook = NewTestamentBooks[bookID];
+        if (situationBook === book) {
+          return situationContainer.$;
         }
       })
-      .map((episodeContainer) => {
-        const episode = episodeContainer.$;
+      .map((situationContainer) => {
+        const situation = situationContainer.$;
         const titleStringForLink = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
-          { string: episode.title },
+          { string: situation.title },
         );
         return (
-          <Link href={`/episodes/${episode.section}`} key={episode.section}>
+          <Link
+            href={`/situations/${situation.section}`}
+            key={situation.section}
+          >
             <a className={styles.card}>
-              <p>{episode.title}</p>
+              <p>{situation.title}</p>
             </a>
           </Link>
         );
       });
-    return filteredEpisodeLinks;
+    return filteredSituationLinks;
   };
   const allBooksList = new Array(
     ...new Set(
-      episodes.episode.map((episodeContainer) => {
-        const episodeID = episodeContainer.$.section;
-        const bookID = parseInt(episodeID.split('-')[0]) - 1;
+      situations.situation.map((situationContainer) => {
+        const situationID = situationContainer.$.section;
+        const bookID = parseInt(situationID.split('-')[0]) - 1;
         return NewTestamentBooks[bookID];
       }),
     ),
   );
   return (
-    <Layout pageTitle="All Episodes">
+    <Layout pageTitle="All Situations">
       <Collapse
         style={{ width: '90vw', maxWidth: '800px' }}
         onChange={(activeKey) => {
@@ -91,7 +94,7 @@ function AllEpisodes(props: EpisodeListProps) {
             header={<h2>Complete Graph</h2>}
           >
             <p>
-              This graph displays all episodes for which similarity data is
+              This graph displays all situations for which similarity data is
               available. Node color indicates average similarity to all other
               nodes.
             </p>
@@ -114,8 +117,8 @@ function AllEpisodes(props: EpisodeListProps) {
           return (
             <Collapse.Panel header={book} key={`${book}`}>
               <div className={styles.grid}>
-                {getEpisodesByBook({
-                  episodes: episodes.episode,
+                {getSituationsByBook({
+                  situations: situations.situation,
                   book,
                 })}
               </div>
@@ -143,10 +146,10 @@ function AllEpisodes(props: EpisodeListProps) {
   );
 }
 
-export default AllEpisodes;
+export default AllSituations;
 
 export async function getStaticProps(context) {
-  const response = await (await fetch(`${server}/api/episodes`)).json();
+  const response = await (await fetch(`${server}/api/situations`)).json();
 
   return {
     props: {

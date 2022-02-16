@@ -1,9 +1,9 @@
-import episodesData from '../../../public/data/stages/episodes-ranges.xml';
+import situationsData from '../../../public/data/stages/situations-ranges.xml';
 
-const episodes = episodesData.root.episode;
+const situations = situationsData.root.situation;
 
-const allEpisodesWithClusterValue = episodes.filter(
-  (episodeContainer) => episodeContainer.$.cluster,
+const allSituationsWithClusterValue = situations.filter(
+  (situationContainer) => situationContainer.$.cluster,
 );
 
 const groupBy = (arrayOfObjects, key) => {
@@ -15,14 +15,14 @@ const groupBy = (arrayOfObjects, key) => {
   }, {}); // NOTE: {} is the initial value of the accumulator
 };
 
-const flattenedEpisodes = allEpisodesWithClusterValue.map(
-  (episode) => episode.$,
+const flattenedSituations = allSituationsWithClusterValue.map(
+  (situation) => situation.$,
 );
 
-const episodesByCluster = groupBy(flattenedEpisodes, 'cluster');
+const situationsByCluster = groupBy(flattenedSituations, 'cluster');
 
 const handler = (req, res) => {
-  res.status(200).send(episodesByCluster);
+  res.status(200).send(situationsByCluster);
 };
 
 export default handler;

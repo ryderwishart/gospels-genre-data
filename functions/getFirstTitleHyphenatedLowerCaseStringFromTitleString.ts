@@ -6,7 +6,7 @@ export const getFirstTitleHyphenatedLowerCaseStringFromTitleString = (
   props: functionProps,
 ): string => {
   try {
-    const firstTitle = props.string.split(/[,;]+/)[0]; // get first of multi-title episodes separated by comma or semicolon
+    const firstTitle = props.string.split(/[,;]+/)[0]; // get first of multi-title situations separated by comma or semicolon
     return (
       firstTitle
         .split(' ') // split by word

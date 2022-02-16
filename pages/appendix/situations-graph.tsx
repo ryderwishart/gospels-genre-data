@@ -16,7 +16,7 @@ interface ComponentProps {
 
 const edgeStrengthDefaultValue = 88;
 
-const EpisodesGraphPage = (props: ComponentProps) => {
+const SituationsGraphPage = (props: ComponentProps) => {
   const [edgeStrengthInputValue, setEdgeStrengthInputValue] = useState<number>(
     edgeStrengthDefaultValue / 100,
   );
@@ -31,7 +31,7 @@ const EpisodesGraphPage = (props: ComponentProps) => {
     nodes: props.response.nodes,
   };
   return (
-    <Layout pageTitle="Appendix: Episodes Graph">
+    <Layout pageTitle="Appendix: Situations Graph">
       <p>
         Drag the slider to reduce or increase the number of links on the graph.
         A higher link threshold results in more but sparser clusters. A lower
@@ -108,7 +108,7 @@ const EpisodesGraphPage = (props: ComponentProps) => {
   );
 };
 
-export default EpisodesGraphPage;
+export default SituationsGraphPage;
 
 export async function getStaticProps(context) {
   const response = await (await fetch(`${server}/api/graph-data`)).json();

@@ -62,9 +62,9 @@ const PrincipalComponentsTable = (props) => {
         scroll={{ x: 1000 }}
         columns={[
           {
-            title: 'Episode',
-            key: 'episodeId',
-            dataIndex: 'episodeId',
+            title: 'Situation',
+            key: 'situationId',
+            dataIndex: 'situationId',
             fixed: 'left',
             width: 200,
             defaultSortOrder: 'ascend',

@@ -1,4 +1,4 @@
-import { DimensionLabels, Episode, EpisodeMetadata } from '../../types';
+import { DimensionLabels, Situation, SituationMetadata } from '../../types';
 import {
   constants,
   server,
@@ -16,8 +16,8 @@ import clusterLabels from '../../types/clusterLabels';
 
 interface ComponentProps {
   response: {
-    selectedDimensionValues: EpisodeMetadata[];
-    selectedEpisodeFeatures: Episode[];
+    selectedDimensionValues: SituationMetadata[];
+    selectedSituationFeatures: Situation[];
   };
 }
 
@@ -32,13 +32,13 @@ const ClusterPage = (props: ComponentProps) => {
     dim_7: [],
   };
 
-  props.response.selectedDimensionValues?.forEach((episode) => {
+  props.response.selectedDimensionValues?.forEach((situation) => {
     // TODO: add a function name here to explain what's going on...
-    if (episode.dimensions) {
-      Object.keys(episode.dimensions).forEach((dimension, index) => {
+    if (situation.dimensions) {
+      Object.keys(situation.dimensions).forEach((dimension, index) => {
         if (index < 7) {
           const currentValues = dimensions[dimension];
-          const additionalValue = episode.dimensions[dimension];
+          const additionalValue = situation.dimensions[dimension];
           dimensions[dimension] = currentValues && [
             ...currentValues,
             additionalValue,
@@ -144,22 +144,22 @@ const ClusterPage = (props: ComponentProps) => {
   const sharedFeatures = [];
   const globalPreTextFeatures = [];
   const globalViaTextFeatures = [];
-  props.response.selectedEpisodeFeatures?.forEach((episodeDataSet) => {
-    episodeDataSet?.preTextFeatures &&
-      Array.isArray(episodeDataSet?.preTextFeatures) &&
+  props.response.selectedSituationFeatures?.forEach((situationDataSet) => {
+    situationDataSet?.preTextFeatures &&
+      Array.isArray(situationDataSet?.preTextFeatures) &&
       sharedFeatures.push(
-        ...episodeDataSet.preTextFeatures?.filter((feature) =>
-          episodeDataSet.viaTextFeatures?.includes(feature),
+        ...situationDataSet.preTextFeatures?.filter((feature) =>
+          situationDataSet.viaTextFeatures?.includes(feature),
         ),
       );
-    episodeDataSet?.preTextFeatures &&
-      globalPreTextFeatures.push(...episodeDataSet.preTextFeatures);
-    episodeDataSet?.viaTextFeatures &&
-      globalViaTextFeatures.push(...episodeDataSet.viaTextFeatures);
-    episodeDataSet?.preTextFeatures &&
-      allFeatures.push(...episodeDataSet.preTextFeatures);
-    episodeDataSet?.viaTextFeatures &&
-      allFeatures.push(...episodeDataSet.viaTextFeatures);
+    situationDataSet?.preTextFeatures &&
+      globalPreTextFeatures.push(...situationDataSet.preTextFeatures);
+    situationDataSet?.viaTextFeatures &&
+      globalViaTextFeatures.push(...situationDataSet.viaTextFeatures);
+    situationDataSet?.preTextFeatures &&
+      allFeatures.push(...situationDataSet.preTextFeatures);
+    situationDataSet?.viaTextFeatures &&
+      allFeatures.push(...situationDataSet.viaTextFeatures);
   });
   const allFeaturesSet = new Set(allFeatures);
 
@@ -208,7 +208,7 @@ const ClusterPage = (props: ComponentProps) => {
         </span>
       </p>
       <p>
-        Cluster size (number of episodes):{' '}
+        Cluster size (number of situations):{' '}
         <span style={{ color: constants.color.red }}>
           {props.response.selectedDimensionValues.length}
         </span>
@@ -276,7 +276,7 @@ const ClusterPage = (props: ComponentProps) => {
                           : 0;
                         return (
                           <Tooltip
-                            title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
+                            title={`${featureCount} out of ${props.response.selectedDimensionValues.length} situations in this cluster have the [${row.key}] feature at the outset of the situation.`}
                           >
                             <div
                               style={{
@@ -308,7 +308,7 @@ const ClusterPage = (props: ComponentProps) => {
                       } else {
                         return (
                           <Tooltip
-                            title={`No episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
+                            title={`No situations in this cluster have the [${row.key}] feature at the outset of the situation.`}
                           >
                             <span style={{ color: constants.color.lightGrey }}>
                               0
@@ -330,7 +330,7 @@ const ClusterPage = (props: ComponentProps) => {
                         ).toFixed(2);
                         return (
                           <Tooltip
-                            title={`${featureCount} out of ${props.response.selectedDimensionValues.length} episodes in this cluster have the [${row.key}] feature at the conclusion of the episode.`}
+                            title={`${featureCount} out of ${props.response.selectedDimensionValues.length} situations in this cluster have the [${row.key}] feature at the conclusion of the situation.`}
                           >
                             <div
                               style={{
@@ -362,7 +362,7 @@ const ClusterPage = (props: ComponentProps) => {
                       } else {
                         return (
                           <Tooltip
-                            title={`No episodes in this cluster have the [${row.key}] feature at the outset of the episode.`}
+                            title={`No situations in this cluster have the [${row.key}] feature at the outset of the situation.`}
                           >
                             <span style={{ color: constants.color.lightGrey }}>
                               0
@@ -393,7 +393,7 @@ const ClusterPage = (props: ComponentProps) => {
               size={'small'}
               columns={[
                 {
-                  title: 'Episode',
+                  title: 'Situation',
                   dataIndex: 'title',
                   fixed: 'left',
                   width: 50,
@@ -404,11 +404,11 @@ const ClusterPage = (props: ComponentProps) => {
                   fixed: 'left',
                   width: 50,
                   render: (startReference) => {
-                    const episodeStartReferenceArray = startReference.split(
+                    const situationStartReferenceArray = startReference.split(
                       '.',
                     );
-                    if (episodeStartReferenceArray) {
-                      return `Starts at ${episodeStartReferenceArray[1]} ${episodeStartReferenceArray[2]}:${episodeStartReferenceArray[3]}`;
+                    if (situationStartReferenceArray) {
+                      return `Starts at ${situationStartReferenceArray[1]} ${situationStartReferenceArray[2]}:${situationStartReferenceArray[3]}`;
                     }
                   },
                 },
@@ -465,36 +465,39 @@ const ClusterPage = (props: ComponentProps) => {
               dataSource={props.response.selectedDimensionValues}
             />
           </Collapse.Panel>
-          <Collapse.Panel header="Individual Episode Mutations" key="mutations">
-            {props.response.selectedEpisodeFeatures?.map((episode) => {
-              const mutations = []; // PICKING UP: for some reason I'm not creating a new list of mutations for every episode here
-              const currentEpisode = props.response.selectedEpisodeFeatures.find(
-                (selectedEpisode) =>
-                  selectedEpisode?.title === (episode && episode.title),
+          <Collapse.Panel
+            header="Individual Situation Mutations"
+            key="mutations"
+          >
+            {props.response.selectedSituationFeatures?.map((situation) => {
+              const mutations = []; // PICKING UP: for some reason I'm not creating a new list of mutations for every situation here
+              const currentSituation = props.response.selectedSituationFeatures.find(
+                (selectedSituation) =>
+                  selectedSituation?.title === (situation && situation.title),
               );
-              if (currentEpisode) {
-                currentEpisode.preTextFeatures &&
-                  Array.isArray(currentEpisode.preTextFeatures) &&
-                  currentEpisode.preTextFeatures.forEach(
+              if (currentSituation) {
+                currentSituation.preTextFeatures &&
+                  Array.isArray(currentSituation.preTextFeatures) &&
+                  currentSituation.preTextFeatures.forEach(
                     (feature) =>
-                      !currentEpisode.viaTextFeatures.includes(feature) &&
+                      !currentSituation.viaTextFeatures.includes(feature) &&
                       mutations.push(feature),
                   );
-                currentEpisode.preTextFeatures &&
-                  Array.isArray(currentEpisode.viaTextFeatures) &&
-                  currentEpisode.viaTextFeatures.forEach(
+                currentSituation.preTextFeatures &&
+                  Array.isArray(currentSituation.viaTextFeatures) &&
+                  currentSituation.viaTextFeatures.forEach(
                     (feature) =>
-                      !currentEpisode.preTextFeatures.includes(feature) &&
+                      !currentSituation.preTextFeatures.includes(feature) &&
                       mutations.push(feature),
                   );
                 return (
-                  <div key={episode.section} className={styles.card}>
-                    <p>{episode.title}</p>
+                  <div key={situation.section} className={styles.card}>
+                    <p>{situation.title}</p>
                     <Link
-                      href={`${server}/episodes/${episode.episode},
+                      href={`${server}/situations/${situation.situation},
                       )}`}
                     >
-                      <a>View Episode</a>
+                      <a>View Situation</a>
                     </Link>
                     <div>
                       {(mutations.length > 0 && (
@@ -503,7 +506,7 @@ const ClusterPage = (props: ComponentProps) => {
                           <div>
                             <h3>Field</h3>
                             <MutationSet
-                              preAndViaFeatureSets={currentEpisode}
+                              preAndViaFeatureSets={currentSituation}
                               mutations={mutations}
                               registerParameterSelection="field"
                             />
@@ -511,7 +514,7 @@ const ClusterPage = (props: ComponentProps) => {
                           <div>
                             <h3>Tenor</h3>
                             <MutationSet
-                              preAndViaFeatureSets={currentEpisode}
+                              preAndViaFeatureSets={currentSituation}
                               mutations={mutations}
                               registerParameterSelection="tenor"
                             />
@@ -519,7 +522,7 @@ const ClusterPage = (props: ComponentProps) => {
                           <div>
                             <h3>Mode</h3>
                             <MutationSet
-                              preAndViaFeatureSets={currentEpisode}
+                              preAndViaFeatureSets={currentSituation}
                               mutations={mutations}
                               registerParameterSelection="mode"
                             />

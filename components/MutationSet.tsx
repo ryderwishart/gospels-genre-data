@@ -1,4 +1,4 @@
-import { Episode } from '../types';
+import { Situation } from '../types';
 import { systemsDictionary } from '../types/systemDefinitions';
 import { constants } from '../config';
 
@@ -9,7 +9,7 @@ const MutationSet = ({
 }: {
   registerParameterSelection: string;
   mutations: string[];
-  preAndViaFeatureSets: Episode;
+  preAndViaFeatureSets: Situation;
 }): JSX.Element => {
   //   const usesMultipleFeatureSets =
   //     preAndViaFeatureSets.preTextFeatures?.length > 0;

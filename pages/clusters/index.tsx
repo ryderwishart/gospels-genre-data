@@ -21,20 +21,20 @@ const AllClustersPage = (props) => {
   return (
     <Layout
       pageTitle="All Clusters"
-      pageDescription="Situation types for episodes in the New Testament"
+      pageDescription="Situation types for situations in the New Testament"
     >
       <p>Each cluster represents a situation type.</p>
       <p>
-        Episodes are clustered together on the basis of their annotated
-        situational features. All episodes are compared, and only similarity
+        Situations are clustered together on the basis of their annotated
+        situational features. All situations are compared, and only similarity
         values of 83% or greater (in this analysis) are retained. This produces
-        the following clusters of episodes.
+        the following clusters of situations.
       </p>
       <p>
-        Each episode is scored on the basis of the top-seven principal
-        components of variation among all analyzed episodes (in the Gospels for
-        this study). An episode scores either positively or negatively for each
-        abstract dimension of variation.
+        Each situation is scored on the basis of the top-seven principal
+        components of variation among all analyzed situations (in the Gospels
+        for this study). An situation scores either positively or negatively for
+        each abstract dimension of variation.
       </p>
       <p>
         Cluster labels are interpretive and attempt to represent the average
@@ -64,18 +64,20 @@ const AllClustersPage = (props) => {
         expandable={{
           expandedRowRender: (cluster) => (
             <p style={{ margin: 0 }}>
-              {props.response[cluster.originalClusterObject].map((episode) => {
-                return (
-                  <Link
-                    href={`/episodes/${episode.section}`}
-                    key={episode.section}
-                  >
-                    <a>
-                      <p>{episode.title}</p>
-                    </a>
-                  </Link>
-                );
-              })}
+              {props.response[cluster.originalClusterObject].map(
+                (situation) => {
+                  return (
+                    <Link
+                      href={`/situations/${situation.section}`}
+                      key={situation.section}
+                    >
+                      <a>
+                        <p>{situation.title}</p>
+                      </a>
+                    </Link>
+                  );
+                },
+              )}
             </p>
           ),
         }}
@@ -96,7 +98,7 @@ const AllClustersPage = (props) => {
             ),
           },
           {
-            title: 'Number of Episodes in Cluster',
+            title: 'Number of Situations in Cluster',
             dataIndex: ['attributes', 'size'],
             render: (size, rowData) => (
               <div

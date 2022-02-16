@@ -1,21 +1,21 @@
-import episodesFeatures from '../../../public/data/stages/episodesDynamicFeatures.json';
+import situationsFeatures from '../../../public/data/stages/situationsDynamicFeatures.json';
 import graphData from '../../../public/data/graphData/graphData.json';
-import episodesMetaData from '../../../public/data/stages/episodes-ranges.xml';
+import situationsMetaData from '../../../public/data/stages/situations-ranges.xml';
 
 const { nodes, edges } = graphData;
 
 const handler = (req, res) => {
   const { stageID } = req.query;
-  let currentEpisode = null;
-  let previousEpisode = null;
-  let nextEpisode = null;
+  let currentSituation = null;
+  let previousSituation = null;
+  let nextSituation = null;
   let similarNodes = null;
   let similarEdges = null;
-  let currentEpisodeMetaData = null;
-  episodesMetaData.root?.episode?.find((episodeContainer) => {
-    if (episodeContainer.$.section.includes(stageID)) {
-      // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
-      currentEpisodeMetaData = episodeContainer.$;
+  let currentSituationMetaData = null;
+  situationsMetaData.root?.situation?.find((situationContainer) => {
+    if (situationContainer.$.section.includes(stageID)) {
+      // TODO: This query could be easily adapted for any situations that include a given feature or that do NOT include a given feature
+      currentSituationMetaData = situationContainer.$;
       return;
     } else {
       return null;
@@ -23,19 +23,19 @@ const handler = (req, res) => {
   });
 
   try {
-    const selectedEpisode = episodesFeatures.find((episode, index) => {
-      if (episode?.episode.includes(stageID)) {
-        // TODO: This query could be easily adapted for any episodes that include a given feature or that do NOT include a given feature
-        currentEpisode = episode;
-        previousEpisode = episodesFeatures[index - 1];
-        nextEpisode = episodesFeatures[index + 1];
-        return episode;
+    const selectedSituation = situationsFeatures.find((situation, index) => {
+      if (situation?.situation.includes(stageID)) {
+        // TODO: This query could be easily adapted for any situations that include a given feature or that do NOT include a given feature
+        currentSituation = situation;
+        previousSituation = situationsFeatures[index - 1];
+        nextSituation = situationsFeatures[index + 1];
+        return situation;
       } else {
         return null;
       }
     });
 
-    const selectedEpisodeIDAndTitle = `${selectedEpisode?.episode} ${selectedEpisode.title}`
+    const selectedSituationIDAndTitle = `${selectedSituation?.situation} ${selectedSituation.title}`
       .split(/[,'".;’“”]+/)
       .join('');
 
@@ -47,7 +47,7 @@ const handler = (req, res) => {
           .split(/[,'".;’“”]+/)
           .join('');
         // const edgeIDs = edge.id.split('-').join(' ');
-        if (edgeIDs.includes(selectedEpisodeIDAndTitle)) {
+        if (edgeIDs.includes(selectedSituationIDAndTitle)) {
           return edge;
         }
       })
@@ -79,23 +79,23 @@ const handler = (req, res) => {
     similarEdges = [...adjacentEdges, ...remainingEdgesForSelectedNodes];
   } catch (error) {
     console.warn(
-      'Encountered an error trying to match the URL query string with an episode title',
+      'Encountered an error trying to match the URL query string with an situation title',
       req.query,
       {error}
     );
   }
-  if (currentEpisode !== null) {
+  if (currentSituation !== null) {
     res.status(200).json({
-      currentEpisode,
-      previousEpisode,
-      nextEpisode,
+      currentSituation,
+      previousSituation,
+      nextSituation,
       similarEdges,
       similarNodes,
-      currentEpisodeMetaData,
+      currentSituationMetaData,
     });
   } else {
     res.status(404).json({
-      message: `Episode with stageID '${stageID}' not found.`,
+      message: `Situation with stageID '${stageID}' not found.`,
     });
   }
 };

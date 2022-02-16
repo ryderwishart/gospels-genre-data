@@ -4,7 +4,7 @@ interface functionProps {
 
 export const getURLSlugFromClusterName = (props: functionProps): string => {
   try {
-    const clusterName = props.string.split(/[ ?/();]+/); // get first of multi-title episodes separated by comma or semicolon
+    const clusterName = props.string.split(/[ ?/();]+/); // get first of multi-title situations separated by comma or semicolon
     return (
       clusterName
         .filter((word) => word.length > 0)

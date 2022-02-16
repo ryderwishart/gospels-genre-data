@@ -67,10 +67,10 @@ const Graph = (props: GraphProps) => {
         //       .split(' ')
         //       .filter((idSection) => !idSection.includes('-'))
         //       .join(' ');
-        //     const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+        //     const nodeSituationLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
         //       { string: nodeTitle },
         //     );
-        //     window.open(`/episodes/${nodeEpisodeLinkString}`, '_self');
+        //     window.open(`/situations/${nodeSituationLinkString}`, '_self');
         //   }}
       />
     );
@@ -140,10 +140,10 @@ const Graph = (props: GraphProps) => {
         //       .split(' ')
         //       .filter((idSection) => !idSection.includes('-'))
         //       .join(' ');
-        //     const nodeEpisodeLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
+        //     const nodeSituationLinkString = getFirstTitleHyphenatedLowerCaseStringFromTitleString(
         //       { string: nodeTitle },
         //     );
-        //     window.open(`/episodes/${nodeEpisodeLinkString}`, '_self');
+        //     window.open(`/situations/${nodeSituationLinkString}`, '_self');
         //   }}
       />
     );
