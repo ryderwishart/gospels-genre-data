@@ -106,7 +106,11 @@ const SituationPage: React.FC<SituationProps> = (props) => {
         pageTitle={currentSituation.title}
         pageDescription={`Situation analysis for ${currentSituation.title}`}
       >
-        {situationStartReference && situationStartReference}
+        <p>
+          Situation ID:{' '}
+          <code>{props.response.currentSituationMetaData?.section}</code>
+        </p>
+        <p>{situationStartReference && situationStartReference}</p>
         <br />
         {situationCluster && (
           <Link
@@ -119,7 +123,7 @@ const SituationPage: React.FC<SituationProps> = (props) => {
             </p>
           </Link>
         )}
-        <Collapse defaultActiveKey={['moves-and-speech-acts']}>
+        <Collapse defaultActiveKey={null}>
           <Collapse.Panel
             header="Moves and Speech Acts"
             key="moves-and-speech-acts"
@@ -321,12 +325,12 @@ const SituationPage: React.FC<SituationProps> = (props) => {
           </Collapse.Panel>
         </Collapse>
 
-        <Button
+        {/* <Button
           style={{ margin: '20px' }}
           onClick={() => setDrawerIsVisible(drawerIsVisible ? false : true)}
         >
           Open Drawer
-        </Button>
+        </Button> */}
         <div className={styles.graph}>
           {typeof window !== 'undefined' && (
             <Graph graphData={graphData} cooldown={50} />
@@ -413,17 +417,17 @@ const SituationPage: React.FC<SituationProps> = (props) => {
             </Link>
           )}
         </div>
-        <Drawer
+        {/* <Drawer
           visible={drawerIsVisible}
           onClose={() => setDrawerIsVisible(false)}
         >
           <br />
 
-          {/* <Button
+          <Button
             onClick={() => setUseGraphLabel(useGraphLabel ? false : true)}
           >
             {useGraphLabel ? 'Hide labels' : 'Show labels'}
-          </Button> */}
+          </Button>
           <Slider
             min={0.8}
             max={1.0}
@@ -476,7 +480,7 @@ const SituationPage: React.FC<SituationProps> = (props) => {
               );
             })}
           </div>
-        </Drawer>
+        </Drawer> */}
       </Layout>
     );
   } else {
