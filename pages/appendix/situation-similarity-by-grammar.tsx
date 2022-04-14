@@ -1,5 +1,5 @@
 import { server } from '../../config';
-import Layout from '../Layout';
+import Layout from '../../components/Layout';
 import { AutoComplete, Input, Table, Tag, Tooltip } from 'antd';
 import jsonpath from 'jsonpath';
 import { SituationMetadata } from '../../types';
@@ -20,8 +20,8 @@ const Complete: React.FC<AutoCompleteProps> = (props) => {
   return (
     <>
       <p>
-        Select situations using this search box in order to add comparison columns
-        to the table
+        Select situations using this search box in order to add comparison
+        columns to the table
       </p>
       <AutoComplete
         options={Array.isArray(props.options) ? props.options : [props.options]}
@@ -123,7 +123,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                         {metadata.$.cluster && (
                           <>
                             <Link
-                              href={`${server}clusters/${metadata.$.cluster}`}
+                              href={`${server}/clusters/${metadata.$.cluster}`}
                             >
                               <a>{clusterLabels[metadata.$.cluster]}</a>
                             </Link>
