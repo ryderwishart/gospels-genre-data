@@ -1,12 +1,14 @@
 import { server } from '../../config';
 import Layout from '../../components/Layout';
-import { AutoComplete, Input, Table, Tag, Tooltip } from 'antd';
+import { AutoComplete, Input, Switch, Table, Tag, Tooltip } from 'antd';
 import jsonpath from 'jsonpath';
 import { SituationMetadata } from '../../types';
 import { useState } from 'react';
 import { UnorderedListOutlined } from '@ant-design/icons';
 import clusterLabels from '../../types/clusterLabels';
 import Link from 'next/link';
+import { constants } from '../../config';
+import { whileStatement } from '@babel/types';
 
 interface AutoCompleteProps {
   options: { value: string }[];
@@ -14,9 +16,13 @@ interface AutoCompleteProps {
 }
 
 const Complete: React.FC<AutoCompleteProps> = (props) => {
+  const [currentInputValue, setCurrentInputValue] = useState('');
   function handleSelect(value: string) {
     props.onSelect(value);
   }
+  const filteredOptions = props.options.filter((option) =>
+    option.value.includes(currentInputValue),
+  );
   return (
     <>
       <p>
@@ -24,7 +30,9 @@ const Complete: React.FC<AutoCompleteProps> = (props) => {
         columns to the table
       </p>
       <AutoComplete
-        options={Array.isArray(props.options) ? props.options : [props.options]}
+        options={
+          Array.isArray(filteredOptions) ? filteredOptions : [filteredOptions]
+        }
         autoFocus
         onSelect={(value) => handleSelect(value)}
       >
@@ -32,6 +40,7 @@ const Complete: React.FC<AutoCompleteProps> = (props) => {
           placeholder="Select situation IDs to filter the table..."
           addonAfter={<UnorderedListOutlined />}
           width={300}
+          onChange={(e) => setCurrentInputValue(e.target.value)}
         />
       </AutoComplete>
       <br />
@@ -55,6 +64,7 @@ interface ComponentProps {
 
 const CosineSimilaritiesTable = (props: ComponentProps) => {
   const [selectedIDs, setSelectedIDs] = useState([]);
+  const [useNormalizedSimilarity, setUseNormalizedSimilarity] = useState(true);
   const allTableHeaders = Object.keys(props.clusterToSituationSimilarities[0])
     .slice(1)
     .map((header) => ({ value: header }));
@@ -65,6 +75,49 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
       setSelectedIDs([...selectedIDs, value]);
     }
   }
+
+  const situationData = {};
+  props.situationMetadataResponse.situations.root.situation.forEach(
+    (situation) => {
+      situationData[situation.$.section] = {
+        label: situation.$.title,
+        startLocation: situation.$.start,
+        max: null,
+        min: null,
+        similarityValues: [],
+      };
+    },
+  );
+
+  // Gather all similarity values by stageId instead of cluster
+  props.clusterToSituationSimilarities.map((cluster) => {
+    Object.keys(cluster)
+      .filter((stageId) => stageId !== 'cluster')
+      .forEach((stageId) => {
+        const similarityValue = parseFloat(cluster[stageId]);
+        situationData[stageId]?.similarityValues.push({
+          clusterId: cluster.cluster,
+          similarityValue,
+        });
+      });
+  });
+  // Determine max and min similarity values for each situation in situationData
+  Object.keys(situationData).forEach((situationId) => {
+    if (situationData[situationId].similarityValues.length > 0) {
+      const situation = situationData[situationId];
+      situation.max = Math.max(
+        ...situation.similarityValues.map(
+          (similarityValue) => similarityValue.similarityValue,
+        ),
+      );
+      situation.min = Math.min(
+        ...situation.similarityValues.map(
+          (similarityValue) => similarityValue.similarityValue,
+        ),
+      );
+    }
+  });
+
   return (
     <Layout pageTitle="Cluster-to-Situation Similarity Appendix">
       <Complete options={allTableHeaders} onSelect={handleAutoCompleteChange} />
@@ -93,6 +146,29 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
             );
           })}
       </div>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'center',
+        }}
+      >
+        <p>
+          Currently using{' '}
+          <span style={{ color: constants.color.blue }}>
+            {useNormalizedSimilarity ? 'normalized' : 'raw'}
+          </span>{' '}
+          similarity values:&nbsp;&nbsp;
+        </p>
+        <Tooltip title="Toggle between raw and normalized similarity values">
+          <Switch
+            checked={useNormalizedSimilarity}
+            onChange={(checked) => {
+              setUseNormalizedSimilarity(checked);
+            }}
+          />
+        </Tooltip>
+      </div>
       <Table
         dataSource={props.clusterToSituationSimilarities}
         pagination={false}
@@ -104,7 +180,9 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
             render: (cluster) => (
               <>
                 <Link href={`${server}/clusters/${cluster}`}>
-                  <a>{clusterLabels[cluster]}</a>
+                  <a target="_blank" rel="noopener noreferrer">
+                    {clusterLabels[cluster]}
+                  </a>
                 </Link>
                 <br />
               </>
@@ -126,14 +204,42 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                   parseFloat(a[selectedID.value]) -
                   parseFloat(b[selectedID.value]),
                 render: (value, record) => {
+                  const { max, min } = situationData[selectedID.value];
+                  const normalizedValue =
+                    (parseFloat(value) - min) / (max - min);
+                  const inverseNormalizedValue =
+                    (parseFloat(value) - max) / (min - max);
+                  console.log(normalizedValue, inverseNormalizedValue);
                   return (
                     <Tooltip
-                      title={`This is the cosine similarity between ${selectedID.value} and ${record.id}`}
+                      title={`This is the normalized cosine similarity between ${
+                        selectedID.value
+                      } (${situationData[selectedID.value].label} and ${
+                        clusterLabels[record.cluster]
+                      })`}
                       placement="left"
                     >
-                      {typeof value === 'string'
-                        ? value?.slice(0, 1).toUpperCase() + value?.slice(1)
-                        : value}
+                      <div
+                        style={{
+                          backgroundColor: 'white',
+                        }}
+                      >
+                        <div
+                          style={{
+                            backgroundRepeat: 'no-repeat',
+                            backgroundImage: `linear-gradient(to right, ${
+                              constants.color.blue
+                            } ${normalizedValue * 100}%, white ${
+                              inverseNormalizedValue * 100
+                            }%)`,
+                            backgroundSize: `${normalizedValue * 100}% 100%`,
+                          }}
+                        >
+                          {useNormalizedSimilarity
+                            ? (normalizedValue * 100).toFixed(2) + ' %'
+                            : value.toFixed(2)}
+                        </div>
+                      </div>
                     </Tooltip>
                   );
                 },
