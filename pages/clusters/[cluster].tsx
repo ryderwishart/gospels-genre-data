@@ -397,6 +397,13 @@ const ClusterPage = (props: ComponentProps) => {
                   dataIndex: 'title',
                   fixed: 'left',
                   width: 50,
+                  render: (title, row) => {
+                    return (
+                      <Link href={`${server}/situations/${row.section}`}>
+                        <a>{title}</a>
+                      </Link>
+                    );
+                  },
                 },
                 {
                   title: 'Reference',
@@ -493,10 +500,7 @@ const ClusterPage = (props: ComponentProps) => {
                 return (
                   <div key={situation.section} className={styles.card}>
                     <p>{situation.title}</p>
-                    <Link
-                      href={`${server}/situations/${situation.situation},
-                      )}`}
-                    >
+                    <Link href={`${server}/situations/${situation.situation}`}>
                       <a>View Situation</a>
                     </Link>
                     <div>

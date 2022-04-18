@@ -27,7 +27,7 @@ const AllClustersPage = (props) => {
       <p>
         Situations are clustered together on the basis of their annotated
         situational features. All situations are compared, and only similarity
-        values of 83% or greater (in this analysis) are retained. This produces
+        values of 88% or greater (in this analysis) are retained. This produces
         the following clusters of situations.
       </p>
       <p>
