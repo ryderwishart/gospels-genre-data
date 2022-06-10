@@ -170,7 +170,7 @@
       "dim_31": -4.25e-33
     },
     {
-      "feature": "action",
+      "feature": "experiential",
       "dim_1": -0.3714361,
       "dim_2": 0.04817699,
       "dim_3": 0.30369388,
@@ -646,7 +646,7 @@
       "dim_31": 8.18e-34
     },
     {
-      "feature": "relation",
+      "feature": "interpersonal",
       "dim_1": 0.56696128,
       "dim_2": 0.12909565,
       "dim_3": -0.1228625,
@@ -782,7 +782,7 @@
       "dim_31": 6.79e-34
     },
     {
-      "feature": "contact",
+      "feature": "logical",
       "dim_1": -0.2657511,
       "dim_2": -0.2236615,
       "dim_3": -0.2167239,

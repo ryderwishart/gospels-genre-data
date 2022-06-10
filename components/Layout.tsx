@@ -23,7 +23,7 @@ const Home: React.FC<LayoutProps> = (props): JSX.Element => {
 
       <header className={styles.header}>
         <Link href="/">
-          <a>OpenText</a>
+          <a>Home</a>
         </Link>
         <Link href="/about">
           <a>About</a>
@@ -38,7 +38,11 @@ const Home: React.FC<LayoutProps> = (props): JSX.Element => {
       </main>
 
       <footer className={styles.footer}>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="http://www.opentext.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Open-sourced data by OpenText.org
         </a>
       </footer>

@@ -10,7 +10,7 @@
     "title": "The Annunciation to Joseph and the Birth of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -24,7 +24,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "projecting",
@@ -42,7 +42,7 @@
     "title": "The Wise Men from the East",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "spoken",
       "distant",
@@ -56,7 +56,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -74,7 +74,7 @@
     "title": "The Flight into Egypt and the Return to Nazareth",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "ancillary",
@@ -88,7 +88,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "ancillary",
@@ -106,7 +106,7 @@
     "title": "The Ministry of John the Baptist",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "instructing",
@@ -120,7 +120,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "monological",
@@ -138,7 +138,7 @@
     "title": "The Baptism of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "ancillary",
@@ -151,7 +151,7 @@
       "instructing"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -170,7 +170,7 @@
     "title": "The Temptation in the Wilderness",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "private",
@@ -184,7 +184,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "private",
@@ -211,12 +211,12 @@
       "neutral",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -239,7 +239,7 @@
       "non-institutional-or-neutralized",
       "monological",
       "instructing",
-      "action",
+      "experiential",
       "addressee-more-active",
       "ancillary",
       "disinterested",
@@ -248,7 +248,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -266,7 +266,7 @@
     "title": "The Beatitudes, The Chief Functions of the Disciples in the World, Christ Confirms and Expounds the Law of Moses, The Law of Love toward the Enemy, On Giving of Alms, Praying, and Fasting, Warning against Covetousness and Care, Warning against Unauthorized Judging and Admonition to Persevere in Prayer, The Conclusion of the Sermon",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -290,7 +290,7 @@
       "distant",
       "allying",
       "asserting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -307,7 +307,7 @@
       "on-someones-side",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ],
     "viaTextFeatures": [
@@ -321,7 +321,7 @@
       "on-someones-side",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -331,7 +331,7 @@
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
       "instructing",
-      "relation",
+      "interpersonal",
       "allying",
       "on-someones-side",
       "dialogical",
@@ -344,7 +344,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -367,7 +367,7 @@
     "situation": "01-20",
     "title": "The Discipleship of Christ",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "projecting",
@@ -382,7 +382,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "spoken",
@@ -400,7 +400,7 @@
     "title": "The Storm on the Lake",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "ancillary",
@@ -420,7 +420,7 @@
       "close",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "monological",
       "institutional",
       "constitutive",
@@ -432,7 +432,7 @@
     "title": "Jesus and the Gadarenes",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "spoken",
@@ -455,7 +455,7 @@
       "addressee-more-active",
       "neutral",
       "distant",
-      "action",
+      "experiential",
       "allying"
     ]
   },
@@ -464,7 +464,7 @@
     "title": "The Healing of the Palsied Man",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -487,7 +487,7 @@
       "practical-ie-outwardly-oriented",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "institutional"
     ]
   },
@@ -504,13 +504,13 @@
       "distant",
       "monological",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying",
       "private"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "ancillary",
       "spoken",
@@ -528,7 +528,7 @@
     "title": "The Daughter of Jairus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "ancillary",
@@ -542,7 +542,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -560,7 +560,7 @@
     "title": "Further Miracles of That Day",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -573,7 +573,7 @@
       "private"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "multilogical",
@@ -601,7 +601,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "addressee-more-passive"
     ],
     "viaTextFeatures": [
@@ -615,7 +615,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "addressee-more-passive"
     ]
   },
@@ -634,10 +634,10 @@
       "private",
       "close",
       "allying",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "written",
@@ -656,7 +656,7 @@
     "title": "John the Baptist's Disciples Come to Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",
@@ -670,7 +670,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "private",
@@ -697,12 +697,12 @@
       "on-someones-side",
       "opposing",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",
@@ -730,7 +730,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -744,7 +744,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -752,7 +752,7 @@
     "title": "The Gospel Call",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -775,7 +775,7 @@
       "on-someones-side",
       "allying",
       "instructing",
-      "relation",
+      "interpersonal",
       "distant"
     ]
   },
@@ -784,7 +784,7 @@
     "title": "The Lord of Food on the Sabbath",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -798,7 +798,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -824,12 +824,12 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation",
+      "interpersonal",
       "institutional",
       "constitutive"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -848,7 +848,7 @@
     "title": "The Enmity of the Pharisees and Christ's Answer, The Sin against the Holy Spirit",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -862,7 +862,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "on-someones-side",
@@ -889,12 +889,12 @@
       "distant",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "projecting",
@@ -920,13 +920,13 @@
       "on-someones-side",
       "allying",
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "unclear",
       "distant"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -944,7 +944,7 @@
     "title": "The Parable of the Sower",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "projecting",
@@ -958,7 +958,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -980,7 +980,7 @@
       "constitutive",
       "non-institutional-or-neutralized",
       "allying",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "asserting",
       "private",
@@ -1000,7 +1000,7 @@
       "addressee-more-passive",
       "institutional",
       "asserting",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -1008,7 +1008,7 @@
     "title": "The Parable of the Tares, and Others",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "projecting",
@@ -1022,7 +1022,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "projecting",
@@ -1040,7 +1040,7 @@
     "title": "The Parable of the Tares, and Others Explained",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -1054,7 +1054,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -1072,7 +1072,7 @@
     "title": "A Visit to Nazareth",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -1086,7 +1086,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -1113,12 +1113,12 @@
       "addressee-more-passive",
       "private",
       "allying",
-      "relation",
+      "interpersonal",
       "practical-ie-outwardly-oriented"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -1136,7 +1136,7 @@
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -1150,7 +1150,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -1175,13 +1175,13 @@
       "private",
       "close",
       "opposing",
-      "action",
+      "experiential",
       "instructing",
       "multilogical",
       "unclear"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -1210,11 +1210,11 @@
       "opposing",
       "neutral",
       "dialogical",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -1240,12 +1240,12 @@
       "distant",
       "monological",
       "allying",
-      "action",
+      "experiential",
       "non-institutional-or-neutralized",
       "disinterested"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "multilogical",
@@ -1264,7 +1264,7 @@
     "title": "Christ Teaches and Feeds Four Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "ancillary",
@@ -1278,7 +1278,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "ancillary",
@@ -1306,11 +1306,11 @@
       "opposing",
       "private",
       "practical-ie-outwardly-oriented",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -1328,7 +1328,7 @@
     "title": "The Leaven of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -1342,7 +1342,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -1360,7 +1360,7 @@
     "title": "Christ the Son of the Living God",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -1374,7 +1374,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -1392,7 +1392,7 @@
     "title": "Christ's First Prophecy Concerning His Passion",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -1406,7 +1406,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -1423,7 +1423,7 @@
     "situation": "01-54",
     "title": "The Transfiguration of Christ",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -1448,7 +1448,7 @@
       "allying",
       "projecting",
       "multilogical",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -1456,7 +1456,7 @@
     "title": "The Healing of a Boy with a Demon",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -1469,7 +1469,7 @@
       "opposing"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "spoken",
@@ -1497,7 +1497,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "addressee-more-active"
     ],
     "viaTextFeatures": [
@@ -1511,7 +1511,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "addressee-more-active"
     ]
   },
@@ -1520,7 +1520,7 @@
     "title": "Christ Pays the Temple-Tax",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -1534,7 +1534,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -1552,7 +1552,7 @@
     "title": "The Greatest in the Kingdom of Heaven, How to Deal with an Erring Brother, Parable of the Unmerciful Servant",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -1576,7 +1576,7 @@
       "addressee-more-passive",
       "written",
       "projecting",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -1584,7 +1584,7 @@
     "title": "On Marriage and Divorce",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -1598,7 +1598,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -1616,7 +1616,7 @@
     "title": "Christ Blessing Little Children",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -1630,7 +1630,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -1655,7 +1655,7 @@
       "addressee-more-active",
       "on-someones-side",
       "distant",
-      "action",
+      "experiential",
       "asserting",
       "allying",
       "dialogical"
@@ -1669,7 +1669,7 @@
       "on-someones-side",
       "opposing",
       "instructing",
-      "contact",
+      "logical",
       "dialogical",
       "non-institutional-or-neutralized",
       "distant"
@@ -1680,7 +1680,7 @@
     "title": "The Reward of the Apostles, Parable of the Laborers in the Vineyard",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -1704,7 +1704,7 @@
       "close",
       "allying",
       "monological",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -1719,7 +1719,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented",
       "monological",
       "spoken"
@@ -1733,7 +1733,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented",
       "monological",
       "spoken"
@@ -1752,12 +1752,12 @@
       "addressee-more-active",
       "private",
       "allying",
-      "contact",
+      "logical",
       "multilogical",
       "distant"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -1776,7 +1776,7 @@
     "title": "Healing of Two Blind Men",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "ancillary",
@@ -1790,7 +1790,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -1817,11 +1817,11 @@
       "allying",
       "private",
       "monological",
-      "contact",
+      "logical",
       "close"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "multilogical",
@@ -1840,7 +1840,7 @@
     "title": "Christ Visits the Temple",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -1863,7 +1863,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -1871,7 +1871,7 @@
     "situation": "01-70",
     "title": "The Cursing of the Fig-Tree",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "spoken",
@@ -1894,7 +1894,7 @@
       "private",
       "close",
       "conceptual-ie-internally-oriented",
-      "contact",
+      "logical",
       "projecting",
       "allying"
     ]
@@ -1904,7 +1904,7 @@
     "title": "The Authority of Christ, The Parable of the Two Sons, The Parable of the Wicked Husbandmen",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "spoken",
@@ -1918,7 +1918,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "projecting",
       "constitutive",
@@ -1936,7 +1936,7 @@
     "title": "The Parable of the Marriage Feast",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "projecting",
       "constitutive",
@@ -1950,7 +1950,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "projecting",
       "constitutive",
@@ -1968,7 +1968,7 @@
     "title": "The Question Concerning Tribute",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -1990,7 +1990,7 @@
       "opposing",
       "non-institutional-or-neutralized",
       "instructing",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented",
       "ancillary"
     ]
@@ -2009,7 +2009,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "spoken"
     ],
     "viaTextFeatures": [
@@ -2023,7 +2023,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation",
+      "interpersonal",
       "asserting"
     ]
   },
@@ -2032,7 +2032,7 @@
     "title": "The Silencing of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -2055,7 +2055,7 @@
       "distant",
       "opposing",
       "institutional",
-      "action",
+      "experiential",
       "multilogical"
     ]
   },
@@ -2064,7 +2064,7 @@
     "title": "The Inordinate Ambition of the Pharisees, The Woes upon the Hypocrisy of the Pharisees, The Peroration and the Lament over Jerusalem",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "monological",
@@ -2088,7 +2088,7 @@
       "projecting",
       "non-institutional-or-neutralized",
       "written",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -2104,7 +2104,7 @@
       "close",
       "allying",
       "instructing",
-      "contact",
+      "logical",
       "addressee-more-active",
       "spoken"
     ],
@@ -2120,7 +2120,7 @@
       "allying",
       "monological",
       "projecting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -2136,7 +2136,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "projecting",
       "addressee-more-active"
     ],
@@ -2150,7 +2150,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "projecting",
       "addressee-more-active"
     ]
@@ -2168,7 +2168,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "instructing",
       "equalized"
     ],
@@ -2182,7 +2182,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "instructing",
       "equalized"
     ]
@@ -2191,7 +2191,7 @@
     "situation": "01-86c",
     "title": "A Woman Anoints Jesus",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -2205,7 +2205,7 @@
       "conceptual-ie-internally-oriented"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -2224,7 +2224,7 @@
     "title": "Judas Bargains for Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -2238,7 +2238,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -2266,7 +2266,7 @@
       "private",
       "close",
       "allying",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -2280,14 +2280,14 @@
       "private",
       "close",
       "allying",
-      "contact"
+      "logical"
     ]
   },
   {
     "situation": "01-87a",
     "title": "The Passover Meal",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "spoken",
@@ -2301,7 +2301,7 @@
       "ancillary"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -2320,7 +2320,7 @@
     "title": "The Institution of the Lord's Supper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -2334,7 +2334,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -2361,7 +2361,7 @@
       "private",
       "close",
       "opposing",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented"
     ],
     "viaTextFeatures": [
@@ -2375,7 +2375,7 @@
       "private",
       "close",
       "opposing",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2384,7 +2384,7 @@
     "title": "Events at Gethsemane",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -2398,7 +2398,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -2425,7 +2425,7 @@
       "dialogical",
       "on-someones-side",
       "opposing",
-      "relation",
+      "interpersonal",
       "addressee-more-active"
     ],
     "viaTextFeatures": [
@@ -2437,7 +2437,7 @@
       "monological",
       "addressee-more-passive",
       "private",
-      "relation",
+      "interpersonal",
       "opposing",
       "distant",
       "asserting"
@@ -2454,7 +2454,7 @@
       "opposing",
       "addressee-more-active",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "multilogical",
       "distant",
@@ -2472,7 +2472,7 @@
       "multilogical",
       "on-someones-side",
       "instructing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -2488,13 +2488,13 @@
       "disinterested",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "dialogical",
       "equalized"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -2520,7 +2520,7 @@
       "addressee-more-active",
       "distant",
       "opposing",
-      "relation",
+      "interpersonal",
       "private",
       "conceptual-ie-internally-oriented"
     ],
@@ -2534,7 +2534,7 @@
       "distant",
       "opposing",
       "private",
-      "contact",
+      "logical",
       "monological",
       "addressee-more-active"
     ]
@@ -2552,7 +2552,7 @@
       "on-someones-side",
       "distant",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying"
     ],
@@ -2567,7 +2567,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2576,7 +2576,7 @@
     "title": "The Crucifixion and Death of Christ",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "institutional",
       "asserting",
       "ancillary",
@@ -2589,7 +2589,7 @@
       "monological"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -2617,12 +2617,12 @@
       "distant",
       "conceptual-ie-internally-oriented",
       "instructing",
-      "relation",
+      "interpersonal",
       "allying"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -2649,7 +2649,7 @@
       "private",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "monological"
     ],
     "viaTextFeatures": [
@@ -2662,7 +2662,7 @@
       "private",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "monological",
       "ancillary"
     ]
@@ -2679,14 +2679,14 @@
       "private",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented",
       "monological",
       "equalized"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "spoken",
       "addressee-more-passive",
@@ -2713,7 +2713,7 @@
       "close",
       "allying",
       "instructing",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented"
     ],
     "viaTextFeatures": [
@@ -2728,7 +2728,7 @@
       "close",
       "allying",
       "projecting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -2744,7 +2744,7 @@
       "distant",
       "allying",
       "projecting",
-      "contact",
+      "logical",
       "constitutive",
       "conceptual-ie-internally-oriented"
     ],
@@ -2758,7 +2758,7 @@
       "distant",
       "allying",
       "projecting",
-      "contact",
+      "logical",
       "constitutive",
       "conceptual-ie-internally-oriented"
     ]
@@ -2768,7 +2768,7 @@
     "title": "The Baptism and Temptation of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -2782,7 +2782,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -2807,14 +2807,14 @@
       "neutral",
       "distant",
       "conceptual-ie-internally-oriented",
-      "contact",
+      "logical",
       "opposing",
       "constitutive",
       "addressee-more-passive"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -2841,12 +2841,12 @@
       "opposing",
       "dialogical",
       "on-someones-side",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "spoken",
@@ -2864,7 +2864,7 @@
     "title": "Jesus Prays in a Solitary Place",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -2888,7 +2888,7 @@
       "close",
       "allying",
       "instructing",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -2896,7 +2896,7 @@
     "title": "The Healing of a Leper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -2918,7 +2918,7 @@
       "dialogical",
       "private",
       "distant",
-      "action",
+      "experiential",
       "opposing",
       "addressee-more-passive"
     ]
@@ -2927,7 +2927,7 @@
     "situation": "02-05",
     "title": "Healing the Palsied Man",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -2951,7 +2951,7 @@
       "distant",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "institutional"
     ]
   },
@@ -2966,7 +2966,7 @@
       "on-someones-side",
       "distant",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "allying",
       "non-institutional-or-neutralized",
@@ -2974,7 +2974,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -3002,7 +3002,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -3016,7 +3016,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -3024,7 +3024,7 @@
     "title": "The Lord of the Sabbath",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -3048,7 +3048,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -3056,7 +3056,7 @@
     "title": "Healing the Withered Hand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -3080,7 +3080,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -3088,7 +3088,7 @@
     "title": "Miracles by the Seaside",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -3102,7 +3102,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -3126,7 +3126,7 @@
     "title": "Discourse on the Casting Out of Demons",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "spoken",
@@ -3140,7 +3140,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -3167,11 +3167,11 @@
       "on-someones-side",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "written"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -3190,7 +3190,7 @@
     "title": "Teaching the Disciples by Means of Parables",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -3204,7 +3204,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "asserting",
       "constitutive",
@@ -3222,7 +3222,7 @@
     "title": "Christ Stilling the Tempest",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -3244,7 +3244,7 @@
       "private",
       "close",
       "opposing",
-      "relation",
+      "interpersonal",
       "asserting",
       "constitutive"
     ]
@@ -3254,7 +3254,7 @@
     "title": "The Healing of a Demon-Possessed Man",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -3268,7 +3268,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -3286,7 +3286,7 @@
     "title": "Raising of the Daughter of Jairus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -3300,7 +3300,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -3318,7 +3318,7 @@
     "title": "Jesus at Nazareth",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -3332,7 +3332,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -3360,7 +3360,7 @@
       "private",
       "close",
       "allying",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
@@ -3374,7 +3374,7 @@
       "private",
       "close",
       "allying",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -3383,7 +3383,7 @@
     "preTextFeatures": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "institutional",
       "ancillary",
       "practical-ie-outwardly-oriented",
@@ -3404,7 +3404,7 @@
       "opposing",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "close",
       "ancillary"
     ]
@@ -3422,13 +3422,13 @@
       "on-someones-side",
       "close",
       "allying",
-      "action",
+      "experiential",
       "dialogical",
       "addressee-more-passive"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -3453,7 +3453,7 @@
       "close",
       "allying",
       "addressee-more-passive",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "private",
       "monological"
@@ -3467,7 +3467,7 @@
       "close",
       "allying",
       "addressee-more-passive",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "private",
       "monological"
@@ -3478,7 +3478,7 @@
     "title": "Concerning Ceremonial Washings, Christ's Denunciation of the Pharisees",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -3492,7 +3492,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -3509,7 +3509,7 @@
     "situation": "02-22",
     "title": "The Syrophoenician Woman",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -3533,7 +3533,7 @@
       "distant",
       "allying",
       "asserting",
-      "action",
+      "experiential",
       "ancillary"
     ]
   },
@@ -3542,7 +3542,7 @@
     "title": "Healing of the Deaf Man",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -3563,7 +3563,7 @@
       "distant",
       "allying",
       "asserting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "dialogical",
       "constitutive"
@@ -3574,7 +3574,7 @@
     "title": "The Feeding of the Four Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "ancillary",
@@ -3588,7 +3588,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "asserting",
@@ -3606,7 +3606,7 @@
     "title": "The Pharisees Ask for a Sign",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -3620,7 +3620,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -3647,11 +3647,11 @@
       "private",
       "close",
       "opposing",
-      "relation",
+      "interpersonal",
       "monological"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -3670,7 +3670,7 @@
     "title": "The Blind Man of Bethsaida",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -3692,7 +3692,7 @@
       "addressee-more-active",
       "distant",
       "instructing",
-      "contact",
+      "logical",
       "allying",
       "private"
     ]
@@ -3702,7 +3702,7 @@
     "title": "The Identity of the Son of Man",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -3716,7 +3716,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -3734,7 +3734,7 @@
     "title": "Jesus the Christ and His Service",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -3758,7 +3758,7 @@
       "distant",
       "allying",
       "projecting",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -3774,7 +3774,7 @@
       "close",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "dialogical",
       "institutional"
     ],
@@ -3789,7 +3789,7 @@
       "addressee-more-active",
       "close",
       "allying",
-      "contact",
+      "logical",
       "private"
     ]
   },
@@ -3798,7 +3798,7 @@
     "title": "Casting Out an Unclean Spirit",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -3820,7 +3820,7 @@
       "allying",
       "asserting",
       "private",
-      "action",
+      "experiential",
       "multilogical",
       "close"
     ]
@@ -3840,11 +3840,11 @@
       "close",
       "allying",
       "projecting",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -3862,7 +3862,7 @@
     "title": "A Question concerning Divorce",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -3876,7 +3876,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -3894,7 +3894,7 @@
     "title": "Jesus Blesses Little Children",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -3908,7 +3908,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -3926,7 +3926,7 @@
     "title": "The Rich Young Man",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "spoken",
@@ -3950,7 +3950,7 @@
       "private",
       "close",
       "projecting",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -3965,7 +3965,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "projecting",
       "constitutive",
       "addressee-more-active"
@@ -3979,7 +3979,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "projecting",
       "constitutive",
       "addressee-more-active"
@@ -4000,11 +4000,11 @@
       "private",
       "close",
       "opposing",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -4022,7 +4022,7 @@
     "title": "The Healing of Bartimaeus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "ancillary",
@@ -4036,7 +4036,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "ancillary",
       "spoken",
@@ -4059,7 +4059,7 @@
       "ancillary",
       "spoken",
       "allying",
-      "contact",
+      "logical",
       "private",
       "monological",
       "addressee-more-active",
@@ -4076,7 +4076,7 @@
       "distant",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "addressee-more-passive"
     ]
@@ -4086,7 +4086,7 @@
     "title": "The Miracle of the Fig-Tree",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "ancillary",
@@ -4106,7 +4106,7 @@
       "dialogical",
       "on-someones-side",
       "allying",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented",
       "close",
       "constitutive",
@@ -4118,7 +4118,7 @@
     "title": "The Question concerning Christ's Authority",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4142,7 +4142,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -4150,7 +4150,7 @@
     "title": "The Parable of the Vineyard",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "projecting",
@@ -4164,7 +4164,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "projecting",
@@ -4182,7 +4182,7 @@
     "title": "The Pharisees and Herodians Ask About Paying Taxes to Caesar",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -4206,7 +4206,7 @@
       "distant",
       "opposing",
       "ancillary",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -4224,11 +4224,11 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -4246,7 +4246,7 @@
     "title": "The Greatest Commandment",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4260,7 +4260,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4278,7 +4278,7 @@
     "title": "Jesus Condemns the Teachers of the Law",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "spoken",
@@ -4292,7 +4292,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4319,12 +4319,12 @@
       "addressee-more-active",
       "private",
       "close",
-      "action",
+      "experiential",
       "opposing"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "constitutive",
@@ -4342,7 +4342,7 @@
     "title": "The Teachers of the Law Scheme",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "constitutive",
@@ -4356,7 +4356,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "constitutive",
@@ -4373,7 +4373,7 @@
     "situation": "02-43b",
     "title": "The Anointing of Jesus",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "projecting",
@@ -4397,7 +4397,7 @@
       "close",
       "opposing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "constitutive"
     ]
   },
@@ -4421,7 +4421,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "instructing"
     ],
     "viaTextFeatures": [
@@ -4436,14 +4436,14 @@
       "close",
       "allying",
       "projecting",
-      "contact"
+      "logical"
     ]
   },
   {
     "situation": "02-44b",
     "title": "The Celebration of the Passover",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -4465,7 +4465,7 @@
       "private",
       "close",
       "opposing",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented",
       "projecting",
       "monological"
@@ -4486,7 +4486,7 @@
       "private",
       "close",
       "opposing",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4500,7 +4500,7 @@
       "private",
       "close",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -4518,11 +4518,11 @@
       "private",
       "close",
       "allying",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -4540,7 +4540,7 @@
     "title": "The Capture of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -4554,7 +4554,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -4582,7 +4582,7 @@
       "distant",
       "opposing",
       "projecting",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "phonic",
@@ -4594,7 +4594,7 @@
       "distant",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "ancillary"
     ]
@@ -4611,7 +4611,7 @@
       "distant",
       "opposing",
       "projecting",
-      "contact",
+      "logical",
       "dialogical",
       "addressee-more-passive",
       "constitutive"
@@ -4627,7 +4627,7 @@
       "addressee-more-active",
       "distant",
       "opposing",
-      "action",
+      "experiential",
       "neutral"
     ]
   },
@@ -4636,7 +4636,7 @@
     "title": "Jesus before Pilate",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4650,7 +4650,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4668,7 +4668,7 @@
     "title": "Pilate before the Crowd",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -4682,7 +4682,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -4700,7 +4700,7 @@
     "title": "Jesus before the Soldiers",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4714,7 +4714,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -4731,7 +4731,7 @@
     "situation": "02-50",
     "title": "The Crucifixion and Death of Christ",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "institutional",
       "ancillary",
       "addressee-more-passive",
@@ -4745,7 +4745,7 @@
       "conceptual-ie-internally-oriented"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -4770,7 +4770,7 @@
     "title": "The Resurrection of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "ancillary",
       "spoken",
@@ -4794,7 +4794,7 @@
       "private",
       "distant",
       "allying",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -4802,7 +4802,7 @@
     "title": "The Appearances and the Ascension of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -4816,7 +4816,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -4846,14 +4846,14 @@
       "close",
       "allying",
       "projecting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "dialogical",
       "addressee-more-active",
       "non-institutional-or-neutralized"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "spoken",
@@ -4871,7 +4871,7 @@
     "situation": "03-02b",
     "title": "Elizabeth Conceives",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "spoken",
@@ -4885,7 +4885,7 @@
       "constitutive"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "spoken",
@@ -4913,7 +4913,7 @@
       "private",
       "distant",
       "allying",
-      "relation",
+      "interpersonal",
       "projecting"
     ],
     "viaTextFeatures": [
@@ -4927,7 +4927,7 @@
       "private",
       "distant",
       "allying",
-      "relation",
+      "interpersonal",
       "projecting"
     ]
   },
@@ -4946,7 +4946,7 @@
       "private",
       "close",
       "allying",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -4960,7 +4960,7 @@
       "private",
       "close",
       "allying",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -4968,7 +4968,7 @@
     "title": "The Birth of John the Baptist and Zechariah's Song",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "constitutive",
@@ -4982,7 +4982,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "institutional",
       "instructing",
       "constitutive",
@@ -5012,7 +5012,7 @@
       "private",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "projecting",
       "constitutive",
       "conceptual-ie-internally-oriented",
@@ -5020,7 +5020,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "ancillary",
       "spoken",
@@ -5044,7 +5044,7 @@
       "distant",
       "allying",
       "asserting",
-      "contact",
+      "logical",
       "disinterested",
       "monological",
       "addressee-more-active",
@@ -5052,7 +5052,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "projecting",
@@ -5070,7 +5070,7 @@
     "title": "The Christ-Child in the Temple",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5084,7 +5084,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5108,7 +5108,7 @@
       "distant",
       "opposing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "multilogical",
       "non-institutional-or-neutralized",
@@ -5124,7 +5124,7 @@
       "distant",
       "opposing",
       "projecting",
-      "action",
+      "experiential",
       "non-institutional-or-neutralized",
       "constitutive"
     ]
@@ -5134,7 +5134,7 @@
     "title": "The Baptism of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -5148,7 +5148,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -5171,7 +5171,7 @@
     "situation": "03-11",
     "title": "The Temptation of Christ",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "instructing",
       "dialogical",
@@ -5186,7 +5186,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "instructing",
@@ -5213,12 +5213,12 @@
       "monological",
       "allying",
       "asserting",
-      "action",
+      "experiential",
       "on-someones-side"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "projecting",
@@ -5236,7 +5236,7 @@
     "title": "Healing of a Demoniac",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "instructing",
       "constitutive",
@@ -5249,7 +5249,7 @@
       "dialogical"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "spoken",
@@ -5268,7 +5268,7 @@
     "title": "Jesus Heals Many",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -5288,7 +5288,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented",
       "instructing",
       "non-institutional-or-neutralized",
@@ -5300,7 +5300,7 @@
     "title": "The Miraculous Draught of Fishes and the Call of the First Disciples",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "ancillary",
@@ -5313,7 +5313,7 @@
       "distant"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -5332,7 +5332,7 @@
     "title": "The Healing of a Leper",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -5356,14 +5356,14 @@
       "private",
       "distant",
       "opposing",
-      "contact"
+      "logical"
     ]
   },
   {
     "situation": "03-15",
     "title": "The Healing of a Paralytic",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5377,7 +5377,7 @@
       "dialogical"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -5402,7 +5402,7 @@
       "distant",
       "practical-ie-outwardly-oriented",
       "instructing",
-      "contact",
+      "logical",
       "allying",
       "disinterested",
       "monological",
@@ -5418,7 +5418,7 @@
       "distant",
       "opposing",
       "dialogical",
-      "contact",
+      "logical",
       "constitutive",
       "written"
     ]
@@ -5427,7 +5427,7 @@
     "situation": "03-17",
     "title": "Disputes Concerning Sabbath Observance",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5441,7 +5441,7 @@
       "ancillary"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -5466,7 +5466,7 @@
     "title": "Miracles of Healing and Preaching",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -5480,7 +5480,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -5497,7 +5497,7 @@
     "situation": "03-20",
     "title": "The Centurion of Capernaum",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "instructing",
       "constitutive",
@@ -5511,7 +5511,7 @@
       "non-institutional-or-neutralized"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "constitutive",
@@ -5530,7 +5530,7 @@
     "title": "Raising of the Widow's Son",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -5551,7 +5551,7 @@
       "distant",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "on-someones-side",
       "addressee-more-passive"
@@ -5562,7 +5562,7 @@
     "title": "The Embassy of John the Baptist",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -5576,7 +5576,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -5594,7 +5594,7 @@
     "title": "The First Anointing of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "ancillary",
       "spoken",
@@ -5608,7 +5608,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "spoken",
@@ -5625,7 +5625,7 @@
     "situation": "03-24a",
     "title": "Teaching in Parables",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "projecting",
       "constitutive",
@@ -5640,7 +5640,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "on-someones-side",
@@ -5666,12 +5666,12 @@
       "addressee-more-active",
       "on-someones-side",
       "distant",
-      "action",
+      "experiential",
       "non-institutional-or-neutralized",
       "allying"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -5690,7 +5690,7 @@
     "title": "The Storm on the Sea",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -5712,7 +5712,7 @@
       "private",
       "close",
       "opposing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "constitutive"
     ]
@@ -5721,7 +5721,7 @@
     "situation": "03-26",
     "title": "In the Country of the Gadarenes",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -5744,7 +5744,7 @@
       "addressee-more-active",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "on-someones-side",
       "ancillary"
     ]
@@ -5754,7 +5754,7 @@
     "title": "The Woman with an Issue and the Daughter of Jairus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "ancillary",
@@ -5768,7 +5768,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -5786,7 +5786,7 @@
     "title": "The Mission of the Twelve",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -5800,7 +5800,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -5818,7 +5818,7 @@
     "title": "Herod Hears about Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5832,7 +5832,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5850,7 +5850,7 @@
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -5864,7 +5864,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -5882,7 +5882,7 @@
     "title": "Peter's Confession and Christ's Answer",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5904,7 +5904,7 @@
       "close",
       "allying",
       "projecting",
-      "contact",
+      "logical",
       "dialogical",
       "addressee-more-passive"
     ]
@@ -5914,7 +5914,7 @@
     "title": "The Transfiguration",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5928,7 +5928,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -5946,7 +5946,7 @@
     "title": "The Healing of the Epileptic Boy",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -5966,7 +5966,7 @@
       "on-someones-side",
       "opposing",
       "asserting",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented",
       "constitutive",
       "close",
@@ -5978,7 +5978,7 @@
     "title": "Lessons in Humility",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -5992,7 +5992,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -6009,7 +6009,7 @@
     "situation": "03-34a",
     "title": "Opposition in Samaria",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "spoken",
@@ -6023,7 +6023,7 @@
       "constitutive"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "spoken",
@@ -6052,7 +6052,7 @@
       "distant",
       "allying",
       "asserting",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "phonic",
@@ -6064,7 +6064,7 @@
       "on-someones-side",
       "distant",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "opposing"
     ]
@@ -6074,7 +6074,7 @@
     "title": "The Mission of the Seventy",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -6096,7 +6096,7 @@
       "allying",
       "private",
       "projecting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "constitutive"
     ]
@@ -6106,7 +6106,7 @@
     "title": "The Good Samaritan",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -6120,7 +6120,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -6146,12 +6146,12 @@
       "private",
       "close",
       "opposing",
-      "contact",
+      "logical",
       "non-institutional-or-neutralized",
       "ancillary"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -6170,7 +6170,7 @@
     "title": "A Lesson in Prayer",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -6184,7 +6184,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "constitutive",
@@ -6209,14 +6209,14 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "dialogical",
       "ancillary"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -6234,7 +6234,7 @@
     "title": "Woes upon the Pharisees and Lawyers",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -6248,7 +6248,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -6274,13 +6274,13 @@
       "distant",
       "opposing",
       "monological",
-      "relation",
+      "interpersonal",
       "addressee-more-passive",
       "spoken"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -6305,7 +6305,7 @@
       "addressee-more-active",
       "on-someones-side",
       "distant",
-      "action",
+      "experiential",
       "allying",
       "monological",
       "non-institutional-or-neutralized"
@@ -6321,7 +6321,7 @@
       "conceptual-ie-internally-oriented",
       "constitutive",
       "projecting",
-      "action",
+      "experiential",
       "addressee-more-passive"
     ]
   },
@@ -6333,7 +6333,7 @@
       "distant",
       "on-someones-side",
       "addressee-more-active",
-      "relation",
+      "interpersonal",
       "asserting",
       "dialogical",
       "spoken",
@@ -6344,7 +6344,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -6361,7 +6361,7 @@
     "situation": "03-46b",
     "title": "Some Pharisees Warn Jesus",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "constitutive",
@@ -6382,7 +6382,7 @@
       "opposing",
       "conceptual-ie-internally-oriented",
       "projecting",
-      "contact",
+      "logical",
       "on-someones-side",
       "monological",
       "addressee-more-passive",
@@ -6401,7 +6401,7 @@
       "on-someones-side",
       "distant",
       "asserting",
-      "relation",
+      "interpersonal",
       "opposing",
       "addressee-more-passive",
       "spoken"
@@ -6418,7 +6418,7 @@
       "non-institutional-or-neutralized",
       "monological",
       "projecting",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -6430,7 +6430,7 @@
       "on-someones-side",
       "distant",
       "asserting",
-      "relation",
+      "interpersonal",
       "opposing",
       "addressee-more-passive",
       "spoken",
@@ -6448,7 +6448,7 @@
       "constitutive",
       "non-institutional-or-neutralized",
       "monological",
-      "contact",
+      "logical",
       "instructing",
       "spoken"
     ]
@@ -6458,7 +6458,7 @@
     "title": "Parables and Teaching",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -6472,7 +6472,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "multilogical",
@@ -6490,7 +6490,7 @@
     "title": "The Ten Lepers",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -6512,7 +6512,7 @@
       "private",
       "distant",
       "allying",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "constitutive"
     ]
@@ -6525,7 +6525,7 @@
       "allying",
       "addressee-more-active",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "on-someones-side",
       "dialogical",
@@ -6545,7 +6545,7 @@
       "on-someones-side",
       "close",
       "allying",
-      "contact",
+      "logical",
       "spoken"
     ]
   },
@@ -6554,7 +6554,7 @@
     "title": "The Unjust Judge",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "instructing",
       "constitutive",
@@ -6568,7 +6568,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "monological",
@@ -6596,7 +6596,7 @@
       "distant",
       "projecting",
       "opposing",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -6610,7 +6610,7 @@
       "distant",
       "projecting",
       "opposing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -6618,7 +6618,7 @@
     "title": "Christ Blesses Little Children",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -6639,7 +6639,7 @@
       "close",
       "opposing",
       "projecting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "constitutive",
       "addressee-more-active"
@@ -6650,7 +6650,7 @@
     "title": "Denying All for Christ's Sake",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -6664,7 +6664,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "spoken",
@@ -6691,7 +6691,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "addressee-more-active"
     ],
     "viaTextFeatures": [
@@ -6705,7 +6705,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "addressee-more-active"
     ]
   },
@@ -6714,7 +6714,7 @@
     "title": "The Blind Man of Jericho",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -6727,7 +6727,7 @@
       "dialogical"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "ancillary",
@@ -6754,7 +6754,7 @@
       "addressee-more-active",
       "distant",
       "allying",
-      "action",
+      "experiential",
       "on-someones-side",
       "monological"
     ],
@@ -6767,7 +6767,7 @@
       "distant",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "on-someones-side",
       "ancillary"
@@ -6787,7 +6787,7 @@
       "addressee-more-passive",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "on-someones-side"
     ],
     "viaTextFeatures": [
@@ -6801,7 +6801,7 @@
       "addressee-more-passive",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "on-someones-side"
     ]
   },
@@ -6818,7 +6818,7 @@
       "addressee-more-active",
       "close",
       "allying",
-      "contact",
+      "logical",
       "on-someones-side",
       "monological"
     ],
@@ -6834,14 +6834,14 @@
       "allying",
       "neutral",
       "equalized",
-      "relation"
+      "interpersonal"
     ]
   },
   {
     "situation": "03-65b",
     "title": "Christ's Entry into Jerusalem",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -6862,7 +6862,7 @@
       "addressee-more-active",
       "projecting",
       "opposing",
-      "contact",
+      "logical",
       "conceptual-ie-internally-oriented",
       "on-someones-side",
       "institutional",
@@ -6874,7 +6874,7 @@
     "title": "Cleansing the Temple",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -6888,7 +6888,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -6906,7 +6906,7 @@
     "title": "The Authority of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -6920,7 +6920,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -6948,11 +6948,11 @@
       "addressee-more-passive",
       "monological",
       "projecting",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -6970,7 +6970,7 @@
     "title": "The Pharisees Confounded",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -6994,7 +6994,7 @@
       "on-someones-side",
       "distant",
       "allying",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -7002,7 +7002,7 @@
     "title": "The Sadducees Confounded",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "projecting",
       "constitutive",
@@ -7016,7 +7016,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "spoken",
@@ -7034,7 +7034,7 @@
     "title": "Devouring Widows Houses",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "monological",
@@ -7053,7 +7053,7 @@
       "spoken",
       "monological",
       "on-someones-side",
-      "action",
+      "experiential",
       "allying",
       "institutional",
       "close",
@@ -7068,7 +7068,7 @@
       "phonic",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "addressee-more-active",
       "projecting",
       "close",
@@ -7088,7 +7088,7 @@
       "close",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "private",
       "addressee-more-passive"
     ]
@@ -7113,7 +7113,7 @@
       "private",
       "close",
       "allying",
-      "contact",
+      "logical",
       "dialogical"
     ],
     "viaTextFeatures": [
@@ -7127,7 +7127,7 @@
       "close",
       "allying",
       "projecting",
-      "contact",
+      "logical",
       "constitutive"
     ]
   },
@@ -7136,7 +7136,7 @@
     "title": "The Walk to Gethsemane and the Agony",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7150,7 +7150,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7168,7 +7168,7 @@
     "title": "Jesus Arrested",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -7191,7 +7191,7 @@
       "on-someones-side",
       "close",
       "opposing",
-      "contact",
+      "logical",
       "monological"
     ]
   },
@@ -7210,11 +7210,11 @@
       "opposing",
       "multilogical",
       "unclear",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -7232,7 +7232,7 @@
     "title": "The Guards Mistreat Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7246,7 +7246,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7264,7 +7264,7 @@
     "title": "Christ before the Council of the Elders",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -7288,7 +7288,7 @@
       "distant",
       "opposing",
       "asserting",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -7296,7 +7296,7 @@
     "title": "The Trial Before Pilate",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -7320,7 +7320,7 @@
       "distant",
       "opposing",
       "projecting",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -7338,11 +7338,11 @@
       "distant",
       "allying",
       "instructing",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "multilogical",
@@ -7376,7 +7376,7 @@
       "distant",
       "allying",
       "conceptual-ie-internally-oriented",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "phonic",
@@ -7390,7 +7390,7 @@
       "distant",
       "allying",
       "conceptual-ie-internally-oriented",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -7398,7 +7398,7 @@
     "title": "The Emmaus Disciples and the Last Appearances of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "unclear",
       "spoken",
@@ -7418,7 +7418,7 @@
       "addressee-more-active",
       "private",
       "distant",
-      "contact",
+      "logical",
       "instructing",
       "allying",
       "monological",
@@ -7430,7 +7430,7 @@
     "title": "The Word Became Flesh",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -7444,7 +7444,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -7462,7 +7462,7 @@
     "title": "The Pharisees Question John the Baptist",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -7476,7 +7476,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -7494,7 +7494,7 @@
     "title": "John Meets Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -7508,7 +7508,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -7532,7 +7532,7 @@
       "allying",
       "distant",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "multilogical",
       "institutional",
       "ancillary",
@@ -7546,7 +7546,7 @@
       "allying",
       "distant",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "multilogical",
       "institutional",
       "ancillary",
@@ -7564,7 +7564,7 @@
       "on-someones-side",
       "distant",
       "instructing",
-      "action",
+      "experiential",
       "allying",
       "monological",
       "practical-ie-outwardly-oriented",
@@ -7581,7 +7581,7 @@
       "distant",
       "projecting",
       "allying",
-      "action",
+      "experiential",
       "constitutive"
     ]
   },
@@ -7590,7 +7590,7 @@
     "title": "The Marriage at Cana",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7604,7 +7604,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -7622,7 +7622,7 @@
     "title": "The Purging of the Temple and Its Results",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7646,7 +7646,7 @@
       "projecting",
       "conceptual-ie-internally-oriented",
       "constitutive",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -7654,7 +7654,7 @@
     "title": "The Visit of Nicodemus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -7668,7 +7668,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -7686,7 +7686,7 @@
     "title": "John's Second Testimony of Christ",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -7700,7 +7700,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -7727,12 +7727,12 @@
       "distant",
       "opposing",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "ancillary"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -7756,7 +7756,7 @@
       "close",
       "allying",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "equalized",
       "monological",
       "disinterested",
@@ -7771,7 +7771,7 @@
       "close",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "on-someones-side",
       "dialogical",
       "equalized"
@@ -7782,7 +7782,7 @@
     "title": "The Healing of the Nobleman's Son",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7806,14 +7806,14 @@
       "distant",
       "allying",
       "projecting",
-      "contact"
+      "logical"
     ]
   },
   {
     "situation": "04-11",
     "title": "The Sick Man of Bethesda",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "ancillary",
       "spoken",
@@ -7828,7 +7828,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -7846,7 +7846,7 @@
     "title": "Jesus Defends Himself Against Jews Persecuting Him",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -7860,7 +7860,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "unclear",
       "asserting",
@@ -7878,7 +7878,7 @@
     "title": "The Feeding of the Five Thousand",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "spoken",
@@ -7901,7 +7901,7 @@
       "on-someones-side",
       "close",
       "allying",
-      "relation",
+      "interpersonal",
       "asserting"
     ]
   },
@@ -7919,7 +7919,7 @@
       "private",
       "close",
       "allying",
-      "relation",
+      "interpersonal",
       "instructing"
     ],
     "viaTextFeatures": [
@@ -7933,7 +7933,7 @@
       "private",
       "close",
       "allying",
-      "relation",
+      "interpersonal",
       "instructing"
     ]
   },
@@ -7952,11 +7952,11 @@
       "dialogical",
       "instructing",
       "non-institutional-or-neutralized",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "asserting",
@@ -7974,7 +7974,7 @@
     "title": "The Unbelief of Christ's Brothers",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "contact",
+      "logical",
       "phonic",
       "equalized",
       "instructing",
@@ -7988,7 +7988,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "contact",
+      "logical",
       "phonic",
       "equalized",
       "constitutive",
@@ -8016,7 +8016,7 @@
       "opposing",
       "conceptual-ie-internally-oriented",
       "institutional",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "phonic",
@@ -8030,7 +8030,7 @@
       "opposing",
       "conceptual-ie-internally-oriented",
       "institutional",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -8038,7 +8038,7 @@
     "title": "Jesus at the Festival",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -8052,7 +8052,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -8069,7 +8069,7 @@
     "situation": "04-18d",
     "title": "The Jewish Elites Disbelieve",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -8094,7 +8094,7 @@
       "private",
       "close",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -8111,7 +8111,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "relation",
+      "interpersonal",
       "dialogical"
     ],
     "viaTextFeatures": [
@@ -8125,7 +8125,7 @@
       "instructing",
       "allying",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "non-institutional-or-neutralized"
     ]
   },
@@ -8134,7 +8134,7 @@
     "title": "Jesus the Light of the World",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -8148,7 +8148,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "asserting",
@@ -8166,7 +8166,7 @@
     "title": "Healing of the Man That was Born Blind",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -8179,7 +8179,7 @@
       "spoken"
     ],
     "viaTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "spoken",
@@ -8198,7 +8198,7 @@
     "title": "Jesus the Good Shepherd",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -8212,7 +8212,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "constitutive",
@@ -8230,7 +8230,7 @@
     "title": "Christ's Sermon at the Feast of Dedication",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "spoken",
       "dialogical",
@@ -8244,7 +8244,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "asserting",
       "ancillary",
@@ -8262,7 +8262,7 @@
     "title": "Jesus Returns to the Other Side of the Jordan",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "spoken",
@@ -8276,7 +8276,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "constitutive",
       "spoken",
@@ -8293,7 +8293,7 @@
     "situation": "04-25a",
     "title": "Jesus Hears of Lazarus",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "spoken",
@@ -8308,7 +8308,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -8326,7 +8326,7 @@
     "title": "Martha Confronts Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "constitutive",
@@ -8340,7 +8340,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -8358,7 +8358,7 @@
     "title": "Jesus at the Tomb of Lazarus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "spoken",
       "close",
@@ -8372,7 +8372,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -8400,7 +8400,7 @@
       "institutional",
       "close",
       "projecting",
-      "action"
+      "experiential"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8414,7 +8414,7 @@
       "opposing",
       "close",
       "asserting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -8431,7 +8431,7 @@
       "on-someones-side",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "unclear"
     ],
     "viaTextFeatures": [
@@ -8445,7 +8445,7 @@
       "on-someones-side",
       "distant",
       "allying",
-      "contact",
+      "logical",
       "unclear"
     ]
   },
@@ -8454,7 +8454,7 @@
     "title": "The Anointing of Jesus",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -8468,7 +8468,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "projecting",
@@ -8486,7 +8486,7 @@
     "title": "Christ's Entry into Jerusalem",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -8506,7 +8506,7 @@
       "spoken",
       "on-someones-side",
       "opposing",
-      "action",
+      "experiential",
       "institutional",
       "addressee-more-passive",
       "dialogical",
@@ -8517,7 +8517,7 @@
     "situation": "04-29 04-30 04-31",
     "title": "Some Greeks Seek Jesus but Many Disbelieve",
     "preTextFeatures": [
-      "action",
+      "experiential",
       "phonic",
       "constitutive",
       "spoken",
@@ -8542,7 +8542,7 @@
       "monological",
       "non-institutional-or-neutralized",
       "addressee-more-passive",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -8560,11 +8560,11 @@
       "private",
       "close",
       "opposing",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -8592,11 +8592,11 @@
       "conceptual-ie-internally-oriented",
       "constitutive",
       "multilogical",
-      "relation"
+      "interpersonal"
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "ancillary",
@@ -8614,7 +8614,7 @@
     "title": "Jesus Teaches at the Last Supper",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -8628,7 +8628,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "projecting",
@@ -8646,7 +8646,7 @@
     "title": "Christ's Great Sacerdotal Prayer",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "instructing",
@@ -8669,7 +8669,7 @@
       "addressee-more-passive",
       "close",
       "allying",
-      "relation",
+      "interpersonal",
       "on-someones-side"
     ]
   },
@@ -8678,7 +8678,7 @@
     "title": "The Arrest of Jesus",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "phonic",
       "institutional",
       "instructing",
@@ -8702,7 +8702,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -8710,7 +8710,7 @@
     "title": "Peter's First Denial",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -8724,7 +8724,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -8752,7 +8752,7 @@
       "distant",
       "opposing",
       "multilogical",
-      "contact"
+      "logical"
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
@@ -8766,7 +8766,7 @@
       "distant",
       "opposing",
       "multilogical",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -8774,7 +8774,7 @@
     "title": "Peter's Second and Third Denials",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -8788,7 +8788,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "equalized",
       "asserting",
@@ -8815,7 +8815,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "contact",
+      "logical",
       "constitutive"
     ],
     "viaTextFeatures": [
@@ -8829,7 +8829,7 @@
       "on-someones-side",
       "distant",
       "opposing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -8837,7 +8837,7 @@
     "situation": "04-47a",
     "title": "The Jews Protest Pilate's Sign",
     "preTextFeatures": [
-      "relation",
+      "interpersonal",
       "institutional",
       "written",
       "on-someones-side",
@@ -8852,7 +8852,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "instructing",
@@ -8879,7 +8879,7 @@
       "on-someones-side",
       "close",
       "allying",
-      "contact",
+      "logical",
       "monological"
     ],
     "viaTextFeatures": [
@@ -8893,7 +8893,7 @@
       "on-someones-side",
       "close",
       "allying",
-      "contact",
+      "logical",
       "monological"
     ]
   },
@@ -8911,7 +8911,7 @@
       "spoken",
       "constitutive",
       "monological",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ],
     "viaTextFeatures": [
@@ -8925,7 +8925,7 @@
       "close",
       "allying",
       "asserting",
-      "contact",
+      "logical",
       "addressee-more-passive"
     ]
   },
@@ -8940,7 +8940,7 @@
     "title": "Easter Morning",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "non-institutional-or-neutralized",
       "asserting",
@@ -8954,7 +8954,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "ancillary",
       "spoken",
@@ -8972,7 +8972,7 @@
     "title": "The Appearance to the Hidden Disciples",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -8986,7 +8986,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -9010,14 +9010,14 @@
       "close",
       "opposing",
       "projecting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "dialogical",
       "equalized",
       "constitutive"
     ],
     "viaTextFeatures": [
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "ancillary",
@@ -9036,7 +9036,7 @@
     "title": "The Appearance of Christ at the Sea of Tiberias",
     "preTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "ancillary",
       "spoken",
@@ -9050,7 +9050,7 @@
     ],
     "viaTextFeatures": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "phonic",
       "institutional",
       "instructing",
@@ -9068,7 +9068,7 @@
     "title": "The Test of Peter's Love",
     "preTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",
@@ -9082,7 +9082,7 @@
     ],
     "viaTextFeatures": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "phonic",
       "institutional",
       "constitutive",

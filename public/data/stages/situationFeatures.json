@@ -9,7 +9,7 @@
     "title": "The Annunciation to Joseph and the Birth of Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -27,7 +27,7 @@
     "title": "The Wise Men from the East",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -45,7 +45,7 @@
     "title": "The Flight into Egypt and the Return to Nazareth",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -63,7 +63,7 @@
     "title": "The Ministry of John the Baptist",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "neutral",
@@ -81,7 +81,7 @@
     "title": "The Baptism of Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "neutral",
@@ -99,7 +99,7 @@
     "title": "The Temptation in the Wilderness",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "private",
@@ -126,7 +126,7 @@
       "neutral",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -140,7 +140,7 @@
       "non-institutional-or-neutralized",
       "monological",
       "instructing",
-      "action",
+      "experiential",
       "addressee-more-active",
       "ancillary",
       "disinterested",
@@ -163,7 +163,7 @@
       "allying",
       "asserting",
       "conceptual-ie-internally-oriented",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -180,7 +180,7 @@
       "on-someones-side",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -190,7 +190,7 @@
     "features": [
       "practical-ie-outwardly-oriented",
       "instructing",
-      "relation",
+      "interpersonal",
       "allying",
       "on-someones-side",
       "dialogical",
@@ -207,7 +207,7 @@
     "title": "Various Miracles of Healing",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -225,7 +225,7 @@
     "title": "The Discipleship of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "on-someones-side",
@@ -252,7 +252,7 @@
       "private",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -261,7 +261,7 @@
     "title": "Jesus and the Gadarenes",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "neutral",
@@ -287,7 +287,7 @@
       "dialogical",
       "on-someones-side",
       "allying",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "asserting"
     ]
@@ -306,7 +306,7 @@
       "on-someones-side",
       "opposing",
       "instructing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -324,7 +324,7 @@
       "on-someones-side",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -333,7 +333,7 @@
     "title": "Further Miracles of That Day",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "on-someones-side",
@@ -354,7 +354,7 @@
       "monological",
       "institutional",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "close",
@@ -369,7 +369,7 @@
     "title": "The Commission to the Twelve; The Perils of Apostleship; Fearless Confession of Christ Demanded; Perfect Consecration to Christ",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "private",
@@ -387,7 +387,7 @@
     "title": "John the Baptist's Disciples Come to Jesus",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",
@@ -414,7 +414,7 @@
       "on-someones-side",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -423,7 +423,7 @@
     "title": "The Woe upon the Galilean Cities",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "on-someones-side",
@@ -441,7 +441,7 @@
     "title": "The Gospel Call",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "on-someones-side",
@@ -459,7 +459,7 @@
     "title": "The Lord of Food on the Sabbath",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -477,7 +477,7 @@
     "title": "The Lord of Healing on the Sabbath",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -495,7 +495,7 @@
     "title": "The Enmity of the Pharisees and Christ's Answer; The Sin against the Holy Spirit",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -522,7 +522,7 @@
       "on-someones-side",
       "opposing",
       "projecting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -530,7 +530,7 @@
     "id": "01-40",
     "title": "Christ's Relatives",
     "features": [
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "on-someones-side",
@@ -558,7 +558,7 @@
       "on-someones-side",
       "allying",
       "projecting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -571,7 +571,7 @@
       "constitutive",
       "non-institutional-or-neutralized",
       "allying",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "asserting",
       "private",
@@ -585,7 +585,7 @@
     "title": "The Parable of the Tares and Others",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "on-someones-side",
@@ -603,7 +603,7 @@
     "title": "The Parable of the Tares and Others Explained",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "allying",
       "constitutive",
       "phonic",
@@ -621,7 +621,7 @@
     "title": "A Visit to Nazareth",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -639,7 +639,7 @@
     "title": "The Death of John the Baptist",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "neutral",
@@ -657,7 +657,7 @@
     "title": "The Feeding of the Five Thousand",
     "features": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -675,7 +675,7 @@
     "title": "Christ Walks on the Sea",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "private",
@@ -693,7 +693,7 @@
     "title": "A Lesson Concerning Defilement",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -712,7 +712,7 @@
     "features": [
       "practical-ie-outwardly-oriented",
       "instructing",
-      "relation",
+      "interpersonal",
       "opposing",
       "on-someones-side",
       "multilogical",
@@ -729,7 +729,7 @@
     "title": "Christ Teaches and Feeds Four Thousand",
     "features": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "instructing",
       "allying",
       "on-someones-side",
@@ -748,7 +748,7 @@
     "features": [
       "opposing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "on-someones-side",
       "monological",
@@ -765,7 +765,7 @@
     "title": "The Leaven of the Pharisees",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "private",
@@ -783,7 +783,7 @@
     "title": "Christ the Son of the Living God",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",
@@ -801,7 +801,7 @@
     "title": "Christ's First Prophecy Concerning His Passion",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "private",
@@ -819,7 +819,7 @@
     "title": "The Transfiguration of Christ",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "on-someones-side",
@@ -837,7 +837,7 @@
     "title": "The Healing of a Boy with a Demon",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "on-someones-side",
@@ -855,7 +855,7 @@
     "title": "Christ Foretells His Passion",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -873,7 +873,7 @@
     "title": "Christ Pays the Temple-Tax",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "institutional",
       "addressee-more-active",
       "phonic",
@@ -891,7 +891,7 @@
     "title": "The Greatest in the Kingdom of Heaven; How to Deal with an Erring Brother; Parable of the Unmerciful Servant",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "projecting",
       "opposing",
       "private",
@@ -909,7 +909,7 @@
     "title": "On Marriage and Divorce",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -927,7 +927,7 @@
     "title": "Christ Blessing Little Children",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -945,7 +945,7 @@
     "title": "The Dangers of Riches",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -963,7 +963,7 @@
     "title": "The Reward of the Apostles; Parable of the Laborers in the Vineyard",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -981,7 +981,7 @@
     "title": "Christ Again Foretells His Passion",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "private",
@@ -999,7 +999,7 @@
     "title": "The Requests of the Sons of Zebedee",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "private",
@@ -1017,7 +1017,7 @@
     "title": "Healing of Two Blind Men",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "on-someones-side",
@@ -1035,7 +1035,7 @@
     "title": "Christ's Entry into Jerusalem",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "on-someones-side",
@@ -1053,7 +1053,7 @@
     "title": "Christ Visits the Temple",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1071,7 +1071,7 @@
     "title": "The Cursing of the Fig-Tree",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "private",
@@ -1089,7 +1089,7 @@
     "title": "The Authority of Christ; The Parable of the Two Sons; The Parable of the Wicked Husbandmen",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "projecting",
       "opposing",
       "on-someones-side",
@@ -1107,7 +1107,7 @@
     "title": "The Parable of the Marriage Feast",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "projecting",
       "opposing",
       "on-someones-side",
@@ -1125,7 +1125,7 @@
     "title": "The Question Concerning Tribute",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1143,7 +1143,7 @@
     "title": "The Question of the Sadducees",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "on-someones-side",
@@ -1161,7 +1161,7 @@
     "title": "The Silencing of the Pharisees",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1179,7 +1179,7 @@
     "title": "The Inordinate Ambition of the Pharisees; The Woes upon the Hypocrisy of the Pharisees; The Peroration and the Lament over Jerusalem",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1197,7 +1197,7 @@
     "title": "The Judgment of God upon Jerusalem and upon the World; The Need of Watchfulness; The Parable of the Ten Virgins; The Parable of the Talents; The Last Judgment",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -1215,7 +1215,7 @@
     "title": "Jesus Predicts Crucifixion",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "asserting",
       "allying",
       "private",
@@ -1233,7 +1233,7 @@
     "title": "Leaders Conspire",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -1251,7 +1251,7 @@
     "title": "A Woman Anoints Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1269,7 +1269,7 @@
     "title": "Judas Bargains for Jesus",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "allying",
       "neutral",
@@ -1287,7 +1287,7 @@
     "title": "Jesus Gives Instructions for Supper",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -1306,7 +1306,7 @@
     "features": [
       "practical-ie-outwardly-oriented",
       "asserting",
-      "relation",
+      "interpersonal",
       "opposing",
       "private",
       "multilogical",
@@ -1327,7 +1327,7 @@
       "close",
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "monological",
@@ -1341,7 +1341,7 @@
     "title": "On the Way to Gethsemane",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "private",
@@ -1359,7 +1359,7 @@
     "title": "Events at Gethsemane",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "private",
       "institutional",
       "close",
@@ -1377,7 +1377,7 @@
     "title": "The Betrayal and Arrest",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -1395,7 +1395,7 @@
     "title": "The Trial Before Caiaphas",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1412,7 +1412,7 @@
     "id": "01-90b",
     "title": "The Denial of Peter",
     "features": [
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "asserting",
       "opposing",
@@ -1431,7 +1431,7 @@
     "title": "The End of Judas",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "neutral",
@@ -1449,7 +1449,7 @@
     "title": "The Trial Before Pilate",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -1467,7 +1467,7 @@
     "title": "The Crucifixion and Death of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1485,7 +1485,7 @@
     "title": "The Burial of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "private",
@@ -1503,7 +1503,7 @@
     "title": "The Resurrection of Christ",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -1521,7 +1521,7 @@
     "title": "The Soldiers Bribed to Silence",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -1539,7 +1539,7 @@
     "title": "The Great Missionary Command",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "private",
@@ -1557,7 +1557,7 @@
     "title": "The Ministry of John the Baptist",
     "features": [
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "on-someones-side",
@@ -1574,7 +1574,7 @@
     "id": "02-02a",
     "title": "The Baptism and Temptation of Christ",
     "features": [
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "monological",
@@ -1598,7 +1598,7 @@
       "spoken",
       "neutral",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "non-institutional-or-neutralized",
       "distant",
@@ -1619,7 +1619,7 @@
       "multilogical",
       "neutral",
       "opposing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "instructing"
     ]
@@ -1632,7 +1632,7 @@
       "spoken",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "allying",
       "private",
@@ -1650,7 +1650,7 @@
       "spoken",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying",
       "private",
       "dialogical",
@@ -1674,7 +1674,7 @@
       "on-someones-side",
       "opposing",
       "asserting",
-      "relation",
+      "interpersonal",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -1682,7 +1682,7 @@
     "id": "02-06",
     "title": "The Calling of Levi and the Dinner at His House",
     "features": [
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "asserting",
       "opposing",
@@ -1707,7 +1707,7 @@
       "addressee-more-active",
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "opposing",
       "non-institutional-or-neutralized",
       "distant",
@@ -1724,7 +1724,7 @@
       "addressee-more-active",
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "opposing",
       "distant",
       "conceptual-ie-internally-oriented",
@@ -1745,7 +1745,7 @@
       "institutional",
       "ancillary",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "monological"
     ]
@@ -1764,7 +1764,7 @@
       "non-institutional-or-neutralized",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -1783,7 +1783,7 @@
       "ancillary",
       "asserting",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "opposing",
       "multilogical",
       "non-institutional-or-neutralized",
@@ -1795,7 +1795,7 @@
     "id": "02-11a",
     "title": "The Parable of the Sower",
     "features": [
-      "action",
+      "experiential",
       "projecting",
       "conceptual-ie-internally-oriented",
       "allying",
@@ -1823,7 +1823,7 @@
       "monological",
       "private",
       "asserting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -1838,7 +1838,7 @@
       "institutional",
       "private",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "dialogical",
@@ -1860,7 +1860,7 @@
       "distant",
       "non-institutional-or-neutralized",
       "on-someones-side",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -1875,7 +1875,7 @@
       "ancillary",
       "distant",
       "non-institutional-or-neutralized",
-      "action",
+      "experiential",
       "multilogical",
       "neutral",
       "allying"
@@ -1889,7 +1889,7 @@
       "spoken",
       "addressee-more-active",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -1907,7 +1907,7 @@
       "spoken",
       "close",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -1923,7 +1923,7 @@
     "features": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "institutional",
       "ancillary",
       "practical-ie-outwardly-oriented",
@@ -1950,7 +1950,7 @@
       "dialogical",
       "on-someones-side",
       "instructing",
-      "contact"
+      "logical"
     ]
   },
   {
@@ -1963,7 +1963,7 @@
       "close",
       "instructing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "allying",
       "private",
       "monological",
@@ -1985,7 +1985,7 @@
       "on-someones-side",
       "opposing",
       "asserting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2003,7 +2003,7 @@
       "non-institutional-or-neutralized",
       "private",
       "instructing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2021,7 +2021,7 @@
       "ancillary",
       "on-someones-side",
       "allying",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -2033,7 +2033,7 @@
       "spoken",
       "dialogical",
       "ancillary",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented",
       "asserting",
       "opposing",
@@ -2054,7 +2054,7 @@
       "opposing",
       "on-someones-side",
       "institutional",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "monological",
       "distant",
@@ -2069,7 +2069,7 @@
       "spoken",
       "opposing",
       "institutional",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "addressee-more-active",
       "instructing",
@@ -2084,7 +2084,7 @@
     "title": "The Blind Man of Bethsaida",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "allying",
       "on-someones-side",
@@ -2111,7 +2111,7 @@
       "institutional",
       "private",
       "opposing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2120,7 +2120,7 @@
     "title": "Jesus the Christ and His Service",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "on-someones-side",
@@ -2143,7 +2143,7 @@
       "constitutive",
       "phonic",
       "spoken",
-      "relation",
+      "interpersonal",
       "asserting",
       "on-someones-side",
       "multilogical",
@@ -2165,7 +2165,7 @@
       "dialogical",
       "allying",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -2174,7 +2174,7 @@
     "title": "The Last Discourses of Christ in Galilee",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "allying",
       "private",
@@ -2192,7 +2192,7 @@
     "title": "A Question concerning Divorce",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -2214,7 +2214,7 @@
       "institutional",
       "distant",
       "spoken",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "instructing",
       "monological",
@@ -2232,7 +2232,7 @@
       "instructing",
       "phonic",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "opposing",
       "on-someones-side",
       "multilogical",
@@ -2248,7 +2248,7 @@
       "institutional",
       "spoken",
       "phonic",
-      "action",
+      "experiential",
       "addressee-more-passive",
       "ancillary",
       "close",
@@ -2274,7 +2274,7 @@
       "dialogical",
       "opposing",
       "instructing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -2286,7 +2286,7 @@
       "phonic",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying",
       "disinterested",
       "multilogical",
@@ -2303,7 +2303,7 @@
       "phonic",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying",
       "multilogical",
       "distant",
@@ -2324,7 +2324,7 @@
       "allying",
       "ancillary",
       "on-someones-side",
-      "action",
+      "experiential",
       "dialogical",
       "institutional",
       "distant",
@@ -2345,7 +2345,7 @@
       "constitutive",
       "opposing",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2358,7 +2358,7 @@
       "distant",
       "constitutive",
       "opposing",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "projecting",
       "monological",
@@ -2379,7 +2379,7 @@
       "phonic",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "dialogical",
       "addressee-more-active"
@@ -2398,7 +2398,7 @@
       "conceptual-ie-internally-oriented",
       "dialogical",
       "addressee-more-active",
-      "action",
+      "experiential",
       "projecting",
       "institutional"
     ]
@@ -2418,7 +2418,7 @@
       "addressee-more-active",
       "institutional",
       "asserting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -2433,7 +2433,7 @@
       "conceptual-ie-internally-oriented",
       "institutional",
       "asserting",
-      "relation",
+      "interpersonal",
       "monological",
       "distant",
       "addressee-more-passive"
@@ -2453,7 +2453,7 @@
       "dialogical",
       "private",
       "allying",
-      "contact",
+      "logical",
       "projecting"
     ]
   },
@@ -2466,7 +2466,7 @@
       "spoken",
       "institutional",
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "projecting",
       "opposing",
       "private",
@@ -2486,7 +2486,7 @@
       "opposing",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "on-someones-side",
       "dialogical",
       "close",
@@ -2510,7 +2510,7 @@
       "dialogical",
       "close",
       "ancillary",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private"
@@ -2528,7 +2528,7 @@
       "close",
       "ancillary",
       "private",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "dialogical"
@@ -2548,7 +2548,7 @@
       "opposing",
       "dialogical",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "constitutive"
     ]
   },
@@ -2562,7 +2562,7 @@
       "close",
       "private",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "monological",
@@ -2581,7 +2581,7 @@
       "opposing",
       "institutional",
       "ancillary",
-      "relation",
+      "interpersonal",
       "instructing",
       "on-someones-side",
       "dialogical",
@@ -2597,7 +2597,7 @@
       "addressee-more-active",
       "opposing",
       "institutional",
-      "relation",
+      "interpersonal",
       "on-someones-side",
       "distant",
       "conceptual-ie-internally-oriented",
@@ -2614,7 +2614,7 @@
       "spoken",
       "addressee-more-active",
       "opposing",
-      "relation",
+      "interpersonal",
       "distant",
       "conceptual-ie-internally-oriented",
       "asserting",
@@ -2632,7 +2632,7 @@
       "spoken",
       "addressee-more-active",
       "opposing",
-      "relation",
+      "interpersonal",
       "distant",
       "institutional",
       "conceptual-ie-internally-oriented",
@@ -2654,7 +2654,7 @@
       "institutional",
       "dialogical",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "on-someones-side",
       "ancillary"
@@ -2672,7 +2672,7 @@
       "practical-ie-outwardly-oriented",
       "ancillary",
       "addressee-more-passive",
-      "relation",
+      "interpersonal",
       "asserting",
       "private",
       "monological"
@@ -2688,7 +2688,7 @@
       "distant",
       "ancillary",
       "addressee-more-passive",
-      "relation",
+      "interpersonal",
       "practical-ie-outwardly-oriented",
       "instructing",
       "on-someones-side",
@@ -2711,7 +2711,7 @@
       "ancillary",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying",
       "private",
       "dialogical",
@@ -2727,7 +2727,7 @@
       "spoken",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "allying",
       "private",
       "monological",
@@ -2747,7 +2747,7 @@
     "title": "The Announcement of John the Baptist's Birth",
     "features": [
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "private",
@@ -2767,7 +2767,7 @@
       "phonic",
       "spoken",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",
@@ -2787,7 +2787,7 @@
       "allying",
       "private",
       "projecting",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "dialogical",
       "non-institutional-or-neutralized",
@@ -2807,7 +2807,7 @@
       "dialogical",
       "constitutive",
       "addressee-more-active",
-      "relation",
+      "interpersonal",
       "asserting",
       "equalized",
       "close",
@@ -2829,7 +2829,7 @@
       "on-someones-side",
       "opposing",
       "instructing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -2843,7 +2843,7 @@
       "multilogical",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "on-someones-side",
       "unclear",
@@ -2860,7 +2860,7 @@
       "addressee-more-passive",
       "practical-ie-outwardly-oriented",
       "asserting",
-      "action",
+      "experiential",
       "allying",
       "private",
       "dialogical",
@@ -2880,7 +2880,7 @@
       "dialogical",
       "ancillary",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "projecting",
       "unclear",
       "written"
@@ -2901,7 +2901,7 @@
       "private",
       "opposing",
       "asserting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -2915,7 +2915,7 @@
       "multilogical",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "on-someones-side",
       "unclear",
@@ -2930,7 +2930,7 @@
       "ancillary",
       "spoken",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "allying",
       "neutral",
@@ -2959,7 +2959,7 @@
       "private",
       "opposing",
       "instructing",
-      "relation",
+      "interpersonal",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -2977,7 +2977,7 @@
       "unclear",
       "neutral",
       "projecting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -2989,7 +2989,7 @@
       "distant",
       "constitutive",
       "unclear",
-      "relation",
+      "interpersonal",
       "spoken",
       "addressee-more-active",
       "multilogical",
@@ -3011,7 +3011,7 @@
       "addressee-more-active",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "dialogical"
@@ -3030,7 +3030,7 @@
       "non-institutional-or-neutralized",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "ancillary"
     ]
@@ -3045,7 +3045,7 @@
       "dialogical",
       "non-institutional-or-neutralized",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "ancillary",
       "allying",
@@ -3063,7 +3063,7 @@
       "practical-ie-outwardly-oriented",
       "ancillary",
       "distant",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "neutral",
@@ -3084,7 +3084,7 @@
       "multilogical",
       "institutional",
       "on-someones-side",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "ancillary"
     ]
@@ -3103,7 +3103,7 @@
       "conceptual-ie-internally-oriented",
       "ancillary",
       "dialogical",
-      "relation",
+      "interpersonal",
       "on-someones-side"
     ]
   },
@@ -3119,7 +3119,7 @@
       "phonic",
       "institutional",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "on-someones-side",
       "addressee-more-passive",
       "written",
@@ -3139,7 +3139,7 @@
       "allying",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "multilogical",
       "equalized",
       "distant",
@@ -3162,7 +3162,7 @@
       "non-institutional-or-neutralized",
       "dialogical",
       "neutral",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -3181,7 +3181,7 @@
       "non-institutional-or-neutralized",
       "asserting",
       "conceptual-ie-internally-oriented",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -3195,7 +3195,7 @@
       "neutral",
       "asserting",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "opposing",
       "multilogical",
       "equalized",
@@ -3216,7 +3216,7 @@
       "on-someones-side",
       "allying",
       "projecting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -3230,7 +3230,7 @@
       "on-someones-side",
       "allying",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "dialogical",
       "distant",
@@ -3252,7 +3252,7 @@
       "close",
       "private",
       "opposing",
-      "action",
+      "experiential",
       "ancillary"
     ]
   },
@@ -3267,7 +3267,7 @@
       "addressee-more-active",
       "spoken",
       "opposing",
-      "action",
+      "experiential",
       "ancillary",
       "non-institutional-or-neutralized",
       "neutral",
@@ -3282,7 +3282,7 @@
       "practical-ie-outwardly-oriented",
       "addressee-more-active",
       "spoken",
-      "action",
+      "experiential",
       "ancillary",
       "non-institutional-or-neutralized",
       "distant",
@@ -3302,7 +3302,7 @@
       "ancillary",
       "allying",
       "instructing",
-      "contact",
+      "logical",
       "private",
       "monological",
       "institutional",
@@ -3324,7 +3324,7 @@
       "neutral",
       "opposing",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -3336,7 +3336,7 @@
       "spoken",
       "institutional",
       "ancillary",
-      "contact",
+      "logical",
       "practical-ie-outwardly-oriented",
       "instructing",
       "opposing",
@@ -3360,7 +3360,7 @@
       "multilogical",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -3374,7 +3374,7 @@
       "addressee-more-active",
       "allying",
       "asserting",
-      "relation",
+      "interpersonal",
       "close",
       "ancillary",
       "dialogical",
@@ -3392,7 +3392,7 @@
       "allying",
       "ancillary",
       "dialogical",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "instructing",
       "on-someones-side",
@@ -3409,7 +3409,7 @@
       "dialogical",
       "instructing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "opposing",
       "disinterested",
       "institutional",
@@ -3426,7 +3426,7 @@
       "spoken",
       "close",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -3451,7 +3451,7 @@
       "distant",
       "multilogical",
       "allying",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -3464,7 +3464,7 @@
       "instructing",
       "institutional",
       "allying",
-      "contact",
+      "logical",
       "on-someones-side",
       "dialogical",
       "close",
@@ -3480,7 +3480,7 @@
       "spoken",
       "instructing",
       "dialogical",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "opposing",
       "neutral",
@@ -3502,7 +3502,7 @@
       "institutional",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "private",
       "close",
       "constitutive"
@@ -3521,7 +3521,7 @@
       "close",
       "constitutive",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "allying",
       "addressee-more-passive"
     ]
@@ -3535,7 +3535,7 @@
       "distant",
       "constitutive",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -3551,7 +3551,7 @@
       "phonic",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "addressee-more-active",
@@ -3570,7 +3570,7 @@
       "distant",
       "constitutive",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -3589,7 +3589,7 @@
       "on-someones-side",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "dialogical",
@@ -3606,7 +3606,7 @@
       "distant",
       "on-someones-side",
       "addressee-more-active",
-      "relation",
+      "interpersonal",
       "asserting",
       "dialogical",
       "spoken",
@@ -3630,7 +3630,7 @@
       "equalized",
       "private",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -3648,7 +3648,7 @@
       "on-someones-side",
       "opposing",
       "ancillary",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -3661,7 +3661,7 @@
       "written",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "monological",
@@ -3679,7 +3679,7 @@
       "written",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "non-institutional-or-neutralized",
       "constitutive",
       "addressee-more-passive",
@@ -3696,7 +3696,7 @@
       "distant",
       "non-institutional-or-neutralized",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "private",
@@ -3714,7 +3714,7 @@
       "allying",
       "addressee-more-active",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "on-someones-side",
       "dialogical",
@@ -3734,7 +3734,7 @@
       "constitutive",
       "written",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "instructing",
       "monological",
       "non-institutional-or-neutralized",
@@ -3751,7 +3751,7 @@
       "constitutive",
       "written",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "instructing",
       "monological",
       "non-institutional-or-neutralized",
@@ -3769,7 +3769,7 @@
       "instructing",
       "opposing",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "monological",
       "institutional",
       "close",
@@ -3788,7 +3788,7 @@
       "addressee-more-active",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "allying",
       "multilogical",
       "non-institutional-or-neutralized",
@@ -3802,7 +3802,7 @@
     "features": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "allying",
       "constitutive",
       "practical-ie-outwardly-oriented",
@@ -3820,7 +3820,7 @@
     "features": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "allying",
       "practical-ie-outwardly-oriented",
       "instructing",
@@ -3845,7 +3845,7 @@
       "non-institutional-or-neutralized",
       "ancillary",
       "addressee-more-active",
-      "relation",
+      "interpersonal",
       "instructing",
       "distant"
     ]
@@ -3858,7 +3858,7 @@
       "neutral",
       "distant",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "monological",
@@ -3874,7 +3874,7 @@
     "features": [
       "phonic",
       "neutral",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "instructing",
       "allying",
@@ -3900,7 +3900,7 @@
       "unclear",
       "on-someones-side",
       "asserting",
-      "relation",
+      "interpersonal",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -3913,7 +3913,7 @@
       "distant",
       "on-someones-side",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "monological",
@@ -3936,7 +3936,7 @@
       "addressee-more-active",
       "constitutive",
       "dialogical",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -3954,7 +3954,7 @@
       "addressee-more-active",
       "constitutive",
       "multilogical",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -3968,7 +3968,7 @@
       "opposing",
       "spoken",
       "addressee-more-active",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "instructing",
       "dialogical",
@@ -3991,7 +3991,7 @@
       "non-institutional-or-neutralized",
       "multilogical",
       "projecting",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -4004,7 +4004,7 @@
       "spoken",
       "conceptual-ie-internally-oriented",
       "non-institutional-or-neutralized",
-      "relation",
+      "interpersonal",
       "asserting",
       "on-someones-side",
       "monological",
@@ -4019,7 +4019,7 @@
       "phonic",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "addressee-more-active",
       "projecting",
       "close",
@@ -4044,7 +4044,7 @@
       "addressee-more-active",
       "close",
       "allying",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented",
       "instructing",
       "private",
@@ -4061,7 +4061,7 @@
       "spoken",
       "close",
       "allying",
-      "action",
+      "experiential",
       "instructing",
       "private",
       "institutional",
@@ -4077,7 +4077,7 @@
     "features": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "ancillary",
       "practical-ie-outwardly-oriented",
       "asserting",
@@ -4103,7 +4103,7 @@
       "unclear",
       "multilogical",
       "disinterested",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -4121,7 +4121,7 @@
       "ancillary",
       "monological",
       "on-someones-side",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -4136,7 +4136,7 @@
       "institutional",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "dialogical",
       "constitutive",
@@ -4154,7 +4154,7 @@
       "institutional",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "addressee-more-active",
       "ancillary",
       "multilogical",
@@ -4173,7 +4173,7 @@
       "addressee-more-active",
       "ancillary",
       "multilogical",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "instructing",
       "non-institutional-or-neutralized"
@@ -4188,7 +4188,7 @@
       "spoken",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "asserting",
       "allying",
       "private",
@@ -4207,7 +4207,7 @@
       "addressee-more-active",
       "private",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "dialogical",
@@ -4221,7 +4221,7 @@
     "title": "The Word Became Flesh",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "on-someones-side",
@@ -4239,7 +4239,7 @@
     "title": "The Pharisees Question John the Baptist",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "distant",
       "constitutive",
@@ -4257,7 +4257,7 @@
     "title": "John Meets Jesus",
     "features": [
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "constitutive",
       "phonic",
@@ -4281,7 +4281,7 @@
       "allying",
       "distant",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "multilogical",
       "institutional",
       "ancillary",
@@ -4302,7 +4302,7 @@
       "addressee-more-active",
       "opposing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "institutional"
     ]
   },
@@ -4317,7 +4317,7 @@
       "ancillary",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "neutral",
@@ -4334,7 +4334,7 @@
       "ancillary",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -4351,7 +4351,7 @@
       "addressee-more-active",
       "dialogical",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",
@@ -4375,7 +4375,7 @@
       "institutional",
       "on-someones-side",
       "opposing",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -4389,7 +4389,7 @@
       "constitutive",
       "opposing",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "private",
       "non-institutional-or-neutralized",
@@ -4411,7 +4411,7 @@
       "multilogical",
       "allying",
       "instructing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -4425,7 +4425,7 @@
       "allying",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "institutional",
       "distant",
       "addressee-more-active",
@@ -4442,7 +4442,7 @@
       "allying",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "institutional",
       "addressee-more-active",
       "ancillary",
@@ -4458,7 +4458,7 @@
       "spoken",
       "distant",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -4473,7 +4473,7 @@
     "title": "The Feeding of the Five Thousand",
     "features": [
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -4496,7 +4496,7 @@
       "ancillary",
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "asserting",
       "allying",
       "private",
@@ -4511,7 +4511,7 @@
       "phonic",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "asserting",
       "opposing",
       "on-someones-side",
@@ -4531,7 +4531,7 @@
       "constitutive",
       "addressee-more-active",
       "conceptual-ie-internally-oriented",
-      "contact",
+      "logical",
       "instructing",
       "opposing",
       "private",
@@ -4555,7 +4555,7 @@
       "neutral",
       "opposing",
       "asserting",
-      "relation"
+      "interpersonal"
     ]
   },
   {
@@ -4571,7 +4571,7 @@
       "multilogical",
       "opposing",
       "asserting",
-      "relation",
+      "interpersonal",
       "on-someones-side",
       "institutional"
     ]
@@ -4589,7 +4589,7 @@
       "opposing",
       "asserting",
       "institutional",
-      "relation",
+      "interpersonal",
       "private",
       "close"
     ]
@@ -4605,7 +4605,7 @@
       "opposing",
       "asserting",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "on-someones-side",
       "institutional",
       "distant",
@@ -4626,7 +4626,7 @@
       "distant",
       "constitutive",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting"
     ]
   },
@@ -4635,7 +4635,7 @@
     "title": "Healing of the Man That was Born Blind",
     "features": [
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -4659,7 +4659,7 @@
       "distant",
       "constitutive",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "neutral",
       "multilogical",
@@ -4676,7 +4676,7 @@
       "opposing",
       "distant",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "on-someones-side",
       "dialogical",
@@ -4692,7 +4692,7 @@
       "spoken",
       "distant",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "on-someones-side",
       "allying",
@@ -4716,7 +4716,7 @@
       "private",
       "opposing",
       "instructing",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -4731,7 +4731,7 @@
       "close",
       "private",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "opposing",
       "dialogical",
@@ -4747,7 +4747,7 @@
       "close",
       "dialogical",
       "practical-ie-outwardly-oriented",
-      "action",
+      "experiential",
       "instructing",
       "allying",
       "on-someones-side",
@@ -4771,7 +4771,7 @@
       "dialogical",
       "private",
       "opposing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -4780,7 +4780,7 @@
     "features": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
       "asserting",
@@ -4801,7 +4801,7 @@
       "addressee-more-active",
       "dialogical",
       "opposing",
-      "action",
+      "experiential",
       "conceptual-ie-internally-oriented",
       "projecting",
       "on-someones-side",
@@ -4819,7 +4819,7 @@
       "dialogical",
       "on-someones-side",
       "ancillary",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented",
       "asserting",
       "allying",
@@ -4837,7 +4837,7 @@
       "on-someones-side",
       "conceptual-ie-internally-oriented",
       "distant",
-      "action",
+      "experiential",
       "projecting",
       "opposing",
       "multilogical",
@@ -4852,7 +4852,7 @@
     "features": [
       "phonic",
       "spoken",
-      "action",
+      "experiential",
       "institutional",
       "addressee-more-active",
       "practical-ie-outwardly-oriented",
@@ -4878,7 +4878,7 @@
       "multilogical",
       "projecting",
       "allying",
-      "action",
+      "experiential",
       "practical-ie-outwardly-oriented"
     ]
   },
@@ -4896,7 +4896,7 @@
       "projecting",
       "allying",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "constitutive"
     ]
   },
@@ -4915,7 +4915,7 @@
       "non-institutional-or-neutralized",
       "monological",
       "instructing",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -4925,7 +4925,7 @@
       "phonic",
       "instructing",
       "practical-ie-outwardly-oriented",
-      "contact",
+      "logical",
       "opposing",
       "on-someones-side",
       "dialogical",
@@ -4947,7 +4947,7 @@
       "addressee-more-active",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "disinterested",
       "equalized",
@@ -4969,7 +4969,7 @@
       "institutional",
       "dialogical",
       "on-someones-side",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -4982,7 +4982,7 @@
       "addressee-more-active",
       "spoken",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "constitutive",
       "neutral",
@@ -5004,7 +5004,7 @@
       "multilogical",
       "on-someones-side",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "ancillary"
     ]
   },
@@ -5017,7 +5017,7 @@
       "addressee-more-active",
       "institutional",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "on-someones-side",
       "multilogical",
@@ -5036,7 +5036,7 @@
       "on-someones-side",
       "ancillary",
       "phonic",
-      "action",
+      "experiential",
       "allying",
       "dialogical",
       "close",
@@ -5058,7 +5058,7 @@
       "spoken",
       "constitutive",
       "monological",
-      "relation",
+      "interpersonal",
       "conceptual-ie-internally-oriented"
     ]
   },
@@ -5082,7 +5082,7 @@
       "non-institutional-or-neutralized",
       "multilogical",
       "private",
-      "action"
+      "experiential"
     ]
   },
   {
@@ -5094,7 +5094,7 @@
       "allying",
       "private",
       "conceptual-ie-internally-oriented",
-      "action",
+      "experiential",
       "instructing",
       "monological",
       "institutional",
@@ -5112,7 +5112,7 @@
       "institutional",
       "close",
       "practical-ie-outwardly-oriented",
-      "relation",
+      "interpersonal",
       "instructing",
       "opposing",
       "on-someones-side",
@@ -5134,7 +5134,7 @@
       "multilogical",
       "ancillary",
       "addressee-more-active",
-      "action",
+      "experiential",
       "allying",
       "neutral"
     ]
@@ -5149,7 +5149,7 @@
       "close",
       "addressee-more-active",
       "conceptual-ie-internally-oriented",
-      "relation",
+      "interpersonal",
       "asserting",
       "allying",
       "private",

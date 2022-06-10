@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout pageTitle="Register Analysis of the Gospels" pageDescription={'Documentation and data for Ryder Wishart\'s dissertation'}>
       <div className={styles.card}>
         <Link href="/situations">
           <a>Situations</a>
