@@ -62,7 +62,13 @@ interface ComponentProps {
 }
 
 const CosineSimilaritiesTable = (props: ComponentProps) => {
-  const [selectedIDs, setSelectedIDs] = useState([]);
+  const [selectedIDs, setSelectedIDs] = useState([
+    'Framework',
+    'Matthew',
+    'Mark',
+    'Luke',
+    'John',
+  ]);
   const [useNormalizedSimilarity, setUseNormalizedSimilarity] = useState(true);
   const [
     useDifferenceFromClusterAverage,
@@ -144,34 +150,6 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
   Object.keys(situationData).forEach((situationId) => {
     if (situationData[situationId].similarityValues?.length > 0) {
       const situation = situationData[situationId];
-      // NOTE: for some reason, the additionalSituationData I added above is being looped over five times at some point, resulting in 140 similarity values instead of 28.
-      // remove similarityValues that have identical clusterIds and use the first one
-      // uniqueSimilarityValues.push(
-      //   ...situation.similarityValues.reduce((acc, curr) => {
-      //     if (!acc.some((val) => val.clusterId === curr.clusterId)) {
-      //       acc.push(curr);
-      //     }
-      //     return acc;
-      //   }, []),
-      // );
-
-      // situation.similarityValues = uniqueSimilarityValues;
-
-      // console.log(
-      //   '>>>> MIN',
-      //   situation.label,
-      //   Math.min(
-      //     ...uniqueSimilarityValues.map(
-      //       (similarityValue) => similarityValue.similarityValue,
-      //     ),
-      //   ),
-      //   'MAX',
-      //   Math.max(
-      //     ...uniqueSimilarityValues.map(
-      //       (similarityValue) => similarityValue.similarityValue,
-      //     ),
-      //   ),
-      // );
 
       situation.max = Math.max(
         ...situation.similarityValues.map(
@@ -219,33 +197,8 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
   situationData['Framework'].max = Math.max(...FrameworkSimilarityValues);
   situationData['Framework'].min = Math.min(...FrameworkSimilarityValues);
 
-  //   Framework: {
-  //     ...additionalSituationData,
-  //     label: 'Averaged Gospel Framework',
-  //   },
-  //   Matthew: {
-  //     ...additionalSituationData,
-  //     label: 'Matthew',
-  //   },
-  //   Mark: {
-  //     ...additionalSituationData,
-  //     label: 'Mark',
-  //   },
-  //   Luke: {
-  //     ...additionalSituationData,
-  //     label: 'Luke',
-  //   },
-  //   John: {
-  //     ...additionalSituationData,
-  //     label: 'John',
-  //   },
-  // };
-  // console.log('beforehand', Object.keys(situationData).length, {
-  //   ...situationData,
-  // });
-
   console.log({ props }, { situationData });
-  // console.log(situationData.Matthew.similarityValues);
+  console.log(situationData.Framework.similarityValues);
 
   return (
     <Layout pageTitle="Cluster-to-Situation Similarity Appendix">
@@ -317,7 +270,12 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
         </Tooltip>
       </div>
       <Table
-        dataSource={props.clusterToSituationSimilarities}
+        dataSource={props.clusterToSituationSimilarities.filter(
+          (row) =>
+            !['Matthew', 'Mark', 'Luke', 'John', 'Framework'].includes(
+              row.cluster,
+            ),
+        )}
         pagination={false}
         columns={[
           {
@@ -337,6 +295,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                 <Tooltip
                   title={`This cluster has an average similarity score to all stages of ${averageSimilarityForCluster}`}
                 >
+                  {cluster + '\t'}
                   <Link href={`${server}/clusters/${cluster}`}>
                     <a target="_blank" rel="noopener noreferrer">
                       {clusterLabels[cluster]}
@@ -350,6 +309,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
           ...allTableHeaders
             .filter((header) => selectedIDs.includes(header.value))
             .map((selectedID) => {
+              console.log('>>>>', { selectedID });
               const titleString =
                 typeof selectedID.value === 'string'
                   ? selectedID.value.slice(0, 1).toUpperCase() +
@@ -393,7 +353,7 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
                       : differenceFromClusterAverage.toFixed(2)
                     : useNormalizedSimilarity
                     ? normalizedPercentage
-                    : value.toFixed(2);
+                    : value.toFixed(3);
                   return (
                     <Tooltip
                       title={`This is the normalized cosine similarity between ${
