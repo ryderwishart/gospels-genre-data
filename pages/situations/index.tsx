@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import styles from '../../styles/Home.module.css';
+import styles from '../../styles/Situations.module.css';
 import Layout from '../../components/Layout';
-import { Button, Collapse, /* Progress,  */ Tooltip } from 'antd';
+import { Button, Collapse, Table, /* Progress,  */ Tooltip } from 'antd';
 import { server } from '../../config';
 import { getFirstTitleHyphenatedLowerCaseStringFromTitleString } from '../../functions/getFirstTitleHyphenatedLowerCaseStringFromTitleString';
 import { NewTestamentBooks } from '../../types/newTestamentBooks';
@@ -15,7 +15,12 @@ interface SituationListProps {
     situations: {
       root: {
         situation: {
-          $: { section: string; title: string; start: string };
+          $: {
+            section: string;
+            title: string;
+            start: string;
+            cluster?: string;
+          };
         }[];
       };
     };
@@ -40,6 +45,20 @@ function AllSituations(props: SituationListProps) {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   });
+  const allSituations = situations.situation
+    .filter(
+      (s) =>
+        s.$.section.startsWith('01') ||
+        s.$.section.startsWith('02') ||
+        s.$.section.startsWith('03') ||
+        s.$.section.startsWith('04'),
+    )
+    .map((situationContainer) => ({
+      section: situationContainer.$.section,
+      title: situationContainer.$.title,
+      start: situationContainer.$.start,
+      cluster: situationContainer.$.cluster,
+    }));
   const getSituationsByBook = ({ situations, book }): Element[] => {
     const filteredSituationLinks = situations
       .filter((situationContainer) => {
@@ -60,8 +79,10 @@ function AllSituations(props: SituationListProps) {
             href={`/situations/${situation.section}`}
             key={situation.section}
           >
-            <a className={styles.card}>
+            <a className={styles.row}>
+              <p>{situation.section}</p>
               <p>{situation.title}</p>
+              <p>{situation.start}</p>
             </a>
           </Link>
         );
@@ -79,15 +100,15 @@ function AllSituations(props: SituationListProps) {
   );
   return (
     <Layout pageTitle="All Situations">
-      <Collapse
+      {/* <Collapse
         style={{ width: '90vw', maxWidth: '800px' }}
         onChange={(activeKey) => {
           activeKey.length > 0
             ? setCollapseHasActiveKey(true)
             : setCollapseHasActiveKey(false);
         }}
-      >
-        {/* {typeof window !== 'undefined' && (
+      > */}
+      {/* {typeof window !== 'undefined' && (
           <Collapse.Panel
             className={styles.complete_graph}
             key="graph"
@@ -113,10 +134,72 @@ function AllSituations(props: SituationListProps) {
             </div>
           </Collapse.Panel>
         )} */}
-        {allBooksList.map((book) => {
+      <Table
+        dataSource={allSituations}
+        columns={[
+          {
+            title: 'ID',
+            dataIndex: 'section',
+            width: '8em',
+            key: 'section',
+            render: (text, record) => (
+              <Link href={`/situations/${record.section}`} key={record.section}>
+                <a className={styles.cell}>
+                  <p>{record.section}</p>
+                </a>
+              </Link>
+            ),
+          },
+          {
+            title: 'Start Verse',
+            dataIndex: 'start',
+            key: 'start',
+            render: (text, record) => (
+              <Link href={`/situations/${record.section}`} key={record.section}>
+                <a className={styles.cell}>
+                  <p>{record.start}</p>
+                </a>
+              </Link>
+            ),
+          },
+          {
+            title: 'Title',
+            dataIndex: 'title',
+            key: 'section',
+            render: (text, record) => (
+              <Link href={`/situations/${record.section}`} key={record.section}>
+                <a className={styles.cell}>
+                  <p>{record.title}</p>
+                </a>
+              </Link>
+            ),
+          },
+          {
+            title: 'Situation Type',
+            dataIndex: 'cluster',
+            key: 'section',
+            render: (text, record) => {
+              if (record.cluster) {
+                return (
+                  <Link
+                    href={`/clusters/${record.cluster}`}
+                    key={record.cluster}
+                  >
+                    <a className={styles.cell}>
+                      <p>{record.cluster}</p>
+                    </a>
+                  </Link>
+                );
+              }
+            },
+          },
+        ]}
+        pagination={false}
+      />
+      {/* {allBooksList.map((book) => {
           return (
             <Collapse.Panel header={book} key={`${book}`}>
-              <div className={styles.grid}>
+              <div className={styles.list}>
                 {getSituationsByBook({
                   situations: situations.situation,
                   book,
@@ -124,8 +207,8 @@ function AllSituations(props: SituationListProps) {
               </div>
             </Collapse.Panel>
           );
-        })}
-      </Collapse>
+        })} */}
+      {/* </Collapse> */}
       <Tooltip title="Scroll to top" placement="top">
         <Button
           style={{
