@@ -630,6 +630,47 @@ export const systemsDictionary = {
   },
 };
 
+const findPairwisePermutations = (arr) => {
+  const permutations = [];
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] !== arr[j]) {
+        permutations.push([arr[i], arr[j]]);
+        permutations.push([arr[j], arr[i]]);
+      }
+    }
+  }
+  return permutations;
+};
+
+export const allPossibleMutationPermutationsBySystem = [
+  ...Object.keys(systemsDictionary.field).map((systemKey) => {
+    return findPairwisePermutations(systemsDictionary.field[systemKey]);
+  }),
+  ...Object.keys(systemsDictionary.tenor).map((systemKey) => {
+    return findPairwisePermutations(systemsDictionary.tenor[systemKey]);
+  }),
+  ...Object.keys(systemsDictionary.mode).map((systemKey) => {
+    return findPairwisePermutations(systemsDictionary.mode[systemKey]);
+  }),
+].flat();
+
+// export const correspondingFeaturesLookup = (featureLabel: string): string[] => {
+//   // find the correct system in systemsDictionary and return the list of features for that system
+//   const features = [];
+//   Object.keys(systemsDictionary).forEach((registerParameter) => {
+//     Object.keys(registerParameter).forEach((systemKey) => {
+//       const featuresForSystem = systemsDictionary[registerParameter][systemKey];
+//       if (featuresForSystem.includes(featureLabel)) {
+//         features.push(
+//           featuresForSystem.filter((feature) => feature !== featureLabel),
+//         );
+//       }
+//     });
+//   });
+//   return features;
+// };
+
 export const allFeaturesSept2021 = [
   'not_associated',
   'not_attentiveness',

@@ -197,8 +197,8 @@ const CosineSimilaritiesTable = (props: ComponentProps) => {
   situationData['Framework'].max = Math.max(...FrameworkSimilarityValues);
   situationData['Framework'].min = Math.min(...FrameworkSimilarityValues);
 
-  console.log({ props }, { situationData });
-  console.log(situationData.Framework.similarityValues);
+  // console.log({ props }, { situationData });
+  // console.log(situationData.Framework.similarityValues);
 
   return (
     <Layout pageTitle="Cluster-to-Situation Similarity Appendix">
